@@ -1,6 +1,11 @@
 @import "tailwindcss";
 @custom-variant dark (&:where(.dark, .dark *));
 
+html, body {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
 /* Prose styles for rendered Markdown */
 .prose {
   color: inherit;

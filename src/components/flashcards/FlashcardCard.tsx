@@ -18,7 +18,7 @@ export function FlashcardCard({ front, back, hint }: FlashcardCardProps) {
   };
 
   return (
-    <div className="flashcard-scene w-full" style={{ height: 220 }}>
+    <div className="flashcard-scene w-full" style={{ height: 300 }}>
       <div
         className={clsx('flashcard-inner absolute inset-0 cursor-pointer', flipped && 'flipped')}
         onClick={handleFlip}
