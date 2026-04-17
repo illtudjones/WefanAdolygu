@@ -55,14 +55,15 @@ html, body {
   perspective: 800px;
 }
 .flashcard-inner {
+  display: grid;
   transition: transform 0.5s;
   transform-style: preserve-3d;
-  position: relative;
 }
 .flashcard-inner.flipped {
   transform: rotateY(180deg);
 }
 .flashcard-face {
+  grid-area: 1 / 1;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
 }

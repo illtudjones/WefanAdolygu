@@ -67,9 +67,7 @@ export function FlashcardDeck({ topicId, onReviewed }: FlashcardDeckProps) {
         <span>{seen.size} reviewed</span>
       </div>
 
-      <div className="relative" style={{ height: 350 }}>
-        <FlashcardCard key={card.id} front={card.front} back={card.back} hint={card.hint} />
-      </div>
+      <FlashcardCard key={card.id} front={card.front} back={card.back} hint={card.hint} />
 
       <div className="mt-6 flex items-center justify-between gap-3">
         <Button variant="secondary" size="sm" onClick={prev} disabled={index === 0}>

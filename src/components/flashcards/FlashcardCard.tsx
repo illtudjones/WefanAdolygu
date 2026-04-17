@@ -18,9 +18,9 @@ export function FlashcardCard({ front, back, hint }: FlashcardCardProps) {
   };
 
   return (
-    <div className="flashcard-scene w-full" style={{ height: 350 }}>
+    <div className="flashcard-scene w-full">
       <div
-        className={clsx('flashcard-inner absolute inset-0 cursor-pointer', flipped && 'flipped')}
+        className={clsx('flashcard-inner cursor-pointer', flipped && 'flipped')}
         onClick={handleFlip}
         role="button"
         tabIndex={0}
@@ -28,9 +28,9 @@ export function FlashcardCard({ front, back, hint }: FlashcardCardProps) {
         onKeyDown={(e) => e.key === 'Enter' && handleFlip()}
       >
         {/* Front */}
-        <div className="flashcard-face absolute inset-0 flex flex-col rounded-2xl border-2 border-indigo-200 bg-white p-6 dark:border-indigo-700 dark:bg-slate-800">
+        <div className="flashcard-face flex min-h-48 flex-col rounded-2xl border-2 border-indigo-200 bg-white p-6 dark:border-indigo-700 dark:bg-slate-800">
           <span className="text-center text-xs font-semibold uppercase tracking-widest text-indigo-400">Term</span>
-          <div className="flex flex-1 flex-col items-center justify-center overflow-y-auto py-3">
+          <div className="flex flex-1 flex-col items-center justify-center py-4">
             <p className="text-center text-lg font-semibold text-slate-900 dark:text-slate-100">{front}</p>
             {hint && !flipped && (
               <button
@@ -49,9 +49,9 @@ export function FlashcardCard({ front, back, hint }: FlashcardCardProps) {
         </div>
 
         {/* Back */}
-        <div className="flashcard-face flashcard-back absolute inset-0 flex flex-col rounded-2xl border-2 border-green-200 bg-green-50 p-6 dark:border-green-800 dark:bg-slate-800">
+        <div className="flashcard-face flashcard-back flex min-h-48 flex-col rounded-2xl border-2 border-green-200 bg-green-50 p-6 dark:border-green-800 dark:bg-slate-800">
           <span className="text-center text-xs font-semibold uppercase tracking-widest text-green-500">Definition</span>
-          <div className="flex flex-1 items-center justify-center overflow-y-auto py-3">
+          <div className="flex flex-1 items-center justify-center py-4">
             <div className="prose text-center text-sm text-slate-800 dark:text-slate-200">
               <ReactMarkdown>{back}</ReactMarkdown>
             </div>
