@@ -28,31 +28,35 @@ export function FlashcardCard({ front, back, hint }: FlashcardCardProps) {
         onKeyDown={(e) => e.key === 'Enter' && handleFlip()}
       >
         {/* Front */}
-        <div className="flashcard-face absolute inset-0 flex flex-col items-center justify-center rounded-2xl border-2 border-indigo-200 bg-white p-6 dark:border-indigo-700 dark:bg-slate-800">
-          <span className="mb-3 text-xs font-semibold uppercase tracking-widest text-indigo-400">Term</span>
-          <p className="text-center text-lg font-semibold text-slate-900 dark:text-slate-100">{front}</p>
-          {hint && !flipped && (
-            <button
-              type="button"
-              onClick={(e) => { e.stopPropagation(); setShowHint((s) => !s); }}
-              className="mt-3 text-xs text-slate-400 hover:text-slate-600 dark:hover:text-slate-300"
-            >
-              {showHint ? 'Hide hint' : 'Show hint'}
-            </button>
-          )}
-          {showHint && hint && (
-            <p className="mt-2 text-xs text-slate-500 italic">{hint}</p>
-          )}
-          <p className="absolute bottom-3 text-xs text-slate-300 dark:text-slate-600">Tap to flip</p>
+        <div className="flashcard-face absolute inset-0 flex flex-col rounded-2xl border-2 border-indigo-200 bg-white p-6 dark:border-indigo-700 dark:bg-slate-800">
+          <span className="text-center text-xs font-semibold uppercase tracking-widest text-indigo-400">Term</span>
+          <div className="flex flex-1 flex-col items-center justify-center overflow-y-auto py-3">
+            <p className="text-center text-lg font-semibold text-slate-900 dark:text-slate-100">{front}</p>
+            {hint && !flipped && (
+              <button
+                type="button"
+                onClick={(e) => { e.stopPropagation(); setShowHint((s) => !s); }}
+                className="mt-3 text-xs text-slate-400 hover:text-slate-600 dark:hover:text-slate-300"
+              >
+                {showHint ? 'Hide hint' : 'Show hint'}
+              </button>
+            )}
+            {showHint && hint && (
+              <p className="mt-2 text-xs text-slate-500 italic">{hint}</p>
+            )}
+          </div>
+          <p className="text-center text-xs text-slate-300 dark:text-slate-600">Tap to flip</p>
         </div>
 
         {/* Back */}
-        <div className="flashcard-face flashcard-back absolute inset-0 flex flex-col items-center justify-center rounded-2xl border-2 border-green-200 bg-green-50 p-6 dark:border-green-800 dark:bg-slate-800">
-          <span className="mb-3 text-xs font-semibold uppercase tracking-widest text-green-500">Definition</span>
-          <div className="prose text-center text-sm text-slate-800 dark:text-slate-200">
-            <ReactMarkdown>{back}</ReactMarkdown>
+        <div className="flashcard-face flashcard-back absolute inset-0 flex flex-col rounded-2xl border-2 border-green-200 bg-green-50 p-6 dark:border-green-800 dark:bg-slate-800">
+          <span className="text-center text-xs font-semibold uppercase tracking-widest text-green-500">Definition</span>
+          <div className="flex flex-1 items-center justify-center overflow-y-auto py-3">
+            <div className="prose text-center text-sm text-slate-800 dark:text-slate-200">
+              <ReactMarkdown>{back}</ReactMarkdown>
+            </div>
           </div>
-          <p className="absolute bottom-3 text-xs text-slate-300 dark:text-slate-600">Tap to flip back</p>
+          <p className="text-center text-xs text-slate-300 dark:text-slate-600">Tap to flip back</p>
         </div>
       </div>
     </div>
