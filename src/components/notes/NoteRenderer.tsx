@@ -2,7 +2,6 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import rehypeHighlight from 'rehype-highlight';
 import rehypeSlug from 'rehype-slug';
-import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 import 'highlight.js/styles/github-dark-dimmed.css';
 
 interface NoteRendererProps {
@@ -17,7 +16,6 @@ export function NoteRenderer({ content }: NoteRendererProps) {
         rehypePlugins={[
           rehypeHighlight,
           rehypeSlug,
-          [rehypeAutolinkHeadings, { behavior: 'wrap' }],
         ]}
         components={{
           a: ({ href, children }) => (
