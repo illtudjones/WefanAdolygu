@@ -67,7 +67,7 @@ export function FlashcardDeck({ topicId, onReviewed }: FlashcardDeckProps) {
         <span>{seen.size} reviewed</span>
       </div>
 
-      <div className="relative" style={{ height: 220 }}>
+      <div className="relative" style={{ height: 350 }}>
         <FlashcardCard key={card.id} front={card.front} back={card.back} hint={card.hint} />
       </div>
 
