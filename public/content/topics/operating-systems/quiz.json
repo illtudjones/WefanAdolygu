@@ -1,0 +1,140 @@
+{
+  "topicId": "operating-systems",
+  "version": 1,
+  "title": "Operating Systems Quiz",
+  "passMark": 70,
+  "shuffleQuestions": true,
+  "shuffleOptions": true,
+  "questions": [
+    {
+      "id": "os-q-001",
+      "text": "What is the main purpose of an operating system?",
+      "options": [
+        { "id": "a", "text": "To run games and productivity applications" },
+        { "id": "b", "text": "To manage hardware resources and provide an interface for users and applications" },
+        { "id": "c", "text": "To store files permanently on the hard drive" },
+        { "id": "d", "text": "To connect the computer to the internet" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "An OS manages hardware resources (CPU, memory, storage, peripherals) and provides an interface so users and applications can interact with the hardware without needing to know hardware specifics.",
+      "tags": ["definition"]
+    },
+    {
+      "id": "os-q-002",
+      "text": "What is multi-tasking?",
+      "options": [
+        { "id": "a", "text": "Running one program with multiple threads" },
+        { "id": "b", "text": "Using multiple monitors simultaneously" },
+        { "id": "c", "text": "The OS rapidly switching the CPU between processes so they appear to run simultaneously" },
+        { "id": "d", "text": "Having multiple users logged in at once" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Multi-tasking is the OS rapidly switching the CPU's attention between processes. The switching is so fast it appears simultaneous to users.",
+      "tags": ["cpu-management"]
+    },
+    {
+      "id": "os-q-003",
+      "text": "What is an interrupt?",
+      "options": [
+        { "id": "a", "text": "An error that crashes the operating system" },
+        { "id": "b", "text": "A signal to the CPU requesting immediate attention, pausing the current process" },
+        { "id": "c", "text": "A way for the user to pause a running program" },
+        { "id": "d", "text": "A timer that limits how long each program can run" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "An interrupt is a signal from hardware or software that causes the CPU to pause its current task, handle the interrupt, then resume. This allows events like keypresses to be processed immediately.",
+      "tags": ["cpu-management"]
+    },
+    {
+      "id": "os-q-004",
+      "text": "What is a device driver?",
+      "options": [
+        { "id": "a", "text": "A hardware component inside a printer" },
+        { "id": "b", "text": "Software that allows the OS to communicate with a specific peripheral" },
+        { "id": "c", "text": "A type of storage device" },
+        { "id": "d", "text": "A program that manages USB connections" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A device driver translates the OS's generic commands into device-specific instructions. Without drivers, the OS would need custom code for every piece of hardware.",
+      "tags": ["peripherals"]
+    },
+    {
+      "id": "os-q-005",
+      "text": "What is virtual memory?",
+      "options": [
+        { "id": "a", "text": "Memory stored on a remote server" },
+        { "id": "b", "text": "Extra-fast memory inside the CPU" },
+        { "id": "c", "text": "A section of secondary storage used as an extension of RAM when RAM is full" },
+        { "id": "d", "text": "RAM that is allocated but not currently being used" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "When physical RAM is full, the OS uses part of the hard drive/SSD as virtual memory. This is slower than RAM but prevents the system from running out of memory.",
+      "tags": ["memory-management"]
+    },
+    {
+      "id": "os-q-006",
+      "text": "What is an advantage of a Command Line Interface (CLI) over a Graphical User Interface (GUI)?",
+      "options": [
+        { "id": "a", "text": "Easier for beginners" },
+        { "id": "b", "text": "No need to remember commands" },
+        { "id": "c", "text": "Uses more system resources" },
+        { "id": "d", "text": "Faster for experienced users and allows scripting to automate tasks" }
+      ],
+      "correctOptionId": "d",
+      "explanation": "CLI is faster for experienced users and commands can be chained into scripts for automation. GUIs are more intuitive for beginners but use more system resources.",
+      "tags": ["interface"]
+    },
+    {
+      "id": "os-q-007",
+      "text": "Which utility software would you use to improve the performance of a fragmented HDD?",
+      "options": [
+        { "id": "a", "text": "Antivirus software" },
+        { "id": "b", "text": "Disk defragmenter" },
+        { "id": "c", "text": "Firewall" },
+        { "id": "d", "text": "Backup software" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A disk defragmenter rearranges fragmented files on a HDD so related data is stored contiguously, reducing the time the read head needs to move. Not needed for SSDs.",
+      "tags": ["utility-software"]
+    },
+    {
+      "id": "os-q-008",
+      "text": "What is the difference between system software and application software?",
+      "options": [
+        { "id": "a", "text": "System software is written in Python; application software uses C++" },
+        { "id": "b", "text": "System software manages the computer; application software performs tasks for the user" },
+        { "id": "c", "text": "System software runs on mobile devices; application software runs on desktops" },
+        { "id": "d", "text": "There is no difference; they are interchangeable terms" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "System software (OS, drivers, utilities) manages the hardware and provides a platform. Application software (browsers, word processors) uses that platform to perform user tasks.",
+      "tags": ["types"]
+    },
+    {
+      "id": "os-q-009",
+      "text": "How does the OS protect users' data from other applications on the same system?",
+      "options": [
+        { "id": "a", "text": "By encrypting all files automatically" },
+        { "id": "b", "text": "By preventing applications from accessing memory space allocated to other processes" },
+        { "id": "c", "text": "By requiring administrator approval for all operations" },
+        { "id": "d", "text": "By running each application on a separate CPU core" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The OS's memory management prevents one process from reading or writing to another process's memory space, protecting data integrity and security.",
+      "tags": ["memory-management", "security"]
+    },
+    {
+      "id": "os-q-010",
+      "text": "Why is a disk defragmenter NOT needed for an SSD?",
+      "options": [
+        { "id": "a", "text": "SSDs are too slow to benefit from defragmentation" },
+        { "id": "b", "text": "SSDs store data in the same way as HDDs" },
+        { "id": "c", "text": "SSDs have no moving read/write head, so access time is uniform regardless of data location" },
+        { "id": "d", "text": "SSDs automatically defragment themselves" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "HDDs benefit from defragmentation because a moving read head has to physically travel to fragmented data. SSDs have no moving parts — every location is accessed equally fast, so fragmentation doesn't cause performance loss.",
+      "tags": ["utility-software"]
+    }
+  ]
+}

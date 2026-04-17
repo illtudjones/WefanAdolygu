@@ -1,0 +1,166 @@
+{
+  "topicId": "data-representation",
+  "version": 1,
+  "title": "Data Representation Quiz",
+  "passMark": 70,
+  "shuffleQuestions": true,
+  "shuffleOptions": true,
+  "questions": [
+    {
+      "id": "dr-q-001",
+      "text": "What is the denary value of binary 10101010?",
+      "options": [
+        { "id": "a", "text": "170" },
+        { "id": "b", "text": "165" },
+        { "id": "c", "text": "160" },
+        { "id": "d", "text": "180" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "128 + 32 + 8 + 2 = 170. Positions with 1: bit 7 (128), bit 5 (32), bit 3 (8), bit 1 (2).",
+      "tags": ["binary", "conversion"]
+    },
+    {
+      "id": "dr-q-002",
+      "text": "Convert denary 57 to binary.",
+      "options": [
+        { "id": "a", "text": "00110111" },
+        { "id": "b", "text": "00111001" },
+        { "id": "c", "text": "01001001" },
+        { "id": "d", "text": "00111010" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "32 + 16 + 8 + 1 = 57. In 8-bit binary: 00111001.",
+      "tags": ["binary", "conversion"]
+    },
+    {
+      "id": "dr-q-003",
+      "text": "What is the denary value of hexadecimal 0x3F?",
+      "options": [
+        { "id": "a", "text": "53" },
+        { "id": "b", "text": "57" },
+        { "id": "c", "text": "63" },
+        { "id": "d", "text": "47" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "(3 × 16) + (15 × 1) = 48 + 15 = 63. F in hexadecimal = 15 in denary.",
+      "tags": ["hexadecimal", "conversion"]
+    },
+    {
+      "id": "dr-q-004",
+      "text": "Convert binary 11110000 to hexadecimal.",
+      "options": [
+        { "id": "a", "text": "0xE0" },
+        { "id": "b", "text": "0xF0" },
+        { "id": "c", "text": "0xEF" },
+        { "id": "d", "text": "0xFF" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Split into nibbles: 1111 | 0000. 1111 = F, 0000 = 0. Answer: 0xF0.",
+      "tags": ["hexadecimal", "binary", "conversion"]
+    },
+    {
+      "id": "dr-q-005",
+      "text": "What is the result of binary addition: 01101100 + 00110101?",
+      "options": [
+        { "id": "a", "text": "10100001" },
+        { "id": "b", "text": "10011111" },
+        { "id": "c", "text": "10000001" },
+        { "id": "d", "text": "10010001" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "01101100 = 108, 00110101 = 53. 108 + 53 = 161 = 10100001 in binary.",
+      "tags": ["binary", "arithmetic"]
+    },
+    {
+      "id": "dr-q-006",
+      "text": "An image has a resolution of 640×480 pixels and a colour depth of 8 bits. What is the uncompressed file size in bytes?",
+      "options": [
+        { "id": "a", "text": "307,200" },
+        { "id": "b", "text": "2,457,600" },
+        { "id": "c", "text": "38,400" },
+        { "id": "d", "text": "245,760" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Width × Height × Bit depth = 640 × 480 × 8 = 2,457,600 bits. Divide by 8 for bytes: 307,200 bytes.",
+      "tags": ["graphics", "calculation"]
+    },
+    {
+      "id": "dr-q-007",
+      "text": "What effect does an arithmetic right shift by 2 positions have on the binary value 00100000 (32)?",
+      "options": [
+        { "id": "a", "text": "Multiplies by 4 → 128" },
+        { "id": "b", "text": "Divides by 2 → 16" },
+        { "id": "c", "text": "Divides by 4 → 8" },
+        { "id": "d", "text": "Multiplies by 2 → 64" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A right shift by 1 divides by 2. A right shift by 2 divides by 4. 32 ÷ 4 = 8. Result: 00001000.",
+      "tags": ["shifts"]
+    },
+    {
+      "id": "dr-q-008",
+      "text": "Which compression type allows the original file to be perfectly reconstructed?",
+      "options": [
+        { "id": "a", "text": "Lossy" },
+        { "id": "b", "text": "Lossless" },
+        { "id": "c", "text": "Both types" },
+        { "id": "d", "text": "Neither type" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Lossless compression reduces file size without losing any data — the original can be perfectly restored. Lossy compression permanently discards data.",
+      "tags": ["compression"]
+    },
+    {
+      "id": "dr-q-009",
+      "text": "A 20 MB file is compressed to 4 MB. What is the compression ratio?",
+      "options": [
+        { "id": "a", "text": "4:1" },
+        { "id": "b", "text": "16:1" },
+        { "id": "c", "text": "5:1" },
+        { "id": "d", "text": "80:1" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Compression ratio = Original size ÷ Compressed size = 20 ÷ 4 = 5. The ratio is 5:1.",
+      "tags": ["compression", "calculation"]
+    },
+    {
+      "id": "dr-q-010",
+      "text": "Which character encoding supports all world languages including Welsh, Arabic, and Chinese?",
+      "options": [
+        { "id": "a", "text": "ASCII" },
+        { "id": "b", "text": "Extended ASCII" },
+        { "id": "c", "text": "Unicode" },
+        { "id": "d", "text": "Binary" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Unicode supports over 140,000 characters from all world languages. ASCII only supports 128 characters (basic English).",
+      "tags": ["encoding"]
+    },
+    {
+      "id": "dr-q-011",
+      "text": "What is the denary ASCII value of the character 'A'?",
+      "options": [
+        { "id": "a", "text": "65" },
+        { "id": "b", "text": "97" },
+        { "id": "c", "text": "48" },
+        { "id": "d", "text": "41" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "In ASCII, uppercase A = 65. Lowercase a = 97. The digit '0' = 48.",
+      "tags": ["ascii", "encoding"]
+    },
+    {
+      "id": "dr-q-012",
+      "text": "How many colours can be represented with a 4-bit colour depth?",
+      "options": [
+        { "id": "a", "text": "4" },
+        { "id": "b", "text": "8" },
+        { "id": "c", "text": "16" },
+        { "id": "d", "text": "32" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Number of colours = 2^(bit depth) = 2⁴ = 16.",
+      "tags": ["graphics"]
+    }
+  ]
+}

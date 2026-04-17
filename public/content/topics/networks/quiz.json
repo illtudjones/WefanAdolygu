@@ -1,0 +1,166 @@
+{
+  "topicId": "networks",
+  "version": 1,
+  "title": "Networks & Infrastructure Quiz",
+  "passMark": 70,
+  "shuffleQuestions": true,
+  "shuffleOptions": true,
+  "questions": [
+    {
+      "id": "net-q-001",
+      "text": "Which network topology connects all devices to a single central switch?",
+      "options": [
+        { "id": "a", "text": "Bus" },
+        { "id": "b", "text": "Ring" },
+        { "id": "c", "text": "Star" },
+        { "id": "d", "text": "Mesh" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "In a star topology, all devices connect to a central switch. Data passes through the switch to reach its destination.",
+      "tags": ["topology"]
+    },
+    {
+      "id": "net-q-002",
+      "text": "What is a major disadvantage of the bus topology?",
+      "options": [
+        { "id": "a", "text": "It requires the most cabling of any topology" },
+        { "id": "b", "text": "It is the most expensive topology" },
+        { "id": "c", "text": "If the backbone cable fails, the entire network fails" },
+        { "id": "d", "text": "It requires a central switch" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "In a bus topology, all devices share a single backbone cable. If this cable fails or is damaged, all devices lose network connectivity.",
+      "tags": ["topology"]
+    },
+    {
+      "id": "net-q-003",
+      "text": "What is the difference between a switch and a hub?",
+      "options": [
+        { "id": "a", "text": "A hub sends data only to the intended device; a switch broadcasts to all" },
+        { "id": "b", "text": "A switch sends data only to the intended device; a hub broadcasts to all" },
+        { "id": "c", "text": "A switch connects different networks; a hub connects devices in a LAN" },
+        { "id": "d", "text": "There is no difference; they are the same device" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A switch is intelligent — it sends data only to the destination device, reducing unnecessary traffic. A hub broadcasts data to all connected devices.",
+      "tags": ["hardware"]
+    },
+    {
+      "id": "net-q-004",
+      "text": "Which protocol is responsible for translating domain names to IP addresses?",
+      "options": [
+        { "id": "a", "text": "SMTP" },
+        { "id": "b", "text": "FTP" },
+        { "id": "c", "text": "DNS" },
+        { "id": "d", "text": "IMAP" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "DNS (Domain Name System) translates human-readable domain names (e.g. google.com) into IP addresses that computers can use to route packets.",
+      "tags": ["protocols"]
+    },
+    {
+      "id": "net-q-005",
+      "text": "Which protocol guarantees reliable, ordered delivery of data?",
+      "options": [
+        { "id": "a", "text": "UDP" },
+        { "id": "b", "text": "IP" },
+        { "id": "c", "text": "TCP" },
+        { "id": "d", "text": "HTTP" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "TCP (Transmission Control Protocol) provides reliable, ordered delivery. It checks for errors and resends lost packets. UDP sacrifices reliability for speed.",
+      "tags": ["protocols"]
+    },
+    {
+      "id": "net-q-006",
+      "text": "Why is HTTPS more secure than HTTP?",
+      "options": [
+        { "id": "a", "text": "HTTPS uses UDP instead of TCP" },
+        { "id": "b", "text": "HTTPS encrypts data using TLS/SSL to prevent interception" },
+        { "id": "c", "text": "HTTPS sends data in smaller packets" },
+        { "id": "d", "text": "HTTPS only works on intranets" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "HTTPS adds TLS/SSL encryption to HTTP. This means data in transit cannot be read by a third party intercepting the connection (man-in-the-middle attack).",
+      "tags": ["protocols"]
+    },
+    {
+      "id": "net-q-007",
+      "text": "What is a key advantage of packet switching over sending data as one large block?",
+      "options": [
+        { "id": "a", "text": "Packets are always larger than blocks" },
+        { "id": "b", "text": "Packets must all take the same route" },
+        { "id": "c", "text": "Packets can reroute around network failures and congestion" },
+        { "id": "d", "text": "Packets arrive in order automatically" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Packet switching allows each packet to travel independently. If one route is congested or a router fails, packets can take alternative paths — increasing resilience.",
+      "tags": ["packet-switching"]
+    },
+    {
+      "id": "net-q-008",
+      "text": "A student wants their emails synchronised across a laptop, phone, and tablet. Which email protocol should they use?",
+      "options": [
+        { "id": "a", "text": "POP3" },
+        { "id": "b", "text": "SMTP" },
+        { "id": "c", "text": "FTP" },
+        { "id": "d", "text": "IMAP" }
+      ],
+      "correctOptionId": "d",
+      "explanation": "IMAP keeps emails on the server and synchronises them across all devices. POP3 downloads and deletes from the server, so emails are only on one device.",
+      "tags": ["protocols"]
+    },
+    {
+      "id": "net-q-009",
+      "text": "Which layer of the TCP/IP model handles logical addressing and routing of packets?",
+      "options": [
+        { "id": "a", "text": "Application layer" },
+        { "id": "b", "text": "Transport layer" },
+        { "id": "c", "text": "Internet layer" },
+        { "id": "d", "text": "Network Access layer" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Internet layer uses IP for logical addressing and routing packets between networks. The Transport layer handles reliable delivery (TCP/UDP).",
+      "tags": ["tcp-ip-model"]
+    },
+    {
+      "id": "net-q-010",
+      "text": "Why was IPv6 developed to replace IPv4?",
+      "options": [
+        { "id": "a", "text": "IPv4 was too slow for modern networks" },
+        { "id": "b", "text": "IPv4 only supports wireless connections" },
+        { "id": "c", "text": "IPv4's ~4.3 billion addresses are nearly exhausted" },
+        { "id": "d", "text": "IPv4 does not support encryption" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "IPv4 uses 32-bit addresses, giving ~4.3 billion possible addresses — insufficient for the modern internet. IPv6 uses 128-bit addresses, giving ~340 undecillion addresses.",
+      "tags": ["ip"]
+    },
+    {
+      "id": "net-q-011",
+      "text": "What does a router do?",
+      "options": [
+        { "id": "a", "text": "Connects devices within the same LAN" },
+        { "id": "b", "text": "Converts analogue signals to digital" },
+        { "id": "c", "text": "Connects different networks and directs packets between them" },
+        { "id": "d", "text": "Provides Wi-Fi access to wireless devices" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A router connects different networks (e.g. your home LAN to the internet) and uses routing tables to direct packets along the best path to their destination.",
+      "tags": ["hardware"]
+    },
+    {
+      "id": "net-q-012",
+      "text": "Which topology is most resilient to hardware failures?",
+      "options": [
+        { "id": "a", "text": "Bus" },
+        { "id": "b", "text": "Ring" },
+        { "id": "c", "text": "Star" },
+        { "id": "d", "text": "Mesh" }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Mesh topology has multiple connections between devices. If one link or device fails, data can reroute through alternative paths, making it the most resilient topology.",
+      "tags": ["topology"]
+    }
+  ]
+}

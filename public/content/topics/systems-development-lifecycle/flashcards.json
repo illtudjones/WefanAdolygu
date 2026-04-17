@@ -1,0 +1,96 @@
+{
+  "topicId": "systems-development-lifecycle",
+  "version": 1,
+  "cards": [
+    {
+      "id": "sdlc-fc-001",
+      "front": "What is the SDLC?",
+      "back": "Systems Development Life Cycle — a structured process for planning, creating, testing, and delivering software or information systems in defined stages.",
+      "tags": ["definition"]
+    },
+    {
+      "id": "sdlc-fc-002",
+      "front": "What are the seven phases of the SDLC?",
+      "back": "1. Scoping & Feasibility\n2. Analysis\n3. Design\n4. Development\n5. Testing\n6. Deployment\n7. Maintenance",
+      "tags": ["phases"]
+    },
+    {
+      "id": "sdlc-fc-003",
+      "front": "What is a feasibility study?",
+      "back": "An assessment before a project begins that considers technical, economic, legal, and operational feasibility — can the project be done, can it be afforded, is it legal, and will it be used?",
+      "tags": ["phases"]
+    },
+    {
+      "id": "sdlc-fc-004",
+      "front": "What is the analysis phase of the SDLC?",
+      "back": "Gathering detailed requirements from stakeholders using interviews, questionnaires, and observation. The output is a requirements specification documenting what the system must do.",
+      "tags": ["phases"]
+    },
+    {
+      "id": "sdlc-fc-005",
+      "front": "What is user acceptance testing (UAT)?",
+      "back": "Testing carried out by end users to verify the system meets their real-world needs. Done near the end of development, before full deployment.",
+      "tags": ["testing"]
+    },
+    {
+      "id": "sdlc-fc-006",
+      "front": "What are the three types of test data?",
+      "back": "1. Normal — valid data the system should accept\n2. Boundary — data at the edge of acceptable ranges (min/max)\n3. Erroneous — invalid data the system should reject",
+      "tags": ["testing"]
+    },
+    {
+      "id": "sdlc-fc-007",
+      "front": "What is the waterfall model's biggest weakness?",
+      "back": "It is very inflexible — changing requirements after the project has moved past the analysis phase is expensive and disruptive. Testing also comes very late in the process.",
+      "tags": ["models"]
+    },
+    {
+      "id": "sdlc-fc-008",
+      "front": "What is a sprint in agile development?",
+      "back": "A short, time-boxed iteration (typically 1–4 weeks) at the end of which a working, tested increment of software is delivered to the customer for review.",
+      "tags": ["models"]
+    },
+    {
+      "id": "sdlc-fc-009",
+      "front": "What makes the spiral model different from other SDLC models?",
+      "back": "Each iteration explicitly includes a risk analysis phase. It combines the structure of waterfall with the flexibility of iterative development. Best for large, high-risk projects.",
+      "tags": ["models"]
+    },
+    {
+      "id": "sdlc-fc-010",
+      "front": "What is parallel running as a deployment strategy?",
+      "back": "Running the old and new systems simultaneously for a period until confidence in the new system is established. Reduces risk — users can fall back to the old system if needed.",
+      "tags": ["deployment"]
+    },
+    {
+      "id": "sdlc-fc-011",
+      "front": "What is corrective, adaptive, and perfective maintenance?",
+      "back": "Corrective: fixing bugs found after release.\nAdaptive: updating the system for changed environments (new OS, APIs).\nPerfective: improving performance or adding new features based on user feedback.",
+      "tags": ["maintenance"]
+    },
+    {
+      "id": "sdlc-fc-012",
+      "front": "What is intellectual property (IP) in software development?",
+      "back": "Legal rights protecting creative work. In software: copyright protects code from being copied without permission; licences define permitted use. Developers must not use unlicensed code/assets.",
+      "tags": ["legal-ethical"]
+    },
+    {
+      "id": "sdlc-fc-013",
+      "front": "What is alpha testing?",
+      "back": "Testing done internally by the development team (or a small group within the organisation) before the software is released to any external users.",
+      "tags": ["testing"]
+    },
+    {
+      "id": "sdlc-fc-014",
+      "front": "What is beta testing?",
+      "back": "Testing done by a limited group of real external users before the full public release. Their feedback is used to find remaining bugs and usability issues.",
+      "tags": ["testing"]
+    },
+    {
+      "id": "sdlc-fc-015",
+      "front": "Name three ethical considerations in systems development.",
+      "back": "1. Privacy — is only necessary data collected and secured?\n2. Accessibility — can people with disabilities use the system?\n3. Algorithmic bias — could AI components discriminate unfairly?\n(Also: job displacement, environmental impact, social responsibility)",
+      "tags": ["legal-ethical"]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "topicId": "logical-operations",
+  "version": 1,
+  "cards": [
+    {
+      "id": "lo-fc-001",
+      "front": "What does an AND gate do?",
+      "back": "Output is TRUE (1) only when ALL inputs are TRUE.\n0 AND 0 = 0\n0 AND 1 = 0\n1 AND 0 = 0\n1 AND 1 = 1",
+      "tags": ["gates"]
+    },
+    {
+      "id": "lo-fc-002",
+      "front": "What does an OR gate do?",
+      "back": "Output is TRUE (1) when AT LEAST ONE input is TRUE.\n0 OR 0 = 0\n0 OR 1 = 1\n1 OR 0 = 1\n1 OR 1 = 1",
+      "tags": ["gates"]
+    },
+    {
+      "id": "lo-fc-003",
+      "front": "What does a NOT gate do?",
+      "back": "Inverts a single input. Output is the OPPOSITE of the input.\nNOT 0 = 1\nNOT 1 = 0",
+      "tags": ["gates"]
+    },
+    {
+      "id": "lo-fc-004",
+      "front": "What does an XOR gate do?",
+      "back": "Output is TRUE only when inputs are DIFFERENT (exactly one is TRUE).\n0 XOR 0 = 0\n0 XOR 1 = 1\n1 XOR 0 = 1\n1 XOR 1 = 0",
+      "tags": ["gates"]
+    },
+    {
+      "id": "lo-fc-005",
+      "front": "How many rows are in a truth table with 3 inputs?",
+      "back": "2³ = 8 rows.\nFor n inputs: 2ⁿ rows.",
+      "tags": ["truth-tables"]
+    },
+    {
+      "id": "lo-fc-006",
+      "front": "What is the output of A AND B when A=1, B=0?",
+      "back": "0\nAND only outputs 1 when BOTH inputs are 1.",
+      "tags": ["gates"]
+    },
+    {
+      "id": "lo-fc-007",
+      "front": "What is the output of A XOR B when A=1, B=1?",
+      "back": "0\nXOR outputs 1 only when inputs are DIFFERENT. When both are 1, they are the same, so output is 0.",
+      "tags": ["gates"]
+    },
+    {
+      "id": "lo-fc-008",
+      "front": "What does a NAND gate do?",
+      "back": "NOT AND — the inverse of AND. Output is 0 only when ALL inputs are 1; otherwise 1.\n1 NAND 1 = 0\nAll others = 1",
+      "tags": ["gates"]
+    },
+    {
+      "id": "lo-fc-009",
+      "front": "What does a NOR gate do?",
+      "back": "NOT OR — the inverse of OR. Output is 1 only when ALL inputs are 0.\n0 NOR 0 = 1\nAll others = 0",
+      "tags": ["gates"]
+    },
+    {
+      "id": "lo-fc-010",
+      "front": "Who developed Boolean algebra and when?",
+      "back": "George Boole, in 1854 (published 'An Investigation of the Laws of Thought'). His system of logic using TRUE and FALSE became the foundation of digital computing.",
+      "tags": ["history"]
+    },
+    {
+      "id": "lo-fc-011",
+      "front": "Who showed that Boolean algebra could be applied to electrical circuits?",
+      "back": "Claude Shannon, in his 1937 master's thesis. He demonstrated that electronic switches could perform Boolean operations, laying the theoretical groundwork for digital computers.",
+      "tags": ["history"]
+    },
+    {
+      "id": "lo-fc-012",
+      "front": "Evaluate: (1 AND 0) OR (NOT 1)",
+      "back": "Step 1: 1 AND 0 = 0\nStep 2: NOT 1 = 0\nStep 3: 0 OR 0 = 0\nResult: 0",
+      "tags": ["truth-tables", "evaluation"]
+    },
+    {
+      "id": "lo-fc-013",
+      "front": "Why are NAND gates described as 'universal'?",
+      "back": "Because any other logic gate (AND, OR, NOT, XOR) can be built using only NAND gates. This means an entire computer could theoretically be built from just NAND gates.",
+      "tags": ["gates"]
+    },
+    {
+      "id": "lo-fc-014",
+      "front": "Complete the truth table for NOT A AND B:\nA=0,B=0 | A=0,B=1 | A=1,B=0 | A=1,B=1",
+      "back": "A=0,B=0: NOT 0 AND 0 = 1 AND 0 = 0\nA=0,B=1: NOT 0 AND 1 = 1 AND 1 = 1\nA=1,B=0: NOT 1 AND 0 = 0 AND 0 = 0\nA=1,B=1: NOT 1 AND 1 = 0 AND 1 = 0",
+      "tags": ["truth-tables", "evaluation"]
+    },
+    {
+      "id": "lo-fc-015",
+      "front": "Give a real-world example of a logical AND operation.",
+      "back": "A door that opens only when both a valid card is scanned AND the correct PIN is entered:\nIF card_valid AND pin_correct THEN open_door",
+      "tags": ["application"]
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "topicId": "cybersecurity",
+  "version": 1,
+  "cards": [
+    {
+      "id": "cyber-fc-001",
+      "front": "What is malware?",
+      "back": "Malicious software designed to damage, disrupt, or gain unauthorised access to a computer system. Includes viruses, worms, trojans, ransomware, and spyware.",
+      "tags": ["malware"]
+    },
+    {
+      "id": "cyber-fc-002",
+      "front": "What is the key difference between a virus and a worm?",
+      "back": "Virus: requires a host file and user action to spread (e.g. opening an infected file).\nWorm: self-replicating, spreads automatically across networks without user interaction.",
+      "tags": ["malware"]
+    },
+    {
+      "id": "cyber-fc-003",
+      "front": "What is a Trojan?",
+      "back": "Malware disguised as legitimate software. It does not self-replicate but tricks the user into installing it, then performs malicious actions in the background.",
+      "tags": ["malware"]
+    },
+    {
+      "id": "cyber-fc-004",
+      "front": "What is ransomware and how does it work?",
+      "back": "Malware that encrypts the victim's files and demands payment (ransom) for the decryption key. The victim cannot access their data until they pay — or restore from backup.",
+      "tags": ["malware"]
+    },
+    {
+      "id": "cyber-fc-005",
+      "front": "What is phishing?",
+      "back": "A social engineering attack using fraudulent emails or messages that appear to come from a trusted source (e.g. a bank) to trick the victim into revealing credentials or clicking malicious links.",
+      "tags": ["social-engineering"]
+    },
+    {
+      "id": "cyber-fc-006",
+      "front": "What is pretexting?",
+      "back": "A social engineering attack where the attacker invents a believable scenario (a pretext) to gain the victim's trust and extract sensitive information.",
+      "tags": ["social-engineering"]
+    },
+    {
+      "id": "cyber-fc-007",
+      "front": "What is a brute force attack?",
+      "back": "An attack that tries every possible combination of characters for a password or encryption key until the correct one is found. Countered by strong passwords, account lockouts, and MFA.",
+      "tags": ["attacks"]
+    },
+    {
+      "id": "cyber-fc-008",
+      "front": "What is a DDoS attack?",
+      "back": "Distributed Denial of Service — flooding a server or service with traffic from many sources (a botnet) to overwhelm it and make it unavailable to legitimate users.",
+      "tags": ["attacks"]
+    },
+    {
+      "id": "cyber-fc-009",
+      "front": "What is a man-in-the-middle (MitM) attack?",
+      "back": "An attack where the attacker secretly intercepts and relays communications between two parties, who believe they are communicating directly with each other.",
+      "tags": ["attacks"]
+    },
+    {
+      "id": "cyber-fc-010",
+      "front": "What is SQL injection?",
+      "back": "An attack that inserts malicious SQL code into a web form input. If the input is not sanitised, the injected code can manipulate the database — e.g. bypass login or dump all data.",
+      "tags": ["attacks"]
+    },
+    {
+      "id": "cyber-fc-011",
+      "front": "What is a firewall?",
+      "back": "Security software or hardware that monitors and filters incoming and outgoing network traffic based on predefined rules, blocking unauthorised access.",
+      "tags": ["protection"]
+    },
+    {
+      "id": "cyber-fc-012",
+      "front": "What is encryption?",
+      "back": "Converting data into an unreadable format (ciphertext) using an algorithm and key. Only authorised parties with the correct key can decrypt it back to plaintext.",
+      "tags": ["protection"]
+    },
+    {
+      "id": "cyber-fc-013",
+      "front": "What is multi-factor authentication (MFA)?",
+      "back": "A security method requiring two or more verification factors:\n1. Something you know (password)\n2. Something you have (phone/token)\n3. Something you are (fingerprint/face)\nMakes accounts much harder to compromise.",
+      "tags": ["protection"]
+    },
+    {
+      "id": "cyber-fc-014",
+      "front": "What is penetration testing?",
+      "back": "Authorised ethical hacking — security professionals attempt to break into a system using real attack methods to find and fix vulnerabilities before malicious attackers can exploit them.",
+      "tags": ["protection"]
+    },
+    {
+      "id": "cyber-fc-015",
+      "front": "What does 'secure by design' mean?",
+      "back": "Building security into software from the very beginning of the development process, rather than adding it as an afterthought. Includes input validation, least privilege, and encryption by default.",
+      "tags": ["protection"]
+    },
+    {
+      "id": "cyber-fc-016",
+      "front": "What is the Computer Misuse Act 1990?",
+      "back": "UK law that makes it illegal to:\n1. Access computer systems without authorisation (hacking)\n2. Modify computer material without authorisation\n3. Create or distribute malware\n4. Carry out DDoS attacks",
+      "tags": ["legal"]
+    },
+    {
+      "id": "cyber-fc-017",
+      "front": "What is spyware?",
+      "back": "Malware that secretly monitors user activity and sends collected data (keystrokes, screenshots, browsing history, credentials) back to the attacker.",
+      "tags": ["malware"]
+    },
+    {
+      "id": "cyber-fc-018",
+      "front": "What is IP spoofing?",
+      "back": "Faking the source IP address in a packet header to disguise the attacker's true identity or bypass IP-based filtering/authentication.",
+      "tags": ["attacks"]
+    },
+    {
+      "id": "cyber-fc-019",
+      "front": "What is baiting as a social engineering attack?",
+      "back": "Leaving infected USB drives in public places or offering fake downloads, hoping a victim will use them, unknowingly installing malware.",
+      "tags": ["social-engineering"]
+    },
+    {
+      "id": "cyber-fc-020",
+      "front": "Why are software updates and patches important for security?",
+      "back": "They fix known vulnerabilities in software. Unpatched systems are easy targets — attackers specifically search for systems running outdated software with known exploits.",
+      "tags": ["protection"]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "topicId": "operating-systems",
+  "version": 1,
+  "cards": [
+    {
+      "id": "os-fc-001",
+      "front": "What is an operating system?",
+      "back": "System software that acts as an intermediary between the user/applications and the hardware. It manages hardware resources and provides a user interface.",
+      "tags": ["definition"]
+    },
+    {
+      "id": "os-fc-002",
+      "front": "Name three examples of operating systems.",
+      "back": "Desktop: Windows 11, macOS, Linux (Ubuntu)\nMobile: Android, iOS",
+      "tags": ["examples"]
+    },
+    {
+      "id": "os-fc-003",
+      "front": "What is multi-tasking in the context of an OS?",
+      "back": "The ability to run multiple programs apparently simultaneously. The OS rapidly switches the CPU between processes — switching so fast it appears simultaneous to the user.",
+      "tags": ["cpu-management"]
+    },
+    {
+      "id": "os-fc-004",
+      "front": "What is an interrupt?",
+      "back": "A signal sent to the CPU by hardware or software requesting immediate attention. The OS pauses the current process, handles the interrupt, then resumes the process.",
+      "tags": ["cpu-management"]
+    },
+    {
+      "id": "os-fc-005",
+      "front": "How does the OS manage memory?",
+      "back": "It allocates RAM sections to running programs, prevents programs from accessing each other's memory, and frees memory when programs close. Also manages virtual memory.",
+      "tags": ["memory-management"]
+    },
+    {
+      "id": "os-fc-006",
+      "front": "What is virtual memory?",
+      "back": "A section of the hard drive or SSD used as an extension of RAM when physical RAM is full. Slower than RAM but allows more programs to run simultaneously.",
+      "tags": ["memory-management"]
+    },
+    {
+      "id": "os-fc-007",
+      "front": "What is a device driver?",
+      "back": "A small software program that translates the OS's generic commands into device-specific instructions, allowing the OS to communicate with a specific peripheral (e.g. printer, graphics card).",
+      "tags": ["peripherals"]
+    },
+    {
+      "id": "os-fc-008",
+      "front": "What is a GUI and what are its advantages?",
+      "back": "Graphical User Interface — uses windows, icons, menus, and a pointer (WIMP).\nAdvantages: intuitive, no commands to memorise, easy for beginners.",
+      "tags": ["interface"]
+    },
+    {
+      "id": "os-fc-009",
+      "front": "What is a CLI and what are its advantages?",
+      "back": "Command Line Interface — user types text commands.\nAdvantages: faster for experienced users, scriptable (automate tasks), uses fewer system resources.",
+      "tags": ["interface"]
+    },
+    {
+      "id": "os-fc-010",
+      "front": "How does the OS manage security?",
+      "back": "User authentication (login), access control (user permissions/admin vs standard), and sometimes built-in encryption (e.g. BitLocker on Windows, FileVault on macOS).",
+      "tags": ["security"]
+    },
+    {
+      "id": "os-fc-011",
+      "front": "What is a disk defragmenter and when is it needed?",
+      "back": "A utility that rearranges fragmented files on a HDD so related parts are stored contiguously, improving read speed. Not needed for SSDs (no moving read head).",
+      "tags": ["utility-software"]
+    },
+    {
+      "id": "os-fc-012",
+      "front": "What is utility software?",
+      "back": "Software that performs maintenance and support tasks on a computer. Examples: antivirus, disk cleanup, compression tools, backup software, task manager.",
+      "tags": ["utility-software"]
+    },
+    {
+      "id": "os-fc-013",
+      "front": "What is the difference between system software and application software?",
+      "back": "System software: runs and manages the computer itself (OS, drivers, utilities).\nApplication software: performs tasks for the user (word processor, browser, games).",
+      "tags": ["types"]
+    },
+    {
+      "id": "os-fc-014",
+      "front": "What OS resource management tasks does the OS perform? (list 5)",
+      "back": "1. CPU scheduling (multi-tasking, interrupts)\n2. Memory management\n3. Storage / file system management\n4. Peripheral management (via drivers)\n5. Security (authentication, access control)",
+      "tags": ["management"]
+    },
+    {
+      "id": "os-fc-015",
+      "front": "What is the purpose of a task manager?",
+      "back": "A utility tool that shows currently running processes, CPU and memory usage, and allows users to force-quit unresponsive applications.",
+      "tags": ["utility-software"]
+    }
+  ]
+}

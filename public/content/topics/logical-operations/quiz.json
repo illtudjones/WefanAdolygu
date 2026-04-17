@@ -1,0 +1,153 @@
+{
+  "topicId": "logical-operations",
+  "version": 1,
+  "title": "Logical Operations Quiz",
+  "passMark": 70,
+  "shuffleQuestions": true,
+  "shuffleOptions": true,
+  "questions": [
+    {
+      "id": "lo-q-001",
+      "text": "What is the output of 1 AND 0?",
+      "options": [
+        { "id": "a", "text": "1" },
+        { "id": "b", "text": "0" },
+        { "id": "c", "text": "Undefined" },
+        { "id": "d", "text": "2" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "AND outputs 1 only when BOTH inputs are 1. Since one input is 0, the output is 0.",
+      "tags": ["gates"]
+    },
+    {
+      "id": "lo-q-002",
+      "text": "What is the output of 0 OR 1?",
+      "options": [
+        { "id": "a", "text": "0" },
+        { "id": "b", "text": "1" },
+        { "id": "c", "text": "2" },
+        { "id": "d", "text": "Undefined" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "OR outputs 1 when AT LEAST ONE input is 1. Since one input is 1, the output is 1.",
+      "tags": ["gates"]
+    },
+    {
+      "id": "lo-q-003",
+      "text": "What is the output of NOT 1?",
+      "options": [
+        { "id": "a", "text": "1" },
+        { "id": "b", "text": "2" },
+        { "id": "c", "text": "0" },
+        { "id": "d", "text": "-1" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "NOT inverts its input. NOT 1 = 0, NOT 0 = 1.",
+      "tags": ["gates"]
+    },
+    {
+      "id": "lo-q-004",
+      "text": "What is the output of 1 XOR 1?",
+      "options": [
+        { "id": "a", "text": "1" },
+        { "id": "b", "text": "2" },
+        { "id": "c", "text": "0" },
+        { "id": "d", "text": "Undefined" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "XOR outputs 1 only when inputs are DIFFERENT. When both inputs are 1 (the same), the output is 0.",
+      "tags": ["gates"]
+    },
+    {
+      "id": "lo-q-005",
+      "text": "Evaluate: (1 AND 1) OR (NOT 0)",
+      "options": [
+        { "id": "a", "text": "0" },
+        { "id": "b", "text": "1" },
+        { "id": "c", "text": "2" },
+        { "id": "d", "text": "Cannot be determined" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Step 1: 1 AND 1 = 1. Step 2: NOT 0 = 1. Step 3: 1 OR 1 = 1. Result: 1.",
+      "tags": ["evaluation"]
+    },
+    {
+      "id": "lo-q-006",
+      "text": "How many rows are in a truth table with 2 inputs?",
+      "options": [
+        { "id": "a", "text": "2" },
+        { "id": "b", "text": "3" },
+        { "id": "c", "text": "4" },
+        { "id": "d", "text": "8" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A truth table with n inputs has 2ⁿ rows. With 2 inputs: 2² = 4 rows (covering all combinations: 00, 01, 10, 11).",
+      "tags": ["truth-tables"]
+    },
+    {
+      "id": "lo-q-007",
+      "text": "A NAND gate outputs 0 when:",
+      "options": [
+        { "id": "a", "text": "All inputs are 0" },
+        { "id": "b", "text": "At least one input is 0" },
+        { "id": "c", "text": "All inputs are 1" },
+        { "id": "d", "text": "Inputs are different" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "NAND is the inverse of AND. AND outputs 1 only when all inputs are 1, so NAND outputs 0 only when all inputs are 1.",
+      "tags": ["gates"]
+    },
+    {
+      "id": "lo-q-008",
+      "text": "A NOR gate outputs 1 when:",
+      "options": [
+        { "id": "a", "text": "All inputs are 1" },
+        { "id": "b", "text": "All inputs are 0" },
+        { "id": "c", "text": "At least one input is 1" },
+        { "id": "d", "text": "Inputs are different" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "NOR is the inverse of OR. OR outputs 0 only when all inputs are 0, so NOR outputs 1 only when all inputs are 0.",
+      "tags": ["gates"]
+    },
+    {
+      "id": "lo-q-009",
+      "text": "Who developed Boolean algebra?",
+      "options": [
+        { "id": "a", "text": "Claude Shannon" },
+        { "id": "b", "text": "Alan Turing" },
+        { "id": "c", "text": "George Boole" },
+        { "id": "d", "text": "Charles Babbage" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "George Boole (1815–1864) developed the system of symbolic logic now called Boolean algebra. Claude Shannon later applied it to electrical circuits in 1937.",
+      "tags": ["history"]
+    },
+    {
+      "id": "lo-q-010",
+      "text": "Evaluate: NOT (A AND B) when A=1, B=1",
+      "options": [
+        { "id": "a", "text": "0" },
+        { "id": "b", "text": "1" },
+        { "id": "c", "text": "2" },
+        { "id": "d", "text": "Cannot be determined" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Step 1: A AND B = 1 AND 1 = 1. Step 2: NOT 1 = 0. Result: 0. (This is the NAND operation.)",
+      "tags": ["evaluation", "gates"]
+    },
+    {
+      "id": "lo-q-011",
+      "text": "Which gate is described as 'universal' because all other gates can be built from it?",
+      "options": [
+        { "id": "a", "text": "AND" },
+        { "id": "b", "text": "OR" },
+        { "id": "c", "text": "XOR" },
+        { "id": "d", "text": "NAND" }
+      ],
+      "correctOptionId": "d",
+      "explanation": "NAND is a universal gate — every other logic gate (AND, OR, NOT, XOR) can be constructed using only NAND gates. NOR is also universal.",
+      "tags": ["gates"]
+    }
+  ]
+}

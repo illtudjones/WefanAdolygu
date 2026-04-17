@@ -1,0 +1,205 @@
+{
+  "topicId": "algorithms",
+  "version": 1,
+  "title": "Algorithms Quiz",
+  "passMark": 70,
+  "shuffleQuestions": true,
+  "shuffleOptions": true,
+  "questions": [
+    {
+      "id": "algo-q-001",
+      "text": "Which symbol is used for assignment in WJEC pseudocode?",
+      "options": [
+        { "id": "a", "text": "=" },
+        { "id": "b", "text": ":=" },
+        { "id": "c", "text": "←" },
+        { "id": "d", "text": "==" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "WJEC pseudocode uses ← for assignment, e.g. x ← 5. The = sign is reserved for comparisons in some pseudocode conventions.",
+      "tags": ["pseudocode"]
+    },
+    {
+      "id": "algo-q-002",
+      "text": "What shape is used to represent a decision in a flowchart?",
+      "options": [
+        { "id": "a", "text": "Rectangle" },
+        { "id": "b", "text": "Oval" },
+        { "id": "c", "text": "Diamond" },
+        { "id": "d", "text": "Parallelogram" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A diamond represents a decision (yes/no question) in a flowchart. Rectangles are for processes, ovals for start/stop, and parallelograms for input/output.",
+      "tags": ["flowcharts"]
+    },
+    {
+      "id": "algo-q-003",
+      "text": "A linear search is performed on a sorted list of 1000 items. In the worst case, how many comparisons are needed?",
+      "options": [
+        { "id": "a", "text": "10" },
+        { "id": "b", "text": "500" },
+        { "id": "c", "text": "1000" },
+        { "id": "d", "text": "1" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Linear search checks each element one by one. In the worst case (item is last or not in list), all n elements must be checked — 1000 comparisons.",
+      "tags": ["searching"]
+    },
+    {
+      "id": "algo-q-004",
+      "text": "What is the main pre-condition for binary search to work correctly?",
+      "options": [
+        { "id": "a", "text": "The list must contain only integers" },
+        { "id": "b", "text": "The list must be sorted" },
+        { "id": "c", "text": "The list must have an odd number of elements" },
+        { "id": "d", "text": "The list must be stored in an array" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Binary search works by halving the search space based on whether the target is greater or less than the middle element. This only works if the list is sorted.",
+      "tags": ["searching"]
+    },
+    {
+      "id": "algo-q-005",
+      "text": "What is the maximum number of comparisons needed to find a value in a sorted list of 128 items using binary search?",
+      "options": [
+        { "id": "a", "text": "128" },
+        { "id": "b", "text": "64" },
+        { "id": "c", "text": "7" },
+        { "id": "d", "text": "16" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Binary search requires at most log₂(n) comparisons. log₂(128) = 7, since 2⁷ = 128.",
+      "tags": ["searching"]
+    },
+    {
+      "id": "algo-q-006",
+      "text": "Which sorting algorithm works by repeatedly finding the minimum element from the unsorted portion and placing it at the front?",
+      "options": [
+        { "id": "a", "text": "Bubble sort" },
+        { "id": "b", "text": "Insertion sort" },
+        { "id": "c", "text": "Selection sort" },
+        { "id": "d", "text": "Merge sort" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Selection sort finds the smallest element in the unsorted portion and swaps it to its correct position, then repeats for the remaining unsorted part.",
+      "tags": ["sorting"]
+    },
+    {
+      "id": "algo-q-007",
+      "text": "Trace bubble sort on the list [4, 2, 7, 1]. What is the list after the FIRST complete pass?",
+      "options": [
+        { "id": "a", "text": "[1, 2, 4, 7]" },
+        { "id": "b", "text": "[2, 4, 1, 7]" },
+        { "id": "c", "text": "[2, 4, 7, 1]" },
+        { "id": "d", "text": "[1, 4, 2, 7]" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pass 1: compare 4,2 → swap [2,4,7,1]; compare 4,7 → no swap [2,4,7,1]; compare 7,1 → swap [2,4,1,7]. After first pass: [2, 4, 1, 7].",
+      "tags": ["sorting"]
+    },
+    {
+      "id": "algo-q-008",
+      "text": "What is the difference between validation and verification?",
+      "options": [
+        { "id": "a", "text": "Validation checks data is correct; verification checks it is reasonable" },
+        { "id": "b", "text": "Validation checks data is reasonable; verification checks it matches the original source" },
+        { "id": "c", "text": "They are the same thing" },
+        { "id": "d", "text": "Validation is done by the user; verification is done by the computer" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Validation checks data is reasonable and meets rules (e.g. range check). Verification checks data was entered correctly — it matches the original source (e.g. double entry).",
+      "tags": ["validation"]
+    },
+    {
+      "id": "algo-q-009",
+      "text": "Which type of validation check would detect that a user entered their age as 200?",
+      "options": [
+        { "id": "a", "text": "Presence check" },
+        { "id": "b", "text": "Type check" },
+        { "id": "c", "text": "Range check" },
+        { "id": "d", "text": "Format check" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A range check verifies the value is within acceptable limits (e.g. 0 to 120). An age of 200 would fail a range check.",
+      "tags": ["validation"]
+    },
+    {
+      "id": "algo-q-010",
+      "text": "What is a local variable?",
+      "options": [
+        { "id": "a", "text": "A variable that can be accessed from anywhere in the program" },
+        { "id": "b", "text": "A variable that stores the current location in the program" },
+        { "id": "c", "text": "A variable declared inside a subroutine, only accessible within it" },
+        { "id": "d", "text": "A variable stored on the local hard drive" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A local variable is declared inside a subroutine and can only be accessed within that subroutine. It is created when the subroutine is called and destroyed when it ends.",
+      "tags": ["variables"]
+    },
+    {
+      "id": "algo-q-011",
+      "text": "What does SUBSTRING(\"Computing\", 1, 4) return in WJEC pseudocode?",
+      "options": [
+        { "id": "a", "text": "\"Comp\"" },
+        { "id": "b", "text": "\"ompu\"" },
+        { "id": "c", "text": "\"Compu\"" },
+        { "id": "d", "text": "\"ting\"" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "SUBSTRING(str, start, length) returns 'length' characters starting at position 'start' (1-indexed). SUBSTRING(\"Computing\", 1, 4) starts at position 1 and takes 4 characters: \"Comp\".",
+      "tags": ["pseudocode", "strings"]
+    },
+    {
+      "id": "algo-q-012",
+      "text": "Which construct would you use to repeat a block of code a fixed number of times?",
+      "options": [
+        { "id": "a", "text": "WHILE loop" },
+        { "id": "b", "text": "FOR loop" },
+        { "id": "c", "text": "IF statement" },
+        { "id": "d", "text": "CASE statement" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A FOR loop is count-controlled — it repeats a fixed number of times. A WHILE loop is condition-controlled — it repeats until a condition becomes false.",
+      "tags": ["pseudocode"]
+    },
+    {
+      "id": "algo-q-013",
+      "text": "What is a rogue/sentinel value used for?",
+      "options": [
+        { "id": "a", "text": "To indicate an error in the program" },
+        { "id": "b", "text": "To signal the end of data input in a condition-controlled loop" },
+        { "id": "c", "text": "To store the largest value found so far" },
+        { "id": "d", "text": "To validate user input" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A sentinel (rogue) value is a special input value that signals the end of data. For example, a user enters -1 to indicate they have finished entering numbers.",
+      "tags": ["design"]
+    },
+    {
+      "id": "algo-q-014",
+      "text": "What is one advantage of using subroutines in a program?",
+      "options": [
+        { "id": "a", "text": "The program runs faster" },
+        { "id": "b", "text": "Code can be reused without rewriting it" },
+        { "id": "c", "text": "It removes the need for comments" },
+        { "id": "d", "text": "Variables become global automatically" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Subroutines promote code reuse — write a subroutine once and call it as many times as needed. This also makes code easier to maintain and test.",
+      "tags": ["subroutines"]
+    },
+    {
+      "id": "algo-q-015",
+      "text": "In insertion sort, what happens to the element being inserted?",
+      "options": [
+        { "id": "a", "text": "It is swapped with its neighbour repeatedly until in position" },
+        { "id": "b", "text": "It is compared with the minimum and swapped to the front" },
+        { "id": "c", "text": "Larger elements to its left are shifted right to make room, then it is placed" },
+        { "id": "d", "text": "It is removed from the list and added to a new sorted list" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Insertion sort takes each element (the 'key'), then shifts all elements in the sorted portion that are larger than it one position right, before inserting the key into the gap.",
+      "tags": ["sorting"]
+    }
+  ]
+}

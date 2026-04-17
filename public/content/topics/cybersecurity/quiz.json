@@ -1,0 +1,166 @@
+{
+  "topicId": "cybersecurity",
+  "version": 1,
+  "title": "Cybersecurity Quiz",
+  "passMark": 70,
+  "shuffleQuestions": true,
+  "shuffleOptions": true,
+  "questions": [
+    {
+      "id": "cyber-q-001",
+      "text": "What is ransomware?",
+      "options": [
+        { "id": "a", "text": "Malware that secretly monitors keystrokes" },
+        { "id": "b", "text": "Malware that encrypts files and demands payment to restore them" },
+        { "id": "c", "text": "A type of social engineering attack via phone" },
+        { "id": "d", "text": "Software that blocks network access" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ransomware encrypts the victim's files, making them inaccessible. The attacker demands a ransom payment in exchange for the decryption key.",
+      "tags": ["malware"]
+    },
+    {
+      "id": "cyber-q-002",
+      "text": "What is the key difference between a virus and a worm?",
+      "options": [
+        { "id": "a", "text": "A virus is more harmful than a worm" },
+        { "id": "b", "text": "A worm requires user action to spread; a virus does not" },
+        { "id": "c", "text": "A virus requires a host file to spread; a worm spreads automatically" },
+        { "id": "d", "text": "A worm only affects mobile devices" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A virus attaches to a host file and spreads when that file is run (requires user action). A worm is self-replicating and spreads across networks automatically.",
+      "tags": ["malware"]
+    },
+    {
+      "id": "cyber-q-003",
+      "text": "A user receives an email appearing to be from their bank asking them to click a link and enter their password. What type of attack is this?",
+      "options": [
+        { "id": "a", "text": "Brute force attack" },
+        { "id": "b", "text": "SQL injection" },
+        { "id": "c", "text": "Phishing" },
+        { "id": "d", "text": "DDoS attack" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Phishing uses fraudulent emails or messages that appear to come from trusted sources to trick victims into revealing credentials or clicking malicious links.",
+      "tags": ["social-engineering"]
+    },
+    {
+      "id": "cyber-q-004",
+      "text": "What is a DDoS attack?",
+      "options": [
+        { "id": "a", "text": "Intercepting communications between two parties" },
+        { "id": "b", "text": "Flooding a server with traffic from many sources to make it unavailable" },
+        { "id": "c", "text": "Injecting SQL code into a web form" },
+        { "id": "d", "text": "Trying every possible password combination" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "DDoS (Distributed Denial of Service) uses a botnet to flood a target server with traffic, overwhelming it so legitimate users cannot access the service.",
+      "tags": ["attacks"]
+    },
+    {
+      "id": "cyber-q-005",
+      "text": "Which protective measure requires users to verify identity using two different methods?",
+      "options": [
+        { "id": "a", "text": "Firewall" },
+        { "id": "b", "text": "Encryption" },
+        { "id": "c", "text": "Multi-factor authentication (MFA)" },
+        { "id": "d", "text": "Anti-malware software" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "MFA requires at least two verification factors — e.g. a password (something you know) plus a phone code (something you have) — making accounts much harder to compromise.",
+      "tags": ["protection"]
+    },
+    {
+      "id": "cyber-q-006",
+      "text": "What does a firewall do?",
+      "options": [
+        { "id": "a", "text": "Encrypts all data stored on a computer" },
+        { "id": "b", "text": "Monitors and filters network traffic based on security rules" },
+        { "id": "c", "text": "Creates backups of important files" },
+        { "id": "d", "text": "Detects and removes malware from downloaded files" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A firewall monitors incoming and outgoing network traffic and blocks connections that don't match its security rules, preventing unauthorised access.",
+      "tags": ["protection"]
+    },
+    {
+      "id": "cyber-q-007",
+      "text": "An attacker hides malware inside a free game download. What type of attack is this?",
+      "options": [
+        { "id": "a", "text": "Phishing" },
+        { "id": "b", "text": "Trojan" },
+        { "id": "c", "text": "Worm" },
+        { "id": "d", "text": "Spyware" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A Trojan disguises itself as legitimate or desirable software. The user willingly installs it, unknowingly giving the malware access to their system.",
+      "tags": ["malware"]
+    },
+    {
+      "id": "cyber-q-008",
+      "text": "What is SQL injection?",
+      "options": [
+        { "id": "a", "text": "A database optimisation technique" },
+        { "id": "b", "text": "An attack that inserts malicious SQL code into web form inputs" },
+        { "id": "c", "text": "A method of encrypting database records" },
+        { "id": "d", "text": "A way to speed up database queries" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "SQL injection inserts malicious SQL statements into input fields. If the application doesn't sanitise inputs, the injected code can manipulate or expose the database.",
+      "tags": ["attacks"]
+    },
+    {
+      "id": "cyber-q-009",
+      "text": "Which UK law makes it illegal to access computer systems without authorisation?",
+      "options": [
+        { "id": "a", "text": "Data Protection Act 2018" },
+        { "id": "b", "text": "Computer Misuse Act 1990" },
+        { "id": "c", "text": "Copyright, Designs and Patents Act 1988" },
+        { "id": "d", "text": "Digital Economy Act 2017" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Computer Misuse Act 1990 makes it illegal to access computer systems without authorisation, to modify computer material without authorisation, and to create/distribute malware.",
+      "tags": ["legal"]
+    },
+    {
+      "id": "cyber-q-010",
+      "text": "What is penetration testing?",
+      "options": [
+        { "id": "a", "text": "Testing how fast a network can transfer data" },
+        { "id": "b", "text": "Authorised ethical hacking to find security vulnerabilities" },
+        { "id": "c", "text": "Scanning emails for viruses" },
+        { "id": "d", "text": "Testing whether backups can be restored" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Penetration testing involves authorised security professionals attempting to breach a system using real attack techniques, in order to identify and fix vulnerabilities before malicious hackers exploit them.",
+      "tags": ["protection"]
+    },
+    {
+      "id": "cyber-q-011",
+      "text": "What does encryption do to data?",
+      "options": [
+        { "id": "a", "text": "Deletes data that is not needed" },
+        { "id": "b", "text": "Compresses data to reduce file size" },
+        { "id": "c", "text": "Converts data into an unreadable format that only authorised parties can decrypt" },
+        { "id": "d", "text": "Creates a backup copy of data" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Encryption converts plaintext into ciphertext using an algorithm and key. Only someone with the correct decryption key can read the original data.",
+      "tags": ["protection"]
+    },
+    {
+      "id": "cyber-q-012",
+      "text": "What is pretexting?",
+      "options": [
+        { "id": "a", "text": "Flooding a network with fake traffic" },
+        { "id": "b", "text": "Using a fabricated scenario to gain a victim's trust and extract information" },
+        { "id": "c", "text": "Sending bulk spam emails" },
+        { "id": "d", "text": "Intercepting network packets" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pretexting is a social engineering technique where an attacker invents a believable story (a pretext) — e.g. pretending to be an IT support technician — to manipulate the victim into sharing sensitive information.",
+      "tags": ["social-engineering"]
+    }
+  ]
+}

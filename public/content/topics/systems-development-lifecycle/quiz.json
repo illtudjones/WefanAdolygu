@@ -1,0 +1,153 @@
+{
+  "topicId": "systems-development-lifecycle",
+  "version": 1,
+  "title": "Systems Development Life Cycle Quiz",
+  "passMark": 70,
+  "shuffleQuestions": true,
+  "shuffleOptions": true,
+  "questions": [
+    {
+      "id": "sdlc-q-001",
+      "text": "What is the correct order of the first four SDLC phases?",
+      "options": [
+        { "id": "a", "text": "Design → Analysis → Planning → Development" },
+        { "id": "b", "text": "Planning → Analysis → Design → Development" },
+        { "id": "c", "text": "Analysis → Planning → Development → Design" },
+        { "id": "d", "text": "Development → Design → Analysis → Planning" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The standard SDLC order is: Scoping/Planning → Analysis → Design → Development → Testing → Deployment → Maintenance.",
+      "tags": ["phases"]
+    },
+    {
+      "id": "sdlc-q-002",
+      "text": "A feasibility study assesses which of the following?",
+      "options": [
+        { "id": "a", "text": "Whether the system has been tested successfully" },
+        { "id": "b", "text": "Whether the system can be built, afforded, is legal, and will be used" },
+        { "id": "c", "text": "Whether the code has any syntax errors" },
+        { "id": "d", "text": "Whether users are satisfied with the final product" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A feasibility study covers technical (can it be built?), economic (can we afford it?), legal (is it lawful?), and operational feasibility (will people use it?).",
+      "tags": ["phases"]
+    },
+    {
+      "id": "sdlc-q-003",
+      "text": "What type of test data should be used to check the edge of an acceptable range?",
+      "options": [
+        { "id": "a", "text": "Normal data" },
+        { "id": "b", "text": "Erroneous data" },
+        { "id": "c", "text": "Boundary data" },
+        { "id": "d", "text": "Random data" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Boundary data tests values at the exact limits of acceptable ranges (minimum and maximum). For example, if valid age is 0–120, boundary tests would use 0, 1, 119, and 120.",
+      "tags": ["testing"]
+    },
+    {
+      "id": "sdlc-q-004",
+      "text": "What is User Acceptance Testing (UAT)?",
+      "options": [
+        { "id": "a", "text": "Testing individual functions in isolation" },
+        { "id": "b", "text": "Testing done by developers to check all modules work together" },
+        { "id": "c", "text": "Testing done by end users to verify the system meets their real-world needs" },
+        { "id": "d", "text": "Testing for performance under high load" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "UAT is performed by the actual end users of the system. It verifies that the system does what they need in their real working environment, before full deployment.",
+      "tags": ["testing"]
+    },
+    {
+      "id": "sdlc-q-005",
+      "text": "Which SDLC model explicitly includes risk analysis at every cycle?",
+      "options": [
+        { "id": "a", "text": "Waterfall" },
+        { "id": "b", "text": "Agile" },
+        { "id": "c", "text": "Iterative" },
+        { "id": "d", "text": "Spiral" }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The spiral model builds risk analysis into every iteration of the cycle. It is best suited to large, complex, high-risk projects.",
+      "tags": ["models"]
+    },
+    {
+      "id": "sdlc-q-006",
+      "text": "What is the difference between alpha and beta testing?",
+      "options": [
+        { "id": "a", "text": "Alpha tests individual units; beta tests the complete system" },
+        { "id": "b", "text": "Alpha is done internally; beta is done by a limited group of external users" },
+        { "id": "c", "text": "Alpha is done by users; beta is done by developers" },
+        { "id": "d", "text": "Alpha uses erroneous data; beta uses normal data" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Alpha testing is performed internally (by the development team or within the organisation). Beta testing uses a limited group of real external users before the full public release.",
+      "tags": ["testing"]
+    },
+    {
+      "id": "sdlc-q-007",
+      "text": "What is adaptive maintenance?",
+      "options": [
+        { "id": "a", "text": "Fixing bugs found after deployment" },
+        { "id": "b", "text": "Adding new features requested by users" },
+        { "id": "c", "text": "Updating the system to work in a changed environment (new OS, new hardware)" },
+        { "id": "d", "text": "Rewriting the system from scratch" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Adaptive maintenance keeps the system working correctly as its environment changes — e.g. updating for a new version of the OS, or changes to external APIs it depends on.",
+      "tags": ["maintenance"]
+    },
+    {
+      "id": "sdlc-q-008",
+      "text": "What is parallel running as a deployment strategy?",
+      "options": [
+        { "id": "a", "text": "Running the software on multiple computers at the same time" },
+        { "id": "b", "text": "Gradually rolling out the new system to groups of users" },
+        { "id": "c", "text": "Running the old and new systems simultaneously until confidence is established" },
+        { "id": "d", "text": "Testing multiple versions of the software at once" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Parallel running operates both the old and new systems together. This reduces risk — if the new system fails, users can fall back to the old one. The old system is only decommissioned once confidence is high.",
+      "tags": ["deployment"]
+    },
+    {
+      "id": "sdlc-q-009",
+      "text": "Which legal framework protects an organisation's software from being copied without permission?",
+      "options": [
+        { "id": "a", "text": "Data Protection Act 2018" },
+        { "id": "b", "text": "Computer Misuse Act 1990" },
+        { "id": "c", "text": "Copyright law" },
+        { "id": "d", "text": "GDPR" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Copyright law automatically protects original creative works (including software code) from being copied or redistributed without the creator's permission.",
+      "tags": ["legal-ethical"]
+    },
+    {
+      "id": "sdlc-q-010",
+      "text": "An analyst uses interviews and questionnaires during which SDLC phase?",
+      "options": [
+        { "id": "a", "text": "Design" },
+        { "id": "b", "text": "Testing" },
+        { "id": "c", "text": "Analysis" },
+        { "id": "d", "text": "Maintenance" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Analysis phase involves gathering requirements from stakeholders using techniques such as interviews, questionnaires, observation, and document analysis.",
+      "tags": ["phases"]
+    },
+    {
+      "id": "sdlc-q-011",
+      "text": "Which ethical consideration relates to AI systems making decisions without being able to explain their reasoning?",
+      "options": [
+        { "id": "a", "text": "Privacy" },
+        { "id": "b", "text": "Transparency" },
+        { "id": "c", "text": "Accessibility" },
+        { "id": "d", "text": "Job displacement" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Transparency is the concern that 'black box' AI systems make decisions humans cannot fully explain or audit. This is problematic in high-stakes areas like criminal justice or medical diagnosis.",
+      "tags": ["legal-ethical"]
+    }
+  ]
+}

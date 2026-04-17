@@ -1,0 +1,126 @@
+{
+  "topicId": "computer-architecture",
+  "version": 1,
+  "cards": [
+    {
+      "id": "arch-fc-001",
+      "front": "What does CPU stand for and what is its role?",
+      "back": "Central Processing Unit. It executes program instructions — the 'brain' of the computer.",
+      "tags": ["cpu"]
+    },
+    {
+      "id": "arch-fc-002",
+      "front": "What is Von Neumann architecture?",
+      "back": "A computer design where data and instructions are stored together in the same memory. The CPU fetches and executes instructions from this shared memory.",
+      "tags": ["von-neumann"]
+    },
+    {
+      "id": "arch-fc-003",
+      "front": "What are the three buses in a Von Neumann computer?",
+      "back": "1. Data bus — carries data and instructions (bidirectional)\n2. Address bus — carries memory addresses (CPU → memory)\n3. Control bus — carries timing and control signals (bidirectional)",
+      "tags": ["von-neumann", "buses"]
+    },
+    {
+      "id": "arch-fc-004",
+      "front": "What does the ALU do?",
+      "back": "The Arithmetic Logic Unit performs arithmetic operations (+, -, ×, ÷) and logical operations (AND, OR, NOT).",
+      "tags": ["cpu"]
+    },
+    {
+      "id": "arch-fc-005",
+      "front": "What does the Control Unit (CU) do?",
+      "back": "It coordinates all CPU activities. It decodes instructions and sends control signals to other components to carry out those instructions.",
+      "tags": ["cpu"]
+    },
+    {
+      "id": "arch-fc-006",
+      "front": "What does the Program Counter (PC) hold?",
+      "back": "The memory address of the NEXT instruction to be fetched. After each fetch it is incremented to point to the following instruction.",
+      "tags": ["cpu", "registers"]
+    },
+    {
+      "id": "arch-fc-007",
+      "front": "What does the MAR hold?",
+      "back": "Memory Address Register — holds the address of the memory location currently being read from or written to.",
+      "tags": ["cpu", "registers"]
+    },
+    {
+      "id": "arch-fc-008",
+      "front": "What does the MDR hold?",
+      "back": "Memory Data Register — holds the data that has just been fetched from memory, or data waiting to be written to memory.",
+      "tags": ["cpu", "registers"]
+    },
+    {
+      "id": "arch-fc-009",
+      "front": "What does the CIR hold?",
+      "back": "Current Instruction Register — holds the instruction currently being decoded and executed.",
+      "tags": ["cpu", "registers"]
+    },
+    {
+      "id": "arch-fc-010",
+      "front": "Describe the three stages of the fetch-decode-execute cycle.",
+      "back": "1. Fetch: copy next instruction from memory into the CIR (via MAR/MDR); increment PC.\n2. Decode: CU decodes the instruction in the CIR.\n3. Execute: carry out the instruction (e.g. ALU performs calculation).",
+      "tags": ["fetch-decode-execute"]
+    },
+    {
+      "id": "arch-fc-011",
+      "front": "Name three factors that affect CPU performance.",
+      "back": "1. Clock speed (GHz) — more cycles per second = faster\n2. Number of cores — parallel processing\n3. Cache size — larger cache = fewer slow RAM accesses",
+      "tags": ["performance"]
+    },
+    {
+      "id": "arch-fc-012",
+      "front": "What is RAM and what are its key properties?",
+      "back": "Random Access Memory. Fast, volatile (loses data when power is off), read/write. Holds the currently running programs and data.",
+      "tags": ["memory"]
+    },
+    {
+      "id": "arch-fc-013",
+      "front": "What is ROM and what are its key properties?",
+      "back": "Read-Only Memory. Non-volatile (keeps data without power), read-only. Stores firmware like the BIOS/boot instructions.",
+      "tags": ["memory"]
+    },
+    {
+      "id": "arch-fc-014",
+      "front": "What is virtual memory?",
+      "back": "A section of the hard drive/SSD used as an extension of RAM when physical RAM is full. Slower than RAM but allows more programs to run simultaneously.",
+      "tags": ["memory"]
+    },
+    {
+      "id": "arch-fc-015",
+      "front": "Compare HDD and SSD storage.",
+      "back": "HDD: spinning magnetic platters, slower, cheaper per GB, moving parts (fragile), large capacity.\nSSD: flash memory chips, faster, more expensive per GB, no moving parts (durable), lighter.",
+      "tags": ["storage"]
+    },
+    {
+      "id": "arch-fc-016",
+      "front": "What are the advantages and disadvantages of cloud storage?",
+      "back": "Advantages: accessible anywhere, no physical device, unlimited scalability.\nDisadvantages: requires internet, ongoing subscription cost, privacy/security concerns.",
+      "tags": ["storage"]
+    },
+    {
+      "id": "arch-fc-017",
+      "front": "What is the purpose of the GPU?",
+      "back": "Graphics Processing Unit — handles rendering of images, video, and 3D graphics. Contains thousands of small cores optimised for parallel tasks.",
+      "tags": ["components"]
+    },
+    {
+      "id": "arch-fc-018",
+      "front": "What does the motherboard do?",
+      "back": "It is the main circuit board of a computer. It physically connects all components (CPU, RAM, storage, expansion cards) and provides communication pathways between them.",
+      "tags": ["components"]
+    },
+    {
+      "id": "arch-fc-019",
+      "front": "What is cache memory and why is it used?",
+      "back": "A small, very fast type of memory built into or near the CPU. It stores frequently accessed data so the CPU doesn't have to wait for slower RAM.",
+      "tags": ["memory", "performance"]
+    },
+    {
+      "id": "arch-fc-020",
+      "front": "What is the difference between primary and secondary storage?",
+      "back": "Primary storage (RAM, ROM, cache): directly accessible by CPU, fast, mostly volatile.\nSecondary storage (HDD, SSD, optical, cloud): non-volatile, slower, used for long-term data.",
+      "tags": ["storage", "memory"]
+    }
+  ]
+}

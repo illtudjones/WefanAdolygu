@@ -1,0 +1,153 @@
+{
+  "topicId": "software",
+  "version": 1,
+  "title": "Software Quiz",
+  "passMark": 70,
+  "shuffleQuestions": true,
+  "shuffleOptions": true,
+  "questions": [
+    {
+      "id": "sw-q-001",
+      "text": "What is the key difference between a compiler and an interpreter?",
+      "options": [
+        { "id": "a", "text": "A compiler translates one line at a time; an interpreter translates the whole program first" },
+        { "id": "b", "text": "A compiler translates the whole program before execution; an interpreter translates line by line at runtime" },
+        { "id": "c", "text": "A compiler only works with low-level languages" },
+        { "id": "d", "text": "An interpreter produces a faster executable than a compiler" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A compiler translates the entire source code into machine code before execution, producing an executable. An interpreter translates and runs code line by line at runtime.",
+      "tags": ["translators"]
+    },
+    {
+      "id": "sw-q-002",
+      "text": "Which type of error would be caused by writing `WHLIE` instead of `WHILE` in pseudocode?",
+      "options": [
+        { "id": "a", "text": "Logic error" },
+        { "id": "b", "text": "Runtime error" },
+        { "id": "c", "text": "Syntax error" },
+        { "id": "d", "text": "Semantic error" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A misspelled keyword breaks the grammar rules of the language — this is a syntax error. It would be detected by the compiler or interpreter before the program runs.",
+      "tags": ["errors"]
+    },
+    {
+      "id": "sw-q-003",
+      "text": "A program calculates the average of a list but uses division by the wrong variable, producing incorrect results without crashing. What type of error is this?",
+      "options": [
+        { "id": "a", "text": "Syntax error" },
+        { "id": "b", "text": "Runtime error" },
+        { "id": "c", "text": "Logic error" },
+        { "id": "d", "text": "Compilation error" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A logic error produces incorrect results but doesn't cause a crash. The code is syntactically correct — the algorithm itself is wrong. Only testing can reveal logic errors.",
+      "tags": ["errors"]
+    },
+    {
+      "id": "sw-q-004",
+      "text": "What happens during lexical analysis in a compiler?",
+      "options": [
+        { "id": "a", "text": "Machine code is generated from the parse tree" },
+        { "id": "b", "text": "Source code is broken into tokens and whitespace/comments are removed" },
+        { "id": "c", "text": "The grammar of the code is checked" },
+        { "id": "d", "text": "Variable types are verified for compatibility" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Lexical analysis is the first stage — it tokenises source code (splits it into keywords, identifiers, operators, literals) and strips whitespace and comments.",
+      "tags": ["compilation"]
+    },
+    {
+      "id": "sw-q-005",
+      "text": "Which SDLC model uses short sprints to deliver working software incrementally?",
+      "options": [
+        { "id": "a", "text": "Waterfall" },
+        { "id": "b", "text": "Spiral" },
+        { "id": "c", "text": "Agile" },
+        { "id": "d", "text": "V-model" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Agile divides work into short sprints (1–4 weeks) with working software delivered at the end of each sprint and frequent customer feedback.",
+      "tags": ["sdlc-models"]
+    },
+    {
+      "id": "sw-q-006",
+      "text": "What is a major weakness of the waterfall model?",
+      "options": [
+        { "id": "a", "text": "It does not produce any documentation" },
+        { "id": "b", "text": "It is very inflexible — changing requirements late is expensive" },
+        { "id": "c", "text": "It requires too much customer involvement" },
+        { "id": "d", "text": "It does not include a testing phase" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Waterfall is sequential — once a phase is complete it is difficult to go back. If requirements change mid-project, revisions are costly. Testing also happens very late in the process.",
+      "tags": ["sdlc-models"]
+    },
+    {
+      "id": "sw-q-007",
+      "text": "An assembler translates:",
+      "options": [
+        { "id": "a", "text": "High-level language into machine code" },
+        { "id": "b", "text": "Machine code into assembly language" },
+        { "id": "c", "text": "Assembly language into machine code" },
+        { "id": "d", "text": "Java bytecode into native code" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "An assembler translates assembly language (human-readable mnemonics like MOV and ADD) into machine code (binary instructions). It is a one-to-one translation.",
+      "tags": ["translators"]
+    },
+    {
+      "id": "sw-q-008",
+      "text": "What is the main advantage of an interpreter over a compiler during software development?",
+      "options": [
+        { "id": "a", "text": "The final program runs faster" },
+        { "id": "b", "text": "It produces a standalone executable" },
+        { "id": "c", "text": "It stops at the first error, making debugging easier" },
+        { "id": "d", "text": "It reports all errors at once" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "An interpreter stops execution at the first error encountered, which makes it easy to locate and fix bugs one at a time during development.",
+      "tags": ["translators"]
+    },
+    {
+      "id": "sw-q-009",
+      "text": "Which good programming principle means code can be easily updated to work with future requirements?",
+      "options": [
+        { "id": "a", "text": "Readability" },
+        { "id": "b", "text": "Modularity" },
+        { "id": "c", "text": "Extensibility" },
+        { "id": "d", "text": "Portability" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Extensibility means new features can be added to the program without rewriting existing code. Well-designed, modular programs are typically easier to extend.",
+      "tags": ["principles"]
+    },
+    {
+      "id": "sw-q-010",
+      "text": "A company needs to develop software with requirements that are likely to change throughout the project. Which SDLC model is most appropriate?",
+      "options": [
+        { "id": "a", "text": "Waterfall — because it is well-structured" },
+        { "id": "b", "text": "Agile — because it is adaptable to changing requirements" },
+        { "id": "c", "text": "Waterfall — because it has a testing phase" },
+        { "id": "d", "text": "Spiral — because it is cheapest" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Agile is designed for projects with evolving requirements. Its iterative sprints allow requirements to be refined and new features added throughout the project.",
+      "tags": ["sdlc-models"]
+    },
+    {
+      "id": "sw-q-011",
+      "text": "What are non-functional requirements?",
+      "options": [
+        { "id": "a", "text": "Requirements that describe broken features" },
+        { "id": "b", "text": "Requirements that describe what the system must do" },
+        { "id": "c", "text": "Requirements that describe how the system must perform (speed, security, reliability)" },
+        { "id": "d", "text": "Requirements that are not important to the project" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Non-functional requirements describe quality attributes — how the system performs, not what it does. Examples: response time, security level, scalability.",
+      "tags": ["sdlc"]
+    }
+  ]
+}

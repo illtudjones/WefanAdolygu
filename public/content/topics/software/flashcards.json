@@ -1,0 +1,126 @@
+{
+  "topicId": "software",
+  "version": 1,
+  "cards": [
+    {
+      "id": "sw-fc-001",
+      "front": "What is the difference between a high-level and a low-level programming language?",
+      "back": "High-level: closer to human language, portable, easier to write and debug. (Python, Java)\nLow-level: closer to machine code, hardware-specific, faster execution, harder to read. (Assembly, Machine code)",
+      "tags": ["languages"]
+    },
+    {
+      "id": "sw-fc-002",
+      "front": "What does a compiler do?",
+      "back": "Translates an entire high-level source program into machine code before execution. Produces a standalone executable file. Errors are all reported at once.",
+      "tags": ["translators"]
+    },
+    {
+      "id": "sw-fc-003",
+      "front": "What does an interpreter do?",
+      "back": "Translates and executes a program line by line at runtime. No executable file is created. Stops at the first error found.",
+      "tags": ["translators"]
+    },
+    {
+      "id": "sw-fc-004",
+      "front": "What does an assembler do?",
+      "back": "Translates assembly language into machine code. Each assembly instruction maps one-to-one to a machine code instruction.",
+      "tags": ["translators"]
+    },
+    {
+      "id": "sw-fc-005",
+      "front": "What is a syntax error?",
+      "back": "An error where code breaks the grammatical rules of the programming language. Detected at compile-time or when the interpreter encounters the line.\nExample: missing colon, misspelled keyword.",
+      "tags": ["errors"]
+    },
+    {
+      "id": "sw-fc-006",
+      "front": "What is a logic error?",
+      "back": "An error where code is syntactically valid but produces incorrect results. Detected only by testing output.\nExample: using > instead of >= in a condition.",
+      "tags": ["errors"]
+    },
+    {
+      "id": "sw-fc-007",
+      "front": "What is a runtime error?",
+      "back": "An error that occurs during execution, causing the program to crash. The code is valid but performs an illegal operation.\nExample: dividing by zero, accessing an array index out of bounds.",
+      "tags": ["errors"]
+    },
+    {
+      "id": "sw-fc-008",
+      "front": "What are the five stages of compilation?",
+      "back": "1. Lexical analysis — tokenise source code\n2. Syntax analysis — check grammar, build parse tree\n3. Semantic analysis — check meaning and types\n4. Code generation — produce machine/intermediate code\n5. Code optimisation — improve efficiency",
+      "tags": ["compilation"]
+    },
+    {
+      "id": "sw-fc-009",
+      "front": "What does lexical analysis do?",
+      "back": "Breaks source code into tokens (keywords, identifiers, operators, literals) and removes whitespace and comments. This is the first stage of compilation.",
+      "tags": ["compilation"]
+    },
+    {
+      "id": "sw-fc-010",
+      "front": "What are the four good programming principles?",
+      "back": "1. Readability — clear, well-named code\n2. Maintainability — easy to fix and update\n3. Extensibility — new features can be added easily\n4. Modularity — broken into self-contained subroutines",
+      "tags": ["principles"]
+    },
+    {
+      "id": "sw-fc-011",
+      "front": "What are the seven stages of the SDLC?",
+      "back": "1. Planning\n2. Analysis\n3. Design\n4. Development (Implementation)\n5. Testing\n6. Deployment\n7. Maintenance",
+      "tags": ["sdlc"]
+    },
+    {
+      "id": "sw-fc-012",
+      "front": "What are functional requirements?",
+      "back": "Requirements that describe what a system must DO — its features and behaviours.\nExample: 'Users must be able to search by name.'",
+      "tags": ["sdlc"]
+    },
+    {
+      "id": "sw-fc-013",
+      "front": "What are non-functional requirements?",
+      "back": "Requirements that describe how a system must PERFORM — quality attributes.\nExample: 'The system must respond within 2 seconds.'",
+      "tags": ["sdlc"]
+    },
+    {
+      "id": "sw-fc-014",
+      "front": "What is the waterfall model?",
+      "back": "A sequential SDLC model where each phase is completed before the next begins.\nStrength: clear structure, good for fixed requirements.\nWeakness: inflexible; testing is late; customer sees no working product until near the end.",
+      "tags": ["sdlc-models"]
+    },
+    {
+      "id": "sw-fc-015",
+      "front": "What is the agile model?",
+      "back": "An iterative SDLC model using short sprints (1–4 weeks) to deliver working increments frequently, with continuous customer involvement.\nStrength: adaptable, early delivery.\nWeakness: harder to predict cost/timeline.",
+      "tags": ["sdlc-models"]
+    },
+    {
+      "id": "sw-fc-016",
+      "front": "What is the spiral model?",
+      "back": "An SDLC model combining iterative development with explicit risk analysis at each cycle. Best for large, high-risk, complex projects.\nWeakness: complex and expensive to manage.",
+      "tags": ["sdlc-models"]
+    },
+    {
+      "id": "sw-fc-017",
+      "front": "What is machine code?",
+      "back": "Binary instructions directly executed by the CPU. The lowest level of programming — no translation required, but virtually impossible for humans to write directly.",
+      "tags": ["languages"]
+    },
+    {
+      "id": "sw-fc-018",
+      "front": "What is corrective maintenance?",
+      "back": "Fixing bugs and faults discovered after a software system has been deployed to users.",
+      "tags": ["sdlc"]
+    },
+    {
+      "id": "sw-fc-019",
+      "front": "What is adaptive maintenance?",
+      "back": "Updating a software system to keep it working correctly in a changed environment — e.g. updating for a new OS version, new hardware, or changed external APIs.",
+      "tags": ["sdlc"]
+    },
+    {
+      "id": "sw-fc-020",
+      "front": "What advantage does an interpreter have over a compiler during development?",
+      "back": "An interpreter stops and reports the first error immediately, making it easier to find and fix bugs one at a time. No separate compilation step is needed before testing.",
+      "tags": ["translators"]
+    }
+  ]
+}

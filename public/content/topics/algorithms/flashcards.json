@@ -1,0 +1,126 @@
+{
+  "topicId": "algorithms",
+  "version": 1,
+  "cards": [
+    {
+      "id": "algo-fc-001",
+      "front": "What is an algorithm?",
+      "back": "A step-by-step set of instructions designed to solve a problem or complete a task.",
+      "tags": ["definition"]
+    },
+    {
+      "id": "algo-fc-002",
+      "front": "What symbol is used for assignment in WJEC pseudocode?",
+      "back": "The left-arrow: ←\nExample: x ← 5",
+      "tags": ["pseudocode"]
+    },
+    {
+      "id": "algo-fc-003",
+      "front": "What shape represents a decision in a flowchart?",
+      "back": "A diamond (rhombus). It contains a yes/no question and has two exit paths.",
+      "tags": ["flowcharts"]
+    },
+    {
+      "id": "algo-fc-004",
+      "front": "What are the three fundamental programming constructs?",
+      "back": "1. Sequence — steps in order\n2. Selection — choosing a path (IF/CASE)\n3. Iteration — repeating steps (FOR/WHILE)",
+      "tags": ["design"]
+    },
+    {
+      "id": "algo-fc-005",
+      "front": "What is the difference between a procedure and a function?",
+      "back": "A procedure performs a task but does NOT return a value.\nA function performs a task AND returns a value.",
+      "tags": ["subroutines"]
+    },
+    {
+      "id": "algo-fc-006",
+      "front": "What is a local variable?",
+      "back": "A variable declared inside a subroutine. It can only be accessed within that subroutine and is destroyed when the subroutine ends.",
+      "tags": ["variables"]
+    },
+    {
+      "id": "algo-fc-007",
+      "front": "What is a global variable?",
+      "back": "A variable declared outside all subroutines. It can be accessed from anywhere in the program.",
+      "tags": ["variables"]
+    },
+    {
+      "id": "algo-fc-008",
+      "front": "What is a rogue value (sentinel value)?",
+      "back": "A special input value that signals the end of data entry. For example, entering -1 to stop adding numbers to a total.",
+      "tags": ["design"]
+    },
+    {
+      "id": "algo-fc-009",
+      "front": "What is linear search?",
+      "back": "A search algorithm that checks each element one by one from the start until the target is found or the list ends. Works on unsorted lists.",
+      "tags": ["searching"]
+    },
+    {
+      "id": "algo-fc-010",
+      "front": "What is binary search and what is its pre-condition?",
+      "back": "Binary search repeatedly halves the search space by comparing the target to the middle element.\nPre-condition: the list MUST be sorted.",
+      "tags": ["searching"]
+    },
+    {
+      "id": "algo-fc-011",
+      "front": "How many comparisons does binary search need in the worst case for a list of n items?",
+      "back": "Approximately log₂(n) comparisons.\nFor 128 items: log₂(128) = 7 comparisons maximum.",
+      "tags": ["searching"]
+    },
+    {
+      "id": "algo-fc-012",
+      "front": "Describe how bubble sort works.",
+      "back": "Repeatedly steps through the list, compares adjacent pairs, and swaps them if they are in the wrong order. Largest values 'bubble' to the end. Repeats until sorted.",
+      "tags": ["sorting"]
+    },
+    {
+      "id": "algo-fc-013",
+      "front": "Describe how selection sort works.",
+      "back": "Finds the smallest element in the unsorted portion and swaps it to the front. Repeats, each time starting one position further right.",
+      "tags": ["sorting"]
+    },
+    {
+      "id": "algo-fc-014",
+      "front": "Describe how insertion sort works.",
+      "back": "Takes each element one at a time and inserts it into its correct position in the already-sorted portion of the list, shifting larger elements right.",
+      "tags": ["sorting"]
+    },
+    {
+      "id": "algo-fc-015",
+      "front": "What is the difference between validation and verification?",
+      "back": "Validation: checks data is reasonable and meets rules (e.g. range check, type check).\nVerification: checks data matches the original source (e.g. double entry, proofreading).",
+      "tags": ["validation"]
+    },
+    {
+      "id": "algo-fc-016",
+      "front": "Name four types of validation check.",
+      "back": "1. Range check — value within acceptable limits\n2. Type check — correct data type\n3. Length check — correct number of characters\n4. Presence check — field is not empty\n(Also: format check, lookup check)",
+      "tags": ["validation"]
+    },
+    {
+      "id": "algo-fc-017",
+      "front": "What does LEN() do in WJEC pseudocode?",
+      "back": "Returns the length (number of characters) of a string.\nExample: LEN(\"Hello\") returns 5",
+      "tags": ["pseudocode", "strings"]
+    },
+    {
+      "id": "algo-fc-018",
+      "front": "What does SUBSTRING(str, start, length) do in WJEC pseudocode?",
+      "back": "Returns a portion of a string starting at position 'start' for 'length' characters.\nExample: SUBSTRING(\"Hello\", 1, 3) returns \"Hel\"",
+      "tags": ["pseudocode", "strings"]
+    },
+    {
+      "id": "algo-fc-019",
+      "front": "How do you access an element in a 2D array?",
+      "back": "Using two indices: grid[row][col]\nExample: grid[2][3] accesses row 2, column 3.",
+      "tags": ["arrays"]
+    },
+    {
+      "id": "algo-fc-020",
+      "front": "What is modularity and why is it beneficial?",
+      "back": "Modularity means breaking a program into self-contained subroutines.\nBenefits: easier to read, test, debug, and reuse; different people can work on different modules.",
+      "tags": ["design"]
+    }
+  ]
+}

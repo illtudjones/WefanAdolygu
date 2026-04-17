@@ -1,0 +1,126 @@
+{
+  "topicId": "networks",
+  "version": 1,
+  "cards": [
+    {
+      "id": "net-fc-001",
+      "front": "What is a LAN?",
+      "back": "Local Area Network — a network covering a small geographical area (e.g. a school or office), typically owned by a single organisation and connected by Ethernet or Wi-Fi.",
+      "tags": ["lan-wan"]
+    },
+    {
+      "id": "net-fc-002",
+      "front": "What is a WAN?",
+      "back": "Wide Area Network — a network covering a large geographical area (city, country, or world). The internet is the world's largest WAN.",
+      "tags": ["lan-wan"]
+    },
+    {
+      "id": "net-fc-003",
+      "front": "Describe a star topology.",
+      "back": "All devices connect to a central switch. Data passes through the switch to its destination.\nAdvantage: one cable failure only affects that device.\nDisadvantage: if the switch fails, the whole network fails.",
+      "tags": ["topology"]
+    },
+    {
+      "id": "net-fc-004",
+      "front": "Describe a bus topology.",
+      "back": "All devices connect to a single backbone cable. Data travels to all devices but is accepted only by the addressed one.\nAdvantage: cheap and simple.\nDisadvantage: backbone failure brings down the whole network.",
+      "tags": ["topology"]
+    },
+    {
+      "id": "net-fc-005",
+      "front": "What is a mesh topology?",
+      "back": "Devices connect to multiple other devices. In a full mesh, every device connects to every other.\nAdvantage: highly resilient — data can reroute around failures.\nDisadvantage: expensive, complex cabling.",
+      "tags": ["topology"]
+    },
+    {
+      "id": "net-fc-006",
+      "front": "What does a router do?",
+      "back": "Connects different networks together (e.g. a LAN to the internet). Directs data packets between networks using routing tables.",
+      "tags": ["hardware"]
+    },
+    {
+      "id": "net-fc-007",
+      "front": "What is the difference between a switch and a hub?",
+      "back": "Switch: sends data only to the intended device — more efficient.\nHub: broadcasts data to ALL connected devices — less efficient, creates unnecessary traffic.",
+      "tags": ["hardware"]
+    },
+    {
+      "id": "net-fc-008",
+      "front": "What is a WAP?",
+      "back": "Wireless Access Point — allows wireless (Wi-Fi) devices to connect to a wired network.",
+      "tags": ["hardware"]
+    },
+    {
+      "id": "net-fc-009",
+      "front": "What does TCP do?",
+      "back": "Transmission Control Protocol — ensures reliable, ordered delivery of data. It breaks data into segments, numbers them, checks for errors, and requests retransmission of lost segments.",
+      "tags": ["protocols"]
+    },
+    {
+      "id": "net-fc-010",
+      "front": "What does IP do?",
+      "back": "Internet Protocol — handles addressing and routing of packets across networks. Every device has an IP address that identifies it.",
+      "tags": ["protocols"]
+    },
+    {
+      "id": "net-fc-011",
+      "front": "What is the difference between HTTP and HTTPS?",
+      "back": "HTTP: transfers web pages unencrypted.\nHTTPS: HTTP with TLS/SSL encryption — protects data from interception (man-in-the-middle attacks).",
+      "tags": ["protocols"]
+    },
+    {
+      "id": "net-fc-012",
+      "front": "What is DNS and what does it do?",
+      "back": "Domain Name System — translates human-readable domain names (e.g. bbc.co.uk) into IP addresses that computers can use to route data.",
+      "tags": ["protocols"]
+    },
+    {
+      "id": "net-fc-013",
+      "front": "What is the difference between POP3 and IMAP?",
+      "back": "POP3: downloads emails to your device and deletes them from the server. Works offline but emails are on one device only.\nIMAP: reads emails from the server; they stay synced across all devices.",
+      "tags": ["protocols"]
+    },
+    {
+      "id": "net-fc-014",
+      "front": "What is packet switching?",
+      "back": "Breaking data into small packets that travel independently across a network, potentially via different routes, and are reassembled at the destination.",
+      "tags": ["packet-switching"]
+    },
+    {
+      "id": "net-fc-015",
+      "front": "Name four fields in a TCP/IP packet.",
+      "back": "1. Source IP address\n2. Destination IP address\n3. Sequence number\n4. Checksum (error detection)\n(Also: TTL, protocol, payload)",
+      "tags": ["packet-switching"]
+    },
+    {
+      "id": "net-fc-016",
+      "front": "What are the four layers of the TCP/IP model?",
+      "back": "1. Application (HTTP, SMTP, DNS)\n2. Transport (TCP, UDP)\n3. Internet (IP)\n4. Network Access (Ethernet, Wi-Fi)",
+      "tags": ["tcp-ip-model"]
+    },
+    {
+      "id": "net-fc-017",
+      "front": "What is the difference between TCP and UDP?",
+      "back": "TCP: reliable, ordered, error-checked — used for web browsing, email.\nUDP: fast, no delivery guarantee — used for live video/audio streaming, online gaming.",
+      "tags": ["protocols"]
+    },
+    {
+      "id": "net-fc-018",
+      "front": "What is an IPv4 address?",
+      "back": "A 32-bit address written as four decimal numbers separated by dots, e.g. 192.168.1.1. Allows approximately 4.3 billion unique addresses.",
+      "tags": ["ip"]
+    },
+    {
+      "id": "net-fc-019",
+      "front": "Why was IPv6 introduced?",
+      "back": "IPv4 was running out of addresses (~4.3 billion). IPv6 uses 128-bit addresses (written in hex), providing ~340 undecillion unique addresses — essentially unlimited.",
+      "tags": ["ip"]
+    },
+    {
+      "id": "net-fc-020",
+      "front": "How do routers decide which path to send a packet?",
+      "back": "Using routing tables, which assign a cost (metric) to each possible path. Lower cost = preferred route. Costs consider hops, link speed, and congestion.",
+      "tags": ["routing"]
+    }
+  ]
+}

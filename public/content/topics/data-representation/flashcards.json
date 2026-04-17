@@ -1,0 +1,126 @@
+{
+  "topicId": "data-representation",
+  "version": 1,
+  "cards": [
+    {
+      "id": "dr-fc-001",
+      "front": "What are the five main data types?",
+      "back": "1. Boolean — True/False\n2. Character — single text character\n3. Integer — whole number\n4. Real (float) — decimal number\n5. String — sequence of characters",
+      "tags": ["data-types"]
+    },
+    {
+      "id": "dr-fc-002",
+      "front": "What is the place value of each bit in an 8-bit binary number (right to left)?",
+      "back": "1, 2, 4, 8, 16, 32, 64, 128\n(Powers of 2: 2⁰ to 2⁷)",
+      "tags": ["binary"]
+    },
+    {
+      "id": "dr-fc-003",
+      "front": "Convert binary 10110110 to denary.",
+      "back": "128 + 32 + 16 + 4 + 2 = 182",
+      "tags": ["binary", "conversion"]
+    },
+    {
+      "id": "dr-fc-004",
+      "front": "Convert denary 75 to binary.",
+      "back": "64 + 8 + 2 + 1 = 75\n→ 01001011",
+      "tags": ["binary", "conversion"]
+    },
+    {
+      "id": "dr-fc-005",
+      "front": "What is hexadecimal and why is it used in computing?",
+      "back": "Base 16, using digits 0–9 and A–F. Used because one hex digit represents exactly 4 bits (a nibble), making it a compact way to represent binary values.",
+      "tags": ["hexadecimal"]
+    },
+    {
+      "id": "dr-fc-006",
+      "front": "What is the denary value of hex digit F?",
+      "back": "15\n(A=10, B=11, C=12, D=13, E=14, F=15)",
+      "tags": ["hexadecimal"]
+    },
+    {
+      "id": "dr-fc-007",
+      "front": "Convert hex 0xC7 to denary.",
+      "back": "(12 × 16) + (7 × 1) = 192 + 7 = 199",
+      "tags": ["hexadecimal", "conversion"]
+    },
+    {
+      "id": "dr-fc-008",
+      "front": "Convert binary 11001010 to hexadecimal.",
+      "back": "Split into nibbles: 1100 | 1010\n1100 = C, 1010 = A\nAnswer: 0xCA",
+      "tags": ["hexadecimal", "binary", "conversion"]
+    },
+    {
+      "id": "dr-fc-009",
+      "front": "What is overflow in binary arithmetic?",
+      "back": "When the result of an operation is too large to fit in the available number of bits. For example, adding 200 + 100 = 300, which exceeds 255 (max 8-bit value).",
+      "tags": ["binary", "arithmetic"]
+    },
+    {
+      "id": "dr-fc-010",
+      "front": "What does an arithmetic left shift by 1 do to a binary number?",
+      "back": "Multiplies the value by 2. Bits shift left one place, a 0 is added on the right.\nExample: 00001010 (10) → 00010100 (20)",
+      "tags": ["shifts"]
+    },
+    {
+      "id": "dr-fc-011",
+      "front": "What does an arithmetic right shift by 1 do to a binary number?",
+      "back": "Divides the value by 2 (integer division). Bits shift right, a 0 is added on the left.\nExample: 00001010 (10) → 00000101 (5)",
+      "tags": ["shifts"]
+    },
+    {
+      "id": "dr-fc-012",
+      "front": "What is ASCII?",
+      "back": "American Standard Code for Information Interchange. A 7-bit character encoding standard representing 128 characters (letters, digits, punctuation). A=65, a=97, 0=48.",
+      "tags": ["ascii", "encoding"]
+    },
+    {
+      "id": "dr-fc-013",
+      "front": "Why was Unicode created?",
+      "back": "ASCII only supports English and basic Western characters. Unicode supports over 140,000 characters from all world languages, plus symbols and emoji.",
+      "tags": ["unicode", "encoding"]
+    },
+    {
+      "id": "dr-fc-014",
+      "front": "What is bit depth in the context of images?",
+      "back": "The number of bits used to store each pixel's colour. More bits = more possible colours.\n2^(bit depth) = number of colours possible.\nE.g. 8-bit = 256 colours, 24-bit = 16.7 million colours.",
+      "tags": ["graphics"]
+    },
+    {
+      "id": "dr-fc-015",
+      "front": "Calculate the uncompressed file size of a 1024×768 image with 24-bit colour depth.",
+      "back": "1024 × 768 × 24 = 18,874,368 bits\n÷ 8 = 2,359,296 bytes ≈ 2.25 MB",
+      "tags": ["graphics", "calculation"]
+    },
+    {
+      "id": "dr-fc-016",
+      "front": "What is the sample rate of audio?",
+      "back": "The number of audio samples taken per second, measured in Hz or kHz. Higher sample rate = better quality, larger file. CD quality = 44,100 Hz.",
+      "tags": ["sound"]
+    },
+    {
+      "id": "dr-fc-017",
+      "front": "What is the difference between lossy and lossless compression?",
+      "back": "Lossy: permanently removes data; smaller files; original cannot be reconstructed. (JPEG, MP3)\nLossless: no data lost; original can be perfectly restored. (PNG, FLAC, ZIP)",
+      "tags": ["compression"]
+    },
+    {
+      "id": "dr-fc-018",
+      "front": "How do you calculate compression ratio?",
+      "back": "Compression ratio = Original size ÷ Compressed size\nExample: 10 MB → 2 MB = ratio of 5:1",
+      "tags": ["compression", "calculation"]
+    },
+    {
+      "id": "dr-fc-019",
+      "front": "How many bytes are in 1 kilobyte?",
+      "back": "1 KB = 1,024 bytes\n(Full chain: bit → nibble (4 bits) → byte (8 bits) → KB → MB → GB → TB → PB)",
+      "tags": ["units"]
+    },
+    {
+      "id": "dr-fc-020",
+      "front": "Calculate the file size of 30 seconds of stereo audio at 44,100 Hz sample rate and 16-bit depth.",
+      "back": "44,100 × 16 × 30 × 2 = 42,336,000 bits\n÷ 8 = 5,292,000 bytes ≈ 5.05 MB",
+      "tags": ["sound", "calculation"]
+    }
+  ]
+}

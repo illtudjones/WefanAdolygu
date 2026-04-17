@@ -1,0 +1,166 @@
+{
+  "topicId": "computer-architecture",
+  "version": 1,
+  "title": "Computer Architecture Quiz",
+  "passMark": 70,
+  "shuffleQuestions": true,
+  "shuffleOptions": true,
+  "questions": [
+    {
+      "id": "arch-q-001",
+      "text": "What does the Program Counter (PC) hold?",
+      "options": [
+        { "id": "a", "text": "The result of the last calculation" },
+        { "id": "b", "text": "The instruction currently being executed" },
+        { "id": "c", "text": "The memory address of the NEXT instruction to fetch" },
+        { "id": "d", "text": "The number of instructions executed so far" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The PC always points to the next instruction to be fetched. After each fetch, the PC is incremented so it points to the instruction after that.",
+      "tags": ["registers"]
+    },
+    {
+      "id": "arch-q-002",
+      "text": "In which stage of the fetch-decode-execute cycle is the PC incremented?",
+      "options": [
+        { "id": "a", "text": "Decode" },
+        { "id": "b", "text": "Execute" },
+        { "id": "c", "text": "Fetch" },
+        { "id": "d", "text": "After the execute stage" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The PC is incremented during the fetch stage, after the current instruction's address has been sent to the MAR. This prepares it to point to the next instruction.",
+      "tags": ["fetch-decode-execute"]
+    },
+    {
+      "id": "arch-q-003",
+      "text": "What is the key principle of Von Neumann architecture?",
+      "options": [
+        { "id": "a", "text": "Instructions and data are stored in separate memories" },
+        { "id": "b", "text": "Instructions and data are stored in the same memory" },
+        { "id": "c", "text": "The CPU can only process one instruction at a time" },
+        { "id": "d", "text": "All data must pass through the GPU before processing" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Von Neumann architecture's defining feature is a single shared memory for both program instructions and data. This differs from Harvard architecture which separates them.",
+      "tags": ["von-neumann"]
+    },
+    {
+      "id": "arch-q-004",
+      "text": "Which component of the CPU performs arithmetic and logical operations?",
+      "options": [
+        { "id": "a", "text": "Control Unit (CU)" },
+        { "id": "b", "text": "Program Counter (PC)" },
+        { "id": "c", "text": "Memory Data Register (MDR)" },
+        { "id": "d", "text": "Arithmetic Logic Unit (ALU)" }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The ALU (Arithmetic Logic Unit) handles all arithmetic operations (+, -, ×, ÷) and logical operations (AND, OR, NOT, comparisons).",
+      "tags": ["cpu"]
+    },
+    {
+      "id": "arch-q-005",
+      "text": "A computer has 4 GHz clock speed. How many clock cycles does it perform per second?",
+      "options": [
+        { "id": "a", "text": "4,000" },
+        { "id": "b", "text": "4,000,000" },
+        { "id": "c", "text": "4,000,000,000" },
+        { "id": "d", "text": "400,000,000" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "1 GHz = 1 billion (10⁹) cycles per second. 4 GHz = 4,000,000,000 cycles per second.",
+      "tags": ["performance"]
+    },
+    {
+      "id": "arch-q-006",
+      "text": "Which type of primary storage is volatile?",
+      "options": [
+        { "id": "a", "text": "ROM" },
+        { "id": "b", "text": "Flash memory" },
+        { "id": "c", "text": "RAM" },
+        { "id": "d", "text": "SSD" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "RAM is volatile — it loses all data when power is cut. ROM, flash memory, and SSDs are all non-volatile.",
+      "tags": ["memory"]
+    },
+    {
+      "id": "arch-q-007",
+      "text": "What is virtual memory?",
+      "options": [
+        { "id": "a", "text": "Memory stored in the cloud" },
+        { "id": "b", "text": "A very fast type of memory built into the CPU" },
+        { "id": "c", "text": "A section of secondary storage used as an extension of RAM" },
+        { "id": "d", "text": "Memory used by the GPU for graphics rendering" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "When RAM is full, the OS uses part of the hard drive or SSD as virtual memory. It is slower than RAM but prevents the system from running out of memory entirely.",
+      "tags": ["memory"]
+    },
+    {
+      "id": "arch-q-008",
+      "text": "What does the MAR store?",
+      "options": [
+        { "id": "a", "text": "The instruction currently being executed" },
+        { "id": "b", "text": "The memory address of the location being read from or written to" },
+        { "id": "c", "text": "The result of the last ALU operation" },
+        { "id": "d", "text": "The data that was just fetched from memory" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The MAR (Memory Address Register) holds the address of the memory location being accessed. The actual data is held in the MDR.",
+      "tags": ["registers"]
+    },
+    {
+      "id": "arch-q-009",
+      "text": "Which secondary storage type has NO moving parts?",
+      "options": [
+        { "id": "a", "text": "HDD" },
+        { "id": "b", "text": "DVD" },
+        { "id": "c", "text": "Blu-ray" },
+        { "id": "d", "text": "SSD" }
+      ],
+      "correctOptionId": "d",
+      "explanation": "An SSD (Solid State Drive) stores data in flash memory chips with no moving parts, making it faster, more durable, and quieter than HDDs and optical drives.",
+      "tags": ["storage"]
+    },
+    {
+      "id": "arch-q-010",
+      "text": "Which bus carries data in both directions between the CPU and memory?",
+      "options": [
+        { "id": "a", "text": "Address bus" },
+        { "id": "b", "text": "Control bus" },
+        { "id": "c", "text": "Data bus" },
+        { "id": "d", "text": "Memory bus" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The data bus is bidirectional — it carries data and instructions between the CPU and memory in both directions. The address bus is one-way (CPU → memory).",
+      "tags": ["buses"]
+    },
+    {
+      "id": "arch-q-011",
+      "text": "What is the role of the Control Unit in the CPU?",
+      "options": [
+        { "id": "a", "text": "It performs arithmetic operations" },
+        { "id": "b", "text": "It stores the result of calculations" },
+        { "id": "c", "text": "It coordinates all CPU activities and sends control signals" },
+        { "id": "d", "text": "It manages long-term data storage" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Control Unit (CU) coordinates all CPU activities. It decodes instructions and sends control signals to components (ALU, registers, memory) to carry them out.",
+      "tags": ["cpu"]
+    },
+    {
+      "id": "arch-q-012",
+      "text": "Adding more cache memory to a CPU will most likely:",
+      "options": [
+        { "id": "a", "text": "Reduce the number of cores" },
+        { "id": "b", "text": "Reduce the clock speed" },
+        { "id": "c", "text": "Decrease performance" },
+        { "id": "d", "text": "Reduce the number of slow RAM accesses and improve performance" }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Cache stores frequently used data extremely close to the CPU. More cache means the CPU can retrieve data quickly without accessing slower RAM, improving overall performance.",
+      "tags": ["performance", "memory"]
+    }
+  ]
+}
