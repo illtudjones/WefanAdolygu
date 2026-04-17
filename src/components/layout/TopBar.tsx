@@ -1,4 +1,6 @@
 import { Link } from 'react-router-dom';
+import { useLang } from '../../context/LangContext';
+import { LangToggle } from './LangToggle';
 import { ThemeToggle } from './ThemeToggle';
 
 interface TopBarProps {
@@ -6,6 +8,7 @@ interface TopBarProps {
 }
 
 export function TopBar({ onMenuClick }: TopBarProps) {
+  const { t } = useLang();
   return (
     <header className="sticky top-0 z-30 flex h-14 items-center gap-3 border-b border-slate-200 bg-white/90 px-4 backdrop-blur dark:border-slate-700 dark:bg-slate-900/90">
       <button
@@ -19,10 +22,11 @@ export function TopBar({ onMenuClick }: TopBarProps) {
         </svg>
       </button>
       <Link to="/" className="flex items-center gap-2 font-semibold text-slate-900 dark:text-slate-100">
-        <span className="rounded-md bg-indigo-600 px-2 py-0.5 text-sm font-bold text-white">CS</span>
-        <span className="hidden sm:inline">WJEC Revision</span>
+        <span className="rounded-md bg-indigo-600 px-2 py-0.5 text-sm font-bold text-white">{t('badgeAbbr')}</span>
+        <span className="hidden sm:inline">{t('siteTitle')}</span>
       </Link>
-      <div className="ml-auto">
+      <div className="ml-auto flex items-center gap-1">
+        <LangToggle />
         <ThemeToggle />
       </div>
     </header>

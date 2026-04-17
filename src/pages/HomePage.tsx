@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { useLang } from '../context/LangContext';
 import type { TopicMeta } from '../types/topic';
 import { Badge } from '../components/ui';
 import { getTopicProgress } from '../store/progressStore';
@@ -8,6 +9,7 @@ const BASE = import.meta.env.BASE_URL;
 
 export function HomePage() {
   const [topics, setTopics] = useState<TopicMeta[]>([]);
+  const { t } = useLang();
 
   useEffect(() => {
     fetch(`${BASE}content/topics/manifest.json`)
@@ -19,10 +21,8 @@ export function HomePage() {
   return (
     <div>
       <div className="mb-8">
-        <h1 className="text-3xl font-bold text-slate-900 dark:text-slate-100">WJEC GCSE Computer Science</h1>
-        <p className="mt-2 text-slate-500 dark:text-slate-400">
-          Unit 1 revision — notes, flashcards and quizzes for every spec section.
-        </p>
+        <h1 className="text-3xl font-bold text-slate-900 dark:text-slate-100">{t('homeHeading')}</h1>
+        <p className="mt-2 text-slate-500 dark:text-slate-400">{t('homeSubheading')}</p>
       </div>
 
       <div className="grid gap-4 sm:grid-cols-2">

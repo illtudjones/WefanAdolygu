@@ -1,6 +1,7 @@
 import { NavLink, useLocation } from 'react-router-dom';
 import { clsx } from 'clsx';
 import type { TopicMeta } from '../../types/topic';
+import { useLang } from '../../context/LangContext';
 import { getTopicProgress } from '../../store/progressStore';
 
 interface SidebarProps {
@@ -21,8 +22,11 @@ function CompletionDot({ topicId }: { topicId: string }) {
   );
 }
 
+const tabs = ['notes', 'flashcards', 'quiz'] as const;
+
 export function Sidebar({ topics }: SidebarProps) {
   const location = useLocation();
+  const { t } = useLang();
 
   return (
     <nav className="flex flex-col gap-1 py-4 px-3">
@@ -41,7 +45,7 @@ export function Sidebar({ topics }: SidebarProps) {
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
           <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/>
         </svg>
-        Home
+        {t('navHome')}
       </NavLink>
       <NavLink
         to="/progress"
@@ -57,12 +61,12 @@ export function Sidebar({ topics }: SidebarProps) {
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
           <line x1="18" x2="18" y1="20" y2="10"/><line x1="12" x2="12" y1="20" y2="4"/><line x1="6" x2="6" y1="20" y2="14"/>
         </svg>
-        Progress
+        {t('navProgress')}
       </NavLink>
 
       <div className="my-2 border-t border-slate-200 dark:border-slate-700" />
       <p className="px-3 pb-1 text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500">
-        Topics
+        {t('navTopics')}
       </p>
 
       {topics.map((topic) => {
@@ -83,7 +87,7 @@ export function Sidebar({ topics }: SidebarProps) {
             </NavLink>
             {isActive && (
               <div className="ml-4 mt-0.5 flex flex-col gap-0.5 border-l border-slate-200 pl-3 dark:border-slate-700">
-                {(['notes', 'flashcards', 'quiz'] as const).map((tab) => (
+                {tabs.map((tab) => (
                   <NavLink
                     key={tab}
                     to={`/topics/${topic.id}/${tab}`}
@@ -96,7 +100,7 @@ export function Sidebar({ topics }: SidebarProps) {
                       )
                     }
                   >
-                    {tab}
+                    {t(tab === 'notes' ? 'tabNotes' : tab === 'flashcards' ? 'tabFlashcards' : 'tabQuiz')}
                   </NavLink>
                 ))}
               </div>

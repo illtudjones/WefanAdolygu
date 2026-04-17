@@ -1,5 +1,7 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import type { QuizFile } from '../../types/quiz';
+import type { Lang } from '../../translations';
+import { useLang } from '../../context/LangContext';
 import { shuffle } from '../../utils/scoring';
 import { Spinner } from '../ui';
 import { QuizQuestion } from './QuizQuestion';
@@ -7,12 +9,14 @@ import { QuizResults } from './QuizResults';
 
 interface QuizRunnerProps {
   topicId: string;
+  lang: Lang;
   onScore: (score: number) => void;
 }
 
 const BASE = import.meta.env.BASE_URL;
 
-export function QuizRunner({ topicId, onScore }: QuizRunnerProps) {
+export function QuizRunner({ topicId, lang, onScore }: QuizRunnerProps) {
+  const { t } = useLang();
   const [quiz, setQuiz] = useState<QuizFile | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
@@ -23,7 +27,8 @@ export function QuizRunner({ topicId, onScore }: QuizRunnerProps) {
 
   useEffect(() => {
     setLoading(true);
-    fetch(`${BASE}content/topics/${topicId}/quiz.json`)
+    const suffix = lang === 'cy' ? '-cy' : '';
+    fetch(`${BASE}content/topics/${topicId}/quiz${suffix}.json`)
       .then((r) => {
         if (!r.ok) throw new Error('Quiz not found');
         return r.json() as Promise<QuizFile>;
@@ -37,10 +42,13 @@ export function QuizRunner({ topicId, onScore }: QuizRunnerProps) {
             options: data.shuffleOptions ? shuffle(q.options) : q.options,
           })),
         );
+        setIndex(0);
+        setAnswers({});
+        setFinished(false);
       })
-      .catch(() => setError('Could not load quiz.'))
+      .catch(() => setError(t('errorLoadQuiz')))
       .finally(() => setLoading(false));
-  }, [topicId]);
+  }, [topicId, lang]);
 
   const score = useMemo(() => {
     if (!quiz) return 0;

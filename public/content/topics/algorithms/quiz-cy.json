@@ -1,0 +1,23 @@
+{
+  "topicId": "algorithms",
+  "version": 1,
+  "title": "Cwis — cynnwys yn dod yn fuan",
+  "passMark": 70,
+  "shuffleQuestions": false,
+  "shuffleOptions": false,
+  "questions": [
+    {
+      "id": "algorithms-cy-q-001",
+      "text": "Mae'r cwis Cymraeg ar gyfer y pwnc hwn yn cael ei baratoi. Beth yw ystyr 'cyfrifiadur'?",
+      "options": [
+        { "id": "a", "text": "Computer" },
+        { "id": "b", "text": "Keyboard" },
+        { "id": "c", "text": "Monitor" },
+        { "id": "d", "text": "Printer" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Mae 'cyfrifiadur' yn golygu 'computer' yn Gymraeg.",
+      "tags": []
+    }
+  ]
+}

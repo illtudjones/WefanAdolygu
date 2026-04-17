@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import type { TopicMeta } from '../../types/topic';
+import { useLang } from '../../context/LangContext';
 import { Badge, Button } from '../ui';
 
 interface NoteTopicHeaderProps {
@@ -9,11 +10,12 @@ interface NoteTopicHeaderProps {
 }
 
 export function NoteTopicHeader({ topic, notesRead, onToggleRead }: NoteTopicHeaderProps) {
+  const { t } = useLang();
   return (
     <div className="mb-6 border-b border-slate-200 pb-6 dark:border-slate-700">
       <div className="mb-2 flex flex-wrap items-center gap-2">
         <span className="text-xs font-medium text-slate-500 dark:text-slate-400">
-          Spec {topic.specSection}
+          {t('specLabel')} {topic.specSection}
         </span>
         <Badge variant={topic.difficulty}>{topic.difficulty}</Badge>
         <span className="text-xs text-slate-400">~{topic.estimatedMinutes} min</span>
@@ -29,19 +31,19 @@ export function NoteTopicHeader({ topic, notesRead, onToggleRead }: NoteTopicHea
           size="sm"
           onClick={onToggleRead}
         >
-          {notesRead ? '✓ Marked as read' : 'Mark as read'}
+          {notesRead ? t('markedAsRead') : t('markAsRead')}
         </Button>
         <Link
           to={`/topics/${topic.id}/flashcards`}
           className="inline-flex items-center gap-1.5 rounded-lg border border-slate-300 bg-white px-3 py-1.5 text-sm font-medium text-slate-700 hover:bg-slate-50 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-200 dark:hover:bg-slate-700"
         >
-          Flashcards
+          {t('goToFlashcards')}
         </Link>
         <Link
           to={`/topics/${topic.id}/quiz`}
           className="inline-flex items-center gap-1.5 rounded-lg border border-slate-300 bg-white px-3 py-1.5 text-sm font-medium text-slate-700 hover:bg-slate-50 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-200 dark:hover:bg-slate-700"
         >
-          Take Quiz
+          {t('takeQuiz')}
         </Link>
       </div>
     </div>

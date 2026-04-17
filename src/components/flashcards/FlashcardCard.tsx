@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { clsx } from 'clsx';
 import ReactMarkdown from 'react-markdown';
+import { useLang } from '../../context/LangContext';
 
 interface FlashcardCardProps {
   front: string;
@@ -11,6 +12,7 @@ interface FlashcardCardProps {
 export function FlashcardCard({ front, back, hint }: FlashcardCardProps) {
   const [flipped, setFlipped] = useState(false);
   const [showHint, setShowHint] = useState(false);
+  const { t } = useLang();
 
   const handleFlip = () => {
     setFlipped((f) => !f);
@@ -29,7 +31,7 @@ export function FlashcardCard({ front, back, hint }: FlashcardCardProps) {
       >
         {/* Front */}
         <div className="flashcard-face flex min-h-48 flex-col rounded-2xl border-2 border-indigo-200 bg-white p-6 dark:border-indigo-700 dark:bg-slate-800">
-          <span className="text-center text-xs font-semibold uppercase tracking-widest text-indigo-400">Term</span>
+          <span className="text-center text-xs font-semibold uppercase tracking-widest text-indigo-400">{t('cardFrontLabel')}</span>
           <div className="flex flex-1 flex-col items-center justify-center py-4">
             <p className="text-center text-lg font-semibold text-slate-900 dark:text-slate-100">{front}</p>
             {hint && !flipped && (
@@ -38,25 +40,25 @@ export function FlashcardCard({ front, back, hint }: FlashcardCardProps) {
                 onClick={(e) => { e.stopPropagation(); setShowHint((s) => !s); }}
                 className="mt-3 text-xs text-slate-400 hover:text-slate-600 dark:hover:text-slate-300"
               >
-                {showHint ? 'Hide hint' : 'Show hint'}
+                {showHint ? t('hideHint') : t('showHint')}
               </button>
             )}
             {showHint && hint && (
               <p className="mt-2 text-xs text-slate-500 italic">{hint}</p>
             )}
           </div>
-          <p className="text-center text-xs text-slate-300 dark:text-slate-600">Tap to flip</p>
+          <p className="text-center text-xs text-slate-300 dark:text-slate-600">{t('tapToFlip')}</p>
         </div>
 
         {/* Back */}
         <div className="flashcard-face flashcard-back flex min-h-48 flex-col rounded-2xl border-2 border-green-200 bg-green-50 p-6 dark:border-green-800 dark:bg-slate-800">
-          <span className="text-center text-xs font-semibold uppercase tracking-widest text-green-500">Definition</span>
+          <span className="text-center text-xs font-semibold uppercase tracking-widest text-green-500">{t('cardBackLabel')}</span>
           <div className="flex flex-1 items-center justify-center py-4">
             <div className="prose text-center text-sm text-slate-800 dark:text-slate-200">
               <ReactMarkdown>{back}</ReactMarkdown>
             </div>
           </div>
-          <p className="text-center text-xs text-slate-300 dark:text-slate-600">Tap to flip back</p>
+          <p className="text-center text-xs text-slate-300 dark:text-slate-600">{t('tapToFlipBack')}</p>
         </div>
       </div>
     </div>

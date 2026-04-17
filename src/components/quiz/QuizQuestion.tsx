@@ -1,4 +1,5 @@
 import type { QuizQuestion as IQuizQuestion } from '../../types/quiz';
+import { useLang } from '../../context/LangContext';
 import { Button } from '../ui';
 import { QuizOption } from './QuizOption';
 
@@ -14,11 +15,12 @@ interface QuizQuestionProps {
 export function QuizQuestion({ question, index, total, selectedId, onSelect, onNext }: QuizQuestionProps) {
   const answered = selectedId !== null;
   const isLast = index + 1 === total;
+  const { t } = useLang();
 
   return (
     <div>
       <div className="mb-4 flex items-center justify-between text-sm text-slate-500 dark:text-slate-400">
-        <span>Question {index + 1} of {total}</span>
+        <span>{t('questionCounter', { index: index + 1, total })}</span>
         <span className="h-1.5 w-32 overflow-hidden rounded-full bg-slate-200 dark:bg-slate-700">
           <span
             className="block h-full rounded-full bg-indigo-500 transition-all"
@@ -58,13 +60,13 @@ export function QuizQuestion({ question, index, total, selectedId, onSelect, onN
 
       {answered && (
         <div className="mt-4 rounded-lg bg-slate-50 p-3 text-sm text-slate-600 dark:bg-slate-800 dark:text-slate-300">
-          <strong>Explanation:</strong> {question.explanation}
+          <strong>{t('explanationLabel')}</strong> {question.explanation}
         </div>
       )}
 
       {answered && (
         <div className="mt-4 flex justify-end">
-          <Button onClick={onNext}>{isLast ? 'See Results' : 'Next Question'}</Button>
+          <Button onClick={onNext}>{isLast ? t('seeResults') : t('nextQuestion')}</Button>
         </div>
       )}
     </div>
