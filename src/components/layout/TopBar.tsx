@@ -26,8 +26,9 @@ export function TopBar({ onMenuClick }: TopBarProps) {
         <span className="rounded-md bg-indigo-600 px-2 py-0.5 text-sm font-bold text-white">{t('badgeAbbr')}</span>
         <span className="hidden sm:inline">{t('siteTitle')}</span>
       </Link>
+      <div className="hidden sm:block h-4 w-px bg-slate-200 dark:bg-slate-700" />
+      <CourseSwitcher />
       <div className="ml-auto flex items-center gap-2">
-        <CourseSwitcher />
         <LangToggle />
         <ThemeToggle />
       </div>

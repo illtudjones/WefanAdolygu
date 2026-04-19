@@ -1,7 +1,7 @@
 export const translations = {
   en: {
     // Top bar
-    siteTitle: 'WJEC Revision',
+    siteTitle: 'Jonesing for Knowledge',
     badgeAbbr: 'CS',
     // Navigation
     navHome: 'Home',
@@ -69,7 +69,7 @@ export const translations = {
   },
   cy: {
     // Top bar
-    siteTitle: 'Adolygu CBAC',
+    siteTitle: 'Jonesio am Wybodaeth',
     badgeAbbr: 'CS',
     // Navigation
     navHome: 'Hafan',
