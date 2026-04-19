@@ -24,9 +24,9 @@ export function AppShell() {
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100">
       <TopBar onMenuClick={openMenu} />
-      <div className="flex">
+      <div className="flex pt-14">
         {/* Desktop sidebar */}
-        <aside className="hidden lg:fixed lg:inset-y-14 lg:flex lg:w-60 lg:flex-col lg:overflow-y-auto lg:border-r lg:border-slate-200 lg:bg-white lg:dark:border-slate-700 lg:dark:bg-slate-900">
+        <aside className="hidden lg:fixed lg:bottom-0 lg:top-14 lg:flex lg:w-60 lg:flex-col lg:border-r lg:border-slate-200 lg:bg-white lg:dark:border-slate-700 lg:dark:bg-slate-900">
           <Sidebar topics={topics} />
         </aside>
 

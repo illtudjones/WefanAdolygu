@@ -10,7 +10,7 @@ interface TopBarProps {
 export function TopBar({ onMenuClick }: TopBarProps) {
   const { t } = useLang();
   return (
-    <header className="sticky top-0 z-30 flex h-14 items-center gap-3 border-b border-slate-200 bg-white/90 px-4 backdrop-blur dark:border-slate-700 dark:bg-slate-900/90">
+    <header className="fixed inset-x-0 top-0 z-30 flex h-14 items-center gap-3 border-b border-slate-200 bg-white/90 px-4 backdrop-blur dark:border-slate-700 dark:bg-slate-900/90">
       <button
         type="button"
         onClick={onMenuClick}

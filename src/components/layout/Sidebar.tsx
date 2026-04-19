@@ -29,7 +29,8 @@ export function Sidebar({ topics }: SidebarProps) {
   const { t } = useLang();
 
   return (
-    <nav className="flex flex-col gap-1 py-4 px-3">
+    <div className="flex flex-1 flex-col overflow-hidden">
+    <nav className="flex flex-1 flex-col gap-1 overflow-y-auto py-4 px-3">
       <NavLink
         to="/"
         end
@@ -109,5 +110,13 @@ export function Sidebar({ topics }: SidebarProps) {
         );
       })}
     </nav>
+    <div className="border-t border-slate-200 px-4 py-3 dark:border-slate-700">
+      <p className="text-xs leading-snug text-slate-400 dark:text-slate-500">
+        Made for the use of students in Wales
+        <br />
+        I. Jones · 2026
+      </p>
+    </div>
+    </div>
   );
 }
