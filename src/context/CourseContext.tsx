@@ -34,6 +34,19 @@ export const COURSE_GROUPS: CourseGroup[] = [
       },
     ],
   },
+  {
+    id: 'gce',
+    labelEn: 'A Level',
+    labelCy: 'Lefel A',
+    courses: [
+      {
+        id: 'wjec-gcse',
+        titleEn: 'Computer Science',
+        titleCy: 'Cyfrifiadureg',
+        basePath: 'topics',
+      },
+    ],
+  },
 ];
 
 export const ALL_COURSES: Course[] = COURSE_GROUPS.flatMap((g) => g.courses);
