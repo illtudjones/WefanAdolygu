@@ -2,11 +2,13 @@
   "topicId": "networks",
   "version": 1,
   "cards": [
-    {
-      "id": "networks-cy-fc-001",
-      "front": "Placeholder — cynnwys yn dod yn fuan",
-      "back": "Mae'r cardiau Cymraeg ar gyfer y pwnc hwn yn cael eu paratoi.",
-      "tags": []
-    }
+    { "id": "net-fc-001", "front": "Beth yw gwahaniaeth rhwng LAN a WAN?", "back": "LAN (Rhwydwaith Ardal Leol): ardal fach, un adeilad neu safle, eiddo sefydliad sengl.\nWAN (Rhwydwaith Ardal Eang): ardal fawr, yn cysylltu LANs lluosog — e.e. y Rhyngrwyd.", "tags": ["mathau-rhwydwaith"] },
+    { "id": "net-fc-002", "front": "Beth yw swyddogaeth llwybrenydd (router)?", "back": "Mae llwybrenydd yn cyfeirio pecynnau data rhwng rhwydweithiau gwahanol. Mae'n dod o hyd i'r llwybr gorau drwy'r rhwydwaith gan ddefnyddio tablau llwybro.", "tags": ["caledwedd"] },
+    { "id": "net-fc-003", "front": "Beth yw gwahaniaeth rhwng switsh a chanolbwynt (hub)?", "back": "Switsh: yn anfon data i'r ddyfais benodol yn unig, yn seiliedig ar gyfeiriad MAC — mwy effeithlon.\nCanolbwynt: yn anfon data i BOB dyfais ar y rhwydwaith — llai effeithlon, yn creu mwy o draffig.", "tags": ["caledwedd"] },
+    { "id": "net-fc-004", "front": "Rhestrwch fanteision ac anfanteision topologi seren.", "back": "Manteision: os yw un dyfais yn methu, mae gweddill y rhwydwaith yn parhau; hawdd ychwanegu dyfeisiau.\nAnfanteision: os yw'r switsh canolog yn methu, mae'r rhwydwaith cyfan yn methu; mae angen mwy o gebl.", "tags": ["topologi"] },
+    { "id": "net-fc-005", "front": "Beth yw newid pecynnau (packet switching)?", "back": "Mae data'n cael ei rannu'n becynnau bach. Gall pob pecyn deithio ar lwybr gwahanol. Mae'r pecynnau'n cael eu hailgyfuno yn y gyrchfan. Mae'n defnyddio'r rhwydwaith yn effeithlon.", "tags": ["pecynnau"] },
+    { "id": "net-fc-006", "front": "Beth yw swyddogaeth DNS?", "back": "Mae DNS (Domain Name System) yn trosi enwau parth dynol-ddarllenadwy (e.e. www.cbac.co.uk) i gyfeiriadau IP rhifiadol (e.e. 192.168.1.1).", "tags": ["protocolau"] },
+    { "id": "net-fc-007", "front": "Beth yw gwahaniaeth rhwng HTTP ac HTTPS?", "back": "HTTP: Trosglwyddo data heb ei amgryptio — gall hacwyr ddarllen y data.\nHTTPS: Mae amgryptio TLS/SSL yn diogelu'r data rhag cael ei ddarllen neu ei newid rhwng y cleient a'r gweinydd.", "tags": ["protocolau"] },
+    { "id": "net-fc-008", "front": "Beth mae pennawd pecyn (packet header) yn ei gynnwys?", "back": "Cyfeiriad IP y ffynhonnell, cyfeiriad IP y cyrchfan, rhif y pecyn, cyfanswm nifer y pecynnau, ac ambell ddata arall ar gyfer trefnu ac ailgymryd y data.", "tags": ["pecynnau"] }
   ]
 }

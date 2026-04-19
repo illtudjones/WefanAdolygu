@@ -1,23 +1,62 @@
 {
   "topicId": "operating-systems",
   "version": 1,
-  "title": "Cwis — cynnwys yn dod yn fuan",
+  "title": "Cwis Systemau Gweithredu",
   "passMark": 70,
-  "shuffleQuestions": false,
-  "shuffleOptions": false,
+  "shuffleQuestions": true,
+  "shuffleOptions": true,
   "questions": [
     {
-      "id": "operating-systems-cy-q-001",
-      "text": "Mae'r cwis Cymraeg ar gyfer y pwnc hwn yn cael ei baratoi. Beth yw ystyr 'cyfrifiadur'?",
+      "id": "os-q-001",
+      "text": "Pa swyddogaeth OS sy'n penderfynu pa raglen sy'n cael defnyddio'r UBG nesaf?",
       "options": [
-        { "id": "a", "text": "Computer" },
-        { "id": "b", "text": "Keyboard" },
-        { "id": "c", "text": "Monitor" },
-        { "id": "d", "text": "Printer" }
+        { "id": "a", "text": "Rheoli cof" },
+        { "id": "b", "text": "Amserlennu tasgau" },
+        { "id": "c", "text": "Rheoli ffeiliau" },
+        { "id": "d", "text": "Rheoli cyffelyb" }
       ],
-      "correctOptionId": "a",
-      "explanation": "Mae 'cyfrifiadur' yn golygu 'computer' yn Gymraeg.",
-      "tags": []
+      "correctOptionId": "b",
+      "explanation": "Mae amserlennu tasgau yn rhan o reoli'r UBG. Mae'r OS yn penderfynu pa broses sy'n cael y cyfle nesaf i ddefnyddio'r UBG.",
+      "tags": ["ubg"]
+    },
+    {
+      "id": "os-q-002",
+      "text": "Beth yw cof rhithwir?",
+      "options": [
+        { "id": "a", "text": "Math o RAM cyflym arbennig" },
+        { "id": "b", "text": "Cof yn y cwmwl" },
+        { "id": "c", "text": "Rhan o'r storfa eilaidd sy'n cael ei defnyddio fel estyniad i RAM" },
+        { "id": "d", "text": "Cof dros dro sydd ond ar gael i'r system weithredu" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Mae cof rhithwir yn defnyddio rhan o'r ddisg galed neu SSD fel estyniad pan fo RAM yn llawn. Mae'n arafach na RAM go iawn.",
+      "tags": ["cof"]
+    },
+    {
+      "id": "os-q-003",
+      "text": "Pa feddalwedd cyfleustod sy'n trefnu darnau gwasgarog ar ddisg magnetig?",
+      "options": [
+        { "id": "a", "text": "Gwrth-firws" },
+        { "id": "b", "text": "Dadgrynhoad (Defragmentation)" },
+        { "id": "c", "text": "Archifwr" },
+        { "id": "d", "text": "Monitro system" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Mae dadgrynhoad yn trefnu ffeiliau gwasgarog ar ddisg magnetig yn rhannau dilynol, gan wella cyflymder darllen. (Nid oes ei angen ar SSD.)",
+      "tags": ["cyfleustod"]
+    },
+    {
+      "id": "os-q-004",
+      "text": "Beth yw pwrpas gyrwr (driver)?",
+      "options": [
+        { "id": "a", "text": "Cyflymu rhaglenni drwy gywasgu cod" },
+        { "id": "b", "text": "Caniatáu i'r OS gyfathrebu â dyfais benodol" },
+        { "id": "c", "text": "Gwarchod rhag maleiswedd" },
+        { "id": "d", "text": "Storio copïau wrth gefn o ffeiliau pwysig" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Mae gyrwr yn feddalwedd sy'n cyfieithu cyfathrebu cyffredinol yr OS i gyfarwyddiadau penodol ar gyfer dyfais arbennig.",
+      "tags": ["cyffelyb"]
     }
   ]
 }

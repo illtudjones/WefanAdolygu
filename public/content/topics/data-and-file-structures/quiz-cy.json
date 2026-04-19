@@ -1,23 +1,62 @@
 {
   "topicId": "data-and-file-structures",
   "version": 1,
-  "title": "Cwis — cynnwys yn dod yn fuan",
+  "title": "Cwis Strwythurau Data a Systemau Awtomataidd",
   "passMark": 70,
-  "shuffleQuestions": false,
-  "shuffleOptions": false,
+  "shuffleQuestions": true,
+  "shuffleOptions": true,
   "questions": [
     {
-      "id": "data-and-file-structures-cy-q-001",
-      "text": "Mae'r cwis Cymraeg ar gyfer y pwnc hwn yn cael ei baratoi. Beth yw ystyr 'cyfrifiadur'?",
+      "id": "dfs-q-001",
+      "text": "Mae arae 2D wedi'i diffinio fel arae[3][4]. Faint o elfennau sydd ynddi?",
       "options": [
-        { "id": "a", "text": "Computer" },
-        { "id": "b", "text": "Keyboard" },
-        { "id": "c", "text": "Monitor" },
-        { "id": "d", "text": "Printer" }
+        { "id": "a", "text": "7" },
+        { "id": "b", "text": "34" },
+        { "id": "c", "text": "12" },
+        { "id": "d", "text": "8" }
       ],
-      "correctOptionId": "a",
-      "explanation": "Mae 'cyfrifiadur' yn golygu 'computer' yn Gymraeg.",
-      "tags": []
+      "correctOptionId": "c",
+      "explanation": "Mae arae[3][4] yn arae gyda 3 rhes a 4 colofn, felly 3 × 4 = 12 elfen.",
+      "tags": ["araeau"]
+    },
+    {
+      "id": "dfs-q-002",
+      "text": "Pa un o'r canlynol sy'n enghraifft o actiwadydd mewn system awtomataidd?",
+      "options": [
+        { "id": "a", "text": "Synwyrydd tymheredd" },
+        { "id": "b", "text": "Camera" },
+        { "id": "c", "text": "Motor" },
+        { "id": "d", "text": "Microreolwr" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Mae actiwadydd yn ymateb i signal rheoli — mae motor yn cymryd y signal a'i droi yn weithred gorfforol. Mae synwyryddion yn casglu data, mae microreolwr yn prosesu, ac mae camera yn synwyrydd.",
+      "tags": ["systemau-awtomataidd"]
+    },
+    {
+      "id": "dfs-q-003",
+      "text": "Pam mae araeau 2D yn ddefnyddiol?",
+      "options": [
+        { "id": "a", "text": "Gallant storio gwerthoedd o wahanol fathau data" },
+        { "id": "b", "text": "Maent yn ddelfrydol ar gyfer cynrychioli data mewn fformat tabl" },
+        { "id": "c", "text": "Maent yn defnyddio llai o gof na 1D" },
+        { "id": "d", "text": "Maent yn cyflymach i'w chwilio" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Mae araeau 2D yn ddelfrydol ar gyfer data sydd â fformat naturiol tabl — er enghraifft, grid cyfrifiadur, sgriniau, neu dabl amserau.",
+      "tags": ["araeau"]
+    },
+    {
+      "id": "dfs-q-004",
+      "text": "Pa strwythur data fyddai'n fwyaf addas i storio gwybodaeth am fyfyriwr (enw, oedran, sgôr)?",
+      "options": [
+        { "id": "a", "text": "Arae 1D" },
+        { "id": "b", "text": "Arae 2D" },
+        { "id": "c", "text": "Cofnod" },
+        { "id": "d", "text": "Llinyn" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Mae cofnod yn ddelfrydol ar gyfer gwybodaeth am un endid gyda meysydd o wahanol fathau data. Mae arae yn storio elfennau o'r un math data yn unig.",
+      "tags": ["cofnodion"]
     }
   ]
 }

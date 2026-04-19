@@ -2,11 +2,12 @@
   "topicId": "logical-operations",
   "version": 1,
   "cards": [
-    {
-      "id": "logical-operations-cy-fc-001",
-      "front": "Placeholder — cynnwys yn dod yn fuan",
-      "back": "Mae'r cardiau Cymraeg ar gyfer y pwnc hwn yn cael eu paratoi.",
-      "tags": []
-    }
+    { "id": "lo-fc-001", "front": "Beth yw allbwn gât AND (AC) pan fo A=1 a B=0?", "back": "0. Mae gât AC ond yn allbynnu 1 pan fo'r DDAU fewnbwn yn 1.", "tags": ["gatiau"] },
+    { "id": "lo-fc-002", "front": "Beth yw allbwn gât OR (NEU) pan fo A=0 a B=1?", "back": "1. Mae gât NEU yn allbynnu 1 pan fo O LEIAF UN mewnbwn yn 1.", "tags": ["gatiau"] },
+    { "id": "lo-fc-003", "front": "Beth yw allbwn gât NOT (NID) pan fo A=1?", "back": "0. Mae gât NID yn gwrthdroi'r mewnbwn: 1 → 0 ac 0 → 1.", "tags": ["gatiau"] },
+    { "id": "lo-fc-004", "front": "Beth yw gwahaniaeth rhwng NEU (OR) a NEUA (XOR)?", "back": "NEU: allbwn 1 os yw UN NEU'R DDAU fewnbwn yn 1.\nNEUA: allbwn 1 dim ond os yw UNION UN mewnbwn yn 1 (nid y ddau).", "tags": ["gatiau"] },
+    { "id": "lo-fc-005", "front": "Pa werth sy'n gwneud mynegiant 'A AC B' yn wir?", "back": "Dim ond pan fo A=1 AC B=1 y mae'r mynegiant yn wir. Os yw un ohonynt yn 0, mae'r canlyniad yn 0.", "tags": ["mynegiant"] },
+    { "id": "lo-fc-006", "front": "Pwy ddatblygodd Algebra Boole a phryd?", "back": "George Boole yn 1847 — cyhoeddodd 'The Mathematical Analysis of Logic'. Dangosoddd Claude Shannon yn 1937 y gellir defnyddio'r algebra i gynrychioli cylchedau trydan.", "tags": ["hanes"] },
+    { "id": "lo-fc-007", "front": "Beth yw allbwn NEUA pan fo A=1 a B=1?", "back": "0. Mae NEUA (XOR) yn allbynnu 0 pan fo'r DDAU fewnbwn yr un peth (0,0 neu 1,1). Dim ond pan fo nhw'n wahanol mae'n rhoi 1.", "tags": ["gatiau"] }
   ]
 }

@@ -1,23 +1,75 @@
 {
   "topicId": "cybersecurity",
   "version": 1,
-  "title": "Cwis — cynnwys yn dod yn fuan",
+  "title": "Cwis Seiberddiogelwch",
   "passMark": 70,
-  "shuffleQuestions": false,
-  "shuffleOptions": false,
+  "shuffleQuestions": true,
+  "shuffleOptions": true,
   "questions": [
     {
-      "id": "cybersecurity-cy-q-001",
-      "text": "Mae'r cwis Cymraeg ar gyfer y pwnc hwn yn cael ei baratoi. Beth yw ystyr 'cyfrifiadur'?",
+      "id": "cs-q-001",
+      "text": "Pa fath o faleiswedd sy'n amgryptio ffeiliau'r defnyddiwr ac yn gofyn am daliad?",
       "options": [
-        { "id": "a", "text": "Computer" },
-        { "id": "b", "text": "Keyboard" },
-        { "id": "c", "text": "Monitor" },
-        { "id": "d", "text": "Printer" }
+        { "id": "a", "text": "Firws" },
+        { "id": "b", "text": "Troiadd" },
+        { "id": "c", "text": "Meddalwedd pridwerth" },
+        { "id": "d", "text": "Ysbïwedd" }
       ],
-      "correctOptionId": "a",
-      "explanation": "Mae 'cyfrifiadur' yn golygu 'computer' yn Gymraeg.",
-      "tags": []
+      "correctOptionId": "c",
+      "explanation": "Mae meddalwedd pridwerth (ransomware) yn amgryptio ffeiliau'r defnyddiwr ac yn gofyn am daliad (fel arfer mewn arian crypto) am yr allwedd dadgryptio.",
+      "tags": ["maleiswedd"]
+    },
+    {
+      "id": "cs-q-002",
+      "text": "Pa amddiffyniad sy'n gofyn i ddefnyddiwr brofi ei hunaniaeth gan ddefnyddio dwy neu fwy o ffyrdd gwahanol?",
+      "options": [
+        { "id": "a", "text": "Cyfrinair cryf" },
+        { "id": "b", "text": "Wal dân" },
+        { "id": "c", "text": "Dilysu Aml-Ffactor" },
+        { "id": "d", "text": "Amgryptio" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Mae Dilysu Aml-Ffactor (MFA) yn gofyn am fwy nag un math o brawf adnabod, er enghraifft cyfrinair a chod a anfonir at ffôn.",
+      "tags": ["amddiffyniad"]
+    },
+    {
+      "id": "cs-q-003",
+      "text": "Mae ymosodwr yn anfon e-byst ffug sy'n esgus dod o fanc. Pa fath o ymosodiad yw hwn?",
+      "options": [
+        { "id": "a", "text": "Ymosodiad grym brutaidd" },
+        { "id": "b", "text": "DDoS" },
+        { "id": "c", "text": "Genweira (Phishing)" },
+        { "id": "d", "text": "Dyn-yn-y-Canol" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Mae genweira (phishing) yn dechneg peirianneg gymdeithasol lle defnyddir cyfathrebu ffug sy'n ymddangos o ffynhonnell ddibynadwy i gael gwybodaeth sensitif.",
+      "tags": ["peirianneg-gymdeithasol"]
+    },
+    {
+      "id": "cs-q-004",
+      "text": "Beth yw swyddogaeth wal dân (firewall)?",
+      "options": [
+        { "id": "a", "text": "Amgryptio ffeiliau ar y ddisg" },
+        { "id": "b", "text": "Monitro a hidlo traffig rhwydwaith mewnol ac allanol" },
+        { "id": "c", "text": "Gwneud copïau wrth gefn o ddata pwysig" },
+        { "id": "d", "text": "Canfod firysau mewn e-bost" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Mae wal dân yn monitro ac yn hidlo traffig rhwydwaith yn seiliedig ar reolau diogelwch. Gall flocio cysylltiadau anawdurdodedig.",
+      "tags": ["amddiffyniad"]
+    },
+    {
+      "id": "cs-q-005",
+      "text": "Pa un yw enghraifft o ymosodiad grym brutaidd?",
+      "options": [
+        { "id": "a", "text": "Anfon e-bost ffug i gael cyfrinair" },
+        { "id": "b", "text": "Ceisio pob cyfuniad posibl o gyfrinair nes darganfod y cywir" },
+        { "id": "c", "text": "Mewnosod cod maleisus mewn ffurflen we" },
+        { "id": "d", "text": "Darllen data ar rwydwaith heb awdurdod" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Mae ymosodiad grym brutaidd yn ceisio pob cyfuniad posibl o lythrennau/rhifau/symbolau nes dod o hyd i'r cyfrinair cywir. Gellir ei atal gyda cyfrineiriau hir a chymhleth.",
+      "tags": ["ymosodiadau"]
     }
   ]
 }

@@ -2,11 +2,11 @@
   "topicId": "systems-development-lifecycle",
   "version": 1,
   "cards": [
-    {
-      "id": "systems-development-lifecycle-cy-fc-001",
-      "front": "Placeholder — cynnwys yn dod yn fuan",
-      "back": "Mae'r cardiau Cymraeg ar gyfer y pwnc hwn yn cael eu paratoi.",
-      "tags": []
-    }
+    { "id": "sdlc-fc-001", "front": "Rhestru 6 cyfnod allweddol yr SDLC yn y drefn gywir.", "back": "1. Cynllunio (cwmpasu/dichonoldeb)\n2. Dadansoddiad gofynion\n3. Dylunio\n4. Gweithredu (datblygu)\n5. Profi\n6. Lleoli\n(+ Cynnal a Chadw parhaus)", "tags": ["cyfnodau"] },
+    { "id": "sdlc-fc-002", "front": "Beth yw gwahaniaeth allweddol rhwng gofynion swyddogaethol ac answyddogaethol?", "back": "Swyddogaethol: beth mae'r system yn ei wneud — e.e. 'mae'r system yn caniatáu i ddefnyddwyr fewngofnodi'.\nAnswyddogaethol: sut mae'n gweithio — e.e. 'rhaid iddo ymateb o fewn 2 eiliad'.", "tags": ["gofynion"] },
+    { "id": "sdlc-fc-003", "front": "Beth yw prif anfantais model Rhaeadr?", "back": "Mae'n anodd newid gofynion ar ôl dechrau. Nid yw defnyddwyr yn gweld y cynnyrch tan y diwedd. Gall risg barhau'n guddiedig am gyfnod hir.", "tags": ["modelau"] },
+    { "id": "sdlc-fc-004", "front": "Ar gyfer pa fath o brosiect mae model Troellog (Spiral) yn fwyaf addas?", "back": "Prosiectau mawr, cymhleth, risg uchel. Mae model Troellog yn cyfuno cynllunio a phrototeipiau ailadroddol, gyda ffocws ar reoli risg ym mhob cylchred.", "tags": ["modelau"] },
+    { "id": "sdlc-fc-005", "front": "Beth yw ystyriaethau eiddo deallusol mewn datblygu meddalwedd?", "back": "Hawlfraint: amddiffyn cod gwreiddiol yn awtomatig.\nPatent: diogelu dyfeisiau/arloesedd technegol.\nNod masnach: diogelu enw a logo brand.", "tags": ["eteg-gyfreithiol"] },
+    { "id": "sdlc-fc-006", "front": "Pa fath o brawf sy'n gwirio sut mae modiwlau'n gweithio gyda'i gilydd?", "back": "Prawf integreiddio — yn gwirio bod gwahanol rannau o'r system yn cydweithio'n gywir pan gânt eu cyfuno.", "tags": ["profi"] }
   ]
 }

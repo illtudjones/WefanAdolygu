@@ -2,11 +2,11 @@
   "topicId": "operating-systems",
   "version": 1,
   "cards": [
-    {
-      "id": "operating-systems-cy-fc-001",
-      "front": "Placeholder — cynnwys yn dod yn fuan",
-      "back": "Mae'r cardiau Cymraeg ar gyfer y pwnc hwn yn cael eu paratoi.",
-      "tags": []
-    }
+    { "id": "os-fc-001", "front": "Beth yw pwrpas system weithredu?", "back": "Mae system weithredu yn rheoli caledwedd y cyfrifiadur ac yn darparu rhyngwyneb rhwng y defnyddiwr a'r cyfrifiadur. Mae'n rhedeg yn barhaus, yn rheoli adnoddau, ac yn caniatáu i raglenni redeg.", "tags": ["sylfaen"] },
+    { "id": "os-fc-002", "front": "Beth yw toriad (interrupt) a sut mae'r OS yn ei drin?", "back": "Signal sy'n stopio'r UBG rhag ei dasg bresennol dros dro. Mae'r OS yn cymryd dros, yn prosesu'r digwyddiad (e.e. cliciad llygoden), ac yna'n dychwelyd i'r dasg wreiddiol.", "tags": ["toriadau"] },
+    { "id": "os-fc-003", "front": "Sut mae'r OS yn rheoli cof?", "back": "Mae'r OS yn neilltuo darnau o RAM i wahanol raglenni. Mae'n sicrhau nad yw rhaglenni'n cyrchu cof ei gilydd. Pan fo RAM yn llawn, gall ddefnyddio cof rhithwir (rhan o'r ddisg).", "tags": ["cof"] },
+    { "id": "os-fc-004", "front": "Beth yw gwahaniaeth rhwng GUI a CLI?", "back": "GUI (Rhyngwyneb Graffig): yn defnyddio eiconau, ffenestri, a llygoden — hawdd i ddefnyddwyr newydd.\nCLI (Rhyngwyneb Llinell Orchymyn): yn defnyddio testun a chommands — mwy pwerus ac effeithlon i ddefnyddwyr profiadol.", "tags": ["rhyngwyneb"] },
+    { "id": "os-fc-005", "front": "Beth yw swyddogaeth gyrwr (driver)?", "back": "Mae gyrwr yn feddalwedd sy'n galluogi'r system weithredu i gyfathrebu ag un dyfais benodol (e.e. argraffydd, cerdyn sain). Mae angen gyrwr gwahanol ar gyfer pob dyfais.", "tags": ["cyffelyb"] },
+    { "id": "os-fc-006", "front": "Beth yw meddalwedd cyfleustod?", "back": "Rhaglenni sy'n cynorthwyo a chynnal y system. Enghreifftiau: gwrth-firws, dadgrynhoad disg, glanhau ddisg, creu copïau wrth gefn, monitro system.", "tags": ["cyfleustod"] }
   ]
 }

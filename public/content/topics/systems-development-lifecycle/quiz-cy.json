@@ -1,23 +1,75 @@
 {
   "topicId": "systems-development-lifecycle",
   "version": 1,
-  "title": "Cwis — cynnwys yn dod yn fuan",
+  "title": "Cwis Cylchred Datblygu Systemau",
   "passMark": 70,
-  "shuffleQuestions": false,
-  "shuffleOptions": false,
+  "shuffleQuestions": true,
+  "shuffleOptions": true,
   "questions": [
     {
-      "id": "systems-development-lifecycle-cy-q-001",
-      "text": "Mae'r cwis Cymraeg ar gyfer y pwnc hwn yn cael ei baratoi. Beth yw ystyr 'cyfrifiadur'?",
+      "id": "sdlc-q-001",
+      "text": "Pa gyfnod SDLC sy'n cynnwys casglu a diffinio'r hyn y mae'r system angen ei wneud?",
       "options": [
-        { "id": "a", "text": "Computer" },
-        { "id": "b", "text": "Keyboard" },
-        { "id": "c", "text": "Monitor" },
-        { "id": "d", "text": "Printer" }
+        { "id": "a", "text": "Dylunio" },
+        { "id": "b", "text": "Dadansoddiad gofynion" },
+        { "id": "c", "text": "Gweithredu" },
+        { "id": "d", "text": "Profi" }
       ],
-      "correctOptionId": "a",
-      "explanation": "Mae 'cyfrifiadur' yn golygu 'computer' yn Gymraeg.",
-      "tags": []
+      "correctOptionId": "b",
+      "explanation": "Mae dadansoddiad gofynion yn casglu a diffinio'n fanwl beth mae'r system angen ei wneud (gofynion swyddogaethol ac answyddogaethol).",
+      "tags": ["cyfnodau"]
+    },
+    {
+      "id": "sdlc-q-002",
+      "text": "Pa fodel SDLC sy'n datblygu mewn sprints byr ac yn hyblyg i ofynion sy'n newid?",
+      "options": [
+        { "id": "a", "text": "Rhaeadr" },
+        { "id": "b", "text": "Troellog" },
+        { "id": "c", "text": "Ystwyth (Agile)" },
+        { "id": "d", "text": "Ailadroddol" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Mae model Ystwyth (Agile) yn datblygu mewn sprints byr (2-4 wythnos) ac yn hyblyg i ofynion sy'n newid yn barhaus.",
+      "tags": ["modelau"]
+    },
+    {
+      "id": "sdlc-q-003",
+      "text": "Pa fath o brawf yw 'Defnyddwyr go iawn yn profi'r system yn erbyn y gofynion'?",
+      "options": [
+        { "id": "a", "text": "Prawf uned" },
+        { "id": "b", "text": "Prawf integreiddio" },
+        { "id": "c", "text": "Prawf derbyn defnyddiwr (UAT)" },
+        { "id": "d", "text": "Prawf perfformiad" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Mae prawf derbyn defnyddiwr (UAT) yn cael ei berfformio gan ddefnyddwyr go iawn i wirio bod y system yn cwrdd â'u gofynion.",
+      "tags": ["profi"]
+    },
+    {
+      "id": "sdlc-q-004",
+      "text": "Pa ddeddf sy'n rheoleiddio sut y cedwir data personol mewn datblygiad systemau?",
+      "options": [
+        { "id": "a", "text": "Deddf Camddefnyddio Cyfrifiaduron" },
+        { "id": "b", "text": "Deddf Diogelu Data" },
+        { "id": "c", "text": "Deddf Hawlfraint" },
+        { "id": "d", "text": "Deddf Cyfathrebiadau" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Mae Deddf Diogelu Data (gan gynnwys GDPR) yn rheoleiddio sut y cesglir, ei storio, a'i ddefnyddio data personol.",
+      "tags": ["eteg-gyfreithiol"]
+    },
+    {
+      "id": "sdlc-q-005",
+      "text": "Pa fodel SDLC sy'n canolbwyntio ar reoli risg ym mhob cylchred?",
+      "options": [
+        { "id": "a", "text": "Rhaeadr" },
+        { "id": "b", "text": "Troellog" },
+        { "id": "c", "text": "Ystwyth" },
+        { "id": "d", "text": "Ailadroddol" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Mae model Troellog yn cyfuno cynllunio a phrototeipiau ailadroddol gyda ffocws arbennig ar reoli risg ym mhob cylchred. Fe'i defnyddir ar gyfer prosiectau mawr a risg uchel.",
+      "tags": ["modelau"]
     }
   ]
 }

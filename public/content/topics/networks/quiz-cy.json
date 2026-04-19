@@ -1,23 +1,75 @@
 {
   "topicId": "networks",
   "version": 1,
-  "title": "Cwis — cynnwys yn dod yn fuan",
+  "title": "Cwis Rhwydweithiau",
   "passMark": 70,
-  "shuffleQuestions": false,
-  "shuffleOptions": false,
+  "shuffleQuestions": true,
+  "shuffleOptions": true,
   "questions": [
     {
-      "id": "networks-cy-q-001",
-      "text": "Mae'r cwis Cymraeg ar gyfer y pwnc hwn yn cael ei baratoi. Beth yw ystyr 'cyfrifiadur'?",
+      "id": "net-q-001",
+      "text": "Pa dechnoleg mae'r Rhyngrwyd yn ei defnyddio i gyfeirio data?",
       "options": [
-        { "id": "a", "text": "Computer" },
-        { "id": "b", "text": "Keyboard" },
-        { "id": "c", "text": "Monitor" },
-        { "id": "d", "text": "Printer" }
+        { "id": "a", "text": "Newid cylchedau" },
+        { "id": "b", "text": "Newid pecynnau" },
+        { "id": "c", "text": "Newid negeseuon" },
+        { "id": "d", "text": "Trosglwyddo cyfochrog" }
       ],
-      "correctOptionId": "a",
-      "explanation": "Mae 'cyfrifiadur' yn golygu 'computer' yn Gymraeg.",
-      "tags": []
+      "correctOptionId": "b",
+      "explanation": "Mae'r Rhyngrwyd yn defnyddio newid pecynnau — mae data'n cael ei rannu'n becynnau bach sy'n teithio'n annibynnol cyn cael eu hailgyfuno yn y gyrchfan.",
+      "tags": ["pecynnau"]
+    },
+    {
+      "id": "net-q-002",
+      "text": "Pa brotocol sy'n gyfrifol am drosi enwau parth (e.e. google.com) i gyfeiriadau IP?",
+      "options": [
+        { "id": "a", "text": "HTTP" },
+        { "id": "b", "text": "FTP" },
+        { "id": "c", "text": "DNS" },
+        { "id": "d", "text": "SMTP" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Mae DNS (Domain Name System) yn trosi enwau parth dynol-ddarllenadwy i gyfeiriadau IP rhifiadol.",
+      "tags": ["protocolau"]
+    },
+    {
+      "id": "net-q-003",
+      "text": "Beth yw anfantais topologi bws?",
+      "options": [
+        { "id": "a", "text": "Mae'n defnyddio llawer o gebl" },
+        { "id": "b", "text": "Os yw'r prif gebl yn methu, mae'r rhwydwaith cyfan yn methu" },
+        { "id": "c", "text": "Mae'n gofyn am switsh canolog drud" },
+        { "id": "d", "text": "Dim ond dwy ddyfais all fod wedi'u cysylltu" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Os yw'r prif gebl (asgwrn cefn) yn topologi bws yn torri, mae'r rhwydwaith cyfan yn methu.",
+      "tags": ["topologi"]
+    },
+    {
+      "id": "net-q-004",
+      "text": "Beth yw swyddogaeth pwynt mynediad diwifr (WAP)?",
+      "options": [
+        { "id": "a", "text": "Cyfeirio pecynnau rhwng rhwydweithiau" },
+        { "id": "b", "text": "Caniatáu i ddyfeisiau gysylltu â rhwydwaith drwy Wi-Fi" },
+        { "id": "c", "text": "Storio cyfeiriadau gwefannau" },
+        { "id": "d", "text": "Amgryptio trafnidiaeth y rhwydwaith" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Mae pwynt mynediad diwifr (WAP) yn caniatáu i ddyfeisiau diwifr gysylltu â rhwydwaith cabl.",
+      "tags": ["caledwedd"]
+    },
+    {
+      "id": "net-q-005",
+      "text": "Pa brotocol e-bost a ddefnyddir i ANFON e-bost?",
+      "options": [
+        { "id": "a", "text": "POP3" },
+        { "id": "b", "text": "IMAP" },
+        { "id": "c", "text": "SMTP" },
+        { "id": "d", "text": "FTP" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Mae SMTP (Simple Mail Transfer Protocol) yn cael ei ddefnyddio i anfon e-bost. Mae POP3 ac IMAP yn cael eu defnyddio i dderbyn e-bost.",
+      "tags": ["protocolau"]
     }
   ]
 }

@@ -1,23 +1,88 @@
 {
   "topicId": "data-representation",
   "version": 1,
-  "title": "Cwis — cynnwys yn dod yn fuan",
+  "title": "Cwis Cynrychiolaeth Data",
   "passMark": 70,
-  "shuffleQuestions": false,
-  "shuffleOptions": false,
+  "shuffleQuestions": true,
+  "shuffleOptions": true,
   "questions": [
     {
-      "id": "data-representation-cy-q-001",
-      "text": "Mae'r cwis Cymraeg ar gyfer y pwnc hwn yn cael ei baratoi. Beth yw ystyr 'cyfrifiadur'?",
+      "id": "dr-q-001",
+      "text": "Beth yw gwerth degol 01001101 deuaidd?",
       "options": [
-        { "id": "a", "text": "Computer" },
-        { "id": "b", "text": "Keyboard" },
-        { "id": "c", "text": "Monitor" },
-        { "id": "d", "text": "Printer" }
+        { "id": "a", "text": "75" },
+        { "id": "b", "text": "77" },
+        { "id": "c", "text": "79" },
+        { "id": "d", "text": "73" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "01001101 = 64 + 8 + 4 + 1 = 77",
+      "tags": ["deuaidd"]
+    },
+    {
+      "id": "dr-q-002",
+      "text": "Mae delwedd yn 200 × 150 picsel gyda dyfnder lliw 24-did. Beth yw maint y ffeil mewn beitiau?",
+      "options": [
+        { "id": "a", "text": "720,000" },
+        { "id": "b", "text": "90,000" },
+        { "id": "c", "text": "900,000" },
+        { "id": "d", "text": "30,000" }
       ],
       "correctOptionId": "a",
-      "explanation": "Mae 'cyfrifiadur' yn golygu 'computer' yn Gymraeg.",
-      "tags": []
+      "explanation": "Maint = 200 × 150 × 24 did = 720,000 did ÷ 8 = 90,000 beit. Aros — 200 × 150 = 30,000 picsel × 24 did = 720,000 did ÷ 8 = 90,000 beit. Yr ateb yw 90,000 beit. Defnyddir 720,000 os yw'r cwestiwn yn gofyn am 'mewn didau'.",
+      "tags": ["graffeg"]
+    },
+    {
+      "id": "dr-q-003",
+      "text": "Pa un yw enghraifft o gywasgu di-golled?",
+      "options": [
+        { "id": "a", "text": "JPEG" },
+        { "id": "b", "text": "MP3" },
+        { "id": "c", "text": "PNG" },
+        { "id": "d", "text": "MP4" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Mae PNG yn cywasgu di-golled — gellir adfer y ffeil wreiddiol yn union. Mae JPEG, MP3, ac MP4 i gyd yn golledus.",
+      "tags": ["cywasgu"]
+    },
+    {
+      "id": "dr-q-004",
+      "text": "Beth yw'r gwerth hecsadegol FF mewn degol?",
+      "options": [
+        { "id": "a", "text": "240" },
+        { "id": "b", "text": "255" },
+        { "id": "c", "text": "256" },
+        { "id": "d", "text": "127" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "FF hecsadegol = (15 × 16) + 15 = 240 + 15 = 255",
+      "tags": ["hecsadegol"]
+    },
+    {
+      "id": "dr-q-005",
+      "text": "Mae sifft rifyddol dde yn cael ei pherfformio ar 00011000 (24). Beth yw'r canlyniad?",
+      "options": [
+        { "id": "a", "text": "00001100 (12)" },
+        { "id": "b", "text": "00110000 (48)" },
+        { "id": "c", "text": "00001000 (8)" },
+        { "id": "d", "text": "00100000 (32)" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Mae sifft rifyddol dde × 1 safle yn rhannu â 2. 24 ÷ 2 = 12. 00011000 → 00001100 = 12.",
+      "tags": ["deuaidd"]
+    },
+    {
+      "id": "dr-q-006",
+      "text": "Pa fantais sydd gan Unicode dros ASCII?",
+      "options": [
+        { "id": "a", "text": "Mae Unicode yn defnyddio llai o le storio" },
+        { "id": "b", "text": "Mae Unicode yn cynrychioli llawer mwy o nodau o ieithoedd gwahanol" },
+        { "id": "c", "text": "Mae Unicode yn gyflymach i'w brosesu" },
+        { "id": "d", "text": "Mae Unicode yn hŷn ac felly'n fwy dibynadwy" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Mae Unicode yn cynrychioli dros 140,000 o nodau o ieithoedd ledled y byd, tra bod ASCII dim ond yn cynrychioli 128 nod Saesneg/symbolau sylfaenol.",
+      "tags": ["codio-nod"]
     }
   ]
 }

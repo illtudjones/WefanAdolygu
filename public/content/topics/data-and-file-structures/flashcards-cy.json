@@ -2,11 +2,11 @@
   "topicId": "data-and-file-structures",
   "version": 1,
   "cards": [
-    {
-      "id": "data-and-file-structures-cy-fc-001",
-      "front": "Placeholder — cynnwys yn dod yn fuan",
-      "back": "Mae'r cardiau Cymraeg ar gyfer y pwnc hwn yn cael eu paratoi.",
-      "tags": []
-    }
+    { "id": "dfs-fc-001", "front": "Beth yw gwahaniaeth rhwng arae 1D a 2D?", "back": "Arae 1D: rhestr linol o elfennau — e.e. [10, 20, 30].\nArae 2D: tabl o elfennau gyda rhesi a cholofnau — e.e. [[1,2],[3,4]]. Cyrchir gan ddefnyddio dau indecs: [rhes][colofn].", "tags": ["araeau"] },
+    { "id": "dfs-fc-002", "front": "Beth yw cofnod (record) mewn rhaglennu?", "back": "Mae cofnod yn gasgliad o feysydd cysylltiedig o wahanol fathau data sy'n cynrychioli un endid. Er enghraifft, gallai cofnod myfyriwr gynnwys: enw (llinyn), oedran (cyfanrif), sgôr (real).", "tags": ["cofnodion"] },
+    { "id": "dfs-fc-003", "front": "Pa indecs yw'r elfen gyntaf mewn arae?", "back": "Mae araeau fel arfer yn 0-seiliedig — mae'r elfen gyntaf yn indecs 0. Felly mewn arae o 5 elfen: indecs 0 i 4.", "tags": ["araeau"] },
+    { "id": "dfs-fc-004", "front": "Beth yw cydrannau allweddol system awtomataidd?", "back": "1. Synwyryddion — casglu data o'r amgylchedd\n2. Rheolwr — prosesu a gwneud penderfyniad\n3. Actiwadyddion — gweithredu fel ymateb\n4. Rhyngwyneb Defnyddiwr (HMI) — caniatáu monitro/rheoli dynol", "tags": ["systemau-awtomataidd"] },
+    { "id": "dfs-fc-005", "front": "Beth yw adborth (feedback) mewn system awtomataidd?", "back": "Mae adborth yn broses lle mae'r system yn monitro effaith ei weithredoedd ac yn defnyddio'r wybodaeth hon i addasu. Er enghraifft: mae thermostat yn mesur tymheredd, ac os yw rhy oer mae'n troi'r gwresogydd ymlaen.", "tags": ["systemau-awtomataidd"] },
+    { "id": "dfs-fc-006", "front": "Beth yw ystyriaethau moesegol allweddol AI?", "back": "• Swyddi — a fydd AI yn cymryd swyddi dynol?\n• Rhagfarn — os yw data hyfforddi'n rhagfarnllyd, gallai AI wneud penderfyniadau annheg\n• Preifatrwydd — AI yn casglu llawer o ddata personol\n• Atebolrwydd — pwy sy'n gyfrifol am benderfyniad anghywir AI?", "tags": ["moeseg"] }
   ]
 }

@@ -2,11 +2,17 @@
   "topicId": "computer-architecture",
   "version": 1,
   "cards": [
-    {
-      "id": "computer-architecture-cy-fc-001",
-      "front": "Placeholder — cynnwys yn dod yn fuan",
-      "back": "Mae'r cardiau Cymraeg ar gyfer y pwnc hwn yn cael eu paratoi.",
-      "tags": []
-    }
+    { "id": "ca-fc-001", "front": "Beth yw swyddogaeth yr Uned Brosesu Ganolog (UBG)?", "back": "Yr UBG yw 'ymennydd' y cyfrifiadur. Mae'n nôl, datgod, a gweithredu cyfarwyddiadau o'r cof.", "tags": ["ubg"] },
+    { "id": "ca-fc-002", "front": "Beth yw cylchred Nôl-Datgod-Gweithredu?", "back": "Y broses barhaus y mae'r UBG yn ei dilyn: (1) Nôl cyfarwyddyd o'r cof, (2) Datgod ei ystyr, (3) Gweithredu'r cyfarwyddyd.", "tags": ["ubg", "cylchred"] },
+    { "id": "ca-fc-003", "front": "Beth yw swyddogaeth y Rhifydd Rhaglen (PC)?", "back": "Mae'r PC yn dal cyfeiriad y cyfarwyddyd nesaf i'w nôl o'r cof. Mae'n cynyddu 1 ar ôl nôl pob cyfarwyddyd.", "tags": ["ubg", "cofrestri"] },
+    { "id": "ca-fc-004", "front": "Beth yw swyddogaeth y Croniadur (ACC)?", "back": "Mae'r Croniadur yn storio canlyniad dros dro o gyfrifiad yr Uned Rifyddeg-Resymeg (ALU).", "tags": ["ubg", "cofrestri"] },
+    { "id": "ca-fc-005", "front": "Beth yw'r gwahaniaeth rhwng RAM a ROM?", "back": "RAM (Cof Mynediad ar Hap): Anweddol — yn colli data pan ddiffoddwch. Defnyddir ar gyfer tasgau cyfredol.\nROM (Cof Darllen yn Unig): Parhaol — yn cadw data. Defnyddir ar gyfer firmware/BIOS.", "tags": ["cof"] },
+    { "id": "ca-fc-006", "front": "Sut mae buanedd cloc yn effeithio ar berfformiad yr UBG?", "back": "Mae buanedd cloc uwch (mesur mewn GHz) yn golygu mwy o gylchredi y eiliad, felly mae'r UBG yn cyflawni mwy o gyfarwyddiadau y eiliad. Cyfyngir gan wres a phŵer.", "tags": ["perfformiad"] },
+    { "id": "ca-fc-007", "front": "Beth yw storfa gudd (cache) ac ym mhle mae hi?", "back": "Mae storfa gudd yn gof bach, cyflym iawn rhwng yr UBG a RAM. Mae'n storio data a ddefnyddir yn aml er mwyn cyflymu mynediad. Mae L1 yn gyflymaf (lleiaf), yna L2, yna L3.", "tags": ["cof", "perfformiad"] },
+    { "id": "ca-fc-008", "front": "Beth yw manteision SSD dros HDD?", "back": "Mae SSD yn gyflymach o lawer wrth ddarllen/ysgrifennu, yn dawelach, yn defnyddio llai o bŵer, ac yn fwy gwydyn. Mae HDD yn rhatach am bob GB.", "tags": ["storfa"] },
+    { "id": "ca-fc-009", "front": "Beth yw swyddogaeth y Cofrestr Cyfeiriad Cof (MAR)?", "back": "Mae'r MAR yn dal cyfeiriad y lleoliad cof sydd angen ei darllen neu ysgrifennu ato yn ystod cylchred y cof.", "tags": ["ubg", "cofrestri"] },
+    { "id": "ca-fc-010", "front": "Beth yw cof rhithwir?", "back": "Mae cof rhithwir yn defnyddio rhan o storfa eilaidd (ddisg) fel estyniad i RAM. Mae'n arafach na RAM go iawn ond yn caniatáu i raglenni mwy redeg.", "tags": ["cof"] },
+    { "id": "ca-fc-011", "front": "Sut mae nifer y craidd yn effeithio ar berfformiad?", "back": "Mae pob craidd yn gallu prosesu tasgau'n annibynnol ar yr un pryd. Mae UBG pedair-craidd yn gallu gwneud pedair tasg cyfochrog. Nid yw pob rhaglen yn manteisio'n llawn ar aml-graidd.", "tags": ["perfformiad"] },
+    { "id": "ca-fc-012", "front": "Beth yw pensaernïaeth Von Neumann?", "back": "Pensaernïaeth lle mae cyfarwyddiadau a data yn cael eu storio yn yr un cof. Mae'r UBG yn nôl y ddau o'r un man cof. Dyma sail y rhan fwyaf o gyfrifiaduron modern.", "tags": ["von-neumann"] }
   ]
 }

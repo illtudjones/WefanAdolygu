@@ -2,11 +2,15 @@
   "topicId": "algorithms",
   "version": 1,
   "cards": [
-    {
-      "id": "algorithms-cy-fc-001",
-      "front": "Placeholder — cynnwys yn dod yn fuan",
-      "back": "Mae'r cardiau Cymraeg ar gyfer y pwnc hwn yn cael eu paratoi.",
-      "tags": []
-    }
+    { "id": "alg-fc-001", "front": "Beth yw algorithm?", "back": "Set o gyfarwyddiadau clir, cam-wrth-gam er mwyn datrys problem. Rhaid iddo fod yn ddi-amwys, gorffen, a chynhyrchu canlyniad cywir.", "tags": ["sylfaen"] },
+    { "id": "alg-fc-002", "front": "Beth yw'r gwahaniaeth rhwng chwiliad llinol a chwiliad deuaidd?", "back": "Llinol: yn edrych drwy bob eitem yn ei dro — O(n). Dim angen i'r rhestr fod wedi'i threfnu.\nDeuaidd: yn rhannu'r rhestr yn ddwy bob tro — O(log n). Rhaid i'r rhestr fod wedi'i threfnu.", "tags": ["chwilio"] },
+    { "id": "alg-fc-003", "front": "Sut mae trefniad bwrlwm (bubble sort) yn gweithio?", "back": "Mae'n cymharu parau cyfagos ac yn cyfnewid os ydynt yn y drefn anghywir. Mae'r broses yn ailadrodd nes nad oes cyfnewidiadau ar ôl. Cymhlethdod: O(n²) yn y gwaethaf.", "tags": ["trefnu"] },
+    { "id": "alg-fc-004", "front": "Sut mae trefniad detholiadol (selection sort) yn gweithio?", "back": "Yn dod o hyd i'r eitem leiaf yn y rhan heb ei threfnu ac yn ei rhoi ar ddechrau'r rhan heb ei threfnu. Yn ailadrodd nes bod y cyfan wedi'i drefnu. Cymhlethdod: O(n²).", "tags": ["trefnu"] },
+    { "id": "alg-fc-005", "front": "Beth yw'r gwahaniaeth rhwng dilysu a gwireddu data?", "back": "Dilysu: gwirio bod data'n bodloni rheolau (e.e. amrediad, hyd, math).\nGwireddu: sicrhau bod y data wedi'i fewnbynnu'n gywir (e.e. mewnbwn dwbl, prawf darllen).", "tags": ["dilysu"] },
+    { "id": "alg-fc-006", "front": "Beth yw newidyn lleol mewn isrhaglen?", "back": "Mae newidyn lleol yn bodoli dim ond y tu mewn i'r isrhaglen lle caiff ei greu. Nid yw'n hygyrch y tu allan. Mae'n cael ei greu pan alwir yr isrhaglen ac yn cael ei ddinistrio pan ddychwelir ohoni.", "tags": ["isrhalenni"] },
+    { "id": "alg-fc-007", "front": "Sut mae chwiliad deuaidd yn gweithio?", "back": "1. Canfod yr eitem ganol\n2. Os yw'n hafal i'r targed — darganfyddwyd!\n3. Os yw'r targed yn llai — chwilio yn hanner isaf\n4. Os yw'r targed yn fwy — chwilio yn hanner uchaf\n5. Ailadrodd nes darganfod neu'r rhestr yn wag", "tags": ["chwilio"] },
+    { "id": "alg-fc-008", "front": "Beth yw gwerth twyll (rogue value)?", "back": "Mae gwerth twyll yn werth arbennig sy'n nodi diwedd mewnbwn data mewn dolen. Er enghraifft, defnyddio -1 i orffen dolen sy'n derbyn rhifau positif.", "tags": ["sylfaen"] },
+    { "id": "alg-fc-009", "front": "Beth yw sifft rifyddol chwith × 2?", "back": "Mae sifft rifyddol chwith × 2 yn symud pob did dwy safle i'r chwith, sy'n cyfateb i luosi â 4 (2²).", "tags": ["data"] },
+    { "id": "alg-fc-010", "front": "Beth yw trefniad mewnosod (insertion sort)?", "back": "Mae'n trin pob eitem yn ei thro ac yn ei mewnosod yn y safle cywir yn y rhan sydd eisoes wedi'i threfnu. Da ar gyfer data bron yn drefnus eisoes. Cymhlethdod: O(n) yn y gorau, O(n²) yn y gwaethaf.", "tags": ["trefnu"] }
   ]
 }

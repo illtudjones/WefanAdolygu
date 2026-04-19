@@ -1,23 +1,75 @@
 {
   "topicId": "software",
   "version": 1,
-  "title": "Cwis — cynnwys yn dod yn fuan",
+  "title": "Cwis Meddalwedd",
   "passMark": 70,
-  "shuffleQuestions": false,
-  "shuffleOptions": false,
+  "shuffleQuestions": true,
+  "shuffleOptions": true,
   "questions": [
     {
-      "id": "software-cy-q-001",
-      "text": "Mae'r cwis Cymraeg ar gyfer y pwnc hwn yn cael ei baratoi. Beth yw ystyr 'cyfrifiadur'?",
+      "id": "sw-q-001",
+      "text": "Pa gyfieithydd sy'n trosi iaith cynulliad i god peiriant?",
       "options": [
-        { "id": "a", "text": "Computer" },
-        { "id": "b", "text": "Keyboard" },
-        { "id": "c", "text": "Monitor" },
-        { "id": "d", "text": "Printer" }
+        { "id": "a", "text": "Cyfunydd" },
+        { "id": "b", "text": "Dehonglwr" },
+        { "id": "c", "text": "Cydosodydd" },
+        { "id": "d", "text": "Linciwr" }
       ],
-      "correctOptionId": "a",
-      "explanation": "Mae 'cyfrifiadur' yn golygu 'computer' yn Gymraeg.",
-      "tags": []
+      "correctOptionId": "c",
+      "explanation": "Mae cydosodydd (assembler) yn trosi iaith cynulliad i god peiriant. Mae cyfunydd yn trosi ieithoedd lefel uchel i god peiriant.",
+      "tags": ["cyfieithwyr"]
+    },
+    {
+      "id": "sw-q-002",
+      "text": "Pa gam cyfuno sy'n rhannu'r cod ffynhonnell yn docynnau unigol?",
+      "options": [
+        { "id": "a", "text": "Dadansoddiad semantig" },
+        { "id": "b", "text": "Dadansoddiad geirfaol" },
+        { "id": "c", "text": "Cynhyrchu cod" },
+        { "id": "d", "text": "Dadansoddiad cystrawen" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Mae dadansoddiad geirfaol (lexical analysis) yn torri'r cod ffynhonnell yn docynnau — enwau, geiriau allweddol, gweithredwyr, ac ati.",
+      "tags": ["cyfieithwyr"]
+    },
+    {
+      "id": "sw-q-003",
+      "text": "Mae rhaglenwr yn ysgrifennu `cyfanswm = cyfanswm - eitem` yn lle adio. Pa fath o wall yw hwn?",
+      "options": [
+        { "id": "a", "text": "Gwall cystrawen" },
+        { "id": "b", "text": "Gwall rhedeg" },
+        { "id": "c", "text": "Gwall rhesymeg" },
+        { "id": "d", "text": "Gwall amser cyfuno" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Mae gwall rhesymeg yn digwydd pan fo'r rhaglen yn rhedeg yn llwyddiannus ond yn rhoi canlyniad anghywir. Nid yw'r cyfunydd/dehonglwr yn gallu canfod y math hwn o wall.",
+      "tags": ["gwallau"]
+    },
+    {
+      "id": "sw-q-004",
+      "text": "Sut mae model Ystwyth (Agile) yn wahanol i fodel Rhaeadr?",
+      "options": [
+        { "id": "a", "text": "Mae Ystwyth yn gofyn am ddogfennaeth ychwanegol" },
+        { "id": "b", "text": "Mae Ystwyth yn datblygu mewn sprints byr ac yn caniatáu newidiadau i ofynion" },
+        { "id": "c", "text": "Mae Ystwyth yn dileu'r cam profi" },
+        { "id": "d", "text": "Mae Ystwyth ond yn addas ar gyfer prosiectau bach" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Mae model Ystwyth yn datblygu mewn cylchoedd byr (sprints) ac yn caniatáu newidiadau cyson i ofynion, tra bod Rhaeadr yn llinol a gofynion sefydlog.",
+      "tags": ["sdlc"]
+    },
+    {
+      "id": "sw-q-005",
+      "text": "Pa fantais allweddol sydd gan iaith lefel uchel dros iaith lefel isel?",
+      "options": [
+        { "id": "a", "text": "Mae iaith lefel uchel yn gyflymach i redeg" },
+        { "id": "b", "text": "Mae iaith lefel uchel yn rhoi mwy o reolaeth dros y caledwedd" },
+        { "id": "c", "text": "Mae iaith lefel uchel yn haws i'w ddysgu ac yn annibynnol o'r caledwedd" },
+        { "id": "d", "text": "Mae iaith lefel uchel yn cynhyrchu cod mwy compact" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Mae ieithoedd lefel uchel (e.e. Python, Java) yn haws i'w ddysgu a'u darllen, ac yn annibynnol o bensaernïaeth y prosesydd — gellir eu rhedeg ar unrhyw gyfrifiadur gyda'r cyfieithydd priodol.",
+      "tags": ["ieithoedd"]
     }
   ]
 }

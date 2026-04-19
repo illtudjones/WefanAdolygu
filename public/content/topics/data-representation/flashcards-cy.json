@@ -2,11 +2,15 @@
   "topicId": "data-representation",
   "version": 1,
   "cards": [
-    {
-      "id": "data-representation-cy-fc-001",
-      "front": "Placeholder — cynnwys yn dod yn fuan",
-      "back": "Mae'r cardiau Cymraeg ar gyfer y pwnc hwn yn cael eu paratoi.",
-      "tags": []
-    }
+    { "id": "dr-fc-001", "front": "Trosiwch 01101010 deuaidd i degol.", "back": "64 + 32 + 8 + 2 = 106", "tags": ["deuaidd"] },
+    { "id": "dr-fc-002", "front": "Beth yw'r gwahaniaeth rhwng ASCII a Unicode?", "back": "ASCII: 128 nod, 7-did, dim ond Saesneg/symbolau sylfaenol.\nUnicode: dros 140,000 o nodau o ieithoedd ledled y byd. UTF-8 yn defnyddio 1-4 beit.", "tags": ["codio-nod"] },
+    { "id": "dr-fc-003", "front": "Sut cyfrifwch faint ffeil delwedd rasdr?", "back": "Maint (didau) = (lled × uchder) × dyfnder lliw\n\nEnghraifft: 800 × 600 × 24 did = 11,520,000 did ÷ 8 ÷ 1024 ÷ 1024 ≈ 1.37 MB", "tags": ["graffeg"] },
+    { "id": "dr-fc-004", "front": "Beth yw'r gwahaniaeth rhwng cywasgu colledus a di-golled?", "back": "Colledus: Data yn cael ei golli'n barhaol. Maint llai. Enghreifftiau: JPEG, MP3.\nDi-golled: Gellir adfer y ffeil wreiddiol. Enghreifftiau: PNG, ZIP, FLAC.", "tags": ["cywasgu"] },
+    { "id": "dr-fc-005", "front": "Beth yw effaith sifft rifyddol chwith ar rif deuaidd?", "back": "Mae sifft chwith × 1 safle yn lluosi â 2. Mae sifft chwith × 2 safle yn lluosi â 4.\nEnghraifft: 00001010 (10) → sifft chwith → 00010100 (20)", "tags": ["deuaidd"] },
+    { "id": "dr-fc-006", "front": "Trosiwch 11010110 deuaidd i hecsadegol.", "back": "Rhannwch yn grwpiau o 4: 1101 | 0110\n1101 = D, 0110 = 6\nAteb: D6", "tags": ["hecsadegol"] },
+    { "id": "dr-fc-007", "front": "Beth yw cyfradd samplu sain a pham mae'n bwysig?", "back": "Mae cyfradd samplu yn mesur nifer y samplau sain a gymerir y eiliad (Hz). Mae cyfradd uwch (e.e. 44,100 Hz ar gyfer CD) yn cynhyrchu sain mwy ffyddlon. Effaith: ansawdd uwch ond maint ffeil mwy.", "tags": ["sain"] },
+    { "id": "dr-fc-008", "front": "Beth yw'r berthynas rhwng nibl, beit, a megabeit?", "back": "1 nibl = 4 did\n1 beit = 8 did = 2 nibl\n1 cilbeit (KB) = 1,024 beit\n1 megabeit (MB) = 1,024 KB\n1 gigabeit (GB) = 1,024 MB", "tags": ["unedau"] },
+    { "id": "dr-fc-009", "front": "Beth yw gorlif (overflow) wrth adio deuaidd?", "back": "Mae gorlif yn digwydd pan fo canlyniad adio'n rhy fawr i'w gynrychioli yn nifer y didau sydd ar gael. Er enghraifft, mae adio dau rif 8-did yn cynhyrchu 9 did — ni ellir ei gynrychioli mewn 8 did.", "tags": ["deuaidd"] },
+    { "id": "dr-fc-010", "front": "Beth yw dyfnder lliw a sut mae'n effeithio ar ansawdd delwedd?", "back": "Mae dyfnder lliw (bit depth) yn nodi nifer y didau a ddefnyddir i gynrychioli lliw pob picsel. Mae dyfnder uwch yn caniatáu mwy o liwiau: 8-did = 256 lliw; 24-did = 16.7 miliwn o liwiau.", "tags": ["graffeg"] }
   ]
 }

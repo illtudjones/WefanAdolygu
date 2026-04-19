@@ -2,11 +2,13 @@
   "topicId": "cybersecurity",
   "version": 1,
   "cards": [
-    {
-      "id": "cybersecurity-cy-fc-001",
-      "front": "Placeholder — cynnwys yn dod yn fuan",
-      "back": "Mae'r cardiau Cymraeg ar gyfer y pwnc hwn yn cael eu paratoi.",
-      "tags": []
-    }
+    { "id": "cs-fc-001", "front": "Beth yw gwahaniaeth rhwng firws a mwydyn (worm)?", "back": "Firws: yn atodi'i hun i ffeiliau cyfreithlon ac yn angen rhyngweithiad dynol i ymledu (e.e. rhannu ffeil).\nMwydyn: yn ymledu'n awtomatig drwy rwydweithiau heb fod angen ffeil westeiwr.", "tags": ["maleiswedd"] },
+    { "id": "cs-fc-002", "front": "Beth yw ymosodiad DDoS?", "back": "Mae ymosodiad DDoS (Distributed Denial of Service) yn llethu gweinydd â miloedd o geisiadau ar yr un pryd — mae hyn yn gwneud y gwasanaeth yn anhygyrch i ddefnyddwyr go iawn.", "tags": ["ymosodiadau"] },
+    { "id": "cs-fc-003", "front": "Beth yw genweira (phishing)?", "back": "Mae genweira yn dechneg peirianneg gymdeithasol lle mae sgamwr yn anfon e-bost neu neges ffug sy'n esgus bod o ffynhonnell ddibynadwy i gael gwybodaeth sensitif (cyfrineiriau, manylion banc).", "tags": ["peirianneg-gymdeithasol"] },
+    { "id": "cs-fc-004", "front": "Beth yw amgryptio cymesur ac asymesur?", "back": "Cymesur: yr un allwedd ar gyfer amgryptio a dadgryptio — cyflym ond rhaid rhannu'r allwedd yn ddiogel.\nAsymesur: allwedd gyhoeddus i amgryptio, allwedd breifat i ddadgryptio — diogelach ond arafach.", "tags": ["amddiffyniad"] },
+    { "id": "cs-fc-005", "front": "Beth yw Dilysu Aml-Ffactor (MFA)?", "back": "Mae MFA yn gofyn am fwy nag un math o brawf adnabod:\n• Rhywbeth rydych yn ei wybod (cyfrinair)\n• Rhywbeth sydd gennych (ffôn)\n• Rhywbeth ydych chi (olion bysedd)", "tags": ["amddiffyniad"] },
+    { "id": "cs-fc-006", "front": "Beth yw chwistrellu SQL (SQL injection)?", "back": "Math o ymosodiad lle mae cod SQL maleisus yn cael ei fewnosod i fewnbynnau (e.e. blychau chwilio) i drin cronfa ddata — gall ddarllen, newid, neu ddileu data.", "tags": ["ymosodiadau"] },
+    { "id": "cs-fc-007", "front": "Beth yw'r CIA Triad mewn seiberddiogelwch?", "back": "Cyfrinachedd (Confidentiality): dim ond pobl awdurdodedig sy'n gallu gweld y data.\nUnionded (Integrity): mae'r data'n gywir ac heb ei newid.\nArgaeledd (Availability): mae'r data ar gael pan fo'i angen.", "tags": ["sylfaen"] },
+    { "id": "cs-fc-008", "front": "Beth yw profion treiddio (penetration testing)?", "back": "Mae profwyr treiddio (pentesters) yn ceisio ymosod ar system gyda chaniatâd y perchennog er mwyn dod o hyd i wendidau cyn ymosodwyr maleisus eu darganfod.", "tags": ["amddiffyniad"] }
   ]
 }

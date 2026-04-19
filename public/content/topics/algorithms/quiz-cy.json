@@ -1,23 +1,88 @@
 {
   "topicId": "algorithms",
   "version": 1,
-  "title": "Cwis — cynnwys yn dod yn fuan",
+  "title": "Cwis Algorithmau",
   "passMark": 70,
-  "shuffleQuestions": false,
-  "shuffleOptions": false,
+  "shuffleQuestions": true,
+  "shuffleOptions": true,
   "questions": [
     {
-      "id": "algorithms-cy-q-001",
-      "text": "Mae'r cwis Cymraeg ar gyfer y pwnc hwn yn cael ei baratoi. Beth yw ystyr 'cyfrifiadur'?",
+      "id": "alg-q-001",
+      "text": "Mae rhestr o 1024 eitem. Yn y gwaethaf, faint o gymhariaethau y mae chwiliad deuaidd yn eu gwneud?",
       "options": [
-        { "id": "a", "text": "Computer" },
-        { "id": "b", "text": "Keyboard" },
-        { "id": "c", "text": "Monitor" },
-        { "id": "d", "text": "Printer" }
+        { "id": "a", "text": "1024" },
+        { "id": "b", "text": "512" },
+        { "id": "c", "text": "10" },
+        { "id": "d", "text": "32" }
       ],
-      "correctOptionId": "a",
-      "explanation": "Mae 'cyfrifiadur' yn golygu 'computer' yn Gymraeg.",
-      "tags": []
+      "correctOptionId": "c",
+      "explanation": "Mae chwiliad deuaidd yn O(log₂ n). log₂(1024) = 10. Felly dim ond 10 cymhariaeth sydd ei hangen yn y gwaethaf.",
+      "tags": ["chwilio"]
+    },
+    {
+      "id": "alg-q-002",
+      "text": "Pa algorithm trefnu sy'n gofyn i'r rhestr fod wedi'i threfnu eisoes i weithio?",
+      "options": [
+        { "id": "a", "text": "Trefniad bwrlwm" },
+        { "id": "b", "text": "Chwiliad deuaidd" },
+        { "id": "c", "text": "Trefniad detholiadol" },
+        { "id": "d", "text": "Chwiliad llinol" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Rhaid i'r rhestr fod wedi'i threfnu i ddefnyddio chwiliad deuaidd. Mae chwiliad llinol yn gweithio ar unrhyw restr.",
+      "tags": ["chwilio"]
+    },
+    {
+      "id": "alg-q-003",
+      "text": "Pa un yw'r cymhlethdod amser gwaethaf ar gyfer trefniad bwrlwm (bubble sort)?",
+      "options": [
+        { "id": "a", "text": "O(n)" },
+        { "id": "b", "text": "O(log n)" },
+        { "id": "c", "text": "O(n²)" },
+        { "id": "d", "text": "O(n log n)" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Cymhlethdod gwaethaf trefniad bwrlwm yw O(n²) — os yw'r rhestr yn ôl-drefnus yn llwyr, mae angen n × n cymhariaeth.",
+      "tags": ["trefnu"]
+    },
+    {
+      "id": "alg-q-004",
+      "text": "Beth yw'r gwahaniaeth rhwng dilysu a gwireddu?",
+      "options": [
+        { "id": "a", "text": "Mae dilysu'n gwirio os yw data'n gywir; mae gwireddu'n gwirio os yw'n briodol" },
+        { "id": "b", "text": "Mae dilysu'n gwirio os yw data'n bodloni rheolau; mae gwireddu'n sicrhau ei fod wedi'i fewnbynnu'n gywir" },
+        { "id": "c", "text": "Mae gwireddu'n gwirio math y data; mae dilysu'n gwirio amrediad y data" },
+        { "id": "d", "text": "Mae'r ddau yr un peth — geiriau cyfystyr ydynt" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Mae dilysu'n gwirio bod data'n bodloni rheolau penodol (e.e. amrediad, hyd, math). Mae gwireddu'n sicrhau bod y data wedi'i fewnbynnu'n gywir (e.e. mewnbwn dwbl).",
+      "tags": ["dilysu"]
+    },
+    {
+      "id": "alg-q-005",
+      "text": "Wrth drefnu [64, 34, 25, 12] gan ddefnyddio trefniad bwrlwm, beth fydd y rhestr ar ôl y pas cyntaf?",
+      "options": [
+        { "id": "a", "text": "[12, 25, 34, 64]" },
+        { "id": "b", "text": "[34, 25, 12, 64]" },
+        { "id": "c", "text": "[25, 34, 12, 64]" },
+        { "id": "d", "text": "[12, 64, 34, 25]" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ar ôl y pas cyntaf o drefniad bwrlwm, mae'r eitem fwyaf (64) wedi 'bwrlwm' i'r diwedd: [34, 25, 12, 64].",
+      "tags": ["trefnu"]
+    },
+    {
+      "id": "alg-q-006",
+      "text": "Beth yw pwrpas gwiriad presenoldeb mewn dilysu data?",
+      "options": [
+        { "id": "a", "text": "Gwirio bod y gwerth rhwng dau rif" },
+        { "id": "b", "text": "Gwirio nad yw'r maes yn wag" },
+        { "id": "c", "text": "Gwirio bod y data yn y fformat cywir" },
+        { "id": "d", "text": "Gwirio bod y data yn unigryw" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Mae gwiriad presenoldeb yn gwirio nad yw maes gorfodol yn wag — er enghraifft, rhaid llenwi maes enw cyn cyflwyno ffurflen.",
+      "tags": ["dilysu"]
     }
   ]
 }

@@ -2,11 +2,11 @@
   "topicId": "software",
   "version": 1,
   "cards": [
-    {
-      "id": "software-cy-fc-001",
-      "front": "Placeholder — cynnwys yn dod yn fuan",
-      "back": "Mae'r cardiau Cymraeg ar gyfer y pwnc hwn yn cael eu paratoi.",
-      "tags": []
-    }
+    { "id": "sw-fc-001", "front": "Beth yw gwahaniaeth rhwng cyfunydd (compiler) a dehonglwr (interpreter)?", "back": "Cyfunydd: yn trosi'r cod cyfan i god peiriant cyn rhedeg — yn cynhyrchu ffeil weithredadwy — cyflymach i redeg.\nDehonglwr: yn cyfiethu ac yn gweithredu fesul llinell — dim ffeil weithredadwy — arafach ond hawdd ei ddilysu.", "tags": ["cyfieithwyr"] },
+    { "id": "sw-fc-002", "front": "Beth yw'r pump cam dadansoddiad cyfunydd?", "back": "1. Dadansoddiad Geirfaol — torri i docynnau\n2. Dadansoddiad Cystrawen — gwirio gramadeg\n3. Dadansoddiad Semantig — gwirio ystyr\n4. Cynhyrchu Cod — cynhyrchu cod peiriant\n5. Optimeiddio Cod — gwella effeithlonrwydd", "tags": ["cyfieithwyr"] },
+    { "id": "sw-fc-003", "front": "Beth yw gwahaniaeth rhwng gwall cystrawen a gwall rhesymeg?", "back": "Gwall cystrawen: torri rheolau gramadeg yr iaith — mae'r cyfunydd/dehonglwr yn ei ganfod.\nGwall rhesymeg: rhaglen yn rhedeg ond yn rhoi canlyniad anghywir — dim ond profi sy'n ei ddarganfod.", "tags": ["gwallau"] },
+    { "id": "sw-fc-004", "front": "Pa bum nodwedd sy'n gwneud rhaglen dda?", "back": "1. Darllenadwy — enwau clir, esgyniad cyson\n2. Cynhaliadwy — hawdd newid a cywiro\n3. Ehanogadwy — hawdd ychwanegu nodweddion\n4. Modiwlar — wedi'i rannu'n isrhalenni\n5. Effeithlon — yn defnyddio'r adnoddau'n briodol", "tags": ["egwyddorion"] },
+    { "id": "sw-fc-005", "front": "Beth yw gwahaniaeth rhwng iaith lefel uchel ac isel?", "back": "Lefel uchel (e.e. Python): tebyg i iaith dynol, annibynnol o galedwedd, hawdd ei ddysgu.\nLefel isel (e.e. iaith cynulliad): yn agos at gof peiriant, penodol i brosesydd, cyflym iawn ond anodd.", "tags": ["ieithoedd"] },
+    { "id": "sw-fc-006", "front": "Beth yw prif wahaniaeth rhwng model Rhaeadr ac Ystwyth (Agile)?", "back": "Rhaeadr: cyfnodau llinol, gofynion sefydlog, hawdd ei gynllunio — anodd newid.\nYstwyth: sprints byr, gofynion yn gallu newid, defnyddiwr yn cymryd rhan — hyblyg ond anodd amcangyfrif cost.", "tags": ["sdlc"] }
   ]
 }

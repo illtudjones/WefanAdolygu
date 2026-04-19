@@ -1,23 +1,75 @@
 {
   "topicId": "logical-operations",
   "version": 1,
-  "title": "Cwis — cynnwys yn dod yn fuan",
+  "title": "Cwis Gweithrediadau Rhesymegol",
   "passMark": 70,
-  "shuffleQuestions": false,
-  "shuffleOptions": false,
+  "shuffleQuestions": true,
+  "shuffleOptions": true,
   "questions": [
     {
-      "id": "logical-operations-cy-q-001",
-      "text": "Mae'r cwis Cymraeg ar gyfer y pwnc hwn yn cael ei baratoi. Beth yw ystyr 'cyfrifiadur'?",
+      "id": "lo-q-001",
+      "text": "Beth yw allbwn (A AC B) NEU (NID C) pan fo A=1, B=0, C=0?",
       "options": [
-        { "id": "a", "text": "Computer" },
-        { "id": "b", "text": "Keyboard" },
-        { "id": "c", "text": "Monitor" },
-        { "id": "d", "text": "Printer" }
+        { "id": "a", "text": "0" },
+        { "id": "b", "text": "1" },
+        { "id": "c", "text": "2" },
+        { "id": "d", "text": "Amhenodol" }
       ],
-      "correctOptionId": "a",
-      "explanation": "Mae 'cyfrifiadur' yn golygu 'computer' yn Gymraeg.",
-      "tags": []
+      "correctOptionId": "b",
+      "explanation": "A AC B = 1 AC 0 = 0. NID C = NID 0 = 1. 0 NEU 1 = 1.",
+      "tags": ["mynegiant"]
+    },
+    {
+      "id": "lo-q-002",
+      "text": "Pa un o'r canlynol sy'n disgrifio gweithrediad NEUA (XOR) yn gywir?",
+      "options": [
+        { "id": "a", "text": "Allbwn 1 pan fo'r ddau fewnbwn yn 1" },
+        { "id": "b", "text": "Allbwn 1 dim ond pan fo union un mewnbwn yn 1" },
+        { "id": "c", "text": "Allbwn 1 pan fo o leiaf un mewnbwn yn 1" },
+        { "id": "d", "text": "Gwrthdroi'r mewnbwn yn unig" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Mae NEUA (XOR) yn allbynnu 1 dim ond pan fo union un mewnbwn yn 1. Os yw'r ddau'n 0 neu'r ddau'n 1, yr allbwn yw 0.",
+      "tags": ["gatiau"]
+    },
+    {
+      "id": "lo-q-003",
+      "text": "Beth yw allbwn gât NEU (OR) pan fo A=0 a B=0?",
+      "options": [
+        { "id": "a", "text": "1" },
+        { "id": "b", "text": "0" },
+        { "id": "c", "text": "Mae'n dibynnu ar y cloc" },
+        { "id": "d", "text": "2" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Mae gât NEU ond yn allbynnu 1 pan fo O LEIAF UN mewnbwn yn 1. Pan fo'r ddau fewnbwn yn 0, yr allbwn yw 0.",
+      "tags": ["gatiau"]
+    },
+    {
+      "id": "lo-q-004",
+      "text": "Pa un o'r canlynol sy'n allbwn NID (NOT A) pan fo A=0?",
+      "options": [
+        { "id": "a", "text": "0" },
+        { "id": "b", "text": "2" },
+        { "id": "c", "text": "1" },
+        { "id": "d", "text": "Mae'n dibynnu ar B" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Mae gât NID yn gwrthdroi'r mewnbwn. NID 0 = 1.",
+      "tags": ["gatiau"]
+    },
+    {
+      "id": "lo-q-005",
+      "text": "Pam mae gatiau rhesymeg yn bwysig mewn cyfrifiadureg?",
+      "options": [
+        { "id": "a", "text": "Maent yn rheoli buanedd y cloc" },
+        { "id": "b", "text": "Mae cyfrifiaduron wedi'u hadeiladu o filiynau o gatiau rhesymeg — pob cyfrifiad yn dibynnu arnynt" },
+        { "id": "c", "text": "Maent yn storio data yn barhaol" },
+        { "id": "d", "text": "Maent yn cyfathrebu rhwng cyfrifiaduron" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Mae cyfrifiaduron wedi'u hadeiladu o filiynau o gatiau rhesymeg ar sglodion silicon. Pob cyfrifiad y mae cyfrifiadur yn ei wneud yn y pen draw yn dibynnu ar y gweithrediadau syml hyn.",
+      "tags": ["cyd-destun"]
     }
   ]
 }

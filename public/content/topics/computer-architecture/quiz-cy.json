@@ -1,23 +1,101 @@
 {
   "topicId": "computer-architecture",
   "version": 1,
-  "title": "Cwis — cynnwys yn dod yn fuan",
+  "title": "Cwis Pensaernïaeth Cyfrifiaduron",
   "passMark": 70,
-  "shuffleQuestions": false,
-  "shuffleOptions": false,
+  "shuffleQuestions": true,
+  "shuffleOptions": true,
   "questions": [
     {
-      "id": "computer-architecture-cy-q-001",
-      "text": "Mae'r cwis Cymraeg ar gyfer y pwnc hwn yn cael ei baratoi. Beth yw ystyr 'cyfrifiadur'?",
+      "id": "ca-q-001",
+      "text": "Beth yw swyddogaeth y Rhifydd Rhaglen (PC) yn yr UBG?",
       "options": [
-        { "id": "a", "text": "Computer" },
-        { "id": "b", "text": "Keyboard" },
-        { "id": "c", "text": "Monitor" },
-        { "id": "d", "text": "Printer" }
+        { "id": "a", "text": "Storio canlyniad cyfrifiad yr ALU" },
+        { "id": "b", "text": "Dal cyfeiriad y cyfarwyddyd nesaf i'w nôl" },
+        { "id": "c", "text": "Prosesu gweithrediadau rhesymeg" },
+        { "id": "d", "text": "Rheoli lif cyfarwyddiadau'r rhaglen" }
       ],
-      "correctOptionId": "a",
-      "explanation": "Mae 'cyfrifiadur' yn golygu 'computer' yn Gymraeg.",
-      "tags": []
+      "correctOptionId": "b",
+      "explanation": "Mae'r Rhifydd Rhaglen (PC) yn dal cyfeiriad y cyfarwyddyd nesaf i'w nôl o'r cof. Mae'n cynyddu 1 ar ôl nôl pob cyfarwyddyd.",
+      "tags": ["ubg", "cofrestri"]
+    },
+    {
+      "id": "ca-q-002",
+      "text": "Pa un o'r canlynol sy'n WEDDOL am RAM?",
+      "options": [
+        { "id": "a", "text": "Mae'n cadw data pan ddiffoddwch y cyfrifiadur" },
+        { "id": "b", "text": "Mae'n arafach na storfa eilaidd" },
+        { "id": "c", "text": "Mae'n colli ei gynnwys pan ddiffoddwch y pŵer" },
+        { "id": "d", "text": "Defnyddir ef i storio'r BIOS" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Mae RAM (Cof Mynediad ar Hap) yn anweddol — mae'n colli ei gynnwys pan ddiffoddwch y pŵer. Dyna pam rydym ni'n arbed ein gwaith.",
+      "tags": ["cof"]
+    },
+    {
+      "id": "ca-q-003",
+      "text": "Beth yw trefn gywir cylchred Nôl-Datgod-Gweithredu?",
+      "options": [
+        { "id": "a", "text": "Gweithredu → Nôl → Datgod" },
+        { "id": "b", "text": "Datgod → Nôl → Gweithredu" },
+        { "id": "c", "text": "Nôl → Datgod → Gweithredu" },
+        { "id": "d", "text": "Nôl → Gweithredu → Datgod" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Trefn gywir yw: (1) Nôl y cyfarwyddyd o'r cof, (2) Datgod ei ystyr, (3) Gweithredu'r cyfarwyddyd.",
+      "tags": ["cylchred"]
+    },
+    {
+      "id": "ca-q-004",
+      "text": "Pa un o'r canlynol sy'n disgrifio storfa gudd (cache) yn gywir?",
+      "options": [
+        { "id": "a", "text": "Storfa eilaidd fawr ac araf" },
+        { "id": "b", "text": "Cof bach, cyflym iawn rhwng yr UBG a RAM" },
+        { "id": "c", "text": "Math o ROM sy'n dal y BIOS" },
+        { "id": "d", "text": "Cof ar gyfer storio delweddau fideo" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Mae storfa gudd yn gof bach, cyflym iawn sy'n eistedd rhwng yr UBG a RAM. Mae'n storio data y defnyddir yn aml i leihau'r amser aros i'r UBG.",
+      "tags": ["cof", "perfformiad"]
+    },
+    {
+      "id": "ca-q-005",
+      "text": "Pa ffactor DDIM yn uniongyrchol effeithio ar berfformiad yr UBG?",
+      "options": [
+        { "id": "a", "text": "Buanedd cloc" },
+        { "id": "b", "text": "Nifer y craidd" },
+        { "id": "c", "text": "Maint y storfa gudd" },
+        { "id": "d", "text": "Maint y monitor" }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Nid yw maint y monitor yn effeithio ar berfformiad yr UBG. Mae buanedd cloc, nifer y craidd, a maint y storfa gudd i gyd yn effeithio ar berfformiad.",
+      "tags": ["perfformiad"]
+    },
+    {
+      "id": "ca-q-006",
+      "text": "Beth yw prif fantais SSD dros HDD?",
+      "options": [
+        { "id": "a", "text": "Mae SSD yn rhatach am bob gigabeit" },
+        { "id": "b", "text": "Mae SSD yn gyflymach wrth ddarllen ac ysgrifennu data" },
+        { "id": "c", "text": "Mae SSD yn dal mwy o ddata" },
+        { "id": "d", "text": "Mae SSD yn fwy dibynadwy mewn amgylcheddau poeth" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Mae SSD yn gyflymach o lawer na HDD wrth ddarllen ac ysgrifennu data am nad oes ganddo rannau symudol. Fodd bynnag, mae'n drutach am bob gigabeit.",
+      "tags": ["storfa"]
+    },
+    {
+      "id": "ca-q-007",
+      "text": "Beth yw swyddogaeth y Cofrestr Data Cof (MDR)?",
+      "options": [
+        { "id": "a", "text": "Cyfrifo cyfeiriad y data nesaf yn y cof" },
+        { "id": "b", "text": "Dal data wrth ei drosglwyddo i'r cof neu ohono" },
+        { "id": "c", "text": "Rheoli pa gofrestri sydd yn weithredol" },
+        { "id": "d", "text": "Storio cyfarwyddiad cyfredol sydd yn cael ei weithredu" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Mae'r MDR (Cofrestr Data Cof) yn dal data dros dro wrth iddo gael ei drosglwyddo i'r cof neu ohono.",
+      "tags": ["ubg", "cofrestri"]
     }
   ]
 }
