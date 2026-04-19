@@ -1,16 +1,3 @@
----
-id: "networks"
-title: "Rhwydweithiau a Seilwaith"
-description: "Topologïau rhwydwaith, caledwedd, protocolau, a newid pecynnau"
-category: "core"
-difficulty: "intermediate"
-estimatedMinutes: 50
-specSection: "1.3.1"
-prerequisites: []
-tags: ["rhwydweithiau", "protocolau", "topologi", "tcp-ip"]
-lastUpdated: "2026-04-19"
----
-
 ## Mathau o Rwydwaith
 
 ### Rhwydwaith Ardal Leol (LAN)

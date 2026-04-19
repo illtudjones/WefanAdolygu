@@ -1,16 +1,3 @@
----
-id: "logical-operations"
-title: "Gweithrediadau Rhesymegol"
-description: "Gatiau rhesymeg AND, NEU, NID, NEUA, tablau gwirionedd, a chylchedau digidol"
-category: "core"
-difficulty: "beginner"
-estimatedMinutes: 35
-specSection: "1.6"
-prerequisites: ["data-representation"]
-tags: ["rhesymeg", "gatiau", "tablau-gwirionedd", "booolean"]
-lastUpdated: "2026-04-19"
----
-
 ## Algebra Boole
 
 Datblygwyd **Algebra Boole** gan George Boole yn y 19eg ganrif. Dim ond dau werth sydd: **GWIR (1)** neu **ANGHYWIR (0)**.

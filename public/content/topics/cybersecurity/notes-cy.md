@@ -1,16 +1,3 @@
----
-id: "cybersecurity"
-title: "Seiberddiogelwch a Phreifatrwydd Personol"
-description: "Bygythiadau seiberddiogelwch, ymosodiadau, a mesurau amddiffynnol"
-category: "core"
-difficulty: "intermediate"
-estimatedMinutes: 45
-specSection: "1.3.2"
-prerequisites: ["networks"]
-tags: ["seiberddiogelwch", "maleiswedd", "amgryptio", "diogelwch"]
-lastUpdated: "2026-04-19"
----
-
 ## Bygythiadau Seiberddiogelwch
 
 ### Maleiswedd (Malware)

@@ -1,16 +1,3 @@
----
-id: "systems-development-lifecycle"
-title: "Cylchred Datblygu Systemau"
-description: "Cyfnodau SDLC, modelau datblygu, ac ystyriaethau proffesiynol ac etegol"
-category: "core"
-difficulty: "intermediate"
-estimatedMinutes: 40
-specSection: "1.8"
-prerequisites: []
-tags: ["sdlc", "agile", "rhaeadr", "ystyriaethau-etegol"]
-lastUpdated: "2026-04-19"
----
-
 ## Cylchred Datblygu Systemau (SDLC)
 
 Mae'r **SDLC** yn fframwaith strwythuredig ar gyfer cynllunio, creu, profi, a darparu systemau gwybodaeth.

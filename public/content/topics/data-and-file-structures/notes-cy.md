@@ -1,16 +1,3 @@
----
-id: "data-and-file-structures"
-title: "Strwythurau Data a Ffeiliau a Systemau Awtomataidd"
-description: "Cofnodion, araeau, dewis strwythurau priodol, a systemau awtomataidd"
-category: "core"
-difficulty: "intermediate"
-estimatedMinutes: 40
-specSection: "1.2.2–1.2.3"
-prerequisites: ["data-representation"]
-tags: ["araeau", "cofnodion", "strwythurau-data", "systemau-awtomataidd"]
-lastUpdated: "2026-04-19"
----
-
 ## Strwythurau Data
 
 ### Cofnodion (Records)

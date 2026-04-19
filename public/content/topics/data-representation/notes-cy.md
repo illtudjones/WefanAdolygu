@@ -1,16 +1,3 @@
----
-id: "data-representation"
-title: "Mathau Data, Cynrychiolaeth a Chywasgu"
-description: "Systemau rhifiadol, codio cymeriad, graffeg, sain, ac unedau data"
-category: "core"
-difficulty: "intermediate"
-estimatedMinutes: 55
-specSection: "1.2.1"
-prerequisites: []
-tags: ["deuaidd", "hecsadegol", "ascii", "unicode", "cywasgu"]
-lastUpdated: "2026-04-19"
----
-
 ## Mathau Data
 
 | Math Data | Disgrifiad | Enghraifft |

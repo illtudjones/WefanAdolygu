@@ -1,16 +1,3 @@
----
-id: "software"
-title: "Meddalwedd"
-description: "Egwyddorion rhaglennu, ieithoedd lefel uchel/isel, cyfieithwyr, SDLC, a chamgymeriadau"
-category: "core"
-difficulty: "intermediate"
-estimatedMinutes: 50
-specSection: "1.5"
-prerequisites: []
-tags: ["rhaglennu", "cyfieithwyr", "sdlc", "ieithoedd-rhaglennu"]
-lastUpdated: "2026-04-19"
----
-
 ## Egwyddorion Rhaglennu Da
 
 Mae rhaglen dda yn:

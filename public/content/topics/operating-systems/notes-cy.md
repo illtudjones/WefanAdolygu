@@ -1,16 +1,3 @@
----
-id: "operating-systems"
-title: "Systemau Gweithredu"
-description: "Pwrpas a swyddogaethau systemau gweithredu a meddalwedd cyfleustod"
-category: "core"
-difficulty: "beginner"
-estimatedMinutes: 30
-specSection: "1.7"
-prerequisites: ["computer-architecture"]
-tags: ["system-weithredu", "rheoli-cof", "cyfleustod"]
-lastUpdated: "2026-04-19"
----
-
 ## Beth yw System Weithredu?
 
 Mae **system weithredu (OS)** yn feddalwedd sy'n rheoli'r caledwedd ac yn darparu rhyngwyneb rhwng y defnyddiwr a'r cyfrifiadur.

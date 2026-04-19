@@ -1,16 +1,3 @@
----
-id: "algorithms"
-title: "Algorithmau"
-description: "Cynllunio algorithmau, chwilio, trefnu, a dilysu data"
-category: "core"
-difficulty: "intermediate"
-estimatedMinutes: 45
-specSection: "1.4"
-prerequisites: ["data-representation"]
-tags: ["algorithmau", "trefnu", "chwilio", "dilysu"]
-lastUpdated: "2026-04-19"
----
-
 ## Beth yw Algorithm?
 
 Mae **algorithm** yn set o gyfarwyddiadau cam-wrth-gam er mwyn datrys problem. Rhaid iddo:

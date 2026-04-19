@@ -1,16 +1,3 @@
----
-id: "computer-architecture"
-title: "Pensaernïaeth Cyfrifiaduron"
-description: "Cydrannau cyfrifiaduron, pensaernïaeth Von Neumann, a chydbwysedd perfformiad"
-category: "core"
-difficulty: "intermediate"
-estimatedMinutes: 50
-specSection: "1.1"
-prerequisites: []
-tags: ["cpu", "von-neumann", "cof", "storio"]
-lastUpdated: "2026-04-19"
----
-
 ## Y System Gyfrifiadurol
 
 Mae system gyfrifiadurol yn cynnwys **caledwedd** a **meddalwedd** sy'n gweithio gyda'i gilydd. Mae caledwedd yn cyfeirio at y cydrannau ffisegol, tra bod meddalwedd yn cyfeirio at raglenni a data.
