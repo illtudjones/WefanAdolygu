@@ -10,8 +10,8 @@ export interface Course {
 export const COURSES: Course[] = [
   {
     id: 'wjec-gcse',
-    title: 'WJEC GCSE Computer Science',
-    subtitle: 'Unit 1 — Current',
+    title: 'Year 10 2026',
+    subtitle: 'WJEC GCSE Unit 1',
     basePath: 'topics',
   },
   {
