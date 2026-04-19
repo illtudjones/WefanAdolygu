@@ -1,7 +1,5 @@
 # Security and Data Management
 
-These revision notes are based on the WJEC GCSE Computer Science legacy specification (teaching from 2017 / award from 2019).
-
 ## Data security
 - Storing personal data on computers creates risks such as unauthorised access, theft or misuse.
 - Protection methods include access levels, strong passwords and encryption.

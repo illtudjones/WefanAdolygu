@@ -1,7 +1,5 @@
 # Datblygu Meddalwedd (Trosolwg ADA)
 
-Mae'r nodiadau adolygu hyn yn seiliedig ar hen fanyleb TGAU Cyfrifiadureg CBAC (addysgu o 2017 / dyfarnu o 2019).
-
 ## Cwmpas y broblem
 - Mae ymgeiswyr yn dadansoddi'r senario o ran mewnbwn, prosesu ac allbwn.
 - Dylid gosod amcanion a meini prawf llwyddiant mesuradwy.

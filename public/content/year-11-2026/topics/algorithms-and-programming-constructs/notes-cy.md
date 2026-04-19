@@ -1,7 +1,5 @@
 # Algorithmau a lluniadau rhaglennu
 
-Mae'r nodiadau adolygu hyn yn seiliedig ar hen fanyleb TGAU Cyfrifiadureg CBAC (addysgu o 2017 / dyfarnu o 2019).
-
 ## Algorithmau
 - Gellir diffinio algorithmau drwy ddefnyddio ffug-god a siartiau llif.
 

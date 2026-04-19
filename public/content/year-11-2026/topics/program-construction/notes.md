@@ -1,7 +1,5 @@
 # Program Construction
 
-These revision notes are based on the WJEC GCSE Computer Science legacy specification (teaching from 2017 / award from 2019).
-
 ## Translators
 - Compilers translate the whole program before execution.
 - Interpreters translate and execute code line by line.

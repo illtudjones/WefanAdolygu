@@ -1,7 +1,5 @@
 # Caledwedd
 
-Mae'r nodiadau adolygu hyn yn seiliedig ar hen fanyleb TGAU Cyfrifiadureg CBAC (addysgu o 2017 / dyfarnu o 2019).
-
 ## Saernïaeth
 - Mae saernïaeth CPU yn cynnwys saernïaeth Von Neumann, lle caiff data a chyfarwyddiadau eu storio yn yr un prif gof.
 - Mae cydrannau allweddol y CPU yn y cylchred cywain-dadgodio-gweithredu yn cynnwys yr Uned Reoli, ALU, Rhifydd y Rhaglen, MAR, MDR, CIR a'r cronadur.

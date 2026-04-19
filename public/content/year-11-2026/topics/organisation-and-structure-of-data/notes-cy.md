@@ -1,7 +1,5 @@
 # Trefn a strwythur data
 
-Mae'r nodiadau adolygu hyn yn seiliedig ar hen fanyleb TGAU Cyfrifiadureg CBAC (addysgu o 2017 / dyfarnu o 2019).
-
 ## Cynrychioliad rhifau
 - Dylai dysgwyr drosi rhwng degaidd, deuaidd a hecsadegol.
 - Mae hecsadegol yn gweithredu fel llaw fer ar gyfer deuaidd.

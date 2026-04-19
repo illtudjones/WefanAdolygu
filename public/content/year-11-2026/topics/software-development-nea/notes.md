@@ -1,7 +1,5 @@
 # Software Development (NEA Overview)
 
-These revision notes are based on the WJEC GCSE Computer Science legacy specification (teaching from 2017 / award from 2019).
-
 ## Scope of the problem
 - Candidates analyse the scenario in terms of input, processing and output.
 - Objectives and measurable success criteria should be set.

@@ -1,7 +1,5 @@
 # Cyfathrebu
 
-Mae'r nodiadau adolygu hyn yn seiliedig ar hen fanyleb TGAU Cyfrifiadureg CBAC (addysgu o 2017 / dyfarnu o 2019).
-
 ## Rhwydweithiau
 - Mae mathau gwahanol o rwydweithiau yn cynnwys LAN a WAN.
 - Mae topolegau cyffredin yn cynnwys cylch, seren, bws a rhwyll, pob un â manteision ac anfanteision.

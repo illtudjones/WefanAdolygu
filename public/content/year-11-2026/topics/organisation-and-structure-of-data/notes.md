@@ -1,7 +1,5 @@
 # Organisation and Structure of Data
 
-These revision notes are based on the WJEC GCSE Computer Science legacy specification (teaching from 2017 / award from 2019).
-
 ## Representation of numbers
 - Learners should convert between denary, binary and hexadecimal.
 - Hexadecimal acts as shorthand for binary.

@@ -1,7 +1,5 @@
 # Data Structures and Data Types
 
-These revision notes are based on the WJEC GCSE Computer Science legacy specification (teaching from 2017 / award from 2019).
-
 ## Implementing data structures
 - Learners should use one-dimensional and two-dimensional arrays, files and records.
 

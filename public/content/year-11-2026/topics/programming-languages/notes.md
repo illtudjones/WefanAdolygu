@@ -1,7 +1,5 @@
 # Programming Languages
 
-These revision notes are based on the WJEC GCSE Computer Science legacy specification (teaching from 2017 / award from 2019).
-
 ## Markup languages
 - Learners should design, write, test and refine HTML pages.
 - The specification names tags such as html, head, title, body, headings, paragraph, italic, bold, centre, anchor, mailto, unordered list, list item, blockquote, horizontal rule and image.

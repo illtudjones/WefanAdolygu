@@ -1,7 +1,5 @@
 # Hardware
 
-These revision notes are based on the WJEC GCSE Computer Science legacy specification (teaching from 2017 / award from 2019).
-
 ## Architecture
 - CPU architecture includes Von Neumann architecture, where data and instructions are stored in the same main memory.
 - Key CPU components in the fetch-decode-execute cycle include the Control Unit, ALU, Program Counter, MAR, MDR, CIR and accumulator.

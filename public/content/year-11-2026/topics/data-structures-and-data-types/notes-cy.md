@@ -1,7 +1,5 @@
 # Strwythurau data a mathau data
 
-Mae'r nodiadau adolygu hyn yn seiliedig ar hen fanyleb TGAU Cyfrifiadureg CBAC (addysgu o 2017 / dyfarnu o 2019).
-
 ## Gweithredu strwythurau data
 - Dylai dysgwyr ddefnyddio araeau un dimensiwn a dau ddimensiwn, ffeiliau a chofnodion.
 

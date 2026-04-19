@@ -1,7 +1,5 @@
 # Diogelwch a rheoli data
 
-Mae'r nodiadau adolygu hyn yn seiliedig ar hen fanyleb TGAU Cyfrifiadureg CBAC (addysgu o 2017 / dyfarnu o 2019).
-
 ## Diogelwch data
 - Mae storio data personol ar gyfrifiaduron yn creu risgiau fel mynediad anawdurdodedig, lladrad neu gamddefnydd.
 - Mae dulliau diogelu yn cynnwys lefelau mynediad, cyfrineiriau cryf ac amgryptio.

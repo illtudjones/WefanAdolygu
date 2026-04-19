@@ -1,7 +1,5 @@
 # Algorithms and Programming Constructs
 
-These revision notes are based on the WJEC GCSE Computer Science legacy specification (teaching from 2017 / award from 2019).
-
 ## Algorithms
 - Algorithms can be defined using pseudocode and flowcharts.
 

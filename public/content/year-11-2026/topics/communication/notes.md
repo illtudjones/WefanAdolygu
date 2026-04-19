@@ -1,7 +1,5 @@
 # Communication
 
-These revision notes are based on the WJEC GCSE Computer Science legacy specification (teaching from 2017 / award from 2019).
-
 ## Networks
 - Different network types include LAN and WAN.
 - Common topologies include ring, star, bus and mesh, each with advantages and disadvantages.

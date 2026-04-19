@@ -1,7 +1,5 @@
 # Llunio rhaglenni
 
-Mae'r nodiadau adolygu hyn yn seiliedig ar hen fanyleb TGAU Cyfrifiadureg CBAC (addysgu o 2017 / dyfarnu o 2019).
-
 ## Cyfieithwyr
 - Mae crynoyddion yn cyfieithu'r rhaglen gyfan cyn ei gweithredu.
 - Mae dehonglwyr yn cyfieithu ac yn gweithredu cod linell wrth linell.

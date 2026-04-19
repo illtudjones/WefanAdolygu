@@ -1,7 +1,5 @@
 # Ieithoedd rhaglennu
 
-Mae'r nodiadau adolygu hyn yn seiliedig ar hen fanyleb TGAU Cyfrifiadureg CBAC (addysgu o 2017 / dyfarnu o 2019).
-
 ## Ieithoedd tagio
 - Dylai dysgwyr ddylunio, ysgrifennu, profi a mireinio tudalennau HTML.
 - Mae'r fanyleb yn enwi tagiau fel html, head, title, body, penawdau, paragraff, italig, trwm, alinio i'r canol, angori, mailto, rhestr heb drefn, eitem rhestr, dyfyniad bloc, llinell lorweddol a delwedd.
