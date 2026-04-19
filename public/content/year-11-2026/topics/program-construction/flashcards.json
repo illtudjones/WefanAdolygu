@@ -1,0 +1,47 @@
+{
+  "topicId": "program-construction",
+  "specVersion": "wjec-legacy-2017",
+  "version": 1,
+  "cards": [
+    {
+      "id": "prog-fc-001",
+      "front": "What does a compiler do?",
+      "back": "It translates the whole source program before execution.",
+      "tags": [
+        "compiler"
+      ]
+    },
+    {
+      "id": "prog-fc-002",
+      "front": "What does an interpreter do?",
+      "back": "It translates and executes code line by line.",
+      "tags": [
+        "interpreter"
+      ]
+    },
+    {
+      "id": "prog-fc-003",
+      "front": "What does an assembler do?",
+      "back": "It converts assembly language into machine code.",
+      "tags": [
+        "assembler"
+      ]
+    },
+    {
+      "id": "prog-fc-004",
+      "front": "Name the main stages of compilation.",
+      "back": "Lexical analysis, symbol table construction, syntax analysis, semantic analysis, code generation and optimisation.",
+      "tags": [
+        "compilation"
+      ]
+    },
+    {
+      "id": "prog-fc-005",
+      "front": "Name three common programming error types.",
+      "back": "Syntax, logic and runtime errors.",
+      "tags": [
+        "errors"
+      ]
+    }
+  ]
+}

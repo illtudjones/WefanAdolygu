@@ -1,0 +1,47 @@
+{
+  "topicId": "principles-of-programming",
+  "specVersion": "wjec-legacy-2017",
+  "version": 1,
+  "cards": [
+    {
+      "id": "prin-fc-001",
+      "front": "Beth yw iaith lefel uchel?",
+      "back": "Iaith sy'n haws i bobl ei darllen a'i hysgrifennu.",
+      "tags": [
+        "uchel"
+      ]
+    },
+    {
+      "id": "prin-fc-002",
+      "front": "Beth yw iaith lefel isel?",
+      "back": "Iaith sy'n agos at god peiriant ac sy'n rhoi rheolaeth uniongyrchol dros galedwedd.",
+      "tags": [
+        "isel"
+      ]
+    },
+    {
+      "id": "prin-fc-003",
+      "front": "Pryd y gellid defnyddio iaith lefel isel?",
+      "back": "Pan fo angen perfformiad uchel neu reolaeth uniongyrchol dros galedwedd.",
+      "tags": [
+        "isel"
+      ]
+    },
+    {
+      "id": "prin-fc-004",
+      "front": "Pam mae ieithoedd lefel uchel yn boblogaidd?",
+      "back": "Maent yn haws ac yn gyflymach i bobl eu datblygu a'u cynnal.",
+      "tags": [
+        "uchel"
+      ]
+    },
+    {
+      "id": "prin-fc-005",
+      "front": "Beth yw'r prif wahaniaeth rhwng ieithoedd lefel uchel ac isel?",
+      "back": "Mae ieithoedd lefel uchel yn fwy darllenadwy i bobl, tra bod ieithoedd lefel isel yn nes at god peiriant.",
+      "tags": [
+        "rhaglennu"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "topicId": "organisation-and-structure-of-data",
+  "specVersion": "wjec-legacy-2017",
+  "version": 1,
+  "cards": [
+    {
+      "id": "orga-fc-001",
+      "front": "Pam defnyddir hecsadegol?",
+      "back": "Mae'n ffordd fyrrach a haws ei darllen o gynrychioli rhifau deuaidd.",
+      "tags": [
+        "hecsadegol"
+      ]
+    },
+    {
+      "id": "orga-fc-002",
+      "front": "Beth yw gorlif?",
+      "back": "Mae'n digwydd pan fo gwerth deuaidd yn rhy fawr i ffitio yn y nifer o ddidau sydd ar gael.",
+      "tags": [
+        "deuaidd"
+      ]
+    },
+    {
+      "id": "orga-fc-003",
+      "front": "Enwch ddwy set nodau safonedig.",
+      "back": "ASCII ac Unicode.",
+      "tags": [
+        "nodau"
+      ]
+    },
+    {
+      "id": "orga-fc-004",
+      "front": "Beth yw'r gwahaniaeth rhwng dilysu a gwirio?",
+      "back": "Mae dilysu yn gwirio bod data yn synhwyrol ac yn y fformat cywir; mae gwirio yn gwirio ei fod wedi'i fewnbynnu'n gywir.",
+      "tags": [
+        "dilysu"
+      ]
+    },
+    {
+      "id": "orga-fc-005",
+      "front": "Enwch ddau strwythur data o'r fanyleb.",
+      "back": "Cofnodion ac araeau un neu ddau ddimensiwn.",
+      "tags": [
+        "strwythurau-data"
+      ]
+    }
+  ]
+}

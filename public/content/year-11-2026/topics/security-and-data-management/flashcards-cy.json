@@ -1,0 +1,47 @@
+{
+  "topicId": "security-and-data-management",
+  "specVersion": "wjec-legacy-2017",
+  "version": 1,
+  "cards": [
+    {
+      "id": "secu-fc-001",
+      "front": "Enwch dri dull diogelu data o'r fanyleb.",
+      "back": "Lefelau mynediad, cyfrineiriau addas ac amgryptio.",
+      "tags": [
+        "diogelwch"
+      ]
+    },
+    {
+      "id": "secu-fc-002",
+      "front": "Pam mae copïau wrth gefn yn bwysig?",
+      "back": "Maent yn amddiffyn rhag colli data.",
+      "tags": [
+        "copiau-wrth-gefn"
+      ]
+    },
+    {
+      "id": "secu-fc-003",
+      "front": "Beth yw'r gwahaniaeth rhwng cywasgu colledus a digolled?",
+      "back": "Mae cywasgu colledus yn tynnu rhywfaint o ddata'n barhaol; mae cywasgu digolled yn lleihau maint heb golli'r data gwreiddiol.",
+      "tags": [
+        "cywasgu"
+      ]
+    },
+    {
+      "id": "secu-fc-004",
+      "front": "Enwch ddwy enghraifft o faleiswedd.",
+      "back": "Mae firysau, mwydod a chofnodwyr bysellau i gyd yn enghreifftiau.",
+      "tags": [
+        "maleiswedd"
+      ]
+    },
+    {
+      "id": "secu-fc-005",
+      "front": "Beth yw polisi defnydd derbyniol?",
+      "back": "Dogfen sy'n nodi'r rheolau ar gyfer defnyddio systemau a rhwydweithiau sefydliad.",
+      "tags": [
+        "rhwydwaith"
+      ]
+    }
+  ]
+}

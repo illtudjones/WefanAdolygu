@@ -1,0 +1,47 @@
+{
+  "topicId": "software-engineering",
+  "specVersion": "wjec-legacy-2017",
+  "version": 1,
+  "cards": [
+    {
+      "id": "soft-fc-001",
+      "front": "Beth mae IDE yn ei olygu?",
+      "back": "Amgylchedd Datblygu Integredig.",
+      "tags": [
+        "ide"
+      ]
+    },
+    {
+      "id": "soft-fc-002",
+      "front": "Sut mae IDE yn helpu rhaglenydd?",
+      "back": "Mae'n ei helpu i ysgrifennu, rhedeg, profi a dadfygio rhaglenni.",
+      "tags": [
+        "ide"
+      ]
+    },
+    {
+      "id": "soft-fc-003",
+      "front": "Enwch un nodwedd gyffredin mewn IDE.",
+      "back": "Golygydd, cyfieithydd, diagnosteg gwallau neu ddadfygiwr.",
+      "tags": [
+        "ide"
+      ]
+    },
+    {
+      "id": "soft-fc-004",
+      "front": "Pam mae offer IDE yn ddefnyddiol?",
+      "back": "Maent yn cyflymu datblygu ac yn gwneud gwallau yn haws eu canfod.",
+      "tags": [
+        "dadfygio"
+      ]
+    },
+    {
+      "id": "soft-fc-005",
+      "front": "Beth yw dadfygio?",
+      "back": "Canfod a chywiro gwallau mewn rhaglen.",
+      "tags": [
+        "dadfygio"
+      ]
+    }
+  ]
+}

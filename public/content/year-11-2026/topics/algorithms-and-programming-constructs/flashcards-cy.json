@@ -1,0 +1,47 @@
+{
+  "topicId": "algorithms-and-programming-constructs",
+  "specVersion": "wjec-legacy-2017",
+  "version": 1,
+  "cards": [
+    {
+      "id": "algo-fc-001",
+      "front": "Enwch dri lluniad rhaglennu craidd.",
+      "back": "Dilyniant, detholiad ac iteriad.",
+      "tags": [
+        "lluniadau"
+      ]
+    },
+    {
+      "id": "algo-fc-002",
+      "front": "Beth yw is-reolwaith?",
+      "back": "Bloc o god y gellir ei ailddefnyddio i gyflawni tasg benodol.",
+      "tags": [
+        "is-reolweithiau"
+      ]
+    },
+    {
+      "id": "algo-fc-003",
+      "front": "Enwch ddau algorithm chwilio o'r fanyleb.",
+      "back": "Chwilio llinol a chwilio deuaidd.",
+      "tags": [
+        "chwilio"
+      ]
+    },
+    {
+      "id": "algo-fc-004",
+      "front": "Enwch ddau algorithm trefnu o'r fanyleb.",
+      "back": "Trefniad cyfunol a threfniad bwrlwm.",
+      "tags": [
+        "trefnu"
+      ]
+    },
+    {
+      "id": "algo-fc-005",
+      "front": "Pam defnyddio dynodwyr hunanddogfennu?",
+      "back": "Maent yn gwneud cod yn haws ei ddeall.",
+      "tags": [
+        "dynodwyr"
+      ]
+    }
+  ]
+}

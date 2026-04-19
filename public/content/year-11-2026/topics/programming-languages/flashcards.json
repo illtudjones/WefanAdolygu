@@ -1,0 +1,47 @@
+{
+  "topicId": "programming-languages",
+  "specVersion": "wjec-legacy-2017",
+  "version": 1,
+  "cards": [
+    {
+      "id": "prog-fc-001",
+      "front": "Name three HTML tags from the specification.",
+      "back": "Examples include <html>, <head>, <title>, <body>, <p> and <img>.",
+      "tags": [
+        "html"
+      ]
+    },
+    {
+      "id": "prog-fc-002",
+      "front": "Which object-oriented language/environment is named in the specification?",
+      "back": "Java in the Greenfoot environment.",
+      "tags": [
+        "greenfoot"
+      ]
+    },
+    {
+      "id": "prog-fc-003",
+      "front": "Name three Greenfoot skills from the specification.",
+      "back": "Examples include creating classes, writing methods, using keyboard input, playing sounds and collision detection.",
+      "tags": [
+        "greenfoot"
+      ]
+    },
+    {
+      "id": "prog-fc-004",
+      "front": "Name three assembly mnemonics from the specification.",
+      "back": "Examples include INP, OUT, STA, LDA, ADD, SUB, BRA, HLT and DAT.",
+      "tags": [
+        "assembly"
+      ]
+    },
+    {
+      "id": "prog-fc-005",
+      "front": "What is a markup language used for here?",
+      "back": "To design and write HTML web pages.",
+      "tags": [
+        "html"
+      ]
+    }
+  ]
+}

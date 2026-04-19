@@ -1,0 +1,47 @@
+{
+  "topicId": "problem-solving",
+  "specVersion": "wjec-legacy-2017",
+  "version": 1,
+  "cards": [
+    {
+      "id": "prob-fc-001",
+      "front": "Beth yw dadelfennu?",
+      "back": "Torri problem yn rannau llai a haws eu rheoli.",
+      "tags": [
+        "dadelfennu"
+      ]
+    },
+    {
+      "id": "prob-fc-002",
+      "front": "Beth yw haniaethu?",
+      "back": "Tynnu manylion diangen i ganolbwyntio ar y nodweddion pwysig.",
+      "tags": [
+        "haniaethu"
+      ]
+    },
+    {
+      "id": "prob-fc-003",
+      "front": "Pam defnyddio strwythur rhaglen fodiwlaidd?",
+      "back": "Mae'n gwneud rhaglenni'n gliriach, yn haws eu profi ac yn haws eu cynnal.",
+      "tags": [
+        "modiwlaidd"
+      ]
+    },
+    {
+      "id": "prob-fc-004",
+      "front": "Sut dylai rhyngwynebau modiwlau fod?",
+      "back": "Yn glir ac wedi'u dogfennu'n dda.",
+      "tags": [
+        "modiwlaidd"
+      ]
+    },
+    {
+      "id": "prob-fc-005",
+      "front": "Pam defnyddio dull systematig o ddatrys problemau?",
+      "back": "Mae'n helpu i greu datrysiadau trefnus ac effeithiol.",
+      "tags": [
+        "datrys-problemau"
+      ]
+    }
+  ]
+}

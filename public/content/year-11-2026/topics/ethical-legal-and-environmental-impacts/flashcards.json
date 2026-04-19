@@ -1,0 +1,47 @@
+{
+  "topicId": "ethical-legal-and-environmental-impacts",
+  "specVersion": "wjec-legacy-2017",
+  "version": 1,
+  "cards": [
+    {
+      "id": "ethi-fc-001",
+      "front": "Name two ethical issues linked to digital technology.",
+      "back": "Privacy and cybersecurity.",
+      "tags": [
+        "ethics"
+      ]
+    },
+    {
+      "id": "ethi-fc-002",
+      "front": "Why are professional standards important?",
+      "back": "They guide responsible and ethical behaviour.",
+      "tags": [
+        "ethics"
+      ]
+    },
+    {
+      "id": "ethi-fc-003",
+      "front": "What areas are affected by current legislation?",
+      "back": "Security, privacy, data protection and freedom of information.",
+      "tags": [
+        "law"
+      ]
+    },
+    {
+      "id": "ethi-fc-004",
+      "front": "Name one environmental impact of digital technology.",
+      "back": "Energy use, e-waste or resource consumption.",
+      "tags": [
+        "environment"
+      ]
+    },
+    {
+      "id": "ethi-fc-005",
+      "front": "Why is e-waste a concern?",
+      "back": "Discarded electronic devices can damage the environment.",
+      "tags": [
+        "environment"
+      ]
+    }
+  ]
+}

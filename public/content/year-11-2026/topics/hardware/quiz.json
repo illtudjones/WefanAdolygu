@@ -1,0 +1,146 @@
+{
+  "topicId": "hardware",
+  "specVersion": "wjec-legacy-2017",
+  "version": 1,
+  "title": "Hardware Quiz",
+  "passMark": 70,
+  "shuffleQuestions": true,
+  "shuffleOptions": true,
+  "questions": [
+    {
+      "id": "hard-q-001",
+      "text": "Which architecture stores data and instructions in the same memory?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Von Neumann architecture"
+        },
+        {
+          "id": "b",
+          "text": "Harvard architecture"
+        },
+        {
+          "id": "c",
+          "text": "Ring architecture"
+        },
+        {
+          "id": "d",
+          "text": "Mesh architecture"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "This is the defining feature of Von Neumann architecture.",
+      "tags": [
+        "hardware"
+      ]
+    },
+    {
+      "id": "hard-q-002",
+      "text": "Which factor does NOT directly increase CPU performance in the specification?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Screen size"
+        },
+        {
+          "id": "b",
+          "text": "Clock speed"
+        },
+        {
+          "id": "c",
+          "text": "Cache size"
+        },
+        {
+          "id": "d",
+          "text": "Number of cores"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Clock speed, cache size and number of cores are the named CPU performance factors.",
+      "tags": [
+        "hardware"
+      ]
+    },
+    {
+      "id": "hard-q-003",
+      "text": "Which storage type is volatile?",
+      "options": [
+        {
+          "id": "a",
+          "text": "RAM"
+        },
+        {
+          "id": "b",
+          "text": "ROM"
+        },
+        {
+          "id": "c",
+          "text": "Flash memory"
+        },
+        {
+          "id": "d",
+          "text": "SSD"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "RAM loses its contents when power is removed.",
+      "tags": [
+        "hardware"
+      ]
+    },
+    {
+      "id": "hard-q-004",
+      "text": "Which device is an example of an embedded system?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Washing machine"
+        },
+        {
+          "id": "b",
+          "text": "Desktop monitor"
+        },
+        {
+          "id": "c",
+          "text": "External hard drive"
+        },
+        {
+          "id": "d",
+          "text": "USB hub"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "An embedded system is built into a larger product to perform a dedicated task.",
+      "tags": [
+        "hardware"
+      ]
+    },
+    {
+      "id": "hard-q-005",
+      "text": "What does RISC stand for in practice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A processor with a reduced instruction set"
+        },
+        {
+          "id": "b",
+          "text": "A processor with random instruction storage"
+        },
+        {
+          "id": "c",
+          "text": "A processor with removable internal storage cache"
+        },
+        {
+          "id": "d",
+          "text": "A processor with recursive instruction sharing"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "RISC processors use fewer, simpler instructions.",
+      "tags": [
+        "hardware"
+      ]
+    }
+  ]
+}

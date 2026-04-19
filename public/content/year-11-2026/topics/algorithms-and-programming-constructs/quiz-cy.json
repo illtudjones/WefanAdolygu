@@ -1,0 +1,146 @@
+{
+  "topicId": "algorithms-and-programming-constructs",
+  "specVersion": "wjec-legacy-2017",
+  "version": 1,
+  "title": "Algorithmau a lluniadau rhaglennu Quiz",
+  "passMark": 70,
+  "shuffleQuestions": true,
+  "shuffleOptions": true,
+  "questions": [
+    {
+      "id": "algo-q-001",
+      "text": "Pa ddatganiad sy'n cyd-fynd orau â Algorithmau a lluniadau rhaglennu?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mae'n canolbwyntio ar syniadau allweddol algorithmau a lluniadau rhaglennu."
+        },
+        {
+          "id": "b",
+          "text": "Mae'n ymwneud yn unig ag atgyweirio caledwedd."
+        },
+        {
+          "id": "c",
+          "text": "Nid yw'n gysylltiedig â TGAU Cyfrifiadureg."
+        },
+        {
+          "id": "d",
+          "text": "Mae'n ymwneud yn unig â meddalwedd swyddfa."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Mae'r pwnc hwn yn cwmpasu cynnwys y fanyleb sy'n gysylltiedig â algorithmau a lluniadau rhaglennu.",
+      "tags": [
+        "algorithms-and-programming-constructs"
+      ]
+    },
+    {
+      "id": "algo-q-002",
+      "text": "Pam ddylai myfyrwyr adolygu algorithmau a lluniadau rhaglennu?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Oherwydd ei fod yn rhan o hen fanyleb CBAC."
+        },
+        {
+          "id": "b",
+          "text": "Oherwydd nad yw'n cael ei asesu o gwbl."
+        },
+        {
+          "id": "c",
+          "text": "Oherwydd ei fod ar lefel A yn unig."
+        },
+        {
+          "id": "d",
+          "text": "Oherwydd ei fod yn disodli mathemateg."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Daw'r cynnwys hwn o hen fanyleb TGAU Cyfrifiadureg CBAC.",
+      "tags": [
+        "algorithms-and-programming-constructs"
+      ]
+    },
+    {
+      "id": "algo-q-003",
+      "text": "Beth yw'r ffordd orau o adolygu algorithmau a lluniadau rhaglennu?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dysgu diffiniadau, cymhwyso syniadau ac ymarfer cwestiynau arholiad."
+        },
+        {
+          "id": "b",
+          "text": "Dim ond cofio un allweddair."
+        },
+        {
+          "id": "c",
+          "text": "Anwybyddu enghreifftiau ac esboniadau."
+        },
+        {
+          "id": "d",
+          "text": "Ei adolygu unwaith yn unig ar y diwedd."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Mae adolygu effeithiol yn cyfuno gwybodaeth, dealltwriaeth ac ymarfer.",
+      "tags": [
+        "algorithms-and-programming-constructs"
+      ]
+    },
+    {
+      "id": "algo-q-004",
+      "text": "Beth ddylai dysgwyr allu ei wneud yn algorithmau a lluniadau rhaglennu?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Esbonio syniadau'n glir a'u cymhwyso mewn cyd-destun."
+        },
+        {
+          "id": "b",
+          "text": "Copïo nodiadau air am air yn unig."
+        },
+        {
+          "id": "c",
+          "text": "Osgoi defnyddio termau technegol."
+        },
+        {
+          "id": "d",
+          "text": "Hepgor pob enghraifft ymarferol."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Mae'r fanyleb yn disgwyl dealltwriaeth a chymhwysiad.",
+      "tags": [
+        "algorithms-and-programming-constructs"
+      ]
+    },
+    {
+      "id": "algo-q-005",
+      "text": "Beth sydd fwyaf defnyddiol wrth adolygu algorithmau a lluniadau rhaglennu?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Geirfa dechnegol gywir ac enghreifftiau wedi'u gweithio."
+        },
+        {
+          "id": "b",
+          "text": "Dyfalu ar hap"
+        },
+        {
+          "id": "c",
+          "text": "Dysgu ffeithiau amherthnasol"
+        },
+        {
+          "id": "d",
+          "text": "Anwybyddu termau allweddol"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Mae geirfa dechnegol ac enghreifftiau yn helpu dysgwyr i lwyddo mewn cwestiynau arholiad.",
+      "tags": [
+        "algorithms-and-programming-constructs"
+      ]
+    }
+  ]
+}

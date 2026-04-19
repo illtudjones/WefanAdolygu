@@ -1,0 +1,47 @@
+{
+  "topicId": "software-engineering",
+  "specVersion": "wjec-legacy-2017",
+  "version": 1,
+  "cards": [
+    {
+      "id": "soft-fc-001",
+      "front": "What does IDE stand for?",
+      "back": "Integrated Development Environment.",
+      "tags": [
+        "ide"
+      ]
+    },
+    {
+      "id": "soft-fc-002",
+      "front": "How does an IDE help a programmer?",
+      "back": "It helps them write, run, test and debug programs.",
+      "tags": [
+        "ide"
+      ]
+    },
+    {
+      "id": "soft-fc-003",
+      "front": "Name one common IDE feature.",
+      "back": "An editor, translator, error diagnostics or debugger.",
+      "tags": [
+        "ide"
+      ]
+    },
+    {
+      "id": "soft-fc-004",
+      "front": "Why are IDE tools useful?",
+      "back": "They speed up development and make errors easier to find.",
+      "tags": [
+        "debugging"
+      ]
+    },
+    {
+      "id": "soft-fc-005",
+      "front": "What is debugging?",
+      "back": "Finding and fixing errors in a program.",
+      "tags": [
+        "debugging"
+      ]
+    }
+  ]
+}

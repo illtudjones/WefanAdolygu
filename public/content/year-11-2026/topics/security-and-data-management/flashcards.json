@@ -1,0 +1,47 @@
+{
+  "topicId": "security-and-data-management",
+  "specVersion": "wjec-legacy-2017",
+  "version": 1,
+  "cards": [
+    {
+      "id": "secu-fc-001",
+      "front": "Name three data protection methods from the specification.",
+      "back": "Access levels, suitable passwords and encryption.",
+      "tags": [
+        "security"
+      ]
+    },
+    {
+      "id": "secu-fc-002",
+      "front": "Why are backups important?",
+      "back": "They protect against data loss.",
+      "tags": [
+        "backups"
+      ]
+    },
+    {
+      "id": "secu-fc-003",
+      "front": "What is the difference between lossy and lossless compression?",
+      "back": "Lossy compression permanently removes some data; lossless compression reduces size without losing original data.",
+      "tags": [
+        "compression"
+      ]
+    },
+    {
+      "id": "secu-fc-004",
+      "front": "Name two examples of malware.",
+      "back": "Viruses, worms and key loggers are all examples.",
+      "tags": [
+        "malware"
+      ]
+    },
+    {
+      "id": "secu-fc-005",
+      "front": "What is an acceptable use policy?",
+      "back": "A document that sets rules for how users should use an organisation's systems and networks.",
+      "tags": [
+        "network-security"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "topicId": "software-development-nea",
+  "specVersion": "wjec-legacy-2017",
+  "version": 1,
+  "cards": [
+    {
+      "id": "soft-fc-001",
+      "front": "Beth mae'n rhaid i ymgeiswyr ei ddadansoddi yn gyntaf yn Uned 3?",
+      "back": "Y senario o ran mewnbwn, prosesu ac allbwn.",
+      "tags": [
+        "nea"
+      ]
+    },
+    {
+      "id": "soft-fc-002",
+      "front": "Beth ddylai log mireinio ei gynnwys?",
+      "back": "Y cynnydd a wnaed, problemau a gafwyd, newidiadau a wnaed a chynlluniau ar gyfer sesiynau pellach.",
+      "tags": [
+        "nea"
+      ]
+    },
+    {
+      "id": "soft-fc-003",
+      "front": "Enwch dri math o brofi yn nhrosolwg Uned 3.",
+      "back": "Profion uned, profion integreiddio a phrofion gweithredol.",
+      "tags": [
+        "profi"
+      ]
+    },
+    {
+      "id": "soft-fc-004",
+      "front": "Sut dylai'r datrysiad terfynol fod?",
+      "back": "Yn fodiwlaidd, yn ddiogel, yn gadarn, yn ddibynadwy ac yn addas i'r pwrpas.",
+      "tags": [
+        "ansawdd"
+      ]
+    },
+    {
+      "id": "soft-fc-005",
+      "front": "Beth ddylai datblygiad pellach ei gynnwys?",
+      "back": "Awgrymiadau penodol ar gyfer estyn neu wella'r datrysiad.",
+      "tags": [
+        "datblygu"
+      ]
+    }
+  ]
+}

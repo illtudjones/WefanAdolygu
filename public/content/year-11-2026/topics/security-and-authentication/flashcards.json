@@ -1,0 +1,47 @@
+{
+  "topicId": "security-and-authentication",
+  "specVersion": "wjec-legacy-2017",
+  "version": 1,
+  "cards": [
+    {
+      "id": "secu-fc-001",
+      "front": "What two security techniques are named in this topic?",
+      "back": "Validation and authentication.",
+      "tags": [
+        "security"
+      ]
+    },
+    {
+      "id": "secu-fc-002",
+      "front": "What does authentication check?",
+      "back": "That a user is who they claim to be.",
+      "tags": [
+        "authentication"
+      ]
+    },
+    {
+      "id": "secu-fc-003",
+      "front": "What does validation check?",
+      "back": "That entered data is sensible and in the right format.",
+      "tags": [
+        "validation"
+      ]
+    },
+    {
+      "id": "secu-fc-004",
+      "front": "Why are security techniques important?",
+      "back": "They help protect systems and data.",
+      "tags": [
+        "security"
+      ]
+    },
+    {
+      "id": "secu-fc-005",
+      "front": "Give one example of authentication.",
+      "back": "A password, PIN or biometric check.",
+      "tags": [
+        "authentication"
+      ]
+    }
+  ]
+}

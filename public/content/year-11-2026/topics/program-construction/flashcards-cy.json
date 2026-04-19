@@ -1,0 +1,47 @@
+{
+  "topicId": "program-construction",
+  "specVersion": "wjec-legacy-2017",
+  "version": 1,
+  "cards": [
+    {
+      "id": "prog-fc-001",
+      "front": "Beth mae crynoydd yn ei wneud?",
+      "back": "Mae'n cyfieithu'r rhaglen ffynhonnell gyfan cyn ei gweithredu.",
+      "tags": [
+        "crynoydd"
+      ]
+    },
+    {
+      "id": "prog-fc-002",
+      "front": "Beth mae dehonglydd yn ei wneud?",
+      "back": "Mae'n cyfieithu ac yn gweithredu cod linell wrth linell.",
+      "tags": [
+        "dehonglydd"
+      ]
+    },
+    {
+      "id": "prog-fc-003",
+      "front": "Beth mae chydosodydd yn ei wneud?",
+      "back": "Mae'n trosi iaith gydosod i god peiriant.",
+      "tags": [
+        "cydosodydd"
+      ]
+    },
+    {
+      "id": "prog-fc-004",
+      "front": "Enwch brif gamau'r broses grynhoi.",
+      "back": "Dadansoddiad geiriadurol, llunio tabl symbolau, dadansoddiad cystrawen, dadansoddiad semantig, cynhyrchu cod ac optimeiddio.",
+      "tags": [
+        "crynhoi"
+      ]
+    },
+    {
+      "id": "prog-fc-005",
+      "front": "Enwch dri math cyffredin o wall rhaglennu.",
+      "back": "Gwallau cystrawen, rhesymeg ac amser rhedeg.",
+      "tags": [
+        "gwallau"
+      ]
+    }
+  ]
+}

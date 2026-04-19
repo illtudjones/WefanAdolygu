@@ -1,0 +1,146 @@
+{
+  "topicId": "system-software",
+  "specVersion": "wjec-legacy-2017",
+  "version": 1,
+  "title": "System Software Quiz",
+  "passMark": 70,
+  "shuffleQuestions": true,
+  "shuffleOptions": true,
+  "questions": [
+    {
+      "id": "syst-q-001",
+      "text": "Which statement best matches System Software?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It focuses on the key ideas in system software."
+        },
+        {
+          "id": "b",
+          "text": "It is only about hardware repair."
+        },
+        {
+          "id": "c",
+          "text": "It is unrelated to GCSE Computer Science."
+        },
+        {
+          "id": "d",
+          "text": "It is only about office software."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "This topic covers specification content linked to system software.",
+      "tags": [
+        "system-software"
+      ]
+    },
+    {
+      "id": "syst-q-002",
+      "text": "Why should students revise system software?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Because it is part of the WJEC legacy specification."
+        },
+        {
+          "id": "b",
+          "text": "Because it is not examined at all."
+        },
+        {
+          "id": "c",
+          "text": "Because it only appears at A level."
+        },
+        {
+          "id": "d",
+          "text": "Because it replaces mathematics."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "This content comes from the WJEC GCSE Computer Science legacy specification.",
+      "tags": [
+        "system-software"
+      ]
+    },
+    {
+      "id": "syst-q-003",
+      "text": "What is the best revision approach for system software?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Learn definitions, apply ideas and practise exam questions."
+        },
+        {
+          "id": "b",
+          "text": "Only memorise one keyword."
+        },
+        {
+          "id": "c",
+          "text": "Ignore examples and explanations."
+        },
+        {
+          "id": "d",
+          "text": "Revise it once at the end only."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Effective revision combines knowledge, understanding and practice.",
+      "tags": [
+        "system-software"
+      ]
+    },
+    {
+      "id": "syst-q-004",
+      "text": "What should learners be able to do in system software?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Explain ideas clearly and apply them in context."
+        },
+        {
+          "id": "b",
+          "text": "Only copy notes word for word."
+        },
+        {
+          "id": "c",
+          "text": "Avoid using technical terms."
+        },
+        {
+          "id": "d",
+          "text": "Skip all practical examples."
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The specification expects both understanding and application.",
+      "tags": [
+        "system-software"
+      ]
+    },
+    {
+      "id": "syst-q-005",
+      "text": "What is most useful when revising system software?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Accurate technical vocabulary and worked examples."
+        },
+        {
+          "id": "b",
+          "text": "Random guessing"
+        },
+        {
+          "id": "c",
+          "text": "Learning unrelated facts"
+        },
+        {
+          "id": "d",
+          "text": "Ignoring key terms"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Technical vocabulary and examples help learners succeed in exam questions.",
+      "tags": [
+        "system-software"
+      ]
+    }
+  ]
+}

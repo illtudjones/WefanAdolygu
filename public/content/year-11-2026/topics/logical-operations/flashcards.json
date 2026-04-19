@@ -1,0 +1,47 @@
+{
+  "topicId": "logical-operations",
+  "specVersion": "wjec-legacy-2017",
+  "version": 1,
+  "cards": [
+    {
+      "id": "logi-fc-001",
+      "front": "Which logical operators are named in the specification?",
+      "back": "AND, OR, NOT and XOR.",
+      "tags": [
+        "logic"
+      ]
+    },
+    {
+      "id": "logi-fc-002",
+      "front": "What is a truth table used for?",
+      "back": "It shows the output of a logical expression for every possible input combination.",
+      "tags": [
+        "truth-tables"
+      ]
+    },
+    {
+      "id": "logi-fc-003",
+      "front": "Why are Boolean identities useful?",
+      "back": "They let you simplify Boolean expressions.",
+      "tags": [
+        "boolean"
+      ]
+    },
+    {
+      "id": "logi-fc-004",
+      "front": "What does XOR mean?",
+      "back": "It outputs true only when the inputs are different.",
+      "tags": [
+        "logic"
+      ]
+    },
+    {
+      "id": "logi-fc-005",
+      "front": "Why simplify Boolean expressions?",
+      "back": "To reduce the number of terms or logic gates needed.",
+      "tags": [
+        "boolean"
+      ]
+    }
+  ]
+}

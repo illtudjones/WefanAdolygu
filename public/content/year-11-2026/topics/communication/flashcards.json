@@ -1,0 +1,47 @@
+{
+  "topicId": "communication",
+  "specVersion": "wjec-legacy-2017",
+  "version": 1,
+  "cards": [
+    {
+      "id": "comm-fc-001",
+      "front": "What is the difference between a LAN and a WAN?",
+      "back": "A LAN covers a small local area, while a WAN covers a much larger geographical area.",
+      "tags": [
+        "networks"
+      ]
+    },
+    {
+      "id": "comm-fc-002",
+      "front": "Name four common network topologies.",
+      "back": "Ring, star, bus and mesh.",
+      "tags": [
+        "topologies"
+      ]
+    },
+    {
+      "id": "comm-fc-003",
+      "front": "What does DNS do?",
+      "back": "It translates domain names into IP addresses.",
+      "tags": [
+        "internet"
+      ]
+    },
+    {
+      "id": "comm-fc-004",
+      "front": "Name two wired/wireless network protocols from the specification.",
+      "back": "Examples include Ethernet, Wi‑Fi, TCP/IP, HTTP, HTTPS, FTP and email protocols.",
+      "tags": [
+        "protocols"
+      ]
+    },
+    {
+      "id": "comm-fc-005",
+      "front": "What is packet switching?",
+      "back": "Data is broken into packets and sent across a network, possibly taking different routes.",
+      "tags": [
+        "switching"
+      ]
+    }
+  ]
+}

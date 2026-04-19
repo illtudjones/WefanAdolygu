@@ -1,0 +1,47 @@
+{
+  "topicId": "ethical-legal-and-environmental-impacts",
+  "specVersion": "wjec-legacy-2017",
+  "version": 1,
+  "cards": [
+    {
+      "id": "ethi-fc-001",
+      "front": "Enwch ddau fater moesegol sy'n gysylltiedig â thechnoleg ddigidol.",
+      "back": "Preifatrwydd a seiberddiogelwch.",
+      "tags": [
+        "moeseg"
+      ]
+    },
+    {
+      "id": "ethi-fc-002",
+      "front": "Pam mae safonau proffesiynol yn bwysig?",
+      "back": "Maent yn arwain ymddygiad cyfrifol a moesegol.",
+      "tags": [
+        "moeseg"
+      ]
+    },
+    {
+      "id": "ethi-fc-003",
+      "front": "Pa feysydd sy'n cael eu heffeithio gan ddeddfwriaeth gyfredol?",
+      "back": "Diogelwch, preifatrwydd, diogelu data a rhyddid gwybodaeth.",
+      "tags": [
+        "cyfraith"
+      ]
+    },
+    {
+      "id": "ethi-fc-004",
+      "front": "Enwch un effaith amgylcheddol technoleg ddigidol.",
+      "back": "Defnyddio ynni, gwastraff electronig neu ddefnydd o adnoddau.",
+      "tags": [
+        "amgylchedd"
+      ]
+    },
+    {
+      "id": "ethi-fc-005",
+      "front": "Pam mae gwastraff electronig yn bryder?",
+      "back": "Gall dyfeisiau electronig a daflwyd i ffwrdd niweidio'r amgylchedd.",
+      "tags": [
+        "amgylchedd"
+      ]
+    }
+  ]
+}

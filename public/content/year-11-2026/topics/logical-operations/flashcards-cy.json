@@ -1,0 +1,47 @@
+{
+  "topicId": "logical-operations",
+  "specVersion": "wjec-legacy-2017",
+  "version": 1,
+  "cards": [
+    {
+      "id": "logi-fc-001",
+      "front": "Pa weithredyddion rhesymegol sy'n cael eu henwi yn y fanyleb?",
+      "back": "AC, NEU, NID a NEUA.",
+      "tags": [
+        "rhesymeg"
+      ]
+    },
+    {
+      "id": "logi-fc-002",
+      "front": "At beth mae gwirlen yn cael ei defnyddio?",
+      "back": "Mae'n dangos allbwn mynegiad rhesymegol ar gyfer pob cyfuniad mewnbwn posibl.",
+      "tags": [
+        "gwirlenni"
+      ]
+    },
+    {
+      "id": "logi-fc-003",
+      "front": "Pam mae unfathiannau Boole yn ddefnyddiol?",
+      "back": "Maent yn eich galluogi i symleiddio mynegiadau Boole.",
+      "tags": [
+        "boole"
+      ]
+    },
+    {
+      "id": "logi-fc-004",
+      "front": "Beth yw ystyr XOR / NEUA?",
+      "back": "Mae'n allbynnu gwir dim ond pan fo'r mewnbynnau'n wahanol.",
+      "tags": [
+        "rhesymeg"
+      ]
+    },
+    {
+      "id": "logi-fc-005",
+      "front": "Pam symleiddio mynegiadau Boole?",
+      "back": "I leihau nifer y termau neu'r gatiau rhesymeg sydd eu hangen.",
+      "tags": [
+        "boole"
+      ]
+    }
+  ]
+}

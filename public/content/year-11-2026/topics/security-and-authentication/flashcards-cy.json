@@ -1,0 +1,47 @@
+{
+  "topicId": "security-and-authentication",
+  "specVersion": "wjec-legacy-2017",
+  "version": 1,
+  "cards": [
+    {
+      "id": "secu-fc-001",
+      "front": "Pa ddwy dechneg diogelwch sy'n cael eu henwi yn y pwnc hwn?",
+      "back": "Dilysu ac awthentigeiddio.",
+      "tags": [
+        "diogelwch"
+      ]
+    },
+    {
+      "id": "secu-fc-002",
+      "front": "Beth mae awthentigeiddio yn ei wirio?",
+      "back": "Bod defnyddiwr yn wir pwy maent yn honni eu bod.",
+      "tags": [
+        "awthentigeiddio"
+      ]
+    },
+    {
+      "id": "secu-fc-003",
+      "front": "Beth mae dilysu yn ei wirio?",
+      "back": "Bod y data a fewnbynnir yn synhwyrol ac yn y fformat cywir.",
+      "tags": [
+        "dilysu"
+      ]
+    },
+    {
+      "id": "secu-fc-004",
+      "front": "Pam mae technegau diogelwch yn bwysig?",
+      "back": "Maent yn helpu i ddiogelu systemau a data.",
+      "tags": [
+        "diogelwch"
+      ]
+    },
+    {
+      "id": "secu-fc-005",
+      "front": "Rhowch un enghraifft o awthentigeiddio.",
+      "back": "Cyfrinair, PIN neu wiriad biometrig.",
+      "tags": [
+        "awthentigeiddio"
+      ]
+    }
+  ]
+}

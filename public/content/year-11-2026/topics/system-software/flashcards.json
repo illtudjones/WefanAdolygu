@@ -1,0 +1,47 @@
+{
+  "topicId": "system-software",
+  "specVersion": "wjec-legacy-2017",
+  "version": 1,
+  "cards": [
+    {
+      "id": "syst-fc-001",
+      "front": "What resources does an operating system manage?",
+      "back": "Peripherals, processes, memory and backing store.",
+      "tags": [
+        "operating-system"
+      ]
+    },
+    {
+      "id": "syst-fc-002",
+      "front": "Why does an operating system provide a user interface?",
+      "back": "So users can interact with the computer system.",
+      "tags": [
+        "interface"
+      ]
+    },
+    {
+      "id": "syst-fc-003",
+      "front": "What is utility software?",
+      "back": "Software that performs maintenance tasks such as backup, antivirus or compression.",
+      "tags": [
+        "utilities"
+      ]
+    },
+    {
+      "id": "syst-fc-004",
+      "front": "Give one example of utility software.",
+      "back": "Backup tools, antivirus tools, compression tools or disk utilities.",
+      "tags": [
+        "utilities"
+      ]
+    },
+    {
+      "id": "syst-fc-005",
+      "front": "What is backing store?",
+      "back": "Secondary storage used to keep data and programs long term.",
+      "tags": [
+        "storage"
+      ]
+    }
+  ]
+}

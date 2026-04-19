@@ -1,0 +1,47 @@
+{
+  "topicId": "data-structures-and-data-types",
+  "specVersion": "wjec-legacy-2017",
+  "version": 1,
+  "cards": [
+    {
+      "id": "data-fc-001",
+      "front": "Name two data structures from this topic.",
+      "back": "Arrays, files and records.",
+      "tags": [
+        "data-structures"
+      ]
+    },
+    {
+      "id": "data-fc-002",
+      "front": "Name five data types from the specification.",
+      "back": "Integer, Boolean, real, character and string.",
+      "tags": [
+        "data-types"
+      ]
+    },
+    {
+      "id": "data-fc-003",
+      "front": "What is a constant?",
+      "back": "A value that does not change while the program runs.",
+      "tags": [
+        "constants"
+      ]
+    },
+    {
+      "id": "data-fc-004",
+      "front": "What is a variable?",
+      "back": "A named storage location whose value can change.",
+      "tags": [
+        "variables"
+      ]
+    },
+    {
+      "id": "data-fc-005",
+      "front": "What is meant by the scope of a variable?",
+      "back": "Where in the program the variable can be accessed.",
+      "tags": [
+        "variables"
+      ]
+    }
+  ]
+}

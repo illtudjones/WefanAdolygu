@@ -1,0 +1,47 @@
+{
+  "topicId": "data-structures-and-data-types",
+  "specVersion": "wjec-legacy-2017",
+  "version": 1,
+  "cards": [
+    {
+      "id": "data-fc-001",
+      "front": "Enwch ddau strwythur data o'r pwnc hwn.",
+      "back": "Araeau, ffeiliau a chofnodion.",
+      "tags": [
+        "strwythurau-data"
+      ]
+    },
+    {
+      "id": "data-fc-002",
+      "front": "Enwch bum math data o'r fanyleb.",
+      "back": "Cyfanrif, Boole, real, nod a llinyn.",
+      "tags": [
+        "mathau-data"
+      ]
+    },
+    {
+      "id": "data-fc-003",
+      "front": "Beth yw cysonyn?",
+      "back": "Gwerth nad yw'n newid tra bod y rhaglen yn rhedeg.",
+      "tags": [
+        "cysonion"
+      ]
+    },
+    {
+      "id": "data-fc-004",
+      "front": "Beth yw newidyn?",
+      "back": "Lleoliad storio enwol y gall ei werth newid.",
+      "tags": [
+        "newidynnau"
+      ]
+    },
+    {
+      "id": "data-fc-005",
+      "front": "Beth yw cwmpas newidyn?",
+      "back": "Ble yn y rhaglen y gellir cyrchu'r newidyn.",
+      "tags": [
+        "newidynnau"
+      ]
+    }
+  ]
+}

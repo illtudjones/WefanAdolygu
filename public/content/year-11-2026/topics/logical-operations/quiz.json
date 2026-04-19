@@ -1,0 +1,146 @@
+{
+  "topicId": "logical-operations",
+  "specVersion": "wjec-legacy-2017",
+  "version": 1,
+  "title": "Logical Operations Quiz",
+  "passMark": 70,
+  "shuffleQuestions": true,
+  "shuffleOptions": true,
+  "questions": [
+    {
+      "id": "logi-q-001",
+      "text": "Which operator outputs true only when inputs are different?",
+      "options": [
+        {
+          "id": "a",
+          "text": "XOR"
+        },
+        {
+          "id": "b",
+          "text": "AND"
+        },
+        {
+          "id": "c",
+          "text": "OR"
+        },
+        {
+          "id": "d",
+          "text": "NOT"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "XOR is true when one input is true and the other is false.",
+      "tags": [
+        "logical-operations"
+      ]
+    },
+    {
+      "id": "logi-q-002",
+      "text": "Which operator reverses a Boolean value?",
+      "options": [
+        {
+          "id": "a",
+          "text": "NOT"
+        },
+        {
+          "id": "b",
+          "text": "AND"
+        },
+        {
+          "id": "c",
+          "text": "OR"
+        },
+        {
+          "id": "d",
+          "text": "XOR"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "NOT changes true to false and false to true.",
+      "tags": [
+        "logical-operations"
+      ]
+    },
+    {
+      "id": "logi-q-003",
+      "text": "What is a truth table used for?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Showing outputs for every possible input combination"
+        },
+        {
+          "id": "b",
+          "text": "Storing binary numbers"
+        },
+        {
+          "id": "c",
+          "text": "Measuring CPU speed"
+        },
+        {
+          "id": "d",
+          "text": "Comparing storage devices"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Truth tables model logical behaviour.",
+      "tags": [
+        "logical-operations"
+      ]
+    },
+    {
+      "id": "logi-q-004",
+      "text": "Why simplify Boolean expressions?",
+      "options": [
+        {
+          "id": "a",
+          "text": "To reduce terms or logic gates"
+        },
+        {
+          "id": "b",
+          "text": "To increase file size"
+        },
+        {
+          "id": "c",
+          "text": "To slow down circuits"
+        },
+        {
+          "id": "d",
+          "text": "To create more variables"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Simplification makes logic more efficient.",
+      "tags": [
+        "logical-operations"
+      ]
+    },
+    {
+      "id": "logi-q-005",
+      "text": "Which pair are both logical operators?",
+      "options": [
+        {
+          "id": "a",
+          "text": "AND and XOR"
+        },
+        {
+          "id": "b",
+          "text": "Byte and bit"
+        },
+        {
+          "id": "c",
+          "text": "RAM and ROM"
+        },
+        {
+          "id": "d",
+          "text": "LAN and WAN"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "AND and XOR are logical operators.",
+      "tags": [
+        "logical-operations"
+      ]
+    }
+  ]
+}

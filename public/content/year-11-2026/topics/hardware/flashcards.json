@@ -1,0 +1,47 @@
+{
+  "topicId": "hardware",
+  "specVersion": "wjec-legacy-2017",
+  "version": 1,
+  "cards": [
+    {
+      "id": "hard-fc-001",
+      "front": "What is Von Neumann architecture?",
+      "back": "A CPU architecture where data and instructions are stored in the same main memory.",
+      "tags": [
+        "architecture"
+      ]
+    },
+    {
+      "id": "hard-fc-002",
+      "front": "Name three factors that affect CPU performance.",
+      "back": "Cache size, clock speed and number of cores.",
+      "tags": [
+        "performance"
+      ]
+    },
+    {
+      "id": "hard-fc-003",
+      "front": "What is the difference between RISC and CISC processors?",
+      "back": "RISC uses a smaller, simpler instruction set, while CISC uses a larger, more complex instruction set.",
+      "tags": [
+        "processors"
+      ]
+    },
+    {
+      "id": "hard-fc-004",
+      "front": "What does RAM do?",
+      "back": "RAM is volatile working memory that stores current programs and data.",
+      "tags": [
+        "memory"
+      ]
+    },
+    {
+      "id": "hard-fc-005",
+      "front": "Give one example of an embedded system.",
+      "back": "Examples include washing machines, cars and traffic lights.",
+      "tags": [
+        "embedded-systems"
+      ]
+    }
+  ]
+}

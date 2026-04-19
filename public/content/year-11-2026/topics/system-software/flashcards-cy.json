@@ -1,0 +1,47 @@
+{
+  "topicId": "system-software",
+  "specVersion": "wjec-legacy-2017",
+  "version": 1,
+  "cards": [
+    {
+      "id": "syst-fc-001",
+      "front": "Pa adnoddau mae system weithredu yn eu rheoli?",
+      "back": "Perifferolion, prosesau, cof a storfa gynorthwyol.",
+      "tags": [
+        "system-weithredu"
+      ]
+    },
+    {
+      "id": "syst-fc-002",
+      "front": "Pam mae system weithredu yn darparu rhyngwyneb defnyddiwr?",
+      "back": "Er mwyn i ddefnyddwyr allu rhyngweithio â'r system gyfrifiadurol.",
+      "tags": [
+        "rhyngwyneb"
+      ]
+    },
+    {
+      "id": "syst-fc-003",
+      "front": "Beth yw meddalwedd gwasanaethu?",
+      "back": "Meddalwedd sy'n cyflawni tasgau cynnal a chadw fel copïau wrth gefn, gwrthfirysau neu gywasgu.",
+      "tags": [
+        "gwasanaethu"
+      ]
+    },
+    {
+      "id": "syst-fc-004",
+      "front": "Rhowch un enghraifft o feddalwedd gwasanaethu.",
+      "back": "Offer copïau wrth gefn, offer gwrthfirysau, offer cywasgu neu offer disg.",
+      "tags": [
+        "gwasanaethu"
+      ]
+    },
+    {
+      "id": "syst-fc-005",
+      "front": "Beth yw storfa gynorthwyol?",
+      "back": "Storio eilaidd a ddefnyddir i gadw data a rhaglenni yn y tymor hir.",
+      "tags": [
+        "storio"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "topicId": "software-development-nea",
+  "specVersion": "wjec-legacy-2017",
+  "version": 1,
+  "cards": [
+    {
+      "id": "soft-fc-001",
+      "front": "What must candidates analyse first in Unit 3?",
+      "back": "The scenario in terms of input, processing and output.",
+      "tags": [
+        "nea"
+      ]
+    },
+    {
+      "id": "soft-fc-002",
+      "front": "What should a refinement log contain?",
+      "back": "Progress made, problems encountered, changes made and plans for future sessions.",
+      "tags": [
+        "nea"
+      ]
+    },
+    {
+      "id": "soft-fc-003",
+      "front": "Name three types of testing used in the Unit 3 overview.",
+      "back": "Unit testing, integration testing and functional testing.",
+      "tags": [
+        "testing"
+      ]
+    },
+    {
+      "id": "soft-fc-004",
+      "front": "What should the final solution be like?",
+      "back": "Modular, secure, robust, reliable and fit for purpose.",
+      "tags": [
+        "quality"
+      ]
+    },
+    {
+      "id": "soft-fc-005",
+      "front": "What should future development include?",
+      "back": "Specific suggestions for extending or improving the solution.",
+      "tags": [
+        "development"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "topicId": "problem-solving",
+  "specVersion": "wjec-legacy-2017",
+  "version": 1,
+  "cards": [
+    {
+      "id": "prob-fc-001",
+      "front": "What is decomposition?",
+      "back": "Breaking a problem into smaller, manageable parts.",
+      "tags": [
+        "decomposition"
+      ]
+    },
+    {
+      "id": "prob-fc-002",
+      "front": "What is abstraction?",
+      "back": "Removing unnecessary detail to focus on the important features.",
+      "tags": [
+        "abstraction"
+      ]
+    },
+    {
+      "id": "prob-fc-003",
+      "front": "Why use modular program structure?",
+      "back": "It makes programs clearer, easier to test and easier to maintain.",
+      "tags": [
+        "modularity"
+      ]
+    },
+    {
+      "id": "prob-fc-004",
+      "front": "What should module interfaces be like?",
+      "back": "Clear and well documented.",
+      "tags": [
+        "modularity"
+      ]
+    },
+    {
+      "id": "prob-fc-005",
+      "front": "Why use a systematic approach to problem solving?",
+      "back": "It helps create organised and effective solutions.",
+      "tags": [
+        "problem-solving"
+      ]
+    }
+  ]
+}

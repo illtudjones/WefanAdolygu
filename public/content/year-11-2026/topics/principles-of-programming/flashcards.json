@@ -1,0 +1,47 @@
+{
+  "topicId": "principles-of-programming",
+  "specVersion": "wjec-legacy-2017",
+  "version": 1,
+  "cards": [
+    {
+      "id": "prin-fc-001",
+      "front": "What is a high-level language?",
+      "back": "A language that is easier for humans to read and write.",
+      "tags": [
+        "high-level"
+      ]
+    },
+    {
+      "id": "prin-fc-002",
+      "front": "What is a low-level language?",
+      "back": "A language close to machine code that gives direct hardware control.",
+      "tags": [
+        "low-level"
+      ]
+    },
+    {
+      "id": "prin-fc-003",
+      "front": "When might a low-level language be used?",
+      "back": "When high performance or close hardware control is required.",
+      "tags": [
+        "low-level"
+      ]
+    },
+    {
+      "id": "prin-fc-004",
+      "front": "Why are high-level languages popular?",
+      "back": "They are easier and faster for humans to develop and maintain.",
+      "tags": [
+        "high-level"
+      ]
+    },
+    {
+      "id": "prin-fc-005",
+      "front": "What is the main difference between high- and low-level languages?",
+      "back": "High-level languages are more human-readable, while low-level languages are closer to machine code.",
+      "tags": [
+        "programming"
+      ]
+    }
+  ]
+}

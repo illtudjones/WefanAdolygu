@@ -1,0 +1,47 @@
+{
+  "topicId": "communication",
+  "specVersion": "wjec-legacy-2017",
+  "version": 1,
+  "cards": [
+    {
+      "id": "comm-fc-001",
+      "front": "Beth yw'r gwahaniaeth rhwng LAN a WAN?",
+      "back": "Mae LAN yn cwmpasu ardal leol fach, tra bo WAN yn cwmpasu ardal ddaearyddol lawer mwy.",
+      "tags": [
+        "rhwydweithiau"
+      ]
+    },
+    {
+      "id": "comm-fc-002",
+      "front": "Enwch bedwar topoleg rhwydwaith cyffredin.",
+      "back": "Cylch, seren, bws a rhwyll.",
+      "tags": [
+        "topolegau"
+      ]
+    },
+    {
+      "id": "comm-fc-003",
+      "front": "Beth mae DNS yn ei wneud?",
+      "back": "Mae'n trosi enwau parth yn gyfeiriadau IP.",
+      "tags": [
+        "rhyngrwyd"
+      ]
+    },
+    {
+      "id": "comm-fc-004",
+      "front": "Enwch ddau brotocol rhwydwaith o'r fanyleb.",
+      "back": "Mae enghreifftiau yn cynnwys Ethernet, Wi‑Fi, TCP/IP, HTTP, HTTPS, FTP a phrotocolau e-bost.",
+      "tags": [
+        "protocolau"
+      ]
+    },
+    {
+      "id": "comm-fc-005",
+      "front": "Beth yw switsio pecynnau?",
+      "back": "Caiff data ei dorri'n becynnau a'i anfon ar draws rhwydwaith, weithiau drwy lwybrau gwahanol.",
+      "tags": [
+        "switsio"
+      ]
+    }
+  ]
+}

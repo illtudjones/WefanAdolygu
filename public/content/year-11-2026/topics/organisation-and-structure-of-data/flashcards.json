@@ -1,0 +1,47 @@
+{
+  "topicId": "organisation-and-structure-of-data",
+  "specVersion": "wjec-legacy-2017",
+  "version": 1,
+  "cards": [
+    {
+      "id": "orga-fc-001",
+      "front": "Why is hexadecimal used?",
+      "back": "It is a shorter and more readable way to represent binary numbers.",
+      "tags": [
+        "hexadecimal"
+      ]
+    },
+    {
+      "id": "orga-fc-002",
+      "front": "What is overflow?",
+      "back": "It happens when a binary value is too large to fit in the available number of bits.",
+      "tags": [
+        "binary"
+      ]
+    },
+    {
+      "id": "orga-fc-003",
+      "front": "Name two standard character sets.",
+      "back": "ASCII and Unicode.",
+      "tags": [
+        "characters"
+      ]
+    },
+    {
+      "id": "orga-fc-004",
+      "front": "What is the difference between validation and verification?",
+      "back": "Validation checks that data is sensible and in the right format; verification checks that it was entered accurately.",
+      "tags": [
+        "validation"
+      ]
+    },
+    {
+      "id": "orga-fc-005",
+      "front": "Name two data structures from the specification.",
+      "back": "Records and one- or two-dimensional arrays.",
+      "tags": [
+        "data-structures"
+      ]
+    }
+  ]
+}

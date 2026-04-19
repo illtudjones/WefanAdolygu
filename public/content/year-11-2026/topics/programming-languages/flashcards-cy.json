@@ -1,0 +1,47 @@
+{
+  "topicId": "programming-languages",
+  "specVersion": "wjec-legacy-2017",
+  "version": 1,
+  "cards": [
+    {
+      "id": "prog-fc-001",
+      "front": "Enwch dri thag HTML o'r fanyleb.",
+      "back": "Mae enghreifftiau yn cynnwys <html>, <head>, <title>, <body>, <p> ac <img>.",
+      "tags": [
+        "html"
+      ]
+    },
+    {
+      "id": "prog-fc-002",
+      "front": "Pa iaith/amgylchedd gwrthrych-gyfeiriadol sy'n cael ei henwi yn y fanyleb?",
+      "back": "Java yn amgylchedd Greenfoot.",
+      "tags": [
+        "greenfoot"
+      ]
+    },
+    {
+      "id": "prog-fc-003",
+      "front": "Enwch dri sgil Greenfoot o'r fanyleb.",
+      "back": "Mae enghreifftiau yn cynnwys creu dosbarthiadau, ysgrifennu dulliau, defnyddio mewnbwn bysellfwrdd, chwarae seiniau a chanfod gwrthdrawiad.",
+      "tags": [
+        "greenfoot"
+      ]
+    },
+    {
+      "id": "prog-fc-004",
+      "front": "Enwch dri chofrif iaith gydosod o'r fanyleb.",
+      "back": "Mae enghreifftiau yn cynnwys INP, OUT, STA, LDA, ADD, SUB, BRA, HLT a DAT.",
+      "tags": [
+        "cydosod"
+      ]
+    },
+    {
+      "id": "prog-fc-005",
+      "front": "Ar gyfer beth defnyddir iaith dagio yma?",
+      "back": "I ddylunio ac ysgrifennu tudalennau gwe HTML.",
+      "tags": [
+        "html"
+      ]
+    }
+  ]
+}

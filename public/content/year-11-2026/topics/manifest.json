@@ -1,1 +1,162 @@
-[]
+[
+  {
+    "id": "hardware",
+    "title": "Hardware",
+    "description": "CPU architecture, fetch-decode-execute cycle, memory types, storage, and performance factors.",
+    "specSection": "1.1",
+    "category": "core",
+    "difficulty": "intermediate",
+    "estimatedMinutes": 45,
+    "tags": ["cpu", "memory", "storage", "von-neumann", "fetch-decode-execute"]
+  },
+  {
+    "id": "logical-operations",
+    "title": "Logical Operations",
+    "description": "Boolean logic, AND/OR/NOT/XOR gates, truth tables, and their use in digital circuits.",
+    "specSection": "1.2",
+    "category": "core",
+    "difficulty": "beginner",
+    "estimatedMinutes": 30,
+    "tags": ["boolean", "logic-gates", "truth-tables", "and", "or", "not", "xor"]
+  },
+  {
+    "id": "communication",
+    "title": "Communication",
+    "description": "Network types, topologies, protocols, packet switching, and wireless communication.",
+    "specSection": "1.3",
+    "category": "core",
+    "difficulty": "intermediate",
+    "estimatedMinutes": 40,
+    "tags": ["networks", "lan", "wan", "topology", "protocols", "packet-switching"]
+  },
+  {
+    "id": "organisation-and-structure-of-data",
+    "title": "Organisation and Structure of Data",
+    "description": "Binary, hexadecimal, data types, character encoding, graphics, sound, and compression.",
+    "specSection": "1.4",
+    "category": "core",
+    "difficulty": "intermediate",
+    "estimatedMinutes": 50,
+    "tags": ["binary", "hexadecimal", "ascii", "unicode", "compression", "data-types"]
+  },
+  {
+    "id": "system-software",
+    "title": "System Software",
+    "description": "Operating system functions, resource management, utility software, and user interfaces.",
+    "specSection": "1.5",
+    "category": "core",
+    "difficulty": "beginner",
+    "estimatedMinutes": 30,
+    "tags": ["operating-system", "memory-management", "utility-software", "multitasking"]
+  },
+  {
+    "id": "principles-of-programming",
+    "title": "Principles of Programming",
+    "description": "Variables, data types, operators, sequence, selection, iteration, and subroutines.",
+    "specSection": "2.1",
+    "category": "core",
+    "difficulty": "intermediate",
+    "estimatedMinutes": 40,
+    "tags": ["variables", "data-types", "selection", "iteration", "subroutines"]
+  },
+  {
+    "id": "software-engineering",
+    "title": "Software Engineering",
+    "description": "SDLC phases, development models, testing strategies, and documentation.",
+    "specSection": "2.2",
+    "category": "core",
+    "difficulty": "intermediate",
+    "estimatedMinutes": 35,
+    "tags": ["sdlc", "waterfall", "agile", "testing", "documentation"]
+  },
+  {
+    "id": "program-construction",
+    "title": "Program Construction",
+    "description": "Good programming practice, readability, maintainability, and modular design.",
+    "specSection": "2.3",
+    "category": "core",
+    "difficulty": "intermediate",
+    "estimatedMinutes": 30,
+    "tags": ["programming", "maintainability", "modularity", "readability"]
+  },
+  {
+    "id": "security-and-data-management",
+    "title": "Security and Data Management",
+    "description": "Threats to data, malware, social engineering, encryption, and data protection.",
+    "specSection": "2.4",
+    "category": "core",
+    "difficulty": "intermediate",
+    "estimatedMinutes": 35,
+    "tags": ["security", "malware", "encryption", "data-protection", "social-engineering"]
+  },
+  {
+    "id": "ethical-legal-and-environmental-impacts",
+    "title": "Ethical, Legal and Environmental Impacts",
+    "description": "Impact of computing on society, relevant legislation, and environmental considerations.",
+    "specSection": "2.5",
+    "category": "core",
+    "difficulty": "beginner",
+    "estimatedMinutes": 30,
+    "tags": ["ethics", "legislation", "environment", "copyright", "data-protection"]
+  },
+  {
+    "id": "problem-solving",
+    "title": "Problem Solving",
+    "description": "Decomposition, abstraction, pattern recognition, algorithms, and computational thinking.",
+    "specSection": "2.6",
+    "category": "core",
+    "difficulty": "intermediate",
+    "estimatedMinutes": 35,
+    "tags": ["decomposition", "abstraction", "computational-thinking", "algorithms"]
+  },
+  {
+    "id": "algorithms-and-programming-constructs",
+    "title": "Algorithms and Programming Constructs",
+    "description": "Pseudocode, flowcharts, searching, sorting algorithms, and algorithm design.",
+    "specSection": "2.7",
+    "category": "core",
+    "difficulty": "intermediate",
+    "estimatedMinutes": 50,
+    "tags": ["pseudocode", "flowcharts", "sorting", "searching", "algorithms"]
+  },
+  {
+    "id": "programming-languages",
+    "title": "Programming Languages",
+    "description": "High and low-level languages, translators, compilers, interpreters, and assemblers.",
+    "specSection": "2.8",
+    "category": "core",
+    "difficulty": "intermediate",
+    "estimatedMinutes": 30,
+    "tags": ["compiler", "interpreter", "assembler", "high-level", "low-level"]
+  },
+  {
+    "id": "data-structures-and-data-types",
+    "title": "Data Structures and Data Types",
+    "description": "Arrays, records, files, and choosing appropriate data structures for a problem.",
+    "specSection": "2.9",
+    "category": "core",
+    "difficulty": "intermediate",
+    "estimatedMinutes": 35,
+    "tags": ["arrays", "records", "data-structures", "data-types"]
+  },
+  {
+    "id": "security-and-authentication",
+    "title": "Security and Authentication",
+    "description": "User authentication methods, access control, penetration testing, and network security.",
+    "specSection": "2.10",
+    "category": "core",
+    "difficulty": "intermediate",
+    "estimatedMinutes": 30,
+    "tags": ["authentication", "access-control", "penetration-testing", "passwords", "mfa"]
+  },
+  {
+    "id": "software-development-nea",
+    "title": "Software Development (NEA Overview)",
+    "description": "Overview of the non-exam assessment: problem analysis, design, development, testing, and evaluation.",
+    "specSection": "NEA",
+    "category": "core",
+    "difficulty": "advanced",
+    "estimatedMinutes": 40,
+    "tags": ["nea", "project", "analysis", "design", "testing", "evaluation"]
+  }
+]

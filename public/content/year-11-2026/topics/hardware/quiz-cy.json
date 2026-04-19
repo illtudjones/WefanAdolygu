@@ -1,0 +1,146 @@
+{
+  "topicId": "hardware",
+  "specVersion": "wjec-legacy-2017",
+  "version": 1,
+  "title": "Caledwedd Quiz",
+  "passMark": 70,
+  "shuffleQuestions": true,
+  "shuffleOptions": true,
+  "questions": [
+    {
+      "id": "hard-q-001",
+      "text": "Pa saernïaeth sy'n storio data a chyfarwyddiadau yn yr un cof?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Saernïaeth Von Neumann"
+        },
+        {
+          "id": "b",
+          "text": "Saernïaeth Harvard"
+        },
+        {
+          "id": "c",
+          "text": "Saernïaeth cylch"
+        },
+        {
+          "id": "d",
+          "text": "Saernïaeth rhwyll"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Dyma nodwedd ddiffiniol saernïaeth Von Neumann.",
+      "tags": [
+        "hardware"
+      ]
+    },
+    {
+      "id": "hard-q-002",
+      "text": "Pa ffactor NAD yw'n cynyddu perfformiad CPU yn uniongyrchol yn y fanyleb?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Maint y sgrin"
+        },
+        {
+          "id": "b",
+          "text": "Cyflymder y cloc"
+        },
+        {
+          "id": "c",
+          "text": "Maint y storfa dros dro"
+        },
+        {
+          "id": "d",
+          "text": "Nifer y creiddiau"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Cyflymder y cloc, maint y storfa dros dro a nifer y creiddiau yw'r ffactorau perfformiad a enwir.",
+      "tags": [
+        "hardware"
+      ]
+    },
+    {
+      "id": "hard-q-003",
+      "text": "Pa fath o storfa sy'n anweddol?",
+      "options": [
+        {
+          "id": "a",
+          "text": "RAM"
+        },
+        {
+          "id": "b",
+          "text": "ROM"
+        },
+        {
+          "id": "c",
+          "text": "Cof fflach"
+        },
+        {
+          "id": "d",
+          "text": "SSD"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Mae RAM yn colli ei gynnwys pan gaiff y pŵer ei dynnu.",
+      "tags": [
+        "hardware"
+      ]
+    },
+    {
+      "id": "hard-q-004",
+      "text": "Pa ddyfais sy'n enghraifft o system wedi'i mewnblannu?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Peiriant golchi"
+        },
+        {
+          "id": "b",
+          "text": "Monitor bwrdd gwaith"
+        },
+        {
+          "id": "c",
+          "text": "Gyriant caled allanol"
+        },
+        {
+          "id": "d",
+          "text": "Canolbwynt USB"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Caiff system wedi'i mewnblannu ei hadeiladu mewn cynnyrch mwy i gyflawni tasg bwrpasol.",
+      "tags": [
+        "hardware"
+      ]
+    },
+    {
+      "id": "hard-q-005",
+      "text": "Beth mae RISC yn ei olygu yn ymarferol?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Prosesydd gyda set gyfarwyddiadau lai"
+        },
+        {
+          "id": "b",
+          "text": "Prosesydd gyda storfa gyfarwyddiadau hap"
+        },
+        {
+          "id": "c",
+          "text": "Prosesydd gyda storfa fewnol symudadwy"
+        },
+        {
+          "id": "d",
+          "text": "Prosesydd gyda rhannu cyfarwyddiadau ailadroddus"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Mae proseswyr RISC yn defnyddio llai o gyfarwyddiadau, ac maent yn symlach.",
+      "tags": [
+        "hardware"
+      ]
+    }
+  ]
+}

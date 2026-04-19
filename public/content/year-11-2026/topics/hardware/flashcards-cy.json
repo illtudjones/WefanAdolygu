@@ -1,0 +1,47 @@
+{
+  "topicId": "hardware",
+  "specVersion": "wjec-legacy-2017",
+  "version": 1,
+  "cards": [
+    {
+      "id": "hard-fc-001",
+      "front": "Beth yw saernïaeth Von Neumann?",
+      "back": "Saernïaeth CPU lle caiff data a chyfarwyddiadau eu storio yn yr un prif gof.",
+      "tags": [
+        "saerniaeth"
+      ]
+    },
+    {
+      "id": "hard-fc-002",
+      "front": "Enwch dri ffactor sy'n effeithio ar berfformiad CPU.",
+      "back": "Maint y storfa dros dro, cyflymder y cloc a nifer y creiddiau.",
+      "tags": [
+        "perfformiad"
+      ]
+    },
+    {
+      "id": "hard-fc-003",
+      "front": "Beth yw'r gwahaniaeth rhwng proseswyr RISC a CISC?",
+      "back": "Mae RISC yn defnyddio set lai a symlach o gyfarwyddiadau, tra bo CISC yn defnyddio set fwy a mwy cymhleth.",
+      "tags": [
+        "proseswyr"
+      ]
+    },
+    {
+      "id": "hard-fc-004",
+      "front": "Beth mae RAM yn ei wneud?",
+      "back": "RAM yw'r cof gwaith anweddol sy'n storio rhaglenni a data cyfredol.",
+      "tags": [
+        "cof"
+      ]
+    },
+    {
+      "id": "hard-fc-005",
+      "front": "Rhowch un enghraifft o system wedi'i mewnblannu.",
+      "back": "Mae enghreifftiau yn cynnwys peiriannau golchi, ceir ac oleuadau traffig.",
+      "tags": [
+        "wediu-mewnblannu"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "topicId": "algorithms-and-programming-constructs",
+  "specVersion": "wjec-legacy-2017",
+  "version": 1,
+  "cards": [
+    {
+      "id": "algo-fc-001",
+      "front": "Name three core programming constructs.",
+      "back": "Sequence, selection and iteration.",
+      "tags": [
+        "constructs"
+      ]
+    },
+    {
+      "id": "algo-fc-002",
+      "front": "What is a subroutine?",
+      "back": "A reusable block of code that performs a specific task.",
+      "tags": [
+        "subroutines"
+      ]
+    },
+    {
+      "id": "algo-fc-003",
+      "front": "Name two search algorithms from the specification.",
+      "back": "Linear search and binary search.",
+      "tags": [
+        "searching"
+      ]
+    },
+    {
+      "id": "algo-fc-004",
+      "front": "Name two sorting algorithms from the specification.",
+      "back": "Merge sort and bubble sort.",
+      "tags": [
+        "sorting"
+      ]
+    },
+    {
+      "id": "algo-fc-005",
+      "front": "Why use self-documenting identifiers?",
+      "back": "They make code easier to understand.",
+      "tags": [
+        "identifiers"
+      ]
+    }
+  ]
+}
