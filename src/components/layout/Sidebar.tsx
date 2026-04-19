@@ -3,7 +3,6 @@ import { clsx } from 'clsx';
 import type { TopicMeta } from '../../types/topic';
 import { useLang } from '../../context/LangContext';
 import { getTopicProgress } from '../../store/progressStore';
-import { CourseSwitcher } from './CourseSwitcher';
 
 interface SidebarProps {
   topics: TopicMeta[];
@@ -32,8 +31,6 @@ export function Sidebar({ topics }: SidebarProps) {
   return (
     <div className="flex flex-1 flex-col overflow-hidden">
     <nav className="flex flex-1 flex-col gap-1 overflow-y-auto py-4 px-3">
-      <CourseSwitcher />
-      <div className="my-1 border-t border-slate-200 dark:border-slate-700" />
       <NavLink
         to="/"
         end

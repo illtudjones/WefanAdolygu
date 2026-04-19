@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useLang } from '../../context/LangContext';
+import { CourseSwitcher } from './CourseSwitcher';
 import { LangToggle } from './LangToggle';
 import { ThemeToggle } from './ThemeToggle';
 
@@ -25,7 +26,8 @@ export function TopBar({ onMenuClick }: TopBarProps) {
         <span className="rounded-md bg-indigo-600 px-2 py-0.5 text-sm font-bold text-white">{t('badgeAbbr')}</span>
         <span className="hidden sm:inline">{t('siteTitle')}</span>
       </Link>
-      <div className="ml-auto flex items-center gap-1">
+      <div className="ml-auto flex items-center gap-2">
+        <CourseSwitcher />
         <LangToggle />
         <ThemeToggle />
       </div>
