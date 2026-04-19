@@ -2,9 +2,25 @@ import { useCallback, useEffect, useState } from 'react';
 import { Outlet } from 'react-router-dom';
 import type { TopicMeta } from '../../types/topic';
 import { useCourse } from '../../context/CourseContext';
+import { useLang } from '../../context/LangContext';
 import { MobileNav } from './MobileNav';
 import { Sidebar } from './Sidebar';
 import { TopBar } from './TopBar';
+
+function ComingSoon() {
+  const { course } = useCourse();
+  const { lang } = useLang();
+  const title = lang === 'cy' ? course.titleCy : course.titleEn;
+  return (
+    <div className="flex flex-col items-center justify-center py-24 text-center">
+      <div className="mb-4 text-5xl">🚧</div>
+      <h1 className="mb-2 text-2xl font-bold text-slate-900 dark:text-slate-100">{title}</h1>
+      <p className="text-slate-500 dark:text-slate-400">
+        {lang === 'cy' ? 'Yn cael ei adeiladu — dewch yn ôl yn fuan.' : 'Build in progress — check back soon.'}
+      </p>
+    </div>
+  );
+}
 
 const BASE = import.meta.env.BASE_URL;
 
@@ -38,7 +54,7 @@ export function AppShell() {
         {/* Main content */}
         <main className="min-w-0 flex-1 lg:ml-60">
           <div className="mx-auto max-w-3xl px-4 py-6 sm:px-6 lg:px-8">
-            <Outlet />
+            {course.comingSoon ? <ComingSoon /> : <Outlet />}
           </div>
         </main>
       </div>

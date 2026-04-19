@@ -5,6 +5,7 @@ export interface Course {
   titleEn: string;
   titleCy: string;
   basePath: string;
+  comingSoon?: boolean;
 }
 
 export interface CourseGroup {
@@ -40,10 +41,11 @@ export const COURSE_GROUPS: CourseGroup[] = [
     labelCy: 'Lefel A',
     courses: [
       {
-        id: 'wjec-gcse',
+        id: 'alevel-cs',
         titleEn: 'Computer Science',
         titleCy: 'Cyfrifiadureg',
-        basePath: 'topics',
+        basePath: 'alevel-cs/topics',
+        comingSoon: true,
       },
     ],
   },
