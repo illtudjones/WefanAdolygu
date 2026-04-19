@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { useLang } from '../context/LangContext';
+import { useCourse } from '../context/CourseContext';
 import type { TopicMeta } from '../types/topic';
 import { QuizRunner } from '../components/quiz/QuizRunner';
 import { Spinner } from '../components/ui';
@@ -14,14 +15,15 @@ export function TopicQuizPage() {
   const [loading, setLoading] = useState(true);
   const { saveQuizScore, getTopicProgress } = useProgress();
   const { lang, t } = useLang();
+  const { course } = useCourse();
 
   useEffect(() => {
     if (!topicId) return;
-    fetch(`${BASE}content/topics/manifest.json`)
+    fetch(`${BASE}content/${course.basePath}/manifest.json`)
       .then((r) => r.json() as Promise<TopicMeta[]>)
       .then((topics) => setTopic(topics.find((tp) => tp.id === topicId) ?? null))
       .finally(() => setLoading(false));
-  }, [topicId]);
+  }, [topicId, course.basePath]);
 
   if (loading) return <div className="flex justify-center py-12"><Spinner size={36} /></div>;
   if (!topic) return <p className="text-center text-red-500">{t('topicNotFound')}. <Link to="/" className="underline text-indigo-600">{t('navHome')}</Link></p>;
@@ -37,7 +39,7 @@ export function TopicQuizPage() {
           <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">{t('bestScore')} <strong className="text-indigo-600 dark:text-indigo-400">{best}%</strong></p>
         )}
       </div>
-      <QuizRunner topicId={topicId!} lang={lang} onScore={(s) => saveQuizScore(topicId!, s)} />
+      <QuizRunner topicId={topicId!} lang={lang} basePath={course.basePath} onScore={(s) => saveQuizScore(topicId!, s)} />
     </div>
   );
 }

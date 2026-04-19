@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { useLang } from '../context/LangContext';
+import { useCourse } from '../context/CourseContext';
 import type { TopicMeta } from '../types/topic';
 import { NoteRenderer } from '../components/notes/NoteRenderer';
 import { NoteTopicHeader } from '../components/notes/NoteTopicHeader';
@@ -17,6 +18,7 @@ export function TopicNotesPage() {
   const [error, setError] = useState('');
   const { getTopicProgress, markNotesRead } = useProgress();
   const { lang, t } = useLang();
+  const { course } = useCourse();
 
   useEffect(() => {
     if (!topicId) return;
@@ -24,8 +26,8 @@ export function TopicNotesPage() {
     setError('');
     const suffix = lang === 'cy' ? '-cy' : '';
     Promise.all([
-      fetch(`${BASE}content/topics/manifest.json`).then((r) => r.json() as Promise<TopicMeta[]>),
-      fetch(`${BASE}content/topics/${topicId}/notes${suffix}.md`).then((r) => {
+      fetch(`${BASE}content/${course.basePath}/manifest.json`).then((r) => r.json() as Promise<TopicMeta[]>),
+      fetch(`${BASE}content/${course.basePath}/${topicId}/notes${suffix}.md`).then((r) => {
         if (!r.ok) throw new Error('Notes not found');
         return r.text();
       }),
@@ -38,7 +40,7 @@ export function TopicNotesPage() {
       })
       .catch(() => setError(t('errorLoadNotes')))
       .finally(() => setLoading(false));
-  }, [topicId, lang]);
+  }, [topicId, lang, course.basePath]);
 
   if (loading) return <div className="flex justify-center py-12"><Spinner size={36} /></div>;
   if (error || !topic) return (

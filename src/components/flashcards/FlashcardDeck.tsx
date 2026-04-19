@@ -9,12 +9,13 @@ import { FlashcardCard } from './FlashcardCard';
 interface FlashcardDeckProps {
   topicId: string;
   lang: Lang;
+  basePath: string;
   onReviewed: (count: number) => void;
 }
 
 const BASE = import.meta.env.BASE_URL;
 
-export function FlashcardDeck({ topicId, lang, onReviewed }: FlashcardDeckProps) {
+export function FlashcardDeck({ topicId, lang, basePath, onReviewed }: FlashcardDeckProps) {
   const { t } = useLang();
   const [deck, setDeck] = useState<FlashcardDeckFile | null>(null);
   const [cards, setCards] = useState(deck?.cards ?? []);
@@ -26,7 +27,7 @@ export function FlashcardDeck({ topicId, lang, onReviewed }: FlashcardDeckProps)
   useEffect(() => {
     setLoading(true);
     const suffix = lang === 'cy' ? '-cy' : '';
-    fetch(`${BASE}content/topics/${topicId}/flashcards${suffix}.json`)
+    fetch(`${BASE}content/${basePath}/${topicId}/flashcards${suffix}.json`)
       .then((r) => {
         if (!r.ok) throw new Error('Deck not found');
         return r.json() as Promise<FlashcardDeckFile>;
@@ -39,7 +40,7 @@ export function FlashcardDeck({ topicId, lang, onReviewed }: FlashcardDeckProps)
       })
       .catch(() => setError(t('errorLoadFlashcards')))
       .finally(() => setLoading(false));
-  }, [topicId, lang]);
+  }, [topicId, lang, basePath]);
 
   const markSeen = useCallback(() => {
     setSeen((prev) => {

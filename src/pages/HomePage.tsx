@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useLang } from '../context/LangContext';
+import { useCourse } from '../context/CourseContext';
 import type { TopicMeta } from '../types/topic';
 import { Badge } from '../components/ui';
 import { getTopicProgress } from '../store/progressStore';
@@ -10,13 +11,14 @@ const BASE = import.meta.env.BASE_URL;
 export function HomePage() {
   const [topics, setTopics] = useState<TopicMeta[]>([]);
   const { t } = useLang();
+  const { course } = useCourse();
 
   useEffect(() => {
-    fetch(`${BASE}content/topics/manifest.json`)
+    fetch(`${BASE}content/${course.basePath}/manifest.json`)
       .then((r) => r.json())
       .then(setTopics)
       .catch(console.error);
-  }, []);
+  }, [course.basePath]);
 
   return (
     <div>

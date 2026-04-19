@@ -10,12 +10,13 @@ import { QuizResults } from './QuizResults';
 interface QuizRunnerProps {
   topicId: string;
   lang: Lang;
+  basePath: string;
   onScore: (score: number) => void;
 }
 
 const BASE = import.meta.env.BASE_URL;
 
-export function QuizRunner({ topicId, lang, onScore }: QuizRunnerProps) {
+export function QuizRunner({ topicId, lang, basePath, onScore }: QuizRunnerProps) {
   const { t } = useLang();
   const [quiz, setQuiz] = useState<QuizFile | null>(null);
   const [loading, setLoading] = useState(true);
@@ -28,7 +29,7 @@ export function QuizRunner({ topicId, lang, onScore }: QuizRunnerProps) {
   useEffect(() => {
     setLoading(true);
     const suffix = lang === 'cy' ? '-cy' : '';
-    fetch(`${BASE}content/topics/${topicId}/quiz${suffix}.json`)
+    fetch(`${BASE}content/${basePath}/${topicId}/quiz${suffix}.json`)
       .then((r) => {
         if (!r.ok) throw new Error('Quiz not found');
         return r.json() as Promise<QuizFile>;
@@ -48,7 +49,7 @@ export function QuizRunner({ topicId, lang, onScore }: QuizRunnerProps) {
       })
       .catch(() => setError(t('errorLoadQuiz')))
       .finally(() => setLoading(false));
-  }, [topicId, lang]);
+  }, [topicId, lang, basePath]);
 
   const score = useMemo(() => {
     if (!quiz) return 0;

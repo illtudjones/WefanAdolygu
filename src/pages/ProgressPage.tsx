@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useLang } from '../context/LangContext';
+import { useCourse } from '../context/CourseContext';
 import type { TopicMeta } from '../types/topic';
 import { Dashboard } from '../components/progress/Dashboard';
 import { useProgress } from '../hooks/useProgress';
@@ -10,13 +11,14 @@ export function ProgressPage() {
   const [topics, setTopics] = useState<TopicMeta[]>([]);
   const { data } = useProgress();
   const { t } = useLang();
+  const { course } = useCourse();
 
   useEffect(() => {
-    fetch(`${BASE}content/topics/manifest.json`)
+    fetch(`${BASE}content/${course.basePath}/manifest.json`)
       .then((r) => r.json())
       .then(setTopics)
       .catch(console.error);
-  }, []);
+  }, [course.basePath]);
 
   return (
     <div>

@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useState } from 'react';
 import { Outlet } from 'react-router-dom';
 import type { TopicMeta } from '../../types/topic';
+import { useCourse } from '../../context/CourseContext';
 import { MobileNav } from './MobileNav';
 import { Sidebar } from './Sidebar';
 import { TopBar } from './TopBar';
@@ -10,13 +11,14 @@ const BASE = import.meta.env.BASE_URL;
 export function AppShell() {
   const [topics, setTopics] = useState<TopicMeta[]>([]);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const { course } = useCourse();
 
   useEffect(() => {
-    fetch(`${BASE}content/topics/manifest.json`)
+    fetch(`${BASE}content/${course.basePath}/manifest.json`)
       .then((r) => r.json())
       .then(setTopics)
       .catch(console.error);
-  }, []);
+  }, [course.basePath]);
 
   const openMenu = useCallback(() => setMobileOpen(true), []);
   const closeMenu = useCallback(() => setMobileOpen(false), []);

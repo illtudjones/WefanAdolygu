@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { useLang } from '../context/LangContext';
+import { useCourse } from '../context/CourseContext';
 import type { TopicMeta } from '../types/topic';
 import { FlashcardDeck } from '../components/flashcards/FlashcardDeck';
 import { Spinner } from '../components/ui';
@@ -14,14 +15,15 @@ export function TopicFlashcardsPage() {
   const [loading, setLoading] = useState(true);
   const { saveFlashcardsReviewed } = useProgress();
   const { lang, t } = useLang();
+  const { course } = useCourse();
 
   useEffect(() => {
     if (!topicId) return;
-    fetch(`${BASE}content/topics/manifest.json`)
+    fetch(`${BASE}content/${course.basePath}/manifest.json`)
       .then((r) => r.json() as Promise<TopicMeta[]>)
       .then((topics) => setTopic(topics.find((tp) => tp.id === topicId) ?? null))
       .finally(() => setLoading(false));
-  }, [topicId]);
+  }, [topicId, course.basePath]);
 
   if (loading) return <div className="flex justify-center py-12"><Spinner size={36} /></div>;
   if (!topic) return <p className="text-center text-red-500">{t('topicNotFound')}. <Link to="/" className="underline text-indigo-600">{t('navHome')}</Link></p>;
@@ -32,7 +34,7 @@ export function TopicFlashcardsPage() {
         <p className="text-xs text-slate-500 dark:text-slate-400">§{topic.specSection}</p>
         <h1 className="text-2xl font-bold text-slate-900 dark:text-slate-100">{topic.title} {t('flashcardsHeadingSuffix')}</h1>
       </div>
-      <FlashcardDeck topicId={topicId!} lang={lang} onReviewed={(n) => saveFlashcardsReviewed(topicId!, n)} />
+      <FlashcardDeck topicId={topicId!} lang={lang} basePath={course.basePath} onReviewed={(n) => saveFlashcardsReviewed(topicId!, n)} />
     </div>
   );
 }

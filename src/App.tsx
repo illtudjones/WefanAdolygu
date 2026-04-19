@@ -1,5 +1,6 @@
 import { HashRouter, Navigate, Route, Routes } from 'react-router-dom';
 import { LangProvider } from './context/LangContext';
+import { CourseProvider } from './context/CourseContext';
 import { AppShell } from './components/layout/AppShell';
 import { HomePage } from './pages/HomePage';
 import { NotFoundPage } from './pages/NotFoundPage';
@@ -10,6 +11,7 @@ import { TopicQuizPage } from './pages/TopicQuizPage';
 
 export default function App() {
   return (
+    <CourseProvider>
     <LangProvider>
       <HashRouter>
         <Routes>
@@ -25,5 +27,6 @@ export default function App() {
         </Routes>
       </HashRouter>
     </LangProvider>
+    </CourseProvider>
   );
 }
