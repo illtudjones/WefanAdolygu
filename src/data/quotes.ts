@@ -1,6 +1,7 @@
 export interface Quote {
   text: string;
   author?: string;
+  pink?: boolean;
 }
 
 export const quotes: Quote[] = [
@@ -11,5 +12,5 @@ export const quotes: Quote[] = [
   { text: "Stop scrolling. Start scoring." },
   { text: "Mwy o waith nawr, llai o straen wedyn." },
   { text: "Dyma ti—revise a smash it."},
-  { text: "On Wednesdays, we wear pink." },
+  { text: "On Wednesdays, we wear pink.", pink: true },
 ];
