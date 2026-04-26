@@ -112,9 +112,9 @@ export function Sidebar({ topics }: SidebarProps) {
     </nav>
     <div className="border-t border-slate-200 px-4 py-3 dark:border-slate-700">
       <p className="text-xs leading-snug text-slate-400 dark:text-slate-500">
-        Made for the use of students in Wales
+        Powered by hocolate biscuits and Hobnobs
         <br />
-        I. Jones · 2026
+        Mr. I. Jones · 2026
       </p>
     </div>
     </div>
