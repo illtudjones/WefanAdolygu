@@ -11,6 +11,7 @@ export const quotes: Quote[] = [
   { text: "You’ve got this… but only if you actually revise." },
   { text: "Stop scrolling. Start scoring." },
   { text: "Mwy o waith nawr, llai o straen wedyn." },
-  { text: "Dyma ti—revise a smash it."},
-  { text: "On Wednesdays, we wear pink." },
+  { text: "Dyma ti—revise a smash it." },
+  { text: "On Wednesdays, we wear pink.", pink: true },
+
 ];

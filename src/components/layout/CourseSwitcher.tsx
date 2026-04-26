@@ -48,7 +48,8 @@ function GroupButton({ group }: { group: CourseGroup }) {
       </button>
 
       {open && (
-        <div className="absolute left-0 top-full z-50 mt-1 min-w-52 rounded-xl border border-slate-200 bg-white py-1 shadow-lg dark:border-slate-700 dark:bg-slate-800">
+        <div className="absolute left-0 top-full z-50 pt-2 min-w-52">
+          <div className="rounded-xl border border-slate-200 bg-white py-1 shadow-lg dark:border-slate-700 dark:bg-slate-800">
           {group.courses.map((c) => (
             <button
               key={c.id}
@@ -64,6 +65,7 @@ function GroupButton({ group }: { group: CourseGroup }) {
               {lang === 'cy' ? c.titleCy : c.titleEn}
             </button>
           ))}
+          </div>
         </div>
       )}
     </div>
