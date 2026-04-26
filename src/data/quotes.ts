@@ -12,5 +12,5 @@ export const quotes: Quote[] = [
   { text: "Stop scrolling. Start scoring." },
   { text: "Mwy o waith nawr, llai o straen wedyn." },
   { text: "Dyma ti—revise a smash it."},
-  { text: "On Wednesdays, we wear pink.", pink: true },
+  { text: "On Wednesdays, we wear pink." },
 ];

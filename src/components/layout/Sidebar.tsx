@@ -115,7 +115,7 @@ export function Sidebar({ topics }: SidebarProps) {
     </nav>
     <div className="border-t border-slate-200 px-4 py-3 dark:border-slate-700">
       <p className="text-xs leading-snug text-slate-400 dark:text-slate-500">
-        <span className={quote.pink ? 'italic font-semibold text-pink-500' : 'italic'}>&ldquo;{quote.text}&rdquo;</span>
+        <span className={quote.pink ? 'italic font-semibold text-pink-500' : 'italic'}>{quote.text}</span>
         {quote.author && <span className="block mt-0.5 not-italic">— {quote.author}</span>}
       </p>
       <p className="mt-1.5 text-xs text-slate-400 dark:text-slate-500">Mr. I. Jones · 2026</p>
