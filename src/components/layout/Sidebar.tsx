@@ -1,8 +1,10 @@
+import { useState } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import { clsx } from 'clsx';
 import type { TopicMeta } from '../../types/topic';
 import { useLang } from '../../context/LangContext';
 import { getTopicProgress } from '../../store/progressStore';
+import { quotes } from '../../data/quotes';
 
 interface SidebarProps {
   topics: TopicMeta[];
@@ -27,6 +29,7 @@ const tabs = ['notes', 'flashcards', 'quiz'] as const;
 export function Sidebar({ topics }: SidebarProps) {
   const location = useLocation();
   const { t } = useLang();
+  const [quote] = useState(() => quotes[Math.floor(Math.random() * quotes.length)]);
 
   return (
     <div className="flex flex-1 flex-col overflow-hidden">
@@ -112,10 +115,10 @@ export function Sidebar({ topics }: SidebarProps) {
     </nav>
     <div className="border-t border-slate-200 px-4 py-3 dark:border-slate-700">
       <p className="text-xs leading-snug text-slate-400 dark:text-slate-500">
-        Powered by chocolate biscuits and Hobnobs
-        <br />
-        Mr. I. Jones · 2026
+        <span className="italic">&ldquo;{quote.text}&rdquo;</span>
+        {quote.author && <span className="block mt-0.5 not-italic">— {quote.author}</span>}
       </p>
+      <p className="mt-1.5 text-xs text-slate-400 dark:text-slate-500">Mr. I. Jones · 2026</p>
     </div>
     </div>
   );
