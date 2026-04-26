@@ -1,0 +1,226 @@
+{
+  "topicId": "changing-digital-technologies",
+  "version": 1,
+  "title": "Cwis Technolegau Digidol sy’n Newid",
+  "passMark": 70,
+  "shuffleQuestions": true,
+  "shuffleOptions": true,
+  "questions": [
+    {
+      "id": "chan-q-001",
+      "text": "Pwy oedd Y Fonesig Ada Lovelace?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Y rhaglennydd cyfrifiadurol cyntaf a’r person cyntaf i sylweddoli y ga"
+        },
+        {
+          "id": "b",
+          "text": "Pob un o’r uchod"
+        },
+        {
+          "id": "c",
+          "text": "Dim un o’r rhain"
+        },
+        {
+          "id": "d",
+          "text": "Dim ond yn rhannol gywir"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Y rhaglennydd cyfrifiadurol cyntaf a’r person cyntaf i sylweddoli y gallai cyfrifiaduron wneud mwy na chyfrifo rhifau.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "chan-q-002",
+      "text": "Beth ddatblygodd James Gosling?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Iaith rhaglennu Java"
+        },
+        {
+          "id": "b",
+          "text": "Pob un o’r uchod"
+        },
+        {
+          "id": "c",
+          "text": "Dim un o’r rhain"
+        },
+        {
+          "id": "d",
+          "text": "Dim ond yn rhannol gywir"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Iaith rhaglennu Java.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "chan-q-003",
+      "text": "Gyda beth mae’r Llyngesydd Grace Hopper yn gysylltiedig?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dylunio’r cyfrifiadur electronig masnachol cyntaf"
+        },
+        {
+          "id": "b",
+          "text": "Pob un o’r uchod"
+        },
+        {
+          "id": "c",
+          "text": "Dim un o’r rhain"
+        },
+        {
+          "id": "d",
+          "text": "Dim ond yn rhannol gywir"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Dylunio’r cyfrifiadur electronig masnachol cyntaf.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "chan-q-004",
+      "text": "Beth ddatblygodd Alan Turing?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Damcaniaeth gyfrifiannol sy’n sail i gyfrifiadura modern"
+        },
+        {
+          "id": "b",
+          "text": "Pob un o’r uchod"
+        },
+        {
+          "id": "c",
+          "text": "Dim un o’r rhain"
+        },
+        {
+          "id": "d",
+          "text": "Dim ond yn rhannol gywir"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Damcaniaeth gyfrifiannol sy’n sail i gyfrifiadura modern.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "chan-q-005",
+      "text": "Gyda beth mae Steve Jobs yn gysylltiedig yn y fanyleb?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Troi cyfrifiadura yn nwydd a datblygu ffonau clyfar a dyfeisiau llaw"
+        },
+        {
+          "id": "b",
+          "text": "Pob un o’r uchod"
+        },
+        {
+          "id": "c",
+          "text": "Dim un o’r rhain"
+        },
+        {
+          "id": "d",
+          "text": "Dim ond yn rhannol gywir"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Troi cyfrifiadura yn nwydd a datblygu ffonau clyfar a dyfeisiau llaw.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "chan-q-006",
+      "text": "Beth ddyfeisiodd Syr Tim Berners-Lee?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Y We Fyd-eang"
+        },
+        {
+          "id": "b",
+          "text": "Pob un o’r uchod"
+        },
+        {
+          "id": "c",
+          "text": "Dim un o’r rhain"
+        },
+        {
+          "id": "d",
+          "text": "Dim ond yn rhannol gywir"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Y We Fyd-eang.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "chan-q-007",
+      "text": "Enwch dair technoleg sy’n datblygu o’r fanyleb.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Robotiaid diwydiannol, robotiaid ymreolaethol, cerbydau ymreolaethol, "
+        },
+        {
+          "id": "b",
+          "text": "Pob un o’r uchod"
+        },
+        {
+          "id": "c",
+          "text": "Dim un o’r rhain"
+        },
+        {
+          "id": "d",
+          "text": "Dim ond yn rhannol gywir"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Robotiaid diwydiannol, robotiaid ymreolaethol, cerbydau ymreolaethol, VR, AR, AI, dysgu peirianyddol, caledwedd IoT.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "chan-q-008",
+      "text": "Beth yw IoT?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Y Rhyngrwyd Pethau"
+        },
+        {
+          "id": "b",
+          "text": "Pob un o’r uchod"
+        },
+        {
+          "id": "c",
+          "text": "Dim un o’r rhain"
+        },
+        {
+          "id": "d",
+          "text": "Dim ond yn rhannol gywir"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Y Rhyngrwyd Pethau.",
+      "tags": [
+        "uned1"
+      ]
+    }
+  ]
+}

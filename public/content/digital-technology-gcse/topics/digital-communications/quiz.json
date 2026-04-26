@@ -1,0 +1,226 @@
+{
+  "topicId": "digital-communications",
+  "version": 1,
+  "title": "Digital Communications Quiz",
+  "passMark": 70,
+  "shuffleQuestions": true,
+  "shuffleOptions": true,
+  "questions": [
+    {
+      "id": "digi-q-001",
+      "text": "Name three personal/social digital communication methods.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Emailing, instant messaging, blogs, video conferencing, social network"
+        },
+        {
+          "id": "b",
+          "text": "All of the above"
+        },
+        {
+          "id": "c",
+          "text": "None of these"
+        },
+        {
+          "id": "d",
+          "text": "Only partially correct"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Emailing, instant messaging, blogs, video conferencing, social networking websites/apps.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "digi-q-002",
+      "text": "What should users consider when using personal/social communication methods?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Social norms and expected behaviour"
+        },
+        {
+          "id": "b",
+          "text": "All of the above"
+        },
+        {
+          "id": "c",
+          "text": "None of these"
+        },
+        {
+          "id": "d",
+          "text": "Only partially correct"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Social norms and expected behaviour.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "digi-q-003",
+      "text": "Name three business communication methods.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Video conferencing, teleworking, emailing, promotion methods, apps"
+        },
+        {
+          "id": "b",
+          "text": "All of the above"
+        },
+        {
+          "id": "c",
+          "text": "None of these"
+        },
+        {
+          "id": "d",
+          "text": "Only partially correct"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Video conferencing, teleworking, emailing, promotion methods, apps.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "digi-q-004",
+      "text": "What are promotion methods in business communication?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Advertising, marketing and websites"
+        },
+        {
+          "id": "b",
+          "text": "All of the above"
+        },
+        {
+          "id": "c",
+          "text": "None of these"
+        },
+        {
+          "id": "d",
+          "text": "Only partially correct"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Advertising, marketing and websites.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "digi-q-005",
+      "text": "Name three reliability issues with online sources.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Accuracy, bias and out-of-date information"
+        },
+        {
+          "id": "b",
+          "text": "All of the above"
+        },
+        {
+          "id": "c",
+          "text": "None of these"
+        },
+        {
+          "id": "d",
+          "text": "Only partially correct"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Accuracy, bias and out-of-date information.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "digi-q-006",
+      "text": "How can online information be verified?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Check multiple sources and use trustworthy websites"
+        },
+        {
+          "id": "b",
+          "text": "All of the above"
+        },
+        {
+          "id": "c",
+          "text": "None of these"
+        },
+        {
+          "id": "d",
+          "text": "Only partially correct"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Check multiple sources and use trustworthy websites.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "digi-q-007",
+      "text": "What should learners understand about social networking platforms?",
+      "options": [
+        {
+          "id": "a",
+          "text": "How contemporary platforms work"
+        },
+        {
+          "id": "b",
+          "text": "All of the above"
+        },
+        {
+          "id": "c",
+          "text": "None of these"
+        },
+        {
+          "id": "d",
+          "text": "Only partially correct"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "How contemporary platforms work.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "digi-q-008",
+      "text": "Name one benefit and one drawback area of social media.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Learners should understand both benefits and drawbacks of social media"
+        },
+        {
+          "id": "b",
+          "text": "All of the above"
+        },
+        {
+          "id": "c",
+          "text": "None of these"
+        },
+        {
+          "id": "d",
+          "text": "Only partially correct"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Learners should understand both benefits and drawbacks of social media.",
+      "tags": [
+        "unit1"
+      ]
+    }
+  ]
+}

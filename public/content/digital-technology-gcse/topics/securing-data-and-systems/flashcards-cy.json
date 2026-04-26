@@ -1,0 +1,86 @@
+{
+  "topicId": "securing-data-and-systems",
+  "version": 1,
+  "cards": [
+    {
+      "id": "secu-fc-001",
+      "front": "Enwch ddau fygythiad i ddata.",
+      "back": "Difrod damweiniol a difrod maleisus/bwriadol.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "secu-fc-002",
+      "front": "Enwch bedwar mesur diogelwch.",
+      "back": "Amgryptio, muriau gwarchod, meddalwedd wrthfirysau a lefelau mynediad hierarchaidd.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "secu-fc-003",
+      "front": "Beth yw seiberwydnwch?",
+      "back": "Gallu cwmni i baratoi ar gyfer ymosodiad seiber, goroesi, ymateb ac adfer.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "secu-fc-004",
+      "front": "Enwch dri chanlyniad ymosodiad seiber.",
+      "back": "Colli data, meddalwedd lygredig, gwefannau all-lein, colli enw da/mantais gystadleuol, colled ariannol.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "secu-fc-005",
+      "front": "Enwch dri mesur atal ymosodiad seiber.",
+      "back": "Mur gwarchod ffiniol, ffurfweddu diogel, rheoli mynediad, diogelu rhag maleiswedd, rheoli patsys, hyfforddi staff.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "secu-fc-006",
+      "front": "Enwch un mesur adfer ar ôl ymosodiad seiber.",
+      "back": "Safleoedd/cyfleusterau gwahanol, senarios beth os neu gopïau wrth gefn rheolaidd.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "secu-fc-007",
+      "front": "Beth yw ôl troed digidol goddefol?",
+      "back": "Data sy’n cael eu casglu heb yn wybod i’r defnyddiwr.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "secu-fc-008",
+      "front": "Beth yw ôl troed digidol gweithredol?",
+      "back": "Data a gyflwynir yn fwriadol ar-lein.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "secu-fc-009",
+      "front": "Enwch dair deddf yn y testun hwn.",
+      "back": "Deddf Diogelu Data 2018 gan gynnwys GDPR, Deddf Camddefnyddio Cyfrifiaduron 1990, Deddf Pwerau Ymchwilio 2016.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "secu-fc-010",
+      "front": "Pa effeithiau moesegol dylai dysgwyr eu hystyried?",
+      "back": "Effeithiau ar breifatrwydd unigolion a chymdeithas ehangach.",
+      "tags": [
+        "uned1"
+      ]
+    }
+  ]
+}

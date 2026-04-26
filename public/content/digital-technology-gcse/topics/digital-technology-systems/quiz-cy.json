@@ -1,0 +1,226 @@
+{
+  "topicId": "digital-technology-systems",
+  "version": 1,
+  "title": "Cwis Systemau Technoleg Ddigidol",
+  "passMark": 70,
+  "shuffleQuestions": true,
+  "shuffleOptions": true,
+  "questions": [
+    {
+      "id": "digi-q-001",
+      "text": "Enwch dair ffordd y gall defnyddwyr ryngweithio â dyfeisiau digidol.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lleferydd, bysellfwrdd/llygoden, ystum, cyffwrdd, VR, AR neu fiometreg"
+        },
+        {
+          "id": "b",
+          "text": "Pob un o’r uchod"
+        },
+        {
+          "id": "c",
+          "text": "Dim un o’r rhain"
+        },
+        {
+          "id": "d",
+          "text": "Dim ond yn rhannol gywir"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Lleferydd, bysellfwrdd/llygoden, ystum, cyffwrdd, VR, AR neu fiometreg.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "digi-q-002",
+      "text": "Beth yw’r Rhyngrwyd?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rhwydwaith cyfathrebu byd-eang sy’n defnyddio cyfrifiaduron cydgysylltiedig"
+        },
+        {
+          "id": "b",
+          "text": "Pob un o’r uchod"
+        },
+        {
+          "id": "c",
+          "text": "Dim un o’r rhain"
+        },
+        {
+          "id": "d",
+          "text": "Dim ond yn rhannol gywir"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Rhwydwaith cyfathrebu byd-eang sy’n defnyddio cyfrifiaduron cydgysylltiedig.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "digi-q-003",
+      "text": "Enwch dair rhan o isadeiledd y Rhyngrwyd.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cleientiaid, gweinyddion a llwybryddion"
+        },
+        {
+          "id": "b",
+          "text": "Pob un o’r uchod"
+        },
+        {
+          "id": "c",
+          "text": "Dim un o’r rhain"
+        },
+        {
+          "id": "d",
+          "text": "Dim ond yn rhannol gywir"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Cleientiaid, gweinyddion a llwybryddion.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "digi-q-004",
+      "text": "Beth yw rôl ISP?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Darparu mynediad at wasanaethau’r Rhyngrwyd"
+        },
+        {
+          "id": "b",
+          "text": "Pob un o’r uchod"
+        },
+        {
+          "id": "c",
+          "text": "Dim un o’r rhain"
+        },
+        {
+          "id": "d",
+          "text": "Dim ond yn rhannol gywir"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Darparu mynediad at wasanaethau’r Rhyngrwyd.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "digi-q-005",
+      "text": "Beth mae URL yn ei ddarparu?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cyfeiriad/strwythur lleoliad adnodd gwe"
+        },
+        {
+          "id": "b",
+          "text": "Pob un o’r uchod"
+        },
+        {
+          "id": "c",
+          "text": "Dim un o’r rhain"
+        },
+        {
+          "id": "d",
+          "text": "Dim ond yn rhannol gywir"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Cyfeiriad/strwythur lleoliad adnodd gwe.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "digi-q-006",
+      "text": "Enwch bedwar dull cysylltu.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Band llydan, lloeren, ffibr, 4G/5G, Wi-Fi, Bluetooth neu GIS"
+        },
+        {
+          "id": "b",
+          "text": "Pob un o’r uchod"
+        },
+        {
+          "id": "c",
+          "text": "Dim un o’r rhain"
+        },
+        {
+          "id": "d",
+          "text": "Dim ond yn rhannol gywir"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Band llydan, lloeren, ffibr, 4G/5G, Wi-Fi, Bluetooth neu GIS.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "digi-q-007",
+      "text": "Enwch dair nodwedd system weithredu.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rheoli adnoddau, perifferolion, sbwlio, cof, prosesau, gwarchodaeth a "
+        },
+        {
+          "id": "b",
+          "text": "Pob un o’r uchod"
+        },
+        {
+          "id": "c",
+          "text": "Dim un o’r rhain"
+        },
+        {
+          "id": "d",
+          "text": "Dim ond yn rhannol gywir"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Rheoli adnoddau, perifferolion, sbwlio, cof, prosesau, gwarchodaeth a rhyngwyneb defnyddiwr.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "digi-q-008",
+      "text": "Enwch dri math o HCI.",
+      "options": [
+        {
+          "id": "a",
+          "text": "CLI, GUI, TSI, rhyngwyneb dewislen, biometreg neu ryngwyneb llais"
+        },
+        {
+          "id": "b",
+          "text": "Pob un o’r uchod"
+        },
+        {
+          "id": "c",
+          "text": "Dim un o’r rhain"
+        },
+        {
+          "id": "d",
+          "text": "Dim ond yn rhannol gywir"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "CLI, GUI, TSI, rhyngwyneb dewislen, biometreg neu ryngwyneb llais.",
+      "tags": [
+        "uned1"
+      ]
+    }
+  ]
+}

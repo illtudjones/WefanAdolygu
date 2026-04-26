@@ -1,0 +1,86 @@
+{
+  "topicId": "digital-technology-systems",
+  "version": 1,
+  "cards": [
+    {
+      "id": "digi-fc-001",
+      "front": "Name three ways users may interact with digital devices.",
+      "back": "Speech, keyboard/mouse, gesture, touch, VR, AR or biometrics.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "digi-fc-002",
+      "front": "What is the Internet?",
+      "back": "A global communications network using interconnected computers.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "digi-fc-003",
+      "front": "Name three parts of Internet infrastructure.",
+      "back": "Clients, servers and routers.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "digi-fc-004",
+      "front": "What does an ISP do?",
+      "back": "Provides access to Internet services.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "digi-fc-005",
+      "front": "What does a URL provide?",
+      "back": "The structured address/location of a web resource.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "digi-fc-006",
+      "front": "Name four connection methods.",
+      "back": "Broadband, satellite, fibre, 4G/5G, Wi-Fi, Bluetooth or GIS.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "digi-fc-007",
+      "front": "Name three operating system features.",
+      "back": "Managing resources, peripherals, spooling, memory, processes, security and user interface.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "digi-fc-008",
+      "front": "Name three HCI types.",
+      "back": "CLI, GUI, TSI, menu driven, biometric or voice driven interface.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "digi-fc-009",
+      "front": "Name three backup processes.",
+      "back": "Full, incremental and differential backup.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "digi-fc-010",
+      "front": "What are the six SDLC stages?",
+      "back": "Investigation, analysis, design, implementation, maintenance and evaluation.",
+      "tags": [
+        "unit1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "topicId": "data",
+  "version": 1,
+  "cards": [
+    {
+      "id": "data-fc-001",
+      "front": "Beth yw data digidol?",
+      "back": "Data sy’n cael eu storio a’u prosesu fel digidau deuaidd.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "data-fc-002",
+      "front": "Beth yw data analog?",
+      "back": "Data parhaus, fel sain neu olau cyn iddo gael ei drawsnewid yn ffurf ddigidol.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "data-fc-003",
+      "front": "Pa broses sy’n troi sain neu olau analog yn ddigidol?",
+      "back": "Trawsnewid analog i ddigidol, gan gynnwys recordio, samplu a storio.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "data-fc-004",
+      "front": "Enwch ddwy fantais o storio data’n ddigidol.",
+      "back": "Enghreifftiau: adalw data, effeithlonrwydd, gwarchodaeth, hygyrchedd a gallu i dyfu.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "data-fc-005",
+      "front": "Enwch ddwy anfantais o storio data’n ddigidol.",
+      "back": "Enghreifftiau: colli ansawdd oherwydd samplu, cost a materion rheoli.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "data-fc-006",
+      "front": "Beth yw picsel?",
+      "back": "Elfen sylfaenol a ddefnyddir i storio/arddangos delwedd ddigidol.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "data-fc-007",
+      "front": "Beth mae cydraniad yn ymwneud ag ef?",
+      "back": "Lefel y manylder mewn delwedd ddigidol.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "data-fc-008",
+      "front": "Enwch ddau fath o graffeg ddigidol.",
+      "back": "Graffigau fector a graffigau didfap.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "data-fc-009",
+      "front": "Beth all systemau cyfrifiadurol ei storio a’i brosesu?",
+      "back": "Digidau deuaidd.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "data-fc-010",
+      "front": "Enwch bedwar cyfrwng storio yn y fanyleb.",
+      "back": "Magnetig, optegol, cwmwl a chyflwr solid.",
+      "tags": [
+        "uned1"
+      ]
+    }
+  ]
+}

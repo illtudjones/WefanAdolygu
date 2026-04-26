@@ -1,0 +1,226 @@
+{
+  "topicId": "data",
+  "version": 1,
+  "title": "Cwis Data",
+  "passMark": 70,
+  "shuffleQuestions": true,
+  "shuffleOptions": true,
+  "questions": [
+    {
+      "id": "data-q-001",
+      "text": "Beth yw data digidol?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Data sy’n cael eu storio a’u prosesu fel digidau deuaidd"
+        },
+        {
+          "id": "b",
+          "text": "Pob un o’r uchod"
+        },
+        {
+          "id": "c",
+          "text": "Dim un o’r rhain"
+        },
+        {
+          "id": "d",
+          "text": "Dim ond yn rhannol gywir"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Data sy’n cael eu storio a’u prosesu fel digidau deuaidd.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "data-q-002",
+      "text": "Beth yw data analog?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Data parhaus, fel sain neu olau cyn iddo gael ei drawsnewid yn ffurf ddigidol"
+        },
+        {
+          "id": "b",
+          "text": "Pob un o’r uchod"
+        },
+        {
+          "id": "c",
+          "text": "Dim un o’r rhain"
+        },
+        {
+          "id": "d",
+          "text": "Dim ond yn rhannol gywir"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Data parhaus, fel sain neu olau cyn iddo gael ei drawsnewid yn ffurf ddigidol.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "data-q-003",
+      "text": "Pa broses sy’n troi sain neu olau analog yn ddigidol?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Trawsnewid analog i ddigidol, gan gynnwys recordio, samplu a storio"
+        },
+        {
+          "id": "b",
+          "text": "Pob un o’r uchod"
+        },
+        {
+          "id": "c",
+          "text": "Dim un o’r rhain"
+        },
+        {
+          "id": "d",
+          "text": "Dim ond yn rhannol gywir"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Trawsnewid analog i ddigidol, gan gynnwys recordio, samplu a storio.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "data-q-004",
+      "text": "Enwch ddwy fantais o storio data’n ddigidol.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Enghreifftiau: adalw data, effeithlonrwydd, gwarchodaeth, hygyrchedd a"
+        },
+        {
+          "id": "b",
+          "text": "Pob un o’r uchod"
+        },
+        {
+          "id": "c",
+          "text": "Dim un o’r rhain"
+        },
+        {
+          "id": "d",
+          "text": "Dim ond yn rhannol gywir"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Enghreifftiau: adalw data, effeithlonrwydd, gwarchodaeth, hygyrchedd a gallu i dyfu.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "data-q-005",
+      "text": "Enwch ddwy anfantais o storio data’n ddigidol.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Enghreifftiau: colli ansawdd oherwydd samplu, cost a materion rheoli"
+        },
+        {
+          "id": "b",
+          "text": "Pob un o’r uchod"
+        },
+        {
+          "id": "c",
+          "text": "Dim un o’r rhain"
+        },
+        {
+          "id": "d",
+          "text": "Dim ond yn rhannol gywir"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Enghreifftiau: colli ansawdd oherwydd samplu, cost a materion rheoli.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "data-q-006",
+      "text": "Beth yw picsel?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Elfen sylfaenol a ddefnyddir i storio/arddangos delwedd ddigidol"
+        },
+        {
+          "id": "b",
+          "text": "Pob un o’r uchod"
+        },
+        {
+          "id": "c",
+          "text": "Dim un o’r rhain"
+        },
+        {
+          "id": "d",
+          "text": "Dim ond yn rhannol gywir"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Elfen sylfaenol a ddefnyddir i storio/arddangos delwedd ddigidol.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "data-q-007",
+      "text": "Beth mae cydraniad yn ymwneud ag ef?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lefel y manylder mewn delwedd ddigidol"
+        },
+        {
+          "id": "b",
+          "text": "Pob un o’r uchod"
+        },
+        {
+          "id": "c",
+          "text": "Dim un o’r rhain"
+        },
+        {
+          "id": "d",
+          "text": "Dim ond yn rhannol gywir"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Lefel y manylder mewn delwedd ddigidol.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "data-q-008",
+      "text": "Enwch ddau fath o graffeg ddigidol.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Graffigau fector a graffigau didfap"
+        },
+        {
+          "id": "b",
+          "text": "Pob un o’r uchod"
+        },
+        {
+          "id": "c",
+          "text": "Dim un o’r rhain"
+        },
+        {
+          "id": "d",
+          "text": "Dim ond yn rhannol gywir"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Graffigau fector a graffigau didfap.",
+      "tags": [
+        "uned1"
+      ]
+    }
+  ]
+}

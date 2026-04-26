@@ -33,6 +33,12 @@ export const COURSE_GROUPS: CourseGroup[] = [
         titleCy: 'Cyfrifiadureg 2019–2026',
         basePath: 'year-11-2026/topics',
       },
+      {
+        id: 'digital-technology-gcse',
+        titleEn: 'Digital Technology',
+        titleCy: 'Technoleg Ddigidol',
+        basePath: 'digital-technology-gcse/topics',
+      },
     ],
   },
   {

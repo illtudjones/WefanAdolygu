@@ -1,0 +1,62 @@
+[
+  {
+    "id": "data",
+    "title": "Data",
+    "description": "Digital and analogue data, pixels, resolution, file types, and advantages of digital storage.",
+    "specSection": "1.1",
+    "category": "core",
+    "difficulty": "intermediate",
+    "estimatedMinutes": 40,
+    "tags": ["digital", "analogue", "pixels", "resolution", "file-types", "storage"]
+  },
+  {
+    "id": "digital-technology-systems",
+    "title": "Digital Technology Systems",
+    "description": "Hardware components, input/output devices, storage, and how digital systems work together.",
+    "specSection": "1.2",
+    "category": "core",
+    "difficulty": "intermediate",
+    "estimatedMinutes": 40,
+    "tags": ["hardware", "input", "output", "storage", "systems"]
+  },
+  {
+    "id": "digital-communications",
+    "title": "Digital Communications",
+    "description": "Networks, the internet, communication protocols, and how data is transmitted.",
+    "specSection": "1.3",
+    "category": "core",
+    "difficulty": "intermediate",
+    "estimatedMinutes": 40,
+    "tags": ["networks", "internet", "protocols", "communication", "transmission"]
+  },
+  {
+    "id": "impact-of-digital-systems",
+    "title": "Impact of Digital Systems",
+    "description": "Social, economic, cultural and environmental impacts of digital technology.",
+    "specSection": "1.4",
+    "category": "core",
+    "difficulty": "beginner",
+    "estimatedMinutes": 35,
+    "tags": ["social", "economic", "environmental", "impact", "culture"]
+  },
+  {
+    "id": "securing-data-and-systems",
+    "title": "Securing Data and Systems",
+    "description": "Threats to data, protection methods, encryption, legislation and safe online behaviour.",
+    "specSection": "1.5",
+    "category": "core",
+    "difficulty": "intermediate",
+    "estimatedMinutes": 40,
+    "tags": ["security", "encryption", "threats", "legislation", "data-protection"]
+  },
+  {
+    "id": "changing-digital-technologies",
+    "title": "Changing Digital Technologies",
+    "description": "Key pioneers, evolving technologies including AI, robotics, VR, AR and the Internet of Things.",
+    "specSection": "1.6",
+    "category": "core",
+    "difficulty": "beginner",
+    "estimatedMinutes": 30,
+    "tags": ["pioneers", "AI", "robotics", "VR", "AR", "IoT", "emerging-technology"]
+  }
+]
