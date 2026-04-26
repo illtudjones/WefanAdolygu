@@ -112,7 +112,7 @@ export function Sidebar({ topics }: SidebarProps) {
     </nav>
     <div className="border-t border-slate-200 px-4 py-3 dark:border-slate-700">
       <p className="text-xs leading-snug text-slate-400 dark:text-slate-500">
-        Powered by hocolate biscuits and Hobnobs
+        Powered by chocolate biscuits and Hobnobs
         <br />
         Mr. I. Jones · 2026
       </p>
