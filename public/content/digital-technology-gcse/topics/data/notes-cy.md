@@ -1,21 +1,61 @@
-# Data
+# Data (2.1.1)
 
-## Data analog a data digidol
+## 1. Data Analog a Digidol
 
-- Mae data analog yn ddata parhaus. Mae data digidol yn cael ei storio a’i brosesu fel digidau deuaidd.
-- Mae angen deall dyfeisiau analog a digidol a’r berthynas rhwng data analog a data digidol.
-- Mae trawsnewid analog i ddigidol yn ymwneud â recordio, samplu a storio sain a golau.
-- Mae manteision ac anfanteision i storio data’n ddigidol mewn perthynas ag adalw data, effeithlonrwydd, gwarchodaeth, hygyrchedd, gallu i dyfu, colli ansawdd oherwydd samplu, cost a rheoli.
+Mae data analog yn barhaus ac yn cael ei gynrychioli'n gorfforol.
+Mae data digidol yn anghyson ac yn cael ei storio fel deuaidd (0 a 1).
 
-## Delweddau digidol
+### Gwahaniaethau
+- Analog: parhaus, ansawdd uchel, diraddio dros amser
+- Digidol: anghyson, hawdd i'w storio, gall colli ansawdd
 
-- Mae delweddau digidol yn cael eu storio gan ddefnyddio picseli.
-- Mae cydraniad yn effeithio ar faint o fanylder sydd mewn delwedd.
-- Dylai dysgwyr ddeall graffigau fector a didfap, ffeiliau delweddau symudol a thechnegau cywasgu.
+### Awgrym Arholiad
+Esboniwch sut mae'r data yn cael ei gynrychioli a'i fanteision.
 
-## Mesur a storio data
+---
 
-- Dim ond digidau deuaidd y gall systemau cyfrifiadurol eu storio a’u prosesu.
-- Dylai dysgwyr allu disgrifio’r berthynas rhwng unedau storio data deuaidd.
-- Mae cyfryngau storio yn cynnwys storio magnetig, optegol, cwmwl a chyflwr solid, ac mae angen adnabod eu defnyddiau.
+## 2. Trosi Analog i Ddigidol (ADC)
 
+Mae angen trosi data analog i'w ddefnyddio mewn cyfrifiaduron.
+
+### Samplu
+- Cyfradd samplu = nifer y samplau yr eiliad
+- Datrysiad samplu = nifer y didau fesul sampl
+
+Uwch:
++ Gwell ansawdd
+- Ffeil mwy
+
+---
+
+## 3. Delweddau
+
+### Picseli
+Mae delweddau wedi'u gwneud o bicseli.
+
+### Datrysiad
+Nifer y picseli fesul modfedd.
+
+### Bitmap vs Fector
+- Bitmap: colli ansawdd wrth raddio
+- Fector: dim colled ansawdd
+
+---
+
+## 4. Cywasgu
+- Colledig: ansawdd yn lleihau
+- Di-golled: dim colled ansawdd
+
+---
+
+## 5. Ffrydio
+Defnyddio byffer i chwarae fideo cyn ei lawrlwytho'n llawn.
+
+---
+
+## 6. Storio Data
+- Did, Beit, KB, MB, GB, TB
+- Magnetig, Optegol, Solid State, Cwmwl
+
+### Awgrym Arholiad
+Cysylltwch math storio gyda defnydd.

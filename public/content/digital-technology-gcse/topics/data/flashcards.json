@@ -1,86 +1,45 @@
 {
-  "topicId": "data",
-  "version": 1,
-  "cards": [
-    {
-      "id": "data-fc-001",
-      "front": "What is digital data?",
-      "back": "Data stored and processed as binary digits.",
-      "tags": [
-        "unit1"
-      ]
-    },
-    {
-      "id": "data-fc-002",
-      "front": "What is analogue data?",
-      "back": "Continuous data, such as sound or light before it is converted into digital form.",
-      "tags": [
-        "unit1"
-      ]
-    },
-    {
-      "id": "data-fc-003",
-      "front": "What process converts analogue sound or light into digital form?",
-      "back": "Analogue to digital conversion, involving recording, sampling and storing.",
-      "tags": [
-        "unit1"
-      ]
-    },
-    {
-      "id": "data-fc-004",
-      "front": "Name two advantages of storing data digitally.",
-      "back": "Examples include easier retrieval, efficiency, security, accessibility and scalability.",
-      "tags": [
-        "unit1"
-      ]
-    },
-    {
-      "id": "data-fc-005",
-      "front": "Name two disadvantages of storing data digitally.",
-      "back": "Examples include loss of quality due to sampling, expense and management issues.",
-      "tags": [
-        "unit1"
-      ]
-    },
-    {
-      "id": "data-fc-006",
-      "front": "What is a pixel?",
-      "back": "A basic element used to store/display a digital image.",
-      "tags": [
-        "unit1"
-      ]
-    },
-    {
-      "id": "data-fc-007",
-      "front": "What does resolution relate to?",
-      "back": "The level of detail in a digital image.",
-      "tags": [
-        "unit1"
-      ]
-    },
-    {
-      "id": "data-fc-008",
-      "front": "Name two types of digital graphics.",
-      "back": "Vector graphics and bitmap graphics.",
-      "tags": [
-        "unit1"
-      ]
-    },
-    {
-      "id": "data-fc-009",
-      "front": "What can computer systems store and process?",
-      "back": "Binary digits.",
-      "tags": [
-        "unit1"
-      ]
-    },
-    {
-      "id": "data-fc-010",
-      "front": "Name four storage media in the specification.",
-      "back": "Magnetic, optical, cloud and solid state.",
-      "tags": [
-        "unit1"
-      ]
-    }
-  ]
+    "topic": "Data",
+    "cards": [
+        {
+            "front": "What is analogue data?",
+            "back": "Continuous data represented physically"
+        },
+        {
+            "front": "What is digital data?",
+            "back": "Discrete data stored as binary"
+        },
+        {
+            "front": "What does sample rate measure?",
+            "back": "Number of samples taken per second"
+        },
+        {
+            "front": "What is sample resolution?",
+            "back": "Number of bits used per sample"
+        },
+        {
+            "front": "Bitmap vs vector?",
+            "back": "Bitmap uses pixels, vector uses maths"
+        },
+        {
+            "front": "What is lossy compression?",
+            "back": "Compression that reduces quality"
+        },
+        {
+            "front": "What is lossless compression?",
+            "back": "Compression with no quality loss"
+        },
+        {
+            "front": "What is a pixel?",
+            "back": "A tiny dot that makes up an image"
+        },
+        {
+            "front": "What is resolution?",
+            "back": "Number of pixels per inch"
+        },
+        {
+            "front": "What is cloud storage?",
+            "back": "Storing data remotely via the internet"
+        }
+    ]
 }
