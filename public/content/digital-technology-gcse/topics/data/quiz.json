@@ -1,20 +1,44 @@
 {
-    "topic": "Data",
-    "questions": [
-        {
-            "question": "Explain the difference between analogue and digital data.",
-            "answer": "Analogue is continuous, digital is discrete",
-            "marks": 3
-        },
-        {
-            "question": "Explain how sampling affects sound quality.",
-            "answer": "Higher sample rate and resolution increase quality but also file size",
-            "marks": 4
-        },
-        {
-            "question": "Compare bitmap and vector graphics.",
-            "answer": "Bitmap uses pixels and loses quality when scaled; vector uses maths and scales without loss",
-            "marks": 4
-        }
-    ]
+  "questions": [
+    {
+      "q": "What is analogue data?",
+      "a": "Continuous data"
+    },
+    {
+      "q": "What is digital data?",
+      "a": "Discrete binary data"
+    },
+    {
+      "q": "What is sample rate?",
+      "a": "Number of samples per second"
+    },
+    {
+      "q": "What is sample resolution?",
+      "a": "Number of bits per sample"
+    },
+    {
+      "q": "What happens when sample rate increases?",
+      "a": "Quality increases and file size increases"
+    },
+    {
+      "q": "What is a pixel?",
+      "a": "A tiny dot in an image"
+    },
+    {
+      "q": "What is resolution?",
+      "a": "Number of pixels per inch"
+    },
+    {
+      "q": "Bitmap graphics?",
+      "a": "Made of pixels and lose quality when scaled"
+    },
+    {
+      "q": "Vector graphics?",
+      "a": "Use maths and scale without quality loss"
+    },
+    {
+      "q": "What is lossy compression?",
+      "a": "Compression that reduces quality"
+    }
+  ]
 }

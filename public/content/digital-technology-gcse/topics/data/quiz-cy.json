@@ -1,20 +1,44 @@
 {
-    "topic": "Data",
-    "questions": [
-        {
-            "question": "Egluro'r gwahaniaeth rhwng data analog a digidol.",
-            "answer": "Mae analog yn barhaus, mae digidol yn anghyson",
-            "marks": 3
-        },
-        {
-            "question": "Egluro sut mae samplu yn effeithio ar ansawdd sain.",
-            "answer": "Mae cyfradd samplu a datrysiad uwch yn cynyddu ansawdd ond hefyd maint ffeil",
-            "marks": 4
-        },
-        {
-            "question": "Cymharu graffeg bitmap a fector.",
-            "answer": "Mae bitmap yn defnyddio picseli ac yn colli ansawdd; mae fector yn defnyddio mathemateg ac yn cadw ansawdd",
-            "marks": 4
-        }
-    ]
+  "questions": [
+    {
+      "q": "Beth yw data analog?",
+      "a": "Data parhaus"
+    },
+    {
+      "q": "Beth yw data digidol?",
+      "a": "Data deuaidd anghyson"
+    },
+    {
+      "q": "Beth yw cyfradd samplu?",
+      "a": "Nifer y samplau yr eiliad"
+    },
+    {
+      "q": "Beth yw datrysiad samplu?",
+      "a": "Nifer y didau fesul sampl"
+    },
+    {
+      "q": "Beth sy'n digwydd pan mae cyfradd samplu yn cynyddu?",
+      "a": "Ansawdd a maint ffeil yn cynyddu"
+    },
+    {
+      "q": "Beth yw picsel?",
+      "a": "Dot bach mewn delwedd"
+    },
+    {
+      "q": "Beth yw datrysiad?",
+      "a": "Nifer y picseli fesul modfedd"
+    },
+    {
+      "q": "Beth yw graffeg bitmap?",
+      "a": "Wedi'u gwneud o bicseli ac yn colli ansawdd"
+    },
+    {
+      "q": "Beth yw graffeg fector?",
+      "a": "Defnyddio mathemateg ac yn cadw ansawdd"
+    },
+    {
+      "q": "Beth yw cywasgu colledig?",
+      "a": "Cywasgu sy'n lleihau ansawdd"
+    }
+  ]
 }
