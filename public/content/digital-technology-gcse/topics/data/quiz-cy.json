@@ -1,44 +1,280 @@
 {
+  "topicId": "data",
+  "version": 1,
+  "title": "Cwis Data",
+  "passMark": 70,
+  "shuffleQuestions": true,
+  "shuffleOptions": true,
   "questions": [
     {
-      "q": "Beth yw data analog?",
-      "a": "Data parhaus"
+      "id": "data-cy-q-001",
+      "text": "Pa ddatganiad sy'n disgrifio data analog orau?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Data wedi'i storio fel 0au ac 1au yn unig"
+        },
+        {
+          "id": "b",
+          "text": "Data parhaus sy'n cael ei gynrychioli mewn ffordd gorfforol"
+        },
+        {
+          "id": "c",
+          "text": "Data sydd ond yn gallu cael ei storio yn y cwmwl"
+        },
+        {
+          "id": "d",
+          "text": "Data cywasgedig heb unrhyw golled ansawdd"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Mae data analog yn barhaus a gall gael ei gynrychioli'n gorfforol, er enghraifft tonnau sain, golau neu rigolau mewn record.",
+      "tags": [
+        "analog-digidol"
+      ]
     },
     {
-      "q": "Beth yw data digidol?",
-      "a": "Data deuaidd anghyson"
+      "id": "data-cy-q-002",
+      "text": "Pa ddatganiad sy'n disgrifio data digidol orau?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Data wedi'i storio gan ddefnyddio gwerthoedd corfforol parhaus"
+        },
+        {
+          "id": "b",
+          "text": "Data na ellir ei olygu"
+        },
+        {
+          "id": "c",
+          "text": "Data wedi'i gynrychioli gan werthoedd deuaidd anghyson"
+        },
+        {
+          "id": "d",
+          "text": "Data wedi'i storio ar gyfryngau optegol yn unig"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Mae data digidol yn cael ei gynrychioli gan werthoedd anghyson, fel arfer digidau deuaidd: 0au ac 1au.",
+      "tags": [
+        "analog-digidol"
+      ]
     },
     {
-      "q": "Beth yw cyfradd samplu?",
-      "a": "Nifer y samplau yr eiliad"
+      "id": "data-cy-q-003",
+      "text": "Pam mae data analog yn cael ei drosi'n ddata digidol?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Er mwyn iddo gael ei brosesu a'i storio gan ddyfeisiau digidol"
+        },
+        {
+          "id": "b",
+          "text": "Er mwyn ei wneud yn amhosibl i'w gopïo"
+        },
+        {
+          "id": "c",
+          "text": "Er mwyn iddo beidio â defnyddio lle storio"
+        },
+        {
+          "id": "d",
+          "text": "Er mwyn iddo fod o ansawdd uwch bob amser"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Mae cyfrifiaduron a dyfeisiau digidol yn prosesu ac yn storio data deuaidd, felly rhaid trosi signalau analog cyn eu defnyddio'n ddigidol.",
+      "tags": [
+        "trosi"
+      ]
     },
     {
-      "q": "Beth yw datrysiad samplu?",
-      "a": "Nifer y didau fesul sampl"
+      "id": "data-cy-q-004",
+      "text": "Beth mae cyfradd samplu yn ei fesur?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nifer y picseli mewn delwedd"
+        },
+        {
+          "id": "b",
+          "text": "Nifer y samplau sy'n cael eu cymryd bob eiliad"
+        },
+        {
+          "id": "c",
+          "text": "Nifer y ffeiliau sydd wedi'u storio ar ddyfais"
+        },
+        {
+          "id": "d",
+          "text": "Nifer y lliwiau mewn didfap"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Cyfradd samplu yw nifer y samplau sy'n cael eu cymryd bob eiliad wrth drosi sain analog yn ddata digidol.",
+      "tags": [
+        "samplu"
+      ]
     },
     {
-      "q": "Beth sy'n digwydd pan mae cyfradd samplu yn cynyddu?",
-      "a": "Ansawdd a maint ffeil yn cynyddu"
+      "id": "data-cy-q-005",
+      "text": "Beth yw un canlyniad tebygol o gynyddu'r gyfradd samplu a'r datrysiad samplu?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ansawdd sain is a maint ffeil llai"
+        },
+        {
+          "id": "b",
+          "text": "Ansawdd sain uwch a maint ffeil mwy"
+        },
+        {
+          "id": "c",
+          "text": "Dim newid i ansawdd na maint y ffeil"
+        },
+        {
+          "id": "d",
+          "text": "Mae'r sain yn troi'n analog eto"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Mae cyfradd samplu a datrysiad samplu uwch fel arfer yn gwella ansawdd, ond mae mwy o ddata i'w storio felly mae maint y ffeil yn cynyddu.",
+      "tags": [
+        "samplu"
+      ]
     },
     {
-      "q": "Beth yw picsel?",
-      "a": "Dot bach mewn delwedd"
+      "id": "data-cy-q-006",
+      "text": "Beth yw picsel?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ffeil fideo gyflawn"
+        },
+        {
+          "id": "b",
+          "text": "Math o storfa optegol"
+        },
+        {
+          "id": "c",
+          "text": "Dot bach unigol sy'n ffurfio delwedd ddigidol"
+        },
+        {
+          "id": "d",
+          "text": "Fformiwla fathemategol a ddefnyddir mewn graffeg fector yn unig"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Mae delwedd didfap wedi'i gwneud o lawer o ddotiau bach o'r enw picseli.",
+      "tags": [
+        "delweddau"
+      ]
     },
     {
-      "q": "Beth yw datrysiad?",
-      "a": "Nifer y picseli fesul modfedd"
+      "id": "data-cy-q-007",
+      "text": "Pa ddatganiad sy'n cymharu graffeg didfap a graffeg fector yn gywir?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mae graffeg didfap yn defnyddio picseli, tra bod graffeg fector yn defnyddio siapiau mathemategol"
+        },
+        {
+          "id": "b",
+          "text": "Mae graffeg fector bob amser yn colli ansawdd wrth gael ei chwyddo"
+        },
+        {
+          "id": "c",
+          "text": "Mae graffeg didfap bob amser yn llai na graffeg fector"
+        },
+        {
+          "id": "d",
+          "text": "Ni all graffeg didfap gynnwys lliw"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Mae graffeg didfap wedi'i gwneud o bicseli, tra bod graffeg fector yn defnyddio disgrifiadau mathemategol fel pwyntiau, llinellau a siapiau.",
+      "tags": [
+        "delweddau"
+      ]
     },
     {
-      "q": "Beth yw graffeg bitmap?",
-      "a": "Wedi'u gwneud o bicseli ac yn colli ansawdd"
+      "id": "data-cy-q-008",
+      "text": "Beth yw'r prif wahaniaeth rhwng cywasgu colledig a chywasgu di-golled?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mae cywasgu colledig yn cadw'r holl ddata; mae cywasgu di-golled yn dileu data'n barhaol"
+        },
+        {
+          "id": "b",
+          "text": "Gall cywasgu colledig leihau ansawdd; mae cywasgu di-golled yn cadw ansawdd"
+        },
+        {
+          "id": "c",
+          "text": "Mae cywasgu di-golled bob amser yn gwneud ffeiliau'n fwy na'r gwreiddiol"
+        },
+        {
+          "id": "d",
+          "text": "Dim ond ar ffeiliau testun y gellir defnyddio cywasgu colledig"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Mae cywasgu colledig yn dileu rhywfaint o ddata a gall leihau ansawdd. Mae cywasgu di-golled yn gallu adfer y data gwreiddiol heb golli ansawdd.",
+      "tags": [
+        "cywasgu"
+      ]
     },
     {
-      "q": "Beth yw graffeg fector?",
-      "a": "Defnyddio mathemateg ac yn cadw ansawdd"
+      "id": "data-cy-q-009",
+      "text": "Faint o ddidau sydd mewn un beit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "4"
+        },
+        {
+          "id": "b",
+          "text": "8"
+        },
+        {
+          "id": "c",
+          "text": "1000"
+        },
+        {
+          "id": "d",
+          "text": "1024"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Mae un beit yn cynnwys 8 did.",
+      "tags": [
+        "unedau-storio"
+      ]
     },
     {
-      "q": "Beth yw cywasgu colledig?",
-      "a": "Cywasgu sy'n lleihau ansawdd"
+      "id": "data-cy-q-010",
+      "text": "Pa gyfrwng storio sy'n storio data o bell gan ddefnyddio'r Rhyngrwyd?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Storio magnetig"
+        },
+        {
+          "id": "b",
+          "text": "Storio optegol"
+        },
+        {
+          "id": "c",
+          "text": "Storio cwmwl"
+        },
+        {
+          "id": "d",
+          "text": "Storio cyflwr solid yn unig"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Mae storio cwmwl yn storio data o bell ar weinyddion sy'n cael eu cyrchu drwy'r Rhyngrwyd.",
+      "tags": [
+        "cyfryngau-storio"
+      ]
     }
   ]
 }

@@ -1,44 +1,280 @@
 {
+  "topicId": "data",
+  "version": 1,
+  "title": "Data Quiz",
+  "passMark": 70,
+  "shuffleQuestions": true,
+  "shuffleOptions": true,
   "questions": [
     {
-      "q": "What is analogue data?",
-      "a": "Continuous data"
+      "id": "data-q-001",
+      "text": "Which statement best describes analogue data?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Data stored only as 0s and 1s"
+        },
+        {
+          "id": "b",
+          "text": "Continuous data represented in a physical way"
+        },
+        {
+          "id": "c",
+          "text": "Data that can only be stored in the cloud"
+        },
+        {
+          "id": "d",
+          "text": "Compressed data with no quality loss"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Analogue data is continuous and may be represented physically, such as sound waves, light or grooves in a record.",
+      "tags": [
+        "analogue-digital"
+      ]
     },
     {
-      "q": "What is digital data?",
-      "a": "Discrete binary data"
+      "id": "data-q-002",
+      "text": "Which statement best describes digital data?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Data stored using continuous physical values"
+        },
+        {
+          "id": "b",
+          "text": "Data that cannot be edited"
+        },
+        {
+          "id": "c",
+          "text": "Data represented using discrete binary values"
+        },
+        {
+          "id": "d",
+          "text": "Data stored only on optical media"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Digital data is represented using discrete values, usually binary digits: 0s and 1s.",
+      "tags": [
+        "analogue-digital"
+      ]
     },
     {
-      "q": "What is sample rate?",
-      "a": "Number of samples per second"
+      "id": "data-q-003",
+      "text": "Why is analogue data converted to digital data?",
+      "options": [
+        {
+          "id": "a",
+          "text": "So it can be processed and stored by digital devices"
+        },
+        {
+          "id": "b",
+          "text": "So it becomes impossible to copy"
+        },
+        {
+          "id": "c",
+          "text": "So it no longer needs storage space"
+        },
+        {
+          "id": "d",
+          "text": "So it always becomes higher quality"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Computers and digital devices process and store binary data, so analogue signals must be converted before they can be used digitally.",
+      "tags": [
+        "conversion"
+      ]
     },
     {
-      "q": "What is sample resolution?",
-      "a": "Number of bits per sample"
+      "id": "data-q-004",
+      "text": "What does sample rate measure?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The number of pixels in an image"
+        },
+        {
+          "id": "b",
+          "text": "The number of samples taken per second"
+        },
+        {
+          "id": "c",
+          "text": "The number of files stored on a device"
+        },
+        {
+          "id": "d",
+          "text": "The number of colours in a bitmap"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Sample rate is the number of samples captured per second when converting analogue sound into digital data.",
+      "tags": [
+        "sampling"
+      ]
     },
     {
-      "q": "What happens when sample rate increases?",
-      "a": "Quality increases and file size increases"
+      "id": "data-q-005",
+      "text": "What is one likely result of increasing both sample rate and sample resolution?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lower sound quality and smaller file size"
+        },
+        {
+          "id": "b",
+          "text": "Higher sound quality and larger file size"
+        },
+        {
+          "id": "c",
+          "text": "No change in quality or file size"
+        },
+        {
+          "id": "d",
+          "text": "The sound becomes analogue again"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Higher sample rate and resolution usually improve quality, but more data must be stored, so the file size increases.",
+      "tags": [
+        "sampling"
+      ]
     },
     {
-      "q": "What is a pixel?",
-      "a": "A tiny dot in an image"
+      "id": "data-q-006",
+      "text": "What is a pixel?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A complete video file"
+        },
+        {
+          "id": "b",
+          "text": "A type of optical storage"
+        },
+        {
+          "id": "c",
+          "text": "A small individual dot that makes up a digital image"
+        },
+        {
+          "id": "d",
+          "text": "A mathematical formula used only in vector graphics"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A bitmap image is made up of many tiny dots called pixels.",
+      "tags": [
+        "images"
+      ]
     },
     {
-      "q": "What is resolution?",
-      "a": "Number of pixels per inch"
+      "id": "data-q-007",
+      "text": "Which statement correctly compares bitmap and vector graphics?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bitmap graphics use pixels, while vector graphics use mathematical shapes"
+        },
+        {
+          "id": "b",
+          "text": "Vector graphics always lose quality when enlarged"
+        },
+        {
+          "id": "c",
+          "text": "Bitmap graphics are always smaller than vector graphics"
+        },
+        {
+          "id": "d",
+          "text": "Bitmap graphics cannot contain colour"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Bitmap graphics are made from pixels, while vector graphics use mathematical descriptions such as points, lines and shapes.",
+      "tags": [
+        "images"
+      ]
     },
     {
-      "q": "Bitmap graphics?",
-      "a": "Made of pixels and lose quality when scaled"
+      "id": "data-q-008",
+      "text": "What is the main difference between lossy and lossless compression?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lossy compression keeps all data; lossless removes data permanently"
+        },
+        {
+          "id": "b",
+          "text": "Lossy compression can reduce quality; lossless compression preserves quality"
+        },
+        {
+          "id": "c",
+          "text": "Lossless compression always makes files larger than the original"
+        },
+        {
+          "id": "d",
+          "text": "Lossy compression can only be used on text files"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Lossy compression removes some data and may reduce quality. Lossless compression allows the original data to be restored without quality loss.",
+      "tags": [
+        "compression"
+      ]
     },
     {
-      "q": "Vector graphics?",
-      "a": "Use maths and scale without quality loss"
+      "id": "data-q-009",
+      "text": "How many bits are in one byte?",
+      "options": [
+        {
+          "id": "a",
+          "text": "4"
+        },
+        {
+          "id": "b",
+          "text": "8"
+        },
+        {
+          "id": "c",
+          "text": "1000"
+        },
+        {
+          "id": "d",
+          "text": "1024"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "One byte contains 8 bits.",
+      "tags": [
+        "storage-units"
+      ]
     },
     {
-      "q": "What is lossy compression?",
-      "a": "Compression that reduces quality"
+      "id": "data-q-010",
+      "text": "Which storage medium stores data remotely using the Internet?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Magnetic storage"
+        },
+        {
+          "id": "b",
+          "text": "Optical storage"
+        },
+        {
+          "id": "c",
+          "text": "Cloud storage"
+        },
+        {
+          "id": "d",
+          "text": "Solid state storage only"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Cloud storage stores data remotely on servers accessed through the Internet.",
+      "tags": [
+        "storage-media"
+      ]
     }
   ]
 }
