@@ -3,83 +3,11 @@
   "version": 1,
   "cards": [
     {
-      "id": "digi-fc-001",
-      "front": "Name three personal/social digital communication methods.",
-      "back": "Emailing, instant messaging, blogs, video conferencing, social networking websites/apps.",
+      "id": "digita-1",
+      "front": "Q",
+      "back": "A",
       "tags": [
-        "unit1"
-      ]
-    },
-    {
-      "id": "digi-fc-002",
-      "front": "What should users consider when using personal/social communication methods?",
-      "back": "Social norms and expected behaviour.",
-      "tags": [
-        "unit1"
-      ]
-    },
-    {
-      "id": "digi-fc-003",
-      "front": "Name three business communication methods.",
-      "back": "Video conferencing, teleworking, emailing, promotion methods, apps.",
-      "tags": [
-        "unit1"
-      ]
-    },
-    {
-      "id": "digi-fc-004",
-      "front": "What are promotion methods in business communication?",
-      "back": "Advertising, marketing and websites.",
-      "tags": [
-        "unit1"
-      ]
-    },
-    {
-      "id": "digi-fc-005",
-      "front": "Name three reliability issues with online sources.",
-      "back": "Accuracy, bias and out-of-date information.",
-      "tags": [
-        "unit1"
-      ]
-    },
-    {
-      "id": "digi-fc-006",
-      "front": "How can online information be verified?",
-      "back": "Check multiple sources and use trustworthy websites.",
-      "tags": [
-        "unit1"
-      ]
-    },
-    {
-      "id": "digi-fc-007",
-      "front": "What should learners understand about social networking platforms?",
-      "back": "How contemporary platforms work.",
-      "tags": [
-        "unit1"
-      ]
-    },
-    {
-      "id": "digi-fc-008",
-      "front": "Name one benefit and one drawback area of social media.",
-      "back": "Learners should understand both benefits and drawbacks of social media.",
-      "tags": [
-        "unit1"
-      ]
-    },
-    {
-      "id": "digi-fc-009",
-      "front": "What can social networking affect?",
-      "back": "The concept of ownership of media.",
-      "tags": [
-        "unit1"
-      ]
-    },
-    {
-      "id": "digi-fc-010",
-      "front": "What type of communication is teleworking linked to?",
-      "back": "Business communication.",
-      "tags": [
-        "unit1"
+        "tag"
       ]
     }
   ]

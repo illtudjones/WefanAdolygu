@@ -3,83 +3,11 @@
   "version": 1,
   "cards": [
     {
-      "id": "digi-fc-001",
-      "front": "Enwch dri dull cyfathrebu digidol personol/cymdeithasol.",
-      "back": "E-bostio, negeseua sydyn, blogiau, fideo-gynadledda, gwefannau/apiau rhwydweithio cymdeithasol.",
+      "id": "digita-1",
+      "front": "C",
+      "back": "A",
       "tags": [
-        "uned1"
-      ]
-    },
-    {
-      "id": "digi-fc-002",
-      "front": "Beth dylai defnyddwyr ei ystyried wrth ddefnyddio dulliau cyfathrebu personol/cymdeithasol?",
-      "back": "Normau cymdeithasol ac ymddygiad disgwyliedig.",
-      "tags": [
-        "uned1"
-      ]
-    },
-    {
-      "id": "digi-fc-003",
-      "front": "Enwch dri dull cyfathrebu busnes.",
-      "back": "Fideo-gynadledda, teleweithio, e-bostio, dulliau hyrwyddo, apiau.",
-      "tags": [
-        "uned1"
-      ]
-    },
-    {
-      "id": "digi-fc-004",
-      "front": "Beth yw dulliau hyrwyddo mewn cyfathrebu busnes?",
-      "back": "Hysbysebu, marchnata a gwefannau.",
-      "tags": [
-        "uned1"
-      ]
-    },
-    {
-      "id": "digi-fc-005",
-      "front": "Enwch dri mater dibynadwyedd gyda ffynonellau ar-lein.",
-      "back": "Cywirdeb, tuedd a gwybodaeth wedi dyddio.",
-      "tags": [
-        "uned1"
-      ]
-    },
-    {
-      "id": "digi-fc-006",
-      "front": "Sut gellir gwirio gwybodaeth ar-lein?",
-      "back": "Edrych ar fwy nag un ffynhonnell a defnyddio gwefannau dibynadwy.",
-      "tags": [
-        "uned1"
-      ]
-    },
-    {
-      "id": "digi-fc-007",
-      "front": "Beth dylai dysgwyr ddeall am lwyfannau rhwydweithio cymdeithasol?",
-      "back": "Sut mae llwyfannau cyfoes yn gweithio.",
-      "tags": [
-        "uned1"
-      ]
-    },
-    {
-      "id": "digi-fc-008",
-      "front": "Enwch faes mantais ac anfantais i’r cyfryngau cymdeithasol.",
-      "back": "Dylai dysgwyr ddeall manteision ac anfanteision y cyfryngau cymdeithasol.",
-      "tags": [
-        "uned1"
-      ]
-    },
-    {
-      "id": "digi-fc-009",
-      "front": "Beth all rhwydweithio cymdeithasol effeithio arno?",
-      "back": "Y cysyniad o berchenogaeth dros gyfryngau.",
-      "tags": [
-        "uned1"
-      ]
-    },
-    {
-      "id": "digi-fc-010",
-      "front": "Pa fath o gyfathrebu sy’n gysylltiedig â theleweithio?",
-      "back": "Cyfathrebu busnes.",
-      "tags": [
-        "uned1"
+        "tag"
       ]
     }
   ]

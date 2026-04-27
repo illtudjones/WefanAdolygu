@@ -3,83 +3,11 @@
   "version": 1,
   "cards": [
     {
-      "id": "impa-fc-001",
-      "front": "What two contexts are considered for digital system benefits/drawbacks?",
-      "back": "Office-based systems for organisations and consumer systems for individuals.",
+      "id": "impact-1",
+      "front": "Q",
+      "back": "A",
       "tags": [
-        "unit1"
-      ]
-    },
-    {
-      "id": "impa-fc-002",
-      "front": "Name three digital system implementation methods.",
-      "back": "Pilot, parallel and big bang.",
-      "tags": [
-        "unit1"
-      ]
-    },
-    {
-      "id": "impa-fc-003",
-      "front": "What is changing working practices linked to?",
-      "back": "Impacts on culture and society.",
-      "tags": [
-        "unit1"
-      ]
-    },
-    {
-      "id": "impa-fc-004",
-      "front": "What does B2B stand for?",
-      "back": "Business to Business.",
-      "tags": [
-        "unit1"
-      ]
-    },
-    {
-      "id": "impa-fc-005",
-      "front": "What does B2C stand for?",
-      "back": "Business to Consumer.",
-      "tags": [
-        "unit1"
-      ]
-    },
-    {
-      "id": "impa-fc-006",
-      "front": "What does C2C stand for?",
-      "back": "Consumer to Consumer.",
-      "tags": [
-        "unit1"
-      ]
-    },
-    {
-      "id": "impa-fc-007",
-      "front": "What is EDI in the specification linked to?",
-      "back": "Business to Business Electronic Data Interchange.",
-      "tags": [
-        "unit1"
-      ]
-    },
-    {
-      "id": "impa-fc-008",
-      "front": "Name one online marketplace sales type.",
-      "back": "Third-party B2C or C2C sales.",
-      "tags": [
-        "unit1"
-      ]
-    },
-    {
-      "id": "impa-fc-009",
-      "front": "Name two ways content/services may be monetised or promoted.",
-      "back": "Email/social media marketing, website advertising, data mining and analytics.",
-      "tags": [
-        "unit1"
-      ]
-    },
-    {
-      "id": "impa-fc-010",
-      "front": "Who can be targeted through digital marketing?",
-      "back": "Prospective and existing customers.",
-      "tags": [
-        "unit1"
+        "tag"
       ]
     }
   ]

@@ -1,45 +1,14 @@
 {
-    "topic": "Data",
-    "cards": [
-        {
-            "front": "Beth yw data analog?",
-            "back": "Data parhaus"
-        },
-        {
-            "front": "Beth yw data digidol?",
-            "back": "Data deuaidd anghyson"
-        },
-        {
-            "front": "Beth yw cyfradd samplu?",
-            "back": "Nifer y samplau yr eiliad"
-        },
-        {
-            "front": "Beth yw datrysiad samplu?",
-            "back": "Nifer y didau fesul sampl"
-        },
-        {
-            "front": "Bitmap vs fector?",
-            "back": "Bitmap picseli, fector mathemateg"
-        },
-        {
-            "front": "Beth yw cywasgu colledig?",
-            "back": "Ansawdd yn lleihau"
-        },
-        {
-            "front": "Beth yw cywasgu di-golled?",
-            "back": "Dim colled ansawdd"
-        },
-        {
-            "front": "Beth yw picsel?",
-            "back": "Dot bach mewn delwedd"
-        },
-        {
-            "front": "Beth yw datrysiad?",
-            "back": "Picseli fesul modfedd"
-        },
-        {
-            "front": "Beth yw storio cwmwl?",
-            "back": "Storio ar-lein o bell"
-        }
-    ]
+  "topicId": "data",
+  "version": 1,
+  "cards": [
+    {
+      "id": "data-1",
+      "front": "C",
+      "back": "A",
+      "tags": [
+        "tag"
+      ]
+    }
+  ]
 }

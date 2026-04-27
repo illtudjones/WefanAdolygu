@@ -3,83 +3,11 @@
   "version": 1,
   "cards": [
     {
-      "id": "digi-fc-001",
-      "front": "Enwch dair ffordd y gall defnyddwyr ryngweithio â dyfeisiau digidol.",
-      "back": "Lleferydd, bysellfwrdd/llygoden, ystum, cyffwrdd, VR, AR neu fiometreg.",
+      "id": "digita-1",
+      "front": "C",
+      "back": "A",
       "tags": [
-        "uned1"
-      ]
-    },
-    {
-      "id": "digi-fc-002",
-      "front": "Beth yw’r Rhyngrwyd?",
-      "back": "Rhwydwaith cyfathrebu byd-eang sy’n defnyddio cyfrifiaduron cydgysylltiedig.",
-      "tags": [
-        "uned1"
-      ]
-    },
-    {
-      "id": "digi-fc-003",
-      "front": "Enwch dair rhan o isadeiledd y Rhyngrwyd.",
-      "back": "Cleientiaid, gweinyddion a llwybryddion.",
-      "tags": [
-        "uned1"
-      ]
-    },
-    {
-      "id": "digi-fc-004",
-      "front": "Beth yw rôl ISP?",
-      "back": "Darparu mynediad at wasanaethau’r Rhyngrwyd.",
-      "tags": [
-        "uned1"
-      ]
-    },
-    {
-      "id": "digi-fc-005",
-      "front": "Beth mae URL yn ei ddarparu?",
-      "back": "Cyfeiriad/strwythur lleoliad adnodd gwe.",
-      "tags": [
-        "uned1"
-      ]
-    },
-    {
-      "id": "digi-fc-006",
-      "front": "Enwch bedwar dull cysylltu.",
-      "back": "Band llydan, lloeren, ffibr, 4G/5G, Wi-Fi, Bluetooth neu GIS.",
-      "tags": [
-        "uned1"
-      ]
-    },
-    {
-      "id": "digi-fc-007",
-      "front": "Enwch dair nodwedd system weithredu.",
-      "back": "Rheoli adnoddau, perifferolion, sbwlio, cof, prosesau, gwarchodaeth a rhyngwyneb defnyddiwr.",
-      "tags": [
-        "uned1"
-      ]
-    },
-    {
-      "id": "digi-fc-008",
-      "front": "Enwch dri math o HCI.",
-      "back": "CLI, GUI, TSI, rhyngwyneb dewislen, biometreg neu ryngwyneb llais.",
-      "tags": [
-        "uned1"
-      ]
-    },
-    {
-      "id": "digi-fc-009",
-      "front": "Enwch dri phroses copi wrth gefn.",
-      "back": "Copi llawn, copi cynyddol a chopi gwahaniaethol.",
-      "tags": [
-        "uned1"
-      ]
-    },
-    {
-      "id": "digi-fc-010",
-      "front": "Beth yw chwe cham CODS?",
-      "back": "Ymchwilio, dadansoddi, dylunio, gweithredu, cynnal a chadw, a gwerthuso.",
-      "tags": [
-        "uned1"
+        "tag"
       ]
     }
   ]

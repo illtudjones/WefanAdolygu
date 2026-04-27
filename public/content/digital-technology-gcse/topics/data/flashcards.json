@@ -1,45 +1,14 @@
 {
-    "topic": "Data",
-    "cards": [
-        {
-            "front": "What is analogue data?",
-            "back": "Continuous data represented physically"
-        },
-        {
-            "front": "What is digital data?",
-            "back": "Discrete data stored as binary"
-        },
-        {
-            "front": "What does sample rate measure?",
-            "back": "Number of samples taken per second"
-        },
-        {
-            "front": "What is sample resolution?",
-            "back": "Number of bits used per sample"
-        },
-        {
-            "front": "Bitmap vs vector?",
-            "back": "Bitmap uses pixels, vector uses maths"
-        },
-        {
-            "front": "What is lossy compression?",
-            "back": "Compression that reduces quality"
-        },
-        {
-            "front": "What is lossless compression?",
-            "back": "Compression with no quality loss"
-        },
-        {
-            "front": "What is a pixel?",
-            "back": "A tiny dot that makes up an image"
-        },
-        {
-            "front": "What is resolution?",
-            "back": "Number of pixels per inch"
-        },
-        {
-            "front": "What is cloud storage?",
-            "back": "Storing data remotely via the internet"
-        }
-    ]
+  "topicId": "data",
+  "version": 1,
+  "cards": [
+    {
+      "id": "data-1",
+      "front": "Q",
+      "back": "A",
+      "tags": [
+        "tag"
+      ]
+    }
+  ]
 }
