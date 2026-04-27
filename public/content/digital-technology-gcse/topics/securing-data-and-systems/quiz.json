@@ -1,22 +1,226 @@
 {
   "topicId": "securing-data-and-systems",
   "version": 1,
-  "title": "Quiz",
+  "title": "Securing Data and Systems Quiz",
+  "passMark": 70,
+  "shuffleQuestions": true,
+  "shuffleOptions": true,
   "questions": [
     {
-      "id": "q1",
-      "text": "Sample?",
+      "id": "secu-q-001",
+      "text": "Name two threats to data.",
       "options": [
         {
           "id": "a",
-          "text": "A"
+          "text": "Accidental damage and malicious/deliberate damage"
         },
         {
           "id": "b",
-          "text": "B"
+          "text": "All of the above"
+        },
+        {
+          "id": "c",
+          "text": "None of these"
+        },
+        {
+          "id": "d",
+          "text": "Only partially correct"
         }
       ],
-      "correctOptionId": "a"
+      "correctOptionId": "a",
+      "explanation": "Accidental damage and malicious/deliberate damage.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "secu-q-002",
+      "text": "Name four security measures.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Encryption, firewalls, antivirus software and hierarchical access levels"
+        },
+        {
+          "id": "b",
+          "text": "All of the above"
+        },
+        {
+          "id": "c",
+          "text": "None of these"
+        },
+        {
+          "id": "d",
+          "text": "Only partially correct"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Encryption, firewalls, antivirus software and hierarchical access levels.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "secu-q-003",
+      "text": "What is cyber resilience?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A company’s ability to prepare, survive, respond to and recover from a"
+        },
+        {
+          "id": "b",
+          "text": "All of the above"
+        },
+        {
+          "id": "c",
+          "text": "None of these"
+        },
+        {
+          "id": "d",
+          "text": "Only partially correct"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A company’s ability to prepare, survive, respond to and recover from a cyber attack.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "secu-q-004",
+      "text": "Name three consequences of a cyber attack.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Loss of data, corrupted software, websites taken down, loss of reputat"
+        },
+        {
+          "id": "b",
+          "text": "All of the above"
+        },
+        {
+          "id": "c",
+          "text": "None of these"
+        },
+        {
+          "id": "d",
+          "text": "Only partially correct"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Loss of data, corrupted software, websites taken down, loss of reputation/competitive advantage, financial loss.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "secu-q-005",
+      "text": "Name three cyber attack prevention controls.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Boundary firewall, secure configuration, access control, malware prote"
+        },
+        {
+          "id": "b",
+          "text": "All of the above"
+        },
+        {
+          "id": "c",
+          "text": "None of these"
+        },
+        {
+          "id": "d",
+          "text": "Only partially correct"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Boundary firewall, secure configuration, access control, malware protection, patch management, staff training.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "secu-q-006",
+      "text": "Name one cyber attack recovery control.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Alternative premises/facilities, what-if scenarios or regular backups"
+        },
+        {
+          "id": "b",
+          "text": "All of the above"
+        },
+        {
+          "id": "c",
+          "text": "None of these"
+        },
+        {
+          "id": "d",
+          "text": "Only partially correct"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Alternative premises/facilities, what-if scenarios or regular backups.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "secu-q-007",
+      "text": "What is a passive digital footprint?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Data collected without a user’s knowledge"
+        },
+        {
+          "id": "b",
+          "text": "All of the above"
+        },
+        {
+          "id": "c",
+          "text": "None of these"
+        },
+        {
+          "id": "d",
+          "text": "Only partially correct"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Data collected without a user’s knowledge.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "secu-q-008",
+      "text": "What is an active digital footprint?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Data intentionally submitted online"
+        },
+        {
+          "id": "b",
+          "text": "All of the above"
+        },
+        {
+          "id": "c",
+          "text": "None of these"
+        },
+        {
+          "id": "d",
+          "text": "Only partially correct"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Data intentionally submitted online.",
+      "tags": [
+        "unit1"
+      ]
     }
   ]
 }

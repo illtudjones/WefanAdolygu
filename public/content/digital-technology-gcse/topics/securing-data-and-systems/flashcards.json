@@ -3,11 +3,83 @@
   "version": 1,
   "cards": [
     {
-      "id": "securi-1",
-      "front": "Q",
-      "back": "A",
+      "id": "secu-fc-001",
+      "front": "Name two threats to data.",
+      "back": "Accidental damage and malicious/deliberate damage.",
       "tags": [
-        "tag"
+        "unit1"
+      ]
+    },
+    {
+      "id": "secu-fc-002",
+      "front": "Name four security measures.",
+      "back": "Encryption, firewalls, antivirus software and hierarchical access levels.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "secu-fc-003",
+      "front": "What is cyber resilience?",
+      "back": "A company’s ability to prepare, survive, respond to and recover from a cyber attack.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "secu-fc-004",
+      "front": "Name three consequences of a cyber attack.",
+      "back": "Loss of data, corrupted software, websites taken down, loss of reputation/competitive advantage, financial loss.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "secu-fc-005",
+      "front": "Name three cyber attack prevention controls.",
+      "back": "Boundary firewall, secure configuration, access control, malware protection, patch management, staff training.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "secu-fc-006",
+      "front": "Name one cyber attack recovery control.",
+      "back": "Alternative premises/facilities, what-if scenarios or regular backups.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "secu-fc-007",
+      "front": "What is a passive digital footprint?",
+      "back": "Data collected without a user’s knowledge.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "secu-fc-008",
+      "front": "What is an active digital footprint?",
+      "back": "Data intentionally submitted online.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "secu-fc-009",
+      "front": "Name three laws in this topic.",
+      "back": "Data Protection Act 2018 including GDPR, Computer Misuse Act 1990, Investigatory Powers Act 2016.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "secu-fc-010",
+      "front": "What ethical impacts should learners consider?",
+      "back": "Impacts on individual privacy and wider society.",
+      "tags": [
+        "unit1"
       ]
     }
   ]

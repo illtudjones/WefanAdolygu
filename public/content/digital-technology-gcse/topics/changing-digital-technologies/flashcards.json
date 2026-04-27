@@ -3,11 +3,83 @@
   "version": 1,
   "cards": [
     {
-      "id": "changi-1",
-      "front": "Q",
-      "back": "A",
+      "id": "chan-fc-001",
+      "front": "Who was Lady Ada Lovelace?",
+      "back": "The first computer programmer and first person to realise computers could do more than calculate numbers.",
       "tags": [
-        "tag"
+        "unit1"
+      ]
+    },
+    {
+      "id": "chan-fc-002",
+      "front": "What did James Gosling develop?",
+      "back": "The Java programming language.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "chan-fc-003",
+      "front": "What is Admiral Grace Hopper linked with?",
+      "back": "Devising the first commercial electronic computer.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "chan-fc-004",
+      "front": "What did Alan Turing develop?",
+      "back": "Computational theory on which modern computing is based.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "chan-fc-005",
+      "front": "What is Steve Jobs linked with in the specification?",
+      "back": "Commoditised computing and developed smartphones and hand-held devices.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "chan-fc-006",
+      "front": "What did Sir Tim Berners-Lee invent?",
+      "back": "The World Wide Web.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "chan-fc-007",
+      "front": "Name three evolving technologies from the specification.",
+      "back": "Industrial robots, autonomous robots, autonomous vehicles, VR, AR, AI, machine learning, IoT hardware.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "chan-fc-008",
+      "front": "What does IoT stand for?",
+      "back": "Internet of Things.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "chan-fc-009",
+      "front": "What areas can evolving technologies impact?",
+      "back": "Society, the economy and culture.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "chan-fc-010",
+      "front": "What should learners know about emerging trends?",
+      "back": "Their main impacts on society, the economy and culture.",
+      "tags": [
+        "unit1"
       ]
     }
   ]

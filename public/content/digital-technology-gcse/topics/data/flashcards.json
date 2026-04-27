@@ -3,11 +3,83 @@
   "version": 1,
   "cards": [
     {
-      "id": "data-1",
-      "front": "Q",
-      "back": "A",
+      "id": "data-fc-001",
+      "front": "What is digital data?",
+      "back": "Data stored and processed as binary digits.",
       "tags": [
-        "tag"
+        "unit1"
+      ]
+    },
+    {
+      "id": "data-fc-002",
+      "front": "What is analogue data?",
+      "back": "Continuous data, such as sound or light before it is converted into digital form.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "data-fc-003",
+      "front": "What process converts analogue sound or light into digital form?",
+      "back": "Analogue to digital conversion, involving recording, sampling and storing.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "data-fc-004",
+      "front": "Name two advantages of storing data digitally.",
+      "back": "Examples include easier retrieval, efficiency, security, accessibility and scalability.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "data-fc-005",
+      "front": "Name two disadvantages of storing data digitally.",
+      "back": "Examples include loss of quality due to sampling, expense and management issues.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "data-fc-006",
+      "front": "What is a pixel?",
+      "back": "A basic element used to store/display a digital image.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "data-fc-007",
+      "front": "What does resolution relate to?",
+      "back": "The level of detail in a digital image.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "data-fc-008",
+      "front": "Name two types of digital graphics.",
+      "back": "Vector graphics and bitmap graphics.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "data-fc-009",
+      "front": "What can computer systems store and process?",
+      "back": "Binary digits.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "data-fc-010",
+      "front": "Name four storage media in the specification.",
+      "back": "Magnetic, optical, cloud and solid state.",
+      "tags": [
+        "unit1"
       ]
     }
   ]

@@ -3,11 +3,83 @@
   "version": 1,
   "cards": [
     {
-      "id": "impact-1",
-      "front": "C",
-      "back": "A",
+      "id": "impa-fc-001",
+      "front": "Pa ddau gyd-destun sy’n cael eu hystyried ar gyfer manteision/anfanteision systemau digidol?",
+      "back": "Systemau swyddfa i sefydliadau a systemau defnyddwyr i unigolion.",
       "tags": [
-        "tag"
+        "uned1"
+      ]
+    },
+    {
+      "id": "impa-fc-002",
+      "front": "Enwch dri dull gweithredu systemau digidol.",
+      "back": "Peilot, paralel a’r glec fawr.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "impa-fc-003",
+      "front": "Beth mae newidiadau i arferion gwaith yn gysylltiedig ag ef?",
+      "back": "Effeithiau ar ddiwylliant a chymdeithas.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "impa-fc-004",
+      "front": "Beth yw B2B?",
+      "back": "Busnes i Fusnes.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "impa-fc-005",
+      "front": "Beth yw B2C?",
+      "back": "Busnes i Ddefnyddiwr.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "impa-fc-006",
+      "front": "Beth yw C2C?",
+      "back": "Defnyddiwr i Ddefnyddiwr.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "impa-fc-007",
+      "front": "Beth mae EDI yn gysylltiedig ag ef yn y fanyleb?",
+      "back": "Cyfnewid Data Electronig Busnes i Fusnes.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "impa-fc-008",
+      "front": "Enwch un math o werthiant mewn marchnadoedd ar-lein.",
+      "back": "Gwerthiant trydydd parti B2C neu C2C.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "impa-fc-009",
+      "front": "Enwch ddwy ffordd o foneteiddio neu hyrwyddo cynnwys/gwasanaethau.",
+      "back": "Marchnata e-bost/cyfryngau cymdeithasol, hysbysebu drwy wefannau, cloddio a dadansoddi data.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "impa-fc-010",
+      "front": "Pwy all gael eu targedu drwy farchnata digidol?",
+      "back": "Darpar gwsmeriaid a chwsmeriaid presennol.",
+      "tags": [
+        "uned1"
       ]
     }
   ]

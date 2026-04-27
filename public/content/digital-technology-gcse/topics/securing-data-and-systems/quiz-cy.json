@@ -1,22 +1,226 @@
 {
   "topicId": "securing-data-and-systems",
   "version": 1,
-  "title": "Cwis",
+  "title": "Cwis Diogelu Data a Systemau",
+  "passMark": 70,
+  "shuffleQuestions": true,
+  "shuffleOptions": true,
   "questions": [
     {
-      "id": "q1",
-      "text": "Sampl?",
+      "id": "secu-q-001",
+      "text": "Enwch ddau fygythiad i ddata.",
       "options": [
         {
           "id": "a",
-          "text": "A"
+          "text": "Difrod damweiniol a difrod maleisus/bwriadol"
         },
         {
           "id": "b",
-          "text": "B"
+          "text": "Pob un o’r uchod"
+        },
+        {
+          "id": "c",
+          "text": "Dim un o’r rhain"
+        },
+        {
+          "id": "d",
+          "text": "Dim ond yn rhannol gywir"
         }
       ],
-      "correctOptionId": "a"
+      "correctOptionId": "a",
+      "explanation": "Difrod damweiniol a difrod maleisus/bwriadol.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "secu-q-002",
+      "text": "Enwch bedwar mesur diogelwch.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Amgryptio, muriau gwarchod, meddalwedd wrthfirysau a lefelau mynediad "
+        },
+        {
+          "id": "b",
+          "text": "Pob un o’r uchod"
+        },
+        {
+          "id": "c",
+          "text": "Dim un o’r rhain"
+        },
+        {
+          "id": "d",
+          "text": "Dim ond yn rhannol gywir"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Amgryptio, muriau gwarchod, meddalwedd wrthfirysau a lefelau mynediad hierarchaidd.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "secu-q-003",
+      "text": "Beth yw seiberwydnwch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gallu cwmni i baratoi ar gyfer ymosodiad seiber, goroesi, ymateb ac adfer"
+        },
+        {
+          "id": "b",
+          "text": "Pob un o’r uchod"
+        },
+        {
+          "id": "c",
+          "text": "Dim un o’r rhain"
+        },
+        {
+          "id": "d",
+          "text": "Dim ond yn rhannol gywir"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Gallu cwmni i baratoi ar gyfer ymosodiad seiber, goroesi, ymateb ac adfer.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "secu-q-004",
+      "text": "Enwch dri chanlyniad ymosodiad seiber.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Colli data, meddalwedd lygredig, gwefannau all-lein, colli enw da/mant"
+        },
+        {
+          "id": "b",
+          "text": "Pob un o’r uchod"
+        },
+        {
+          "id": "c",
+          "text": "Dim un o’r rhain"
+        },
+        {
+          "id": "d",
+          "text": "Dim ond yn rhannol gywir"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Colli data, meddalwedd lygredig, gwefannau all-lein, colli enw da/mantais gystadleuol, colled ariannol.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "secu-q-005",
+      "text": "Enwch dri mesur atal ymosodiad seiber.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mur gwarchod ffiniol, ffurfweddu diogel, rheoli mynediad, diogelu rhag"
+        },
+        {
+          "id": "b",
+          "text": "Pob un o’r uchod"
+        },
+        {
+          "id": "c",
+          "text": "Dim un o’r rhain"
+        },
+        {
+          "id": "d",
+          "text": "Dim ond yn rhannol gywir"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Mur gwarchod ffiniol, ffurfweddu diogel, rheoli mynediad, diogelu rhag maleiswedd, rheoli patsys, hyfforddi staff.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "secu-q-006",
+      "text": "Enwch un mesur adfer ar ôl ymosodiad seiber.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Safleoedd/cyfleusterau gwahanol, senarios beth os neu gopïau wrth gefn"
+        },
+        {
+          "id": "b",
+          "text": "Pob un o’r uchod"
+        },
+        {
+          "id": "c",
+          "text": "Dim un o’r rhain"
+        },
+        {
+          "id": "d",
+          "text": "Dim ond yn rhannol gywir"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Safleoedd/cyfleusterau gwahanol, senarios beth os neu gopïau wrth gefn rheolaidd.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "secu-q-007",
+      "text": "Beth yw ôl troed digidol goddefol?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Data sy’n cael eu casglu heb yn wybod i’r defnyddiwr"
+        },
+        {
+          "id": "b",
+          "text": "Pob un o’r uchod"
+        },
+        {
+          "id": "c",
+          "text": "Dim un o’r rhain"
+        },
+        {
+          "id": "d",
+          "text": "Dim ond yn rhannol gywir"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Data sy’n cael eu casglu heb yn wybod i’r defnyddiwr.",
+      "tags": [
+        "uned1"
+      ]
+    },
+    {
+      "id": "secu-q-008",
+      "text": "Beth yw ôl troed digidol gweithredol?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Data a gyflwynir yn fwriadol ar-lein"
+        },
+        {
+          "id": "b",
+          "text": "Pob un o’r uchod"
+        },
+        {
+          "id": "c",
+          "text": "Dim un o’r rhain"
+        },
+        {
+          "id": "d",
+          "text": "Dim ond yn rhannol gywir"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Data a gyflwynir yn fwriadol ar-lein.",
+      "tags": [
+        "uned1"
+      ]
     }
   ]
 }

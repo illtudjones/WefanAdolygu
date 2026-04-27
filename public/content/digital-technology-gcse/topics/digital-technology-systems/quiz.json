@@ -1,22 +1,226 @@
 {
   "topicId": "digital-technology-systems",
   "version": 1,
-  "title": "Quiz",
+  "title": "Digital Technology Systems Quiz",
+  "passMark": 70,
+  "shuffleQuestions": true,
+  "shuffleOptions": true,
   "questions": [
     {
-      "id": "q1",
-      "text": "Sample?",
+      "id": "digi-q-001",
+      "text": "Name three ways users may interact with digital devices.",
       "options": [
         {
           "id": "a",
-          "text": "A"
+          "text": "Speech, keyboard/mouse, gesture, touch, VR, AR or biometrics"
         },
         {
           "id": "b",
-          "text": "B"
+          "text": "All of the above"
+        },
+        {
+          "id": "c",
+          "text": "None of these"
+        },
+        {
+          "id": "d",
+          "text": "Only partially correct"
         }
       ],
-      "correctOptionId": "a"
+      "correctOptionId": "a",
+      "explanation": "Speech, keyboard/mouse, gesture, touch, VR, AR or biometrics.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "digi-q-002",
+      "text": "What is the Internet?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A global communications network using interconnected computers"
+        },
+        {
+          "id": "b",
+          "text": "All of the above"
+        },
+        {
+          "id": "c",
+          "text": "None of these"
+        },
+        {
+          "id": "d",
+          "text": "Only partially correct"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A global communications network using interconnected computers.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "digi-q-003",
+      "text": "Name three parts of Internet infrastructure.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Clients, servers and routers"
+        },
+        {
+          "id": "b",
+          "text": "All of the above"
+        },
+        {
+          "id": "c",
+          "text": "None of these"
+        },
+        {
+          "id": "d",
+          "text": "Only partially correct"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Clients, servers and routers.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "digi-q-004",
+      "text": "What does an ISP do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Provides access to Internet services"
+        },
+        {
+          "id": "b",
+          "text": "All of the above"
+        },
+        {
+          "id": "c",
+          "text": "None of these"
+        },
+        {
+          "id": "d",
+          "text": "Only partially correct"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Provides access to Internet services.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "digi-q-005",
+      "text": "What does a URL provide?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The structured address/location of a web resource"
+        },
+        {
+          "id": "b",
+          "text": "All of the above"
+        },
+        {
+          "id": "c",
+          "text": "None of these"
+        },
+        {
+          "id": "d",
+          "text": "Only partially correct"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The structured address/location of a web resource.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "digi-q-006",
+      "text": "Name four connection methods.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Broadband, satellite, fibre, 4G/5G, Wi-Fi, Bluetooth or GIS"
+        },
+        {
+          "id": "b",
+          "text": "All of the above"
+        },
+        {
+          "id": "c",
+          "text": "None of these"
+        },
+        {
+          "id": "d",
+          "text": "Only partially correct"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Broadband, satellite, fibre, 4G/5G, Wi-Fi, Bluetooth or GIS.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "digi-q-007",
+      "text": "Name three operating system features.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Managing resources, peripherals, spooling, memory, processes, security"
+        },
+        {
+          "id": "b",
+          "text": "All of the above"
+        },
+        {
+          "id": "c",
+          "text": "None of these"
+        },
+        {
+          "id": "d",
+          "text": "Only partially correct"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Managing resources, peripherals, spooling, memory, processes, security and user interface.",
+      "tags": [
+        "unit1"
+      ]
+    },
+    {
+      "id": "digi-q-008",
+      "text": "Name three HCI types.",
+      "options": [
+        {
+          "id": "a",
+          "text": "CLI, GUI, TSI, menu driven, biometric or voice driven interface"
+        },
+        {
+          "id": "b",
+          "text": "All of the above"
+        },
+        {
+          "id": "c",
+          "text": "None of these"
+        },
+        {
+          "id": "d",
+          "text": "Only partially correct"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "CLI, GUI, TSI, menu driven, biometric or voice driven interface.",
+      "tags": [
+        "unit1"
+      ]
     }
   ]
 }
